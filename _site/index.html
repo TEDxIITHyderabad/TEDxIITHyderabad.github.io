@@ -12,6 +12,15 @@
     <link href="img/logo/logo.png" rel="icon">
     <link href="img/logo/logo.png" rel="apple-touch-icon">
     <link rel="stylesheet" href="../assets/css/style.css">
+
+    <!-- semantic UI -->
+    <link rel="stylesheet" type="text/css" href="../assets/vendor/semantic-ui/semantic.min.css">
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+<script src="../assets/vendor/semantic-ui/semantic.min.js"></script>
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Google Fonts -->
@@ -53,23 +62,20 @@
 
                 <li class="nav-item"><a class="nav-link" href="./events.html">Events</a></li>
 
-                <li class="nav-item"><a class="nav-link" href="./about.html"></span> About</a></li>
+                <li class="nav-item dropdown" >
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" ></span> About</a>
+                  <div class="dropdown-menu">
+                    <div class="navbar-dropdown">
+                      <a class="dropdown-item" href="./about.html">TEDxIITH</a>
+                      <a class="dropdown-item" href="./team.html">Our Team</a>
+                      <a class="dropdown-item" href="./partners.html">Partners</a>
+                    </div>
+                  </div>
+                </li>
 
-                <li class="ui left pointing dropdown link item">
-    <i class="dropdown icon"></i>
-    Messages
-    <div class="menu">
-      <div class="item">Inbox</div>
-      <div class="item">Starred</div>
-      <div class="item">Sent Mail</div>
-      <div class="item">Drafts (143)</div>
-      <div class="divider"></div>
-      <div class="item">Spam (1009)</div>
-      <div class="item">Trash</div>
-    </div>
-  </li>
 
             </ul>
+
        </div>
     </div>
 </nav>
@@ -85,13 +91,12 @@
 
 
     <!-- Footer -->
-<section id="footer" class="bg-dark">
+<!-- <section id="footer" class="navigation bg-dark mt-auto">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                 <ul class="list-unstyled list-inline social text-center">
-                
-                    <li class="list-inline-item"><i class="fa fa-youtube"></i></li>
+                    <li  class="list-inline-item"><i class="fa fa-youtube"></i></li>
                     <li class="list-inline-item"><i class="fa fa-instagram"></i></a></li>
                     <li class="list-inline-item"><i class="fa fa-facebook"></i></a></li>
                     <li class="list-inline-item"><i class="fa fa-twitter"></i></a></li>
@@ -99,17 +104,18 @@
                 </ul>
             </div>
             <hr>
-        </div>	
+        </div>
 
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                 <p class="h6">This independent TEDx event is operated under lisence from TED.</p>
             </div>
             <hr>
-        </div>	
+        </div>
     </div>
-</section>
+</section> -->
 <!-- ./Footer -->
+
 
   <!-- jQuery -->
   <script type="text/javascript" src="./assets/vendor/mdbootstap/js/jquery.min.js"></script>
