@@ -137,3 +137,102 @@
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
  }
+
+ .Why_partner_with_us {
+ 		left: 0px;
+ 		top: 0px;
+ 		/* position: absolute;
+ 		overflow: visible; */
+ 		width: 599px;
+ 		white-space: nowrap;
+ 		text-align: left;
+ 		font-family: Open Sans;
+ 		font-style: normal;
+ 		font-weight: bold;
+ 		font-size: 56px;
+ 		color: rgba(51,51,51,1);
+ 	}
+
+  .TEDxIITHyderabad_connects_indi {
+  		left: 0px;
+  		top: 110px;
+  		width: 1086px;
+  		height: 113px;
+  		line-height: 28px;
+  		margin-top: -6px;
+  		text-align: left;
+  		font-family: Open Sans;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 16px;
+  		color: rgba(51,51,51,1);
+  	}
+    .Group_67 {
+    		width: 1085px;
+    		height: 223px;
+    		left: 142px;
+    		top: 167px;
+        position: absolute;
+    		overflow: visible;
+    	}
+    	.Group_66 {
+    		position: absolute;
+    		width: 1085px;
+    		height: 223px;
+    		left: 0px;
+    		top: 0px;
+    		overflow: visible;
+    	}
+      .Group_68 {
+      		position: absolute;
+      		width: 1037px;
+      		height: 380px;
+      		left: 142px;
+      		top: 482px;
+      		overflow: visible;
+      	}
+      	.As_a_TEDx_partner_you_have {
+      		left: 0px;
+      		top: 0px;
+      		position: absolute;
+      		overflow: visible;
+      		width: 797px;
+      		white-space: nowrap;
+      		text-align: left;
+      		font-family: Open Sans;
+      		font-style: normal;
+      		font-weight: bold;
+      		font-size: 56px;
+      		color: rgba(51,51,51,1);
+      	}
+      	.Partnership_with_an_event_of_g {
+      		left: 37px;
+      		top: 111px;
+      		position: absolute;
+      		overflow: visible;
+      		width: 1001px;
+      		white-space: nowrap;
+      		text-align: left;
+      		font-family: Helvetica Neue;
+      		font-style: normal;
+      		font-weight: normal;
+      		font-size: 22px;
+      		color: rgba(14,0,170,1);
+      	}
+
+        .We_also_intend_to_work_with_ea {
+		left: 142px;
+		top: 914px;
+		position: absolute;
+		overflow: visible;
+		width: 1086px;
+		height: 83px;
+		line-height: 28px;
+		margin-top: -6px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(51,51,51,1);
+	}
