@@ -205,7 +205,7 @@
 	}
 
 .foot{
-  height: 200px;
+  height: 230px;
   background-color:#26272b;
 }
 
@@ -220,7 +220,7 @@
 		color: rgba(248,249,250,1);
 	}
 .social-media{
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .To_know_what_life_is_worth__yo {
@@ -277,9 +277,24 @@
       		color: rgba(230,43,30,1);
       	}
 .footer_art{
-  margin-top: -100px;
-  margin-bottom: -210px;
+  margin-top: -110px;
+  margin-bottom: -230px;
+  margin-left: -3px;
   float: bottom;
-  height: 600px;
+  height: 515px;
   width: 100%;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
