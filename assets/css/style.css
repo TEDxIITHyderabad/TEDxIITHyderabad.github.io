@@ -122,7 +122,7 @@
           		width: 1366px;
           		height: 660px;
           		left: 0px;
-          		top: 49px;
+          		top: 43px;
           	}
             .TEDx_IITH_white {
             		position: absolute;
@@ -139,10 +139,8 @@
  }
 
  .Why_partner_with_us {
- 		left: 0px;
- 		top: 0px;
- 		/* position: absolute;
- 		overflow: visible; */
+    margin-left: 142px;
+    margin-top: 167px;
  		width: 599px;
  		white-space: nowrap;
  		text-align: left;
@@ -154,12 +152,11 @@
  	}
 
   .TEDxIITHyderabad_connects_indi {
-  		left: 0px;
-  		top: 110px;
+  		margin-left: 142px;
+  		margin-top: 40px;
   		width: 1086px;
   		height: 113px;
   		line-height: 28px;
-  		margin-top: -6px;
   		text-align: left;
   		font-family: Open Sans;
   		font-style: normal;
@@ -167,35 +164,9 @@
   		font-size: 16px;
   		color: rgba(51,51,51,1);
   	}
-    .Group_67 {
-    		width: 1085px;
-    		height: 223px;
-    		left: 142px;
-    		top: 167px;
-        position: absolute;
-    		overflow: visible;
-    	}
-    	.Group_66 {
-    		position: absolute;
-    		width: 1085px;
-    		height: 223px;
-    		left: 0px;
-    		top: 0px;
-    		overflow: visible;
-    	}
-      .Group_68 {
-      		position: absolute;
-      		width: 1037px;
-      		height: 380px;
-      		left: 142px;
-      		top: 482px;
-      		overflow: visible;
-      	}
       	.As_a_TEDx_partner_you_have {
-      		left: 0px;
-      		top: 0px;
-      		position: absolute;
-      		overflow: visible;
+      		margin-left: 142px;
+      		margin-top: 100px;
       		width: 797px;
       		white-space: nowrap;
       		text-align: left;
@@ -206,10 +177,8 @@
       		color: rgba(51,51,51,1);
       	}
       	.Partnership_with_an_event_of_g {
-      		left: 37px;
-      		top: 111px;
-      		position: absolute;
-      		overflow: visible;
+      		margin-left: 142px;
+      		margin-top: 40px;
       		width: 1001px;
       		white-space: nowrap;
       		text-align: left;
@@ -221,14 +190,12 @@
       	}
 
         .We_also_intend_to_work_with_ea {
-		left: 142px;
-		top: 914px;
-		position: absolute;
-		overflow: visible;
+		margin-left: 142px;
+		margin-top: 60px;
+    margin-bottom: 70px;
 		width: 1086px;
 		height: 83px;
 		line-height: 28px;
-		margin-top: -6px;
 		text-align: left;
 		font-family: Open Sans;
 		font-style: normal;
@@ -236,3 +203,83 @@
 		font-size: 16px;
 		color: rgba(51,51,51,1);
 	}
+
+.foot{
+  height: 200px;
+  background-color:#26272b;
+}
+
+.This_independent_TEDx_event_is {
+    margin-top: 10px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		color: rgba(248,249,250,1);
+	}
+.social-media{
+  margin-top: 50px;
+}
+
+.To_know_what_life_is_worth__yo {
+		margin-left: 141px;
+		margin-top: 100px;
+		width: 990px;
+		white-space: nowrap;
+		line-height: 68px;
+		text-align: left;
+		font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 56px;
+		color: rgba(14,0,170,1);
+	}
+
+.Jean-Paul_Sartre_an_existentia {
+  		margin-left: 142px;
+  		margin-top: 40px;
+  		width: 1086px;
+  		height: 173px;
+  		line-height: 28px;
+  		text-align: left;
+  		font-family: Open Sans;
+  		font-style: normal;
+  		font-weight: normal;
+  		font-size: 16px;
+  		color: rgba(51,51,51,1);
+  	}
+
+.Are_you_ready_to_take_risks_in {
+    		margin-left: 142px;
+    		margin-top: 80px;
+    		width: 962px;
+    		white-space: nowrap;
+    		text-align: left;
+    		font-family: Open Sans;
+    		font-style: normal;
+    		font-weight: bold;
+    		font-size: 56px;
+    		color: rgba(14,0,170,1);
+    	}
+.Lets_listen_to_people_who_have {
+      		margin-left: 142px;
+      		margin-top: 40px;
+      		width: 1086px;
+      		height: 225px;
+      		line-height: 70px;
+      		text-align: left;
+      		font-family: Open Sans;
+      		font-style: normal;
+      		font-weight: bold;
+      		font-size: 40px;
+      		color: rgba(230,43,30,1);
+      	}
+.footer_art{
+  margin-top: -100px;
+  margin-bottom: -210px;
+  float: bottom;
+  height: 600px;
+  width: 100%;
+}
