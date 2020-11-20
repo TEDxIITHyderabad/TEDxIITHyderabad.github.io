@@ -11,6 +11,33 @@
     margin-top: 3%;
     margin-bottom: 3%;
   }
+
+  .speak{
+      text-align: center;
+      font-family:Open Sans;
+      margin-left:3%;
+      margin-right:3%;
+      margin-top: 3%;
+      margin-bottom: 3%;
+    }
+
+    .speak .inner{
+      width:100%;
+      text-align:center;
+      padding: 7px;
+    }
+    .speak .inner img{
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+      /* width:50%;
+      border-radius:50%; */
+      text-align:center;
+    }
+    .test .card{
+      border: none;
+    }
+
   .team .inner{
     width:100%;
     text-align:center;
@@ -37,8 +64,6 @@
 .In_the_spirit_of_ideas_worth_s {
 		left: 142px;
 		top: 975px;
-		/* position: absolute;
-		overflow: hidden; */
 		width: 1086px;
 		height: 112px;
 		line-height: 28px;
@@ -85,7 +110,6 @@
       		left: 142px;
       		top: 1289px;
       		width: 1086px;
-          /* width: 100%; */
       		height: 313px;
       		line-height: 28px;
       		margin-top: -6px;
@@ -141,71 +165,11 @@
     margin-top: 0; // remove the gap so it doesn't close
  }
 
- .Why_partner_with_us {
-    margin-left: 142px;
-    margin-top: 167px;
- 		width: 599px;
- 		white-space: nowrap;
- 		text-align: left;
- 		font-family: Open Sans;
- 		font-style: normal;
- 		font-weight: bold;
- 		font-size: 56px;
- 		color: rgba(51,51,51,1);
- 	}
+ 
 
-  .TEDxIITHyderabad_connects {
-  		margin-left: 142px;
-  		margin-top: 40px;
-  		width: 1086px;
-  		height: 113px;
-  		line-height: 28px;
-  		text-align: left;
-  		font-family: Open Sans;
-  		font-style: normal;
-  		font-weight: normal;
-  		font-size: 16px;
-  		color: rgba(51,51,51,1);
-  	}
-      	.As_a_TEDx_partner_you_have {
-      		margin-left: 142px;
-      		margin-top: 100px;
-      		width: 797px;
-      		white-space: nowrap;
-      		text-align: left;
-      		font-family: Open Sans;
-      		font-style: normal;
-      		font-weight: bold;
-      		font-size: 56px;
-      		color: rgba(51,51,51,1);
-      	}
-      	.Partnership_with_an_event_of_g {
-      		margin-left: 142px;
-      		margin-top: 40px;
-      		width: 1001px;
-      		white-space: nowrap;
-      		text-align: left;
-      		font-family: Helvetica Neue;
-      		font-style: normal;
-      		font-weight: normal;
-      		font-size: 22px;
-      		color: rgba(14,0,170,1);
-      	}
+  
 
-        .We_also_intend_to_work_with_ea {
-		margin-left: 142px;
-		margin-top: 60px;
-    margin-bottom: 70px;
-		width: 1086px;
-		height: 83px;
-		line-height: 28px;
-		text-align: left;
-		font-family: Open Sans;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		color: rgba(51,51,51,1);
-	}
+        
 
 .foot{
   height: 230px;
@@ -415,3 +379,95 @@
   font-family: Open Sans;
   font-style: normal;
 }
+
+.speakers{
+    font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 45px;
+		color: rgba(51,51,51,1);
+}
+
+
+.ID2019{
+    font-family: Open Sans;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(14,0,170,1);
+}
+
+
+.TEDxIITHyderabad_connects {
+      margin-top: 8vh;
+      width: 80%;
+      margin-left: 10vw;
+      text-align: left;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: rgba(51,51,51,1);
+    }
+
+    .Why_partner_with_us {
+    width: 80%;
+    margin-left: 10vw;
+    margin-top: 20vh;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4em;
+    color: rgba(51,51,51,1);
+  }
+
+  .As_a_TEDx_partner_you_have {
+          margin-left: 10vw;
+          width: 80%;
+          margin-top: 8vh;
+          text-align: left;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 4em;
+          color: rgba(51,51,51,1);
+        }
+
+    .Partnership_with_an_event_of_g {
+          margin-left: 10vw;
+          width: 80%;
+          margin-top: 6vh;
+          text-align: left;
+          font-family: Helvetica Neue;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 22px;
+          color: rgba(14,0,170,1);
+        }
+
+        .We_also_intend_to_work_with_ea {
+    margin-left: 10vw;
+    margin-top: 8vh;
+    margin-bottom: 8vh;
+    width: 80%;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(51,51,51,1);
+  }
+
+  @media only screen and (max-width: 600px) {
+    .Why_partner_with_us {
+    font-size: 2em;
+      }
+      .As_a_TEDx_partner_you_have{
+        font-size: 2em;
+      }
+      .Partnership_with_an_event_of_g{
+        font-size: 18px;
+      }
+
+  }
