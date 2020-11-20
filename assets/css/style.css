@@ -190,59 +190,11 @@
   margin-top: 60px;
 }
 
-.To_know_what_life_is_worth__yo {
-		margin-left: 141px;
-		margin-top: 100px;
-		width: 990px;
-		white-space: nowrap;
-		line-height: 68px;
-		text-align: left;
-		font-family: Open Sans;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 56px;
-		color: rgba(14,0,170,1);
-	}
 
-.Jean-Paul_Sartre_an_existentia {
-  		margin-left: 142px;
-  		margin-top: 40px;
-  		width: 1086px;
-  		height: 173px;
-  		line-height: 28px;
-  		text-align: left;
-  		font-family: Open Sans;
-  		font-style: normal;
-  		font-weight: normal;
-  		font-size: 16px;
-  		color: rgba(51,51,51,1);
-  	}
 
-.Are_you_ready_to_take_risks_in {
-    		margin-left: 142px;
-    		margin-top: 80px;
-    		width: 962px;
-    		white-space: nowrap;
-    		text-align: left;
-    		font-family: Open Sans;
-    		font-style: normal;
-    		font-weight: bold;
-    		font-size: 56px;
-    		color: rgba(14,0,170,1);
-    	}
-.Lets_listen_to_people_who_have {
-      		margin-left: 142px;
-      		margin-top: 40px;
-      		width: 1086px;
-      		height: 225px;
-      		line-height: 70px;
-      		text-align: left;
-      		font-family: Open Sans;
-      		font-style: normal;
-      		font-weight: bold;
-      		font-size: 40px;
-      		color: rgba(230,43,30,1);
-      	}
+
+
+
 .footer_art{
   margin-top: -110px;
   margin-bottom: -230px;
@@ -398,6 +350,13 @@
 }
 
 
+
+
+
+
+
+
+/*partner.html style starts here*/
 .TEDxIITHyderabad_connects {
       margin-top: 8vh;
       width: 80%;
@@ -459,7 +418,75 @@
     color: rgba(51,51,51,1);
   }
 
+/*partner.html style ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Events page styling starts*/
+
+.To_know_what_life_is_worth__yo {
+    margin-left: 10vw;
+    margin-top: 8vh;
+    width: 80%;
+    text-align: left;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4em;
+    color: rgba(14,0,170,1);
+  }
+
+  .Jean-Paul_Sartre_an_existentia {
+      margin-left: 10vw;
+      margin-top: 5vh;
+      width: 80%;
+      text-align: left;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      color: rgba(51,51,51,1);
+    }
+
+    .Are_you_ready_to_take_risks_in {
+        margin-left: 10vw;
+        margin-top: 10vh;
+        width: 80%;
+        text-align: left;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        color: rgba(14,0,170,1);
+      }
+      .Lets_listen_to_people_who_have {
+          margin-left: 12vw;
+          margin-top: 8vh;
+          width: 80%;
+          text-align: left;
+          font-family: Open Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 40px;
+          color: rgba(230,43,30,1);
+        }
+
+  /*Events page styling ends*/
+
+
+/*Media queries starts here*/
   @media only screen and (max-width: 600px) {
+
+    /*partner page*/
     .Why_partner_with_us {
     font-size: 2em;
       }
@@ -468,6 +495,17 @@
       }
       .Partnership_with_an_event_of_g{
         font-size: 18px;
+      }
+
+      /*Events page*/
+      .To_know_what_life_is_worth__yo{
+        font-size: 1.8em;
+      }
+      .Are_you_ready_to_take_risks_in{
+        font-size: 1.8em;
+      }
+      .Lets_listen_to_people_who_have{
+        font-size: 1.2em;
       }
 
   }
