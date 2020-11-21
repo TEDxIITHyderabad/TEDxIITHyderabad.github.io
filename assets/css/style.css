@@ -84,24 +84,7 @@
 
         
 
-.foot{
-  height: 230px;
-  background-color:#26272b;
-}
 
-.This_independent_TEDx_event_is {
-    margin-top: 10px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Open Sans;
-		font-style: normal;
-		font-weight: normal;
-		font-size: 16px;
-		color: rgba(248,249,250,1);
-	}
-.social-media{
-  margin-top: 60px;
-}
 
 
 
@@ -131,46 +114,9 @@
   height: 100%;
 }
 
-.partner {
-		margin-left: 339px;
-    margin-bottom: 50px;
-		top: 2204px;
-		width: 599px;
-		white-space: nowrap;
-		text-align: center;
-		font-family: Open Sans;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 56px;
-		color: rgba(51,51,51,1);
-	}
 
-.TEDxIITHyderabad_connects_indi {
-  		margin-left: 141px;
-      margin-bottom: 100px;
-  		width: 995px;
-  		height: 103px;
-  		line-height: 28px;
-  		margin-top: -4px;
-  		text-align: center;
-  		font-family: Open Sans;
-  		font-style: normal;
-  		font-weight: normal;
-  		font-size: 20px;
-  		color: rgba(51,51,51,1);
-  	}
-    .Know_more {
-        border-radius: 30px;
-        justify-content: center;
-        margin-bottom: 100px;
-    		top: 14.545px;
-    		width: 350px;
-    		text-align: center;
-    		font-weight: normal;
-    		font-size: 28px;
-        background-color: white;
-    		color: rgba(51,51,51,1);
-    	}
+
+    
       .middle {
         background-color: rgba(230,43,30,1);
         margin-top: 100px;
@@ -229,15 +175,7 @@
     width:100%;
     height:60vw;
   }
-  .TEDx_IITH_Talks {
-  		margin-left: 139px;
-  		margin-top: 90px;
-  		width: 321px;
-  		text-align: left;
-  		font-weight: bold;
-  		font-size: 45px;
-  		color: rgba(0,0,0,1);
-  	}
+  
 
 .common{
   white-space: nowrap;
@@ -261,6 +199,53 @@
 		font-size: 30px;
 		color: rgba(14,0,170,1);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer styling goes here*/
+.foot{
+  height: 230px;
+  background-color:#26272b;
+}
+
+.This_independent_TEDx_event_is {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(248,249,250,1);
+  }
+.social-media{
+  margin-top: 60px;
+}
+
+/*Footer styling ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -344,6 +329,11 @@
 
 
 
+
+
+
+
+
 /*Events page styling starts*/
 
 .To_know_what_life_is_worth__yo {
@@ -394,6 +384,16 @@
         }
 
   /*Events page styling ends*/
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -491,8 +491,89 @@
             color: rgba(255,255,255,1);
           }
 
-      
 /*about page styling ends*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Index page styling starts*/
+.TEDx_IITH_Talks {
+      margin-left: 10vw;
+      margin-top: 10vh;
+      width: 80%;
+      text-align: left;
+      font-weight: bold;
+      font-size: 45px;
+      color: rgba(0,0,0,1);
+    }
+
+    .partner { 
+    width: 100%;
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    color: rgba(51,51,51,1);
+  }
+
+  .TEDxIITHyderabad_connects_indi {
+      width: 80%;
+      margin-top: 5vh;
+      margin-left: 9vw;
+      text-align: center;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      color: rgba(51,51,51,1);
+    }
+    .Know_more {
+        border-radius: 30px;
+        justify-content: center;
+        margin-bottom: 10vh;
+        margin-top: 5vh;
+        width: 30vw;
+        text-align: center;
+        font-weight: normal;
+        font-size: 28px;
+        background-color: white;
+        color: rgba(51,51,51,1);
+      }
+
+/*Index Page styling starts here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -501,6 +582,18 @@
 
 /*Media queries starts here*/
   @media only screen and (max-width: 600px) {
+    .TEDxIITHyderabad_connects_indi{
+      font-size: 1.2em;
+    }
+
+    /*index page*/
+    .partner{
+      font-size: 2em;
+    }
+
+    .Know_more{
+      font-size: 1.2em;
+    }
 
     /*partner page*/
     .Why_partner_with_us {
@@ -549,9 +642,6 @@
       .TEDx_IITH_white{
         width: 55vw ;
         height: 35vh;
-      }
-      .In_the_spirit_of_ideas_worth_s{
-        line-height: 6vh;
       }
 
   }
