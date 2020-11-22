@@ -440,6 +440,36 @@
        width:100%;
        height:60vw;
       }
+
+      .card-lower-text{
+        padding-left: 2vw;
+        padding-right: 2vw;
+        text-align: left;
+      }
+
+      .pilled {
+      background-color: rgba(0, 5, 179, 1);
+      color: white;
+      width: 40%;
+      border: none;
+
+      text-align: center;
+      position: absolute;
+      overflow: visible;
+      text-decoration: none;
+      display: inline-block;
+      cursor: pointer;
+      border-radius: 16px;
+
+     }
+     .but{
+      padding-bottom: 4vh;
+      margin-top: -2vh;
+      margin-left: -5vh;
+      align-content: left;
+      margin-right: 20vw;
+     }
+
 /*Index Page styling ends here*/
 
 
@@ -566,13 +596,7 @@
 
 /*Media queries starts here*/
   @media only screen and (max-width: 600px) {
-    
 
-    /*index page*/
-   /* .middle{
-      height: 100vh;
-    }
-*/
     .TEDxIITHyderabad_connects_indi{
       font-size: 1.2em;
     }
