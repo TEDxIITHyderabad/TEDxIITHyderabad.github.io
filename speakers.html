@@ -5,12 +5,246 @@ title : Speakers
 
 
 <center >
-  <h1 class="speakers">Speakers</h1>
-  <h2 class="ID2019">2019</h2>
+  <h1 class="speakers"><br>Speakers</h1>
 </center>
 
-<div class="row">
+<div class="row text-center">
 
+  <style>
+    .speaker{
+      padding: 10px 10px 10px 10px;
+    }
+    .speaker img{
+      margin: 10% 10% 2% 10%;
+      border-radius: 50%;
+      width:250px;
+      height:250px;
+      box-shadow: 10px 10px 50px #ccc;
+    }
+
+    /* Image size need to be changed to percentage */
+
+
+    .speaker h3{
+      text-shadow: 2px 2px 4px black;
+    }
+    .speaker h5{
+      text-color: blue;
+      text-shadow: 1px 1px 3px blue;
+    }
+  </style>
+
+  <!-- 
+  {% assign speaker = site.categories['2019'] %}
+  {% for post in speaker %}
+  
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/2019/{{post.img}}">
+        <h3>{{post.title}}</h3>
+        <h5>{{post.des}}</h5>
+    </div>  
+  </div>
+
+  {% endfor %}
+  -->
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/AMALA.jpg">
+        <h3>Amala Akkineni</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/ANAM 2.jpg">
+        <h3>Anam Hashim</h3>
+        <h5></h5>
+    </div>  
+  </div>
+  
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/SENTHIL LKUMAR.jpg">
+        <h3>KK Senthil Kumar</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <!-- No image
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/">
+        <h3>Vennela Krishna</h3>
+        <h5></h5>
+    </div>  
+  </div>
+   -->
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Anuj_Gurwara_38.jpg">
+        <h3>Anuj Gurwara</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/BARI ANWAR.jpg">
+        <h3>Bari Anwar</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Aditi.jpg">
+        <h3>Aditi Avasthi</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Sophia David.jpg">
+        <h3>Sophia David</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Asif Quireshi.jpg">
+        <h3>Asif Quireshi</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/hanif-kureshi.jpg">
+        <h3>Hanif Kureshi</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/RAVI NARAYAN.jpeg">
+        <h3>Ravi Narayan</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Ritwik Mishra.jpeg">
+        <h3>Ritwik Mishra</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Arpan Shah.jpeg">
+        <h3>Arpan Shah</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Professor BM Hegde.jpg">
+        <h3>Prof. BM Hegde</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Rajaram Bojji.jpg">
+        <h3>Rajaram Bojji</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Richa Singh.jpg">
+        <h3>Riccha Singh</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Jayesh Ranjan.jpg">
+        <h3>Jayesh Ranjan</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Rajesh Narasimhan.jpeg">
+        <h3>Rajesh Narasimhan</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Ramesh Longanathan.jpg">
+        <h3>Ramesh Longanathan</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Dr. Vishal Rao.JPG">
+        <h3>Dr. Vishal Rao</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Dr. Ananda Shankar Jayant.jpeg">
+        <h3>Dr. Ananda Shankar Jayant</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Dr. V K Saraswat.jpeg">
+        <h3>Dr. V K Saraswat</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Neeraj Jain.jpg">
+        <h3>Neeraj Jain</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+  <div class="col-lg-4 col-md-6 col-12">
+    <div class="speaker">
+        <img src="./assets/images/speakers/Subhas Chandra.jpeg">
+        <h3>Subhas Chandra</h3>
+        <h5></h5>
+    </div>  
+  </div>
+
+</div>
+  <!-- 
 <div class="test col-12 col-sm-12 col-md-4">
   <div class="speak card border-0" style="border:none;">
     <div class="inner">
@@ -54,6 +288,4 @@ title : Speakers
     </div>
   </div>
 </div>
-
-
-</div>
+-->
