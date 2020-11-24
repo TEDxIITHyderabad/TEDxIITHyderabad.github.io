@@ -154,6 +154,15 @@
 
 
 /*Events page styling starts*/
+.evenr{
+  /*width: 3%;*/
+  /*height: 50%;*/
+  margin-left: 10vw;
+  margin-top: -10vh;
+  z-index: 1;
+  position: absolute;
+  overflow: visible;
+}
 
 .To_know_what_life_is_worth__yo {
     margin-left: 10vw;
@@ -413,6 +422,7 @@
       }
   
         .Know_more {
+        border: solid;
         border-radius: 30px;
         justify-content: center;
         margin-bottom: 10vh;
@@ -427,6 +437,7 @@
 
 
       .Nominate_speaker{
+        border: solid white;
         border-radius: 30px;
         border-color: white;
         justify-content: center;
@@ -437,7 +448,7 @@
         font-weight: normal;
         font-size: 28px;
         background-color: rgba(230,43,30,1);
-        color: white;
+        /*color: white;*/
       }
 
       .common{
@@ -496,6 +507,48 @@
 
 
 /*Team Page styling starts*/
+.teambl{
+  z-index: 1;
+  margin-top: 100vh;
+  margin-left: -6vw;
+  position: absolute;
+}
+.teamre{
+  z-index: 1;
+  margin-left: 84vw;
+  margin-top: 70vh;
+  position: absolute;
+
+}
+
+.teamr{
+  padding-left: 1vw;
+  margin-top: 7vh;
+  position: absolute;
+
+}
+.teamb{
+  padding-bottom: 5vh;
+  margin-right: 2vw;
+  align-items: right;
+}
+.ID2019{
+  font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgba(14,0,170,1);
+    margin-bottom: 5vh;
+}
+
+.Our_Team{
+  font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    color: rgba(51,51,51,1);
+    padding-top: 10vh;
+}
 .team{
     text-align: center;
     border-radius: 25px;
@@ -503,7 +556,7 @@
     margin-left:2%;
     margin-right:2%;
     margin-top: 3%;
-    margin-bottom: 3%;
+    margin-bottom: 18%;
   }
 
  .team .inner{
@@ -515,6 +568,21 @@
     width:50%;
     border-radius:50%;
     text-align:center;
+  }
+  .names{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgba(14,0,170,1);
+  }
+
+  .core{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(230,43,30,1);
   }
 
 /*Team Page styling ends*/
@@ -605,6 +673,21 @@
 
 /*Media queries starts here*/
   @media only screen and (max-width: 600px) {
+    .teamre{
+      margin-left:73vw; 
+      margin-top: 200vh;
+    }
+    .teambl{
+      margin-top: 400vh;
+    }
+    .teamr{
+      display: none;
+    }
+    .evenr{
+      /*height: 50%;
+      width: 50%;*/
+      display: none;
+    }
 
     .TEDxIITHyderabad_connects_indi{
       font-size: 1.2em;
