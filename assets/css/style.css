@@ -154,6 +154,14 @@
 
 
 /*Events page styling starts*/
+.evenb{
+  width: 90%;
+  position: absolute;
+  margin-bottom: -5vh;
+  margin-right: 2vw;
+  align-items: right;
+  margin-top: -17vh;
+}
 .evenr{
   /*width: 3%;*/
   /*height: 50%;*/
@@ -163,6 +171,16 @@
   position: absolute;
   overflow: visible;
 }
+
+.evens{
+  margin-left: 10vw;
+  margin-top: -10vh;
+  z-index: 1;
+  position: absolute;
+  overflow: visible;
+}
+
+
 
 .To_know_what_life_is_worth__yo {
     margin-left: 10vw;
@@ -200,6 +218,7 @@
         color: rgba(14,0,170,1);
       }
       .Lets_listen_to_people_who_have {
+        margin-bottom: 10vh;
           margin-left: 12vw;
           margin-top: 5vh;
           width: 80%;
@@ -667,12 +686,33 @@
 
 
 
-
+@media only screen and (min-width: 600px){
+  .We_are_looking_for_diverse_exp {
+        width: 63%;
+        margin-left: 17vw;
+      }
+      .evens{
+        display: none;
+      }
+}
 
 
 
 /*Media queries starts here*/
   @media only screen and (max-width: 600px) {
+    .evens{
+      margin-top: -4vh;
+    }
+
+    .evenb{
+      display: none;
+    }
+    .We_are_looking_for_diverse_exp{
+      width: 80%;
+      font-size: 1em;
+      /*margin-left: 10vw;*/
+    }
+
     .teamre{
       margin-left:73vw; 
       margin-top: 200vh;
