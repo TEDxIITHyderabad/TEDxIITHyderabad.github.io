@@ -384,6 +384,36 @@
 
 
 /*Index page styling starts*/
+.indexwhite{
+  margin-left: 70vw;
+  margin-top: 10vh;
+  z-index: 1;
+  position: absolute;
+}
+
+.indexwhite2{
+ z-index: 1;
+ margin-top: -36.5vh;
+ margin-right: 4.5vw;
+}
+
+.indexred2{
+ z-index: 1;
+ margin-top: -20vh;
+ margin-right: 6vw;
+}
+
+.indexred{
+  margin-top: -5vw;
+  margin-left: 10vw;
+  position: absolute;
+}
+
+.indexsmallred{
+  margin-top: -5vh;
+  margin-left: 10vw;
+  position: absolute;
+}
       .TEDx_IITH_Talks {
         margin-left: 10vw;
         margin-top: 10vh;
@@ -708,7 +738,14 @@
 
 
 
-
+@media only screen and (max-width: 900px){
+  .indexwhite2{
+    display: none;
+  }
+  .indexred2{
+    display: none;
+  }
+}
 
 
 
@@ -723,6 +760,9 @@
       .aboutsmallred{
         display: none;
       }
+      .indexsmallred{
+        display: none;
+      }
 }
 
 
@@ -734,6 +774,12 @@
     }
     .evens{
       margin-top: -4vh;
+    }
+    .indexred{
+      display: none;
+    }
+    .indexwhite{
+      display:none;
     }
 
     .evenb{
