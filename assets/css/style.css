@@ -669,6 +669,46 @@
 
 
 /*Speaker Page styling starts*/
+.speakerblue{
+  margin-right: 10vw;
+  margin-top: -7vh;
+}
+
+.speakerred{
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: -15vh;
+}
+
+.speakersmallred{
+  position: absolute;
+  margin-left: 10vw;
+}
+.speakerblue2{
+  position: absolute;
+  margin-left: 10vw;
+  margin-top: -6vh;
+}
+
+.speakerred2{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: -5vh;
+}
+
+.speakerred3{
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -5vh;
+}
+
+
+.speakerblue3{
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 5vh;
+}
+
 
   .speak{
       text-align: center;
@@ -703,6 +743,7 @@
     font-size: 45px;
     color: rgba(51,51,51,1);
     }
+}
 }
 }
 /**/
@@ -755,12 +796,18 @@
       .indexsmallred{
         display: none;
       }
+      .speakersmallred{
+        display: none;
+      }
 }
 
 
 
 /*Media queries starts here*/
   @media only screen and (max-width: 600px) {
+    .speakerred{
+      display: none;
+    }
     .aboutred{
       display: none;
     }
