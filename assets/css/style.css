@@ -1,6 +1,17 @@
 /*===============------- Add all the CSS code here with proper commenting ------------===========*/
 
+.ok li:hover {
+    font-size:17px;
+}
 
+.ok2 li:hover {
+    transform: translateY(-4px);
+    transition:0.3s;
+}
+
+.ok3:hover{
+  background-color: rgba(220,33,20,1);
+}
 
 .floating {   
     animation-name: floating; 
