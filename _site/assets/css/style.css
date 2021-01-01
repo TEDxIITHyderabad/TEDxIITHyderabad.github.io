@@ -142,7 +142,7 @@
     .Partnership_with_an_event_of_g {
           margin-left: 10vw;
           width: 80%;
-          margin-top:9vh;
+          margin-top: 9vh;
           text-align: left;
           font-family: Open Sans;
           font-style: normal;
@@ -538,19 +538,17 @@
 
       .Know_more:hover {
         transform: translateY(-4px);
-        transition:0.3s;
+    transition:0.3s;
       }
 
-      .button .Know_more:hover {
-        color:white;
-      }
+      
 
       .Nominate_speaker{
         border: solid white;
         border-radius: 30px;
         border-color: white;
         justify-content: center;
-        margin-bottom: 12vh;
+        margin-bottom: 10vh;
         margin-top: 10vh;
         width: 30vw;
         text-align: center;
@@ -562,7 +560,7 @@
 
       .Nominate_speaker:hover{
         transform: translateY(-4px);
-        transition:0.3s;
+    transition:0.3s;
       }
 
       .common{
