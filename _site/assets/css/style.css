@@ -538,6 +538,11 @@
 
       .Know_more:hover {
         background-color: rgb(230, 134, 134);
+        color:white;
+      }
+
+      .button .Know_more:hover {
+        color:white;
       }
 
       .Nominate_speaker{
