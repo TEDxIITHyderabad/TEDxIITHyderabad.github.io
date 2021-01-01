@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    {% include header.html %}
+{% include header.html %}
 
 <body>
 
-    {% include navigation.html %}
+  {% include navigation.html %}
 
-    {{ content }}
+  {{ content }}
 
-    {% include footer.html %}
+  {% include footer.html %}
 
   <!-- jQuery -->
   <script type="text/javascript" src="./assets/vendor/mdbootstap/js/jquery.min.js"></script>
@@ -20,11 +20,18 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="./assets/vendor/mdbootstap/js/mdb.min.js"></script>
   <!-- Owl Carusel -->
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script> 
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
   <!-- Typed JS -->
-  <script src="assets/vendor/typed/typed.js"></script> 
+  <script src="assets/vendor/typed/typed.js"></script>
   <!-- Main JS scripts -->
   <script type="text/javascript" src="./assets/js/main.js"></script>
 
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
 </body>
+
 </html>
