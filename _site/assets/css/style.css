@@ -538,10 +538,9 @@
 
       .Know_more:hover {
         transform: translateY(-4px);
-    transition:0.3s;
+        transition:0.3s;
       }
 
-      
 
       .Nominate_speaker{
         border: solid white;
@@ -560,7 +559,7 @@
 
       .Nominate_speaker:hover{
         transform: translateY(-4px);
-    transition:0.3s;
+        transition:0.3s;
       }
 
       .common{

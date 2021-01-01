@@ -142,7 +142,7 @@
     .Partnership_with_an_event_of_g {
           margin-left: 10vw;
           width: 80%;
-          margin-top: 6vh;
+          margin-top: 9vh;
           text-align: left;
           font-family: Open Sans;
           font-style: normal;
@@ -347,7 +347,7 @@
 
         .About_TEDx_x__independently_or {
          margin-left:10vw;
-         margin-top:1vh;
+         margin-top:-2.5vh;
          width: 80%;
          text-align: left;
          font-family: Open Sans;
@@ -537,13 +537,10 @@
       }
 
       .Know_more:hover {
-        background-color: rgb(230, 134, 134);
-        color:white;
+        transform: translateY(-4px);
+        transition:0.3s;
       }
 
-      .button .Know_more:hover {
-        color:white;
-      }
 
       .Nominate_speaker{
         border: solid white;
@@ -561,7 +558,8 @@
       }
 
       .Nominate_speaker:hover{
-        background-color: rgb(252, 153, 146);
+        transform: translateY(-4px);
+        transition:0.3s;
       }
 
       .common{
