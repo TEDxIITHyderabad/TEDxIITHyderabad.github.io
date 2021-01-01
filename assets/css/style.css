@@ -1033,4 +1033,25 @@
 .card:hover{
      transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  transition: 0.5s;
 }
+.card{
+  transition: 0.5s;
+}
+
+/*================= page scrollbar start ================*/
+::-webkit-scrollbar {
+	width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #E7E7ED;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #26272B;
+}
+
+/*================== page scrollbar end =================*/
