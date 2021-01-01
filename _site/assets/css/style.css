@@ -536,6 +536,9 @@
         color: rgba(51,51,51,1);
       }
 
+      .Know_more:hover {
+        background-color: rgb(230, 134, 134);
+      }
 
       .Nominate_speaker{
         border: solid white;
@@ -550,6 +553,10 @@
         font-size: 28px;
         background-color: rgba(230,43,30,1);
         /*color: white;*/
+      }
+
+      .Nominate_speaker:hover{
+        background-color: rgb(252, 153, 146);
       }
 
       .common{
