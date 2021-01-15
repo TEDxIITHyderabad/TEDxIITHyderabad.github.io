@@ -1087,6 +1087,13 @@
   padding-top:5%;
 }
 
+.team-cards h3{
+  color:blue;
+  font-weight: bold;
+}
+.team-cards h5{
+  color: red;
+}
 /* .team-cards h3{
   padding: 2%;
 }
