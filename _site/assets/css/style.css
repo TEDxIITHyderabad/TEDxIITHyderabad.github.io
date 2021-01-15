@@ -1100,3 +1100,13 @@
 .team-cards h4{
   padding: 2%;
 } */
+
+/*================= pre loader ===============*/
+#loader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  overflow: visible;
+  background: #fff url('./../images/loader/1.gif') no-repeat center center;
+}
