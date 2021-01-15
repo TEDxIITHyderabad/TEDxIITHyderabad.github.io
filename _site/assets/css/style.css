@@ -1107,5 +1107,5 @@
   height: 100vh;
   z-index: 1;
   overflow: visible;
-  background: #fff url('./../images/loader/1.gif') no-repeat center center;
+  background: rgb(0, 0, 0) url('./../images/loader/1.gif') no-repeat center center;
 }
