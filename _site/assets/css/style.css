@@ -1049,6 +1049,14 @@
   transition: 0.5s;
 }
 
+.team-cards img:hover{
+     transform: scale(1.05);
+     transition: 0.5s;
+}
+.team-cards{
+  transition: 0.5s;
+}
+
 /*================= page scrollbar start ================*/
 ::-webkit-scrollbar {
 	width: 7px;
@@ -1086,13 +1094,14 @@
   border-radius: 50%;
   padding-top:5%;
 }
-
+/*
 .team-cards h3{
   color:blue;
   font-weight: bold;
-}
+}*/
 .team-cards h5{
-  color: red;
+  margin-top: -3vh;
+  font-weight: normal;s
 }
 /* .team-cards h3{
   padding: 2%;
