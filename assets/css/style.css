@@ -73,12 +73,10 @@
 }
 
 .footer_art{
-  margin-top: -110px;
-  margin-bottom: -230px;
-  margin-left: -7px;
-  float: bottom;
-  height: 515px;
-  width: 105%;
+  height: 25vh;
+  margin-top: 5vh;
+  margin-bottom: -3vh;
+  width: 100%;
 }
 
 /*============================================================*/
@@ -526,7 +524,7 @@
         border: solid;
         border-radius: 30px;
         justify-content: center;
-        margin-bottom: 10vh;
+        margin-bottom: 15vh;
         margin-top: 5vh;
         width: 30vw;
         text-align: center;
@@ -830,6 +828,7 @@
 
 
 @media only screen and (min-width: 600px){
+
   .We_are_looking_for_diverse_exp {
         width: 63%;
         margin-left: 17vw;
@@ -852,6 +851,9 @@
 
 /*Media queries starts here*/
   @media only screen and (max-width: 600px) {
+    .footer_art{
+      height: 20vh;
+    }
     .head{
       font-size: 15px;
     }
@@ -962,10 +964,7 @@
         width: 55vw ;
         height: 35vh;
       }
-      .footer_art{
-        height: 50vh;
-        margin-bottom: -24vh;
-      }
+     
 
   }
 
