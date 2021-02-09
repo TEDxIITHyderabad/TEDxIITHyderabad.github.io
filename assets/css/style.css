@@ -1135,7 +1135,7 @@
 }
 
 .countdown {
-  padding-top: 17%;
+  padding-top: 10%;
   padding-bottom: 17%;
 }
 
@@ -1162,5 +1162,12 @@
 
 .countdown h3{
   font-size: 10px;
+}
+.countdown-box {
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5%;
 }
 }
