@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 /*========================== Countdown ======================*/
-var countDownDate = new Date("21 March, 2021 15:37:25").getTime();
+var countDownDate = new Date("21 March, 2021 9:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
