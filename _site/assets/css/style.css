@@ -589,7 +589,6 @@
       display: inline-block;
       cursor: pointer;
       border-radius: 16px;
-
      }
      .but{
       padding-bottom: 4vh;
@@ -597,6 +596,7 @@
       margin-left: -5vh;
       align-content: left;
       margin-right: 20vw;
+      padding-left: 10%;
      }
 
 /*Index Page styling ends here*/
