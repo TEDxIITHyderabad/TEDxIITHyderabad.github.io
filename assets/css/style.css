@@ -1126,3 +1126,41 @@
   margin-bottom: 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
+
+
+/*================ Countdown ==================*/
+.countdown-section {
+  padding-top: 30px;
+  background: rgb(255, 238, 238);
+}
+
+.countdown {
+  padding-top: 17%;
+  padding-bottom: 17%;
+}
+
+.countdown-box {
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding: 1%;
+}
+
+.countdown h1 {
+  font-size: 70px;
+  text-align: center;
+}
+.countdown h3{
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+.countdown h1{
+  font-size: 40px;
+}
+
+.countdown h3{
+  font-size: 10px;
+}
+}
