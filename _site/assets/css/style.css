@@ -255,7 +255,7 @@
       }
       .Lets_listen_to_people_who_have {
         margin-bottom: 10vh;
-          margin-left: 12vw;
+          margin-left: 10vw;
           margin-top: 5vh;
           width: 80%;
           text-align: left;
@@ -829,6 +829,7 @@
 
 @media only screen and (min-width: 600px){
 
+
   .We_are_looking_for_diverse_exp {
         width: 63%;
         margin-left: 17vw;
@@ -848,9 +849,9 @@
 }
 
 
-
 /*Media queries starts here*/
   @media only screen and (max-width: 600px) {
+
     .footer_art{
       height: 20vh;
     }
@@ -1129,14 +1130,66 @@
 
 
 /*================ Countdown ==================*/
+.btn{
+  background-color: #0E00AA;
+  border: none;
+  color: white;
+  margin-top: 8%;
+  text-align: center;
+  width: 25vw;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 18px;
+  font-weight: normal;
+  font-size: 1.1vw;
+  margin-bottom: 8vh;
+}
+
+.countdown-art1{
+  width:10%;
+  height:auto;
+  position:relative;
+  display:inline-block;
+  margin-left: 5vw;
+  margin-top: 3vh;
+}
+
+.countdown-art2{
+  width:15%;
+  height:auto;
+  position:relative;
+  display:inline-block;
+  margin-left: 5vw;
+  margin-bottom: 10vh;
+}
+
+.countdown-art3{
+  margin-top:6vh;
+  height:auto;
+  position:absolute;
+  right: 5vw;
+  display: inline-block;
+  text-align: right;
+}
+
+.countdown-art4{
+  margin-top:-15vh;
+  height:auto;
+  position:absolute;
+  right: 5vw;
+  display: inline-block;
+  text-align: right;
+}
+
 .countdown-section {
   padding-top: 30px;
   background:#F8F9FA;
 }
 
 .countdown {
-  padding-top: 10%;
-  padding-bottom: 17%;
+  padding-top: 5%;
+  /*padding-bottom: 7%;*/
 }
 
 .countdown-box {
