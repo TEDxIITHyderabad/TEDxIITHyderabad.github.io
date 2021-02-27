@@ -599,6 +599,12 @@
       padding-left: 10%;
      }
 
+     @media screen and (min-width: 1440px) {
+     .but{
+       padding-left: 20%;
+     }
+    }
+
 /*Index Page styling ends here*/
 
 
