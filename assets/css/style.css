@@ -202,7 +202,7 @@
 .Jean-Paul_Sartre_an_existentia {
   margin-left: 10vw;
   margin-top: 5vh;
-  width: 80%;
+  width: 70vw;
   text-align: left;
   font-family: Open Sans;
   font-style: normal;
@@ -285,8 +285,8 @@
 
 .TED_is_a_nonprofit_organizatio {
   margin-left: 10vw;
-  margin-top: 5vh;
-  margin-bottom: 15vh;
+  margin-top: 1vh;
+  margin-bottom: 10vh;
   width: 85%;
   text-align: left;
   font-family: Open Sans;
@@ -389,7 +389,8 @@
 
 .TEDx_IITH_Talks {
   margin-left: 10vw;
-  margin-top: 10vh;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
   width: 80%;
   text-align: left;
   font-weight: bold;
@@ -421,13 +422,13 @@
 
 .middle {
   background-color: rgba(230, 43, 30, 1);
-  margin-top: 10vh;
+  margin-top: 20vh;
   margin-bottom: 10vw;
 }
 
 .Nominate_yourself_for_the_spea {
   width: 100%;
-  padding-top: 10vh;
+  padding-top: 15vh;
   text-align: center;
   font-weight: bold;
   font-size: 4em;
@@ -479,7 +480,7 @@
   border-radius: 30px;
   border-color: white;
   justify-content: center;
-  margin-bottom: 10vh;
+  margin-bottom: 15vh;
   margin-top: 10vh;
   width: 30vw;
   text-align: center;
@@ -754,6 +755,9 @@
 /*Media queries starts here*/
 
 @media only screen and (max-width: 600px) {
+  .TEDx_IITH_Talks{
+    font-size:23px;
+  }
   .footer_art {
     height: 20vh;
   }
