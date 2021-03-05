@@ -1,3 +1,77 @@
+
+.backg{
+  position: relative;
+  display: inline-block;
+  width: 100vw;
+  left: 0vw;
+  /*height: 22vh;*/
+}
+.person{
+  position: relative;
+  display: inline-block;
+  left: 15vw;
+  overflow-y: hidden;
+}
+
+.planet{
+  position: relative;
+  display: inline-block;
+  left: 23vw;
+  animation-delay: 1s;
+  overflow-y: hidden;
+}
+
+
+.spaceship{
+  position: relative;
+  display: inline-block;
+  left: 37vw;
+  overflow-y: hidden;
+}
+
+
+
+.footer_art1{
+ /* width: 100vw;
+  display: inline-block;*/
+  /*height: 22vh;*/
+  /*margin-top: 5vh;
+  margin-bottom: -2vh;*/
+  /*width: 100%;*/
+}
+
+.footer_art2{
+  /*height: 22vh;*/
+  margin-top: 5vh;
+  margin-bottom: -3vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 1190px){
+
+.footer_art1{
+ /* width: 100vw;
+  display: inline-block;*/
+  /*height: 22vh;*/
+  margin-top: 5vh;
+  margin-bottom: -4vh;
+  /*width: 100%;*/
+}
+}
+
+
+@media screen and (max-width: 900px) {
+  .footer_art1 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .footer_art2 {
+    display: none;
+  }
+}
+
 /*===============------- Add all the CSS code here with proper commenting ------------===========*/
 
 .ok li:hover {
@@ -762,6 +836,7 @@
     height: 20vh;
   }
   .head {
+    text-align: center;
     font-size: 15px;
   }
   .speakerred {
