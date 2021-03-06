@@ -829,6 +829,9 @@
 /*Media queries starts here*/
 
 @media only screen and (max-width: 600px) {
+  .dropdown-item{
+    text-align: center;
+  }
   .TEDx_IITH_Talks{
     font-size:23px;
   }
@@ -836,7 +839,7 @@
     height: 20vh;
   }
   .head {
-    text-align: center;
+    text-align: right;
     font-size: 15px;
   }
   .speakerred {
