@@ -1097,6 +1097,12 @@
   margin-bottom: 8vh;
 }
 
+@media screen and (max-width: 660px){
+  .btn{
+    width: 50%;
+    font-size: 20px;
+  }
+}
 .countdown-art1 {
   width: 10%;
   height: auto;
