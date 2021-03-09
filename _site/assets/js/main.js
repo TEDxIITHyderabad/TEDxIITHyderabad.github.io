@@ -79,3 +79,22 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "The Event is live !";
   }
 }, 1000);
+
+
+
+/* Dropdown */
+
+jQuery('.dropdown-toggle').on('click', function (e) {
+  $(this).next().toggle();
+});
+jQuery('.dropdown-menu.keep-open').on('click', function (e) {
+  e.stopPropagation();
+});
+
+if(1) {
+  $('body').attr('tabindex', '0');
+}
+else {
+  alertify.confirm().set({'reverseButtons': true});
+  alertify.prompt().set({'reverseButtons': true});
+}
