@@ -1,19 +1,19 @@
-
-.backg{
+.backg {
   position: relative;
   display: inline-block;
   width: 100vw;
   left: 0vw;
   /*height: 22vh;*/
 }
-.person{
+
+.person {
   position: relative;
   display: inline-block;
   left: 15vw;
   overflow-y: hidden;
 }
 
-.planet{
+.planet {
   position: relative;
   display: inline-block;
   left: 23vw;
@@ -21,18 +21,15 @@
   overflow-y: hidden;
 }
 
-
-.spaceship{
+.spaceship {
   position: relative;
   display: inline-block;
   left: 37vw;
   overflow-y: hidden;
 }
 
-
-
-.footer_art1{
- /* width: 100vw;
+.footer_art1 {
+  /* width: 100vw;
   display: inline-block;*/
   /*height: 22vh;*/
   /*margin-top: 5vh;
@@ -40,25 +37,23 @@
   /*width: 100%;*/
 }
 
-.footer_art2{
+.footer_art2 {
   /*height: 22vh;*/
   margin-top: 5vh;
   margin-bottom: -3vh;
   width: 100%;
 }
 
-@media screen and (max-width: 1190px){
-
-.footer_art1{
- /* width: 100vw;
+@media screen and (max-width: 1190px) {
+  .footer_art1 {
+    /* width: 100vw;
   display: inline-block;*/
-  /*height: 22vh;*/
-  margin-top: 5vh;
-  margin-bottom: -4vh;
-  /*width: 100%;*/
+    /*height: 22vh;*/
+    margin-top: 5vh;
+    margin-bottom: -4vh;
+    /*width: 100%;*/
+  }
 }
-}
-
 
 @media screen and (max-width: 900px) {
   .footer_art1 {
@@ -112,7 +107,8 @@
 
 .dropdown:hover .dropdown-menu {
   display: block;
-  margin-top: 0; // remove the gap so it doesn't close
+  margin-top: 0;
+  /* remove the gap so it doesn't close */
 }
 
 /*==============================================================*/
@@ -829,11 +825,11 @@
 /*Media queries starts here*/
 
 @media only screen and (max-width: 600px) {
-  .dropdown-item{
-    text-align: center;
+  .dropdown-item {
+    text-align: right;
   }
-  .TEDx_IITH_Talks{
-    font-size:23px;
+  .TEDx_IITH_Talks {
+    font-size: 23px;
   }
   .footer_art {
     height: 20vh;
