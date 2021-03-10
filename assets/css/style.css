@@ -217,7 +217,8 @@
 }
 
 .partx {
-  margin-top: 5vh;
+  position: absolute;
+  margin-top: 20vh;
   margin-left: 11vw;
 }
 
