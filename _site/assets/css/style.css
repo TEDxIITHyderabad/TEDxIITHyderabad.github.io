@@ -1204,3 +1204,15 @@
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
 }
+
+
+.speakers-image{
+  width: 100%;
+  padding-top: 10%;
+}
+
+@media (max-width:600px){
+  .speakers-image{
+    height: auto;
+  }
+}
