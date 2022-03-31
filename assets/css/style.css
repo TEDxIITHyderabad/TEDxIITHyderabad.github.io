@@ -677,7 +677,7 @@
 
 .team .inner img {
   width: 50%;
-  border-radius: 50%;
+  border-radius: 0%;
   text-align: center;
 }
 
@@ -1024,7 +1024,7 @@
 
 .team-cards {
   text-align: center;
-  border-radius: 10%;
+  border-radius: 0%;
   font-family: Open Sans;
   margin-left: 2%;
   margin-right: 2%;
@@ -1037,7 +1037,7 @@
   margin-left: auto;
   margin-right: auto;
   height: auto;
-  border-radius: 50%;
+  border-radius: 0%;
   padding-top: 5%;
 }
 
