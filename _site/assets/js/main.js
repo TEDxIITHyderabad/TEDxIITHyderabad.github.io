@@ -98,3 +98,5 @@ else {
   alertify.confirm().set({'reverseButtons': true});
   alertify.prompt().set({'reverseButtons': true});
 }
+
+

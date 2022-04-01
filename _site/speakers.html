@@ -70,22 +70,10 @@
            <ul class="ok2 navbar-nav ml-auto ">
                 <li  class="head nav-item"><a style="color: #26272b;" class="nav-link" href="./index.html">Home</a></li>
 
+                <li class="head nav-item"><a style="color: #26272b;" class="nav-link" href="./about.html"></span>About</a></li>
                 <li class="head nav-item"><a style="color: #26272b;" class="nav-link" href="./speakers.html"></span>Speakers</a></li>
-
-                <li class="head nav-item"><a style="color: #26272b;" class="nav-link" href="./events.html">Events</a></li>
-
-                <li class="head nav-item dropdown" >
-                  <a style="color: #26272b;" class="nav-link dropdown-toggle" data-toggle="dropdown" ></span> About</a>
-                  <div  style="background-color: rgba(230,43,30,1);" class="dropdown-menu">
-                    <div  class="navbar-dropdown">
-                      <a style="color: white; font-size: 15px; font-weight: bold;" class="ok3  dropdown-item" href="./about.html">TEDxIITHyderabad</a>
-                      <a style="color: white; font-size: 15px; font-weight: bold;" class="ok3  dropdown-item" href="./team.html">Our Team</a>
-                      <a style="color: white; font-size: 15px; font-weight: bold;" class="ok3  dropdown-item" href="./partners.html">Partners</a>
-                    </div>
-                  </div>
-                </li>
-
-
+                <li class="head nav-item"><a style="color: #26272b;" class="nav-link" href="./team.html"></span>Team</a></li>
+                <li class="head nav-item"><a style="color: #26272b;" class="nav-link" href="./partners.html"></span>Sponsors</a></li>
             </ul>
 
        </div>
@@ -95,6 +83,239 @@
 
 
   <style>
+ .customMarginSpeaker {
+   padding: 2%;
+ }
+ .card {
+  text-align: center;
+  background: #222;
+  color: rgba(250, 250, 250, 0.8);
+  width: 90%;
+  padding: 5%;
+  height: 100%;
+ }
+
+ .card-text {
+  color: #ffffff;
+ }
+
+ .card:hover {
+  background-color: #585858;
+ }
+</style>
+<section class="speakers-section">
+ <div class="container-fluid mx-auto">
+  <div
+   id="carouselExampleIndicators"
+   class="carousel slide"
+   data-ride="carousel"
+  >
+   <ol class="carousel-indicators">
+    <li
+     data-target="#carouselExampleIndicators"
+     data-slide-to="0"
+     class="active"
+    ></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+   </ol>
+   <div class="carousel-inner">
+    <div class="carousel-item active">
+     <img
+      class="d-block w-100"
+      src="./assets/images/speakers/Group 59.png"
+      alt="First slide"
+     />
+    </div>
+    <div class="carousel-item">
+     <img
+      class="d-block w-100"
+      src="./assets/images/speakers/Group 60.png"
+      alt="Second slide"
+     />
+    </div>
+    <div class="carousel-item">
+     <img
+      class="d-block w-100"
+      src="./assets/images/speakers/Group 61.png"
+      alt="Third slide"
+     />
+    </div>
+    <div class="carousel-item">
+     <img
+      class="d-block w-100"
+      src="./assets/images/speakers/Group 62.png"
+      alt="Fourth slide"
+     />
+    </div>
+    <div class="carousel-item">
+     <img
+      class="d-block w-100"
+      src="./assets/images/speakers/Group 63.png"
+      alt="Fifth slide"
+     />
+    </div>
+    <div class="carousel-item">
+     <img
+      class="d-block w-100"
+      src="./assets/images/speakers/Group 64.png"
+      alt="Sixth slide"
+     />
+    </div>
+    <div class="carousel-item">
+     <img
+      class="d-block w-100"
+      src="./assets/images/speakers/Group 65.png"
+      alt="Seventh slide"
+     />
+    </div>
+   </div>
+
+   <a
+    class="carousel-control-prev"
+    href="#carouselExampleIndicators"
+    role="button"
+    data-slide="prev"
+   >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+   </a>
+   <a
+    class="carousel-control-next"
+    href="#carouselExampleIndicators"
+    role="button"
+    data-slide="next"
+   >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+   </a>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="container">
+  <h2 class="speakersOfLearning" style="font-weight: bold; padding: 20px">
+   Speakers Learning 2.0
+  </h2>
+ </div>
+</section>
+
+<section class="speakers-section">
+ <div class="container mx-auto mt-4">
+  <div class="row justify-content-center">
+   <div class="col-md-4 customMarginSpeaker">
+    <div class="card" onclick="carouselActive()">
+     <img
+      src="./assets/images/speakers/Jasbir singh copy 2.png"
+      class="card-img-top"
+      alt="..."
+     />
+     <div class="card-body">
+      <h5 class="card-title">Jaspir Singh Solanki</h5>
+      <p class="card-text">CEO of Mahindra Defence System Limited</p>
+     </div>
+    </div>
+   </div>
+
+   <div class="col-md-4 customMarginSpeaker">
+    <div class="card">
+     <img
+      src="./assets/images/speakers/Chirantana 2 1.png"
+      class="card-img-top"
+      alt="..."
+     />
+     <div class="card-body">
+      <h5 class="card-title">Chirantana</h5>
+
+      <p class="card-text">Co-founder of KIWI Kisan Widow</p>
+     </div>
+    </div>
+   </div>
+
+   <div class="col-md-4 customMarginSpeaker">
+    <div class="card">
+     <img
+      src="./assets/images/speakers/Leena Haldar 1 1.png"
+      class="card-img-top"
+      alt="..."
+     />
+     <div class="card-body">
+      <h5 class="card-title">Leena Haldar</h5>
+
+      <p class="card-text">Emotional wellness coach and therapist</p>
+     </div>
+    </div>
+   </div>
+
+   <div class="col-md-4 customMarginSpeaker">
+    <div class="card">
+     <img
+      src="./assets/images/speakers/Yasaswini copy 1.png"
+      class="card-img-top"
+      alt="..."
+     />
+     <div class="card-body">
+      <h5 class="card-title">Yasawini</h5>
+
+      <p class="card-text">
+       Social worker and the director of DeepStack Software
+      </p>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4 customMarginSpeaker">
+    <div class="card">
+     <img
+      src="./assets/images/speakers/Anju Arora 1.png"
+      class="card-img-top"
+      alt="..."
+     />
+     <div class="card-body">
+      <h5 class="card-title">Anju Arora</h5>
+
+      <p class="card-text">Director of The Period Hub</p>
+     </div>
+    </div>
+   </div>
+   <div class="col-md-4 customMarginSpeaker">
+    <div class="card">
+     <img
+      src="./assets/images/speakers/Nupur Agarwal0 2.png"
+      class="card-img-top"
+      alt="..."
+     />
+     <div class="card-body">
+      <h5 class="card-title">Nurpur Agarwal</h5>
+      <p class="card-text">Co-founder of KIWI Kisan Widow</p>
+     </div>
+    </div>
+   </div>
+
+   <div class="col-md-4 customMarginSpeaker">
+    <div class="card">
+     <img
+      src="./assets/images/speakers/Srinivas Prabhu 1.png"
+      class="card-img-top"
+      alt="..."
+     />
+     <div class="card-body">
+      <h5 class="card-title">Srinivasa</h5>
+      <p class="card-text">Head of HR for Netcracker</p>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<!-- 
+
+<style>
   .Speakers_mu {
     padding-top: 20vh;
     text-align: center;
@@ -150,14 +371,14 @@
   .all {
     background-color: rgba(250, 250, 250, 1);
   }
-</style>
+</style> -->
 
-<div class="container-fluid" style="margin-left: 0px;margin-right:0px"></div>
+<!-- <div class="container-fluid" style="margin-left: 0px;margin-right:0px"></div>
 <div class="all">
   <div class="Speakers_mu">
     <span>Speakers</span>
-  </div>
-
+  </div> -->
+<!-- 
   <div class="floating speakerred">
     <img src="/posts/x/event.png">
   </div>
@@ -166,362 +387,119 @@
   </div>
   <div class="floating speakerblue" style="text-align: right;">
     <img src="/posts/x/blue.png">
-  </div>
+  </div> -->
 
-  <div style="padding-bottom: 15vh;">
+<!-- <div style="padding-bottom: 15vh;">
   <div class="year" data-aos="zoom-in-up" data-aos-delay="150" style="text-align: center;">
     <span>2021</span>
-  </div>
+  </div> -->
 
-  <div class="row text-center justify-content-center">
+<!-- <div class="row text-center justify-content-center">
     <div class="col-lg-4 col-md-6 col-12">
       <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="assets/images/speakers/2021/anahita.jpg">
-        <h3>Anahita Sarabhai</h3>
-        <h5>Performer, Activist, Poet,<br>Founder Director QueerAbad</h5>
+        <img src="assets/images/speakers/Jasbir singh copy 2.png">
+        <div class="card-body">
+          <h3>Jaspir Singh Solanki</h3>
+          <p class="card-text">CEO of Mahindra Defence System Limited</p>
+        </div>
       </div>
     </div>
 
     <div class="col-lg-4 col-md-6 col-12">
       <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="assets/images/speakers/2021/vimal.jpg">
-        <h3>Vimal Chandran</h3>
-        <h5>Visual Artist</h5>
+        <img src="assets/images/speakers/Chirantana 2 1.png">
+        <div class="card-body">
+          <h3>Chirantana</h3>
+          <p>Co-founder of KIWI Kisan Widow</p>
+        </div>
       </div>
     </div>
 
     <div class="col-lg-4 col-md-6 col-12">
       <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="assets/images/speakers/2021/aruna.jpg">
-        <h3>Aruna M. Bahuguna</h3>
-        <h5>Indian Police Service<br>Director General of Police (retired)</h5>
-      </div>
-    </div>
-
-
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="assets/images/speakers/2021/kamal.jpg">
-        <h3>Kamal Nayak</h3>
-        <h5>Founder & Director<br>Good Universe NGO</h5>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="assets/images/speakers/2021/pooja.jpg">
-        <h3>Pooja Dagli</h3>
-        <h5>Co-founded<br>The Robin Hood Academy</h5>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="assets/images/speakers/2021/sarva.jpg">
-        <h3>Swami Sarvapriyananda</h3>
-        <h5>Monk in Charge<br>Vedanta Society of New York</h5>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="assets/images/speakers/2021/tejas.jpg">
-        <h3>Tejas Sidnal</h3>
-        <h5>Founder<br>Carbon Craft design</h5>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="assets/images/speakers/2021/meghnad.jpg">
-        <h3>Meghnad</h3>
-        <h5>Associate Editor<br>Newslaundry.com</h5>
-      </div>
-    </div>
-
-  </div>
-</div>
-
-
-
-
-
-
-
-  <div class="add" style="padding-bottom: 15vh;">
-
- <div class="year" data-aos="zoom-in-up" data-aos-delay="150"
-      style="text-align: center; margin-top: 15vh;  padding-top:10vh; margin-bottom: 5vh;">
-      <span>2019</span>
-    </div>
-  <div class="row text-center">
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="./assets/images/speakers/amala.webp">
-        <h3>Amala Akkineni</h3>
-        <h5>Actor</h5>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="./assets/images/speakers/sofia.webp">
-        <h3>Sophia David</h3>
-        <h5>Facilitator/Consultant/<br>Leader Coach</h5>
-      </div>
-    </div>
-
-    <div class="col-lg-4 col-md-6 col-12">
-      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="./assets/images/speakers/asi.webp">
-        <h3>Asif Qureshi</h3>
-        <h5>Associate professor, IITH</h5>
+        <img src="assets/images/speakers/Leena Haldar 1 1.png">
+        <div class="card-body">
+          <h3>Leena Haldar</h3>
+          <p>Emotional wellness coach and therapist</p>
+        </div>
       </div>
     </div>
 
 
     <div class="col-lg-4 col-md-6 col-12">
       <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="./assets/images/speakers/hanif.webp">
-        <h3>Hanif Kureshi</h3>
-        <h5>Co-founder and artistic Director<br> of St+art India</h5>
+        <img src="assets/images/speakers/Yasaswini copy 1.png">
+        <div class="card-body">
+          <h3>Yasawini</h3>
+          <p>Social worker and the director of DeepStack Software</p>
+        </div>
       </div>
     </div>
 
     <div class="col-lg-4 col-md-6 col-12">
       <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="./assets/images/speakers/ravi.webp">
-        <h3>Ravi Narayan</h3>
-        <h5>CEO, T-Hub</h5>
+        <img src="assets/images/speakers/Anju Arora 1.png">
+        <div class="card-body">
+          <h3>Anju Arora</h3>
+          <p class="card-text">Director of The Period Hub</p>
+        </div>
       </div>
     </div>
 
     <div class="col-lg-4 col-md-6 col-12">
       <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-        <img src="./assets/images/speakers/ritwi.webp">
-        <h3>Ritwik Mishra</h3>
-        <h5>Talent Management<br> Professional</h5>
+        <img src="assets/images/speakers/Nupur Agarwal0 2.png">
+        <div class="card-body">
+          <h3>Nurpur Agarwal</h3>
+          <p class="card-text">Co-founder of KIWI Kisan Widow</p>
+        </div>
       </div>
     </div>
+
+    <div class="col-lg-4 col-md-6 col-12">
+      <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
+        <img src="assets/images/speakers/Srinivas Prabhu 1.png">
+        <div class="card-body">
+          <h3>Srinivasa</h3>
+          <p class="card-text">Head of HR for Netcracker</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
 
 
 
-    <div class="floating speakerblue2">
-      <img src="/posts/x/blue2.png">
-    </div>
-
-    <div class="floating speakerred2" style="text-align: right;">
-      <img src="/posts/x/red.png">
-    </div>
-
-    <div style="padding-bottom: 15vh;">
-    <div class="year" data-aos="zoom-in-up" data-aos-delay="150"
-      style="text-align: center; margin-top: 15vh;  padding-top:10vh; margin-bottom: 5vh;">
-      <span>2017</span>
-    </div>
-
-    <div class="row text-center justify-content-center">
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/anam.webp">
-          <h3>Anam Hashim</h3>
-          <h5>Professional bike stunt<br> performer and rider</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/senthi.webp">
-          <h3>KK Senthil Kumar</h3>
-          <h5>Indian cinematographer</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/bari.webp">
-          <h3>Bari Anwar</h3>
-          <h5>Professional gamer<br> at ASUS</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/Aditi.webp">
-          <h3>Aditi Avasthi</h3>
-          <h5>Founder and CEO of Embibe</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/arpan.webp">
-          <h3>Arpan Shah</h3>
-          <h5>Technologist/investor/<br>data scientist</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/bm.webp">
-          <h3>Professor BM Hegde</h3>
-          <h5>Medical scientist</h5>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/rajara.webp">
-          <h3>Rajaram Bojji</h3>
-          <h5>Inventor of skybus<br> metro/technologist</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/richa.webp">
-          <h3>Richa Singh</h3>
-          <h5>Co-founder <br>yourdost.com</h5>
-        </div>
-      </div>
-
-    </div>
-  </div>
 
 
- <div class="add" style="padding-bottom: 15vh;">
-  <div class="floating speakerred3" style="text-align: left;">
-    <img src="/posts/x/red.png">
-  </div>
 
-  <div class="floating speakerblue3">
-    <img src="/posts/x/blue.png">
-  </div>
-  <div style="padding-bottom: 15vh;">
-    <div class="year" data-aos="zoom-in-up" data-aos-delay="150"
-      style="text-align: center;   padding-top:10vh; margin-bottom: 5vh;">
-      <span>2016</span>
-    </div>
-    <div class="row text-center">
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/venela.webp">
-          <h3>Vennela Krishna</h3>
-          <h5>CEO at Growthcat</h5>
-        </div>
-      </div>
+</div> -->
 
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/anuj.webp">
-          <h3>Anuj Gurwara</h3>
-          <h5>Playback singer/Actor/<br>RJ/TV show host</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/jayesh.webp">
-          <h3>Jayesh Ranjan</h3>
-          <h5>Secretary, Information Technology,<br> Govt. of Telangana</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/rajes.webp">
-          <h3>Rajesh Narasimhan</h3>
-          <h5>Hindi feature film writer<br>/marketing/motorcyclist</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/rames.webp">
-          <h3>Ramesh Longanathan</h3>
-          <h5>Professor Co-Innovation,<br>IIIT Hyderabad</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/visha.webp">
-          <h3>Dr. Vishal Rao</h3>
-          <h5>Head neck Oncologist <br>- Robotic Surgeon</h5>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<script>
+ function carouselActive() {
+  // Add the classname .active to the first item
+  $(".carousel-item:first").addClass("active");
+  // Set the interval to 5 seconds
+ }
+</script>
 
 
- 
-    <div class="floating speakerred2" style="text-align: right;">
-      <img src="/posts/x/red.png">
-    </div>
-    <div style="padding-bottom: 15vh;">
-    <div class="year" data-aos="zoom-in-up" data-aos-delay="150"
-      style="text-align: center;   padding-top:10vh; margin-bottom: 5vh;">
-      <span>2015</span>
-    </div>
-
-    <div class="row text-center">
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/anand.webp">
-          <h3>Dr. Ananda Shankar Jayant</h3>
-          <h5>Classical Dancer/Choreographer<br>/Dance Scholar</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/saraswat.webp">
-          <h3>Dr. V K Saraswat</h3>
-          <h5>Former Director General<br>, DRDO</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/neeraj.webp">
-          <h3>Neeraj Jain</h3>
-          <h5>Scientist</h5>
-        </div>
-      </div>
-
-      <div class="col-lg-12 col-md-6 col-12">
-        <div class="speaker" data-aos="zoom-in-up" data-aos-delay="150">
-          <img src="./assets/images/speakers/subhas.webp">
-          <h3>Subhas Chandra</h3>
-          <h5>Movie director</h5>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
- 
-
-</div>
-
-  <div class="footer_art1"
+  <!-- <div class="footer_art1"
     style=" background-image: url('assets/images/footer/elements/back.png'); background-size:100vw;background-repeat: no-repeat;">
     <img class="person floating" src="assets/images/footer/elements/person.png">
     <img class="planet floating" src="assets/images/footer/elements/planet.png">
     <img class="spaceship floating" src="assets/images/footer/elements/spaceship.png">
   </div>
 
-  <img class="footer_art2" src="assets/images/footer/footer.png">
+  <img class="footer_art2" src="assets/images/footer/footer.png"> -->
 
   <!-- Footer -->
 
 <section id="footer" class="foot mt-auto">
 
-    <div class="container">
-        <div class="row">
+    <div class="container-fluid" style="background-image: url(/assets/images/footer/Group\ 26\ \(1\).png)">
+        <div class="row" >
             <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
                 <ul class="ok social-media list-unstyled list-inline social text-center">
                     
@@ -535,7 +513,7 @@
                     <li class="list-inline-item"><a style="color:white;" href="https://twitter.com/TEDxIITHyd" target=”_blank”><i class="mr-2 ml-2 fa fa-twitter fa-2x"></i></a></li>
 
                     <li class="list-inline-item"><a style="color:white;" href="https://www.linkedin.com/company/tedxiith/" target=”_blank”><i class="mr-2 ml-2 fa fa-linkedin fa-2x"></i></a></li>
-
+						
                 </ul>
 			</div>
 
