@@ -1,3 +1,1 @@
-# Website
-## #Hackoctober
-Code - Official website of TedXIITH 2020
+TEDx IIT Hyderabad 2022
