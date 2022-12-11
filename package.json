@@ -1,0 +1,19 @@
+{
+  "name": "team_logo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ntegral/react-owl-carousel": "^1.0.1",
+    "jquery": "^3.6.1",
+    "next": "13.0.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-owl-carousel": "^2.3.3"
+  }
+}
