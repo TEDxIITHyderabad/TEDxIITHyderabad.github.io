@@ -38,7 +38,7 @@ export default function Team(){
                 <div class="col-xl-6 col-md-6 offset-xl-3">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img className={styles.image} src="/speakers/1.png" alt=""/>
+                            <img className={styles.image} src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -61,7 +61,7 @@ export default function Team(){
                 <div class="col-xl-4 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
+                            <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -79,7 +79,7 @@ export default function Team(){
                 <div class="col-xl-4 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
+                            <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -97,7 +97,7 @@ export default function Team(){
                 <div class="col-xl-4 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
+                            <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -116,7 +116,7 @@ export default function Team(){
                 <div class="col-xl-4 col-md-6 offset-xl-2">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
+                            <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -134,7 +134,7 @@ export default function Team(){
                 <div class="col-xl-4 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
+                            <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -157,7 +157,7 @@ export default function Team(){
                 <div class="col-xl-3 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
+                            <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -173,7 +173,7 @@ export default function Team(){
                     </div>
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/3.png" alt=""/>
+                            <img src="/team/3.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -189,57 +189,7 @@ export default function Team(){
                     </div>
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/3.png" alt=""/>
-                            <div class={styles.hover_overlay}>
-                                <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Albert Jackey</h3>
-                            <p>Product Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class={styles.single_speaker}>
-                        <div class={styles.speaker_thumb}>
-                            <img src="/speakers/2.png" alt=""/>
-                            <div class={styles.hover_overlay}>
-                                <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Kelvin Cooper</h3>
-                            <p>Art Director</p>
-                        </div>
-                    </div>
-                    <div class={styles.single_speaker}>
-                        <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
-                            <div class={styles.hover_overlay}>
-                                <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Marked Macau</h3>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
-                    <div class={styles.single_speaker}>
-                        <div class={styles.speaker_thumb}>
-                            <img src="/speakers/3.png" alt=""/>
+                            <img src="/team/3.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -257,7 +207,7 @@ export default function Team(){
                 <div class="col-xl-3 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/2.png" alt=""/>
+                            <img src="/team/2.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -273,7 +223,7 @@ export default function Team(){
                     </div>
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
+                            <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -289,7 +239,7 @@ export default function Team(){
                     </div>
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/3.png" alt=""/>
+                            <img src="/team/3.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -307,7 +257,7 @@ export default function Team(){
                 <div class="col-xl-3 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/2.png" alt=""/>
+                            <img src="/team/2.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -323,7 +273,7 @@ export default function Team(){
                     </div>
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/1.png" alt=""/>
+                            <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
@@ -339,7 +289,57 @@ export default function Team(){
                     </div>
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
-                            <img src="/speakers/3.png" alt=""/>
+                            <img src="/team/3.png" alt=""/>
+                            <div class={styles.hover_overlay}>
+                                <div class={styles.social_icon}>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                            <h3>Albert Jackey</h3>
+                            <p>Product Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class={styles.single_speaker}>
+                        <div class={styles.speaker_thumb}>
+                            <img src="/team/2.png" alt=""/>
+                            <div class={styles.hover_overlay}>
+                                <div class={styles.social_icon}>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                            <h3>Kelvin Cooper</h3>
+                            <p>Art Director</p>
+                        </div>
+                    </div>
+                    <div class={styles.single_speaker}>
+                        <div class={styles.speaker_thumb}>
+                            <img src="/team/1.png" alt=""/>
+                            <div class={styles.hover_overlay}>
+                                <div class={styles.social_icon}>
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                            <h3>Marked Macau</h3>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                    <div class={styles.single_speaker}>
+                        <div class={styles.speaker_thumb}>
+                            <img src="/team/3.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
                                     <a href="#"><i class="fa fa-facebook"></i></a>
