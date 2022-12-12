@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import '../styles/bootstrap.min.css'
+ import 'bootstrap/dist/css/bootstrap.css'
 // import '../styles/font-awesome.min.css'
 
 

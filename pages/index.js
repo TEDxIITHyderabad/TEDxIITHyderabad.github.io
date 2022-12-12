@@ -13,6 +13,9 @@ export default function Home() {
       <Link href='/sponsors' passHref>
         Sponsors
       </Link>
+      <Link href='/speakers' passHref>
+        Speakers
+      </Link>
     </div>
   )
 }

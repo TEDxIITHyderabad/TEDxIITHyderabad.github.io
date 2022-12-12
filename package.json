@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@ntegral/react-owl-carousel": "^1.0.1",
+    "bootstrap": "^5.2.3",
     "jquery": "^3.6.1",
     "next": "13.0.6",
     "react": "18.2.0",
