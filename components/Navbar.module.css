@@ -1,0 +1,312 @@
+.header_area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area {
+    padding: 0 150px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area {
+      padding: 10px 0;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area {
+      padding: 10px 0;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area {
+      padding: 0 50px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .logo_img {
+      padding-left: 20px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 17, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .logo_img {
+      padding-left: 20px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .logo_img img {
+      width: 100px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .logo_img img {
+      width: 120px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 24, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .logo_img img {
+      width: 120px;
+    }
+  }
+  
+  /* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu {
+    text-align: center;
+    padding: 12px 0;
+  }
+  
+  /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li {
+    display: inline-block;
+    position: relative;
+  }
+  
+  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 35px 23px 35px 23px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    text-transform: capitalize;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .main_menu ul li a {
+      padding: 35px 8px 35px 8px;
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1500px) {
+    /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .main_menu ul li a {
+      padding: 35px 8px 35px 8px;
+    }
+  }
+  
+  /* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li a i {
+    font-size: 9px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .main_menu ul li a i {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area .main_menu ul li a i {
+      display: none !important;
+    }
+  }
+  
+  /* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li a:hover {
+    color: #0181F5;
+  }
+  
+  /* line 95, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li a.active {
+    color: #0181F5;
+  }
+  
+  /* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li .submenu {
+    position: absolute;
+    left: 0;
+    top: 140%;
+    background: #fff;
+    width: 200px;
+    z-index: 2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.02);
+    opacity: 0;
+    visibility: hidden;
+    text-align: left;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -o-transition: 0.6s;
+    transition: 0.6s;
+  }
+  
+  /* line 111, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li .submenu li {
+    display: block;
+  }
+  
+  /* line 113, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li .submenu li a {
+    padding: 10px 15px;
+    position: inherit;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    display: block;
+    color: #000;
+  }
+  
+  /* line 119, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li .submenu li a::before {
+    display: none;
+  }
+  
+  /* line 123, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li .submenu li:hover a {
+    color: #808080;
+  }
+  
+  /* line 128, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li:hover > .submenu {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+  }
+  
+  /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area .main_menu ul li:hover > a::before {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+  
+  /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area.sticky {
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background: #000;
+    transform: translateY(70px);
+    transition: transform 500ms ease, background 500ms ease;
+    -webkit-transition: transform 500ms ease, background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
+    padding: 0 150px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area.sticky {
+      padding: 10px 0;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area.sticky {
+      padding: 10px 0;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area.sticky {
+      padding: 0 50px;
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1500px) {
+    /* line 140, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .main_header_area.sticky {
+      padding: 0 50px;
+    }
+  }
+  
+  /* line 166, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .main_header_area.sticky .main_menu {
+    padding: 0;
+  }
+  
+  /* line 172, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .buy_ticket {
+    text-align: right;
+  }
+  
+  /* line 174, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+  .header_area .buy_ticket a {
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-size: 16px;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* line 174, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
+    .header_area .buy_ticket a {
+      padding: 10px 20px;
+    }
+  }
+  .boxed_btn_white {
+    background: transparent;
+    color: #fff;
+    display: inline-block;
+    padding: 16px 43px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 2px solid #fff;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 73, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+    .boxed_btn_white {
+      padding: 14px 20px;
+      font-size: 15px;
+    }
+  }
+  
+  /* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+  .boxed_btn_white:hover {
+    background: #fff;
+    color: #000 !important;
+    border: 2px solid #fff;
+  }
+  
+  /* line 96, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+  .boxed_btn_white:focus {
+    outline: none;
+  }
+  
+  /* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+  .boxed_btn_white.large-width {
+    width: 220px;
+  }
+
+  
+  @media (max-width: 767px) {
+    /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slick-nav.scss */
+    .mobile_menu {
+      position: absolute;
+      right: 0px;
+      width: 100%;
+      z-index: 9;
+    }
+  }
+  
