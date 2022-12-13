@@ -13,15 +13,16 @@ export default function Home() {
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
             <div className="slider_text">
                 <div className="container">
-                    <div className="position_relv">
-                        <h1 className="opcity_text d-none d-lg-block">CONFIRENCE</h1>
+                    <div className={styles.position_relv}>
+                        <h1 className={`${styles.opcity_text} d-none d-lg-block`}>IIT Hyderabad<br/> TEDx</h1>
                         <div className="row">
                             <div className="col-xl-9">
-                                <div className="title_text">
-                                    <h3>Digital Design <br/>
+                                <div className={styles.title_text}>
+                                    <h3>TEDx IITH<br/>
                                         Conference <br/>
-                                        2019 NYC</h3>
-                                    <a href="#" className="boxed-btn-white">Add to your Calendar</a>
+                                        2023<br/>
+                                        </h3>
+                                    <a href="#" className={styles.boxed_btn_white}>Nominate Speakers</a>
                                 </div>
                             </div>
                         </div>
@@ -29,19 +30,19 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="countDOwn_area">
+            <div className={styles.countdown_area}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-4 col-md-6 col-lg-4">
-                            <div className="single_date">
+                            <div className={styles.single_date}>
                                 <i className="ti-location-pin"></i>
-                                <span>City Hall, New York City</span>
+                                <span>IIT, Kandiiiiiii</span>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-6 col-lg-3">
-                            <div className="single_date">
+                            <div className={styles.single_date}>
                                 <i className="ti-alarm-clock"></i>
-                                <span>12-15 Sep 2019</span>
+                                <span>32-35 Apr, 2023</span>
                             </div>
                         </div>
 

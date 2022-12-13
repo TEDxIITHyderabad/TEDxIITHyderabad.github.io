@@ -365,7 +365,7 @@
 }
 
 /* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-.slider_area .countDOwn_area {
+.slider_area .countdown_area {
   padding-top: 60px;
 }
 
@@ -438,6 +438,68 @@
   font-size: 16px;
   color: #fff;
   text-transform: capitalize;
+}
+
+.opcity_text {
+  position: absolute;
+  right: 0;
+  writing-mode: vertical-lr;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+  font-size: 120px;
+  top: -125px;
+  color: rgba(255, 255, 255, 0.08);
+  font-weight: 700;
+  right: -87px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  /* line 178, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+  .opcity_text {
+    font-size: 90px;
+  }
+}
+
+.boxed_btn_white {
+  background: transparent;
+  color: #fff;
+  display: inline-block;
+  padding: 16px 43px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border: 2px solid #fff;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+  /* line 73, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+  .boxed_btn_white {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+}
+
+/* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+.boxed_btn_white:hover {
+  background: #fff;
+  color: #000 !important;
+  border: 2px solid #fff;
+}
+
+/* line 96, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+.boxed_btn_white:focus {
+  outline: none;
+}
+
+/* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+.boxed_btn_white.large-width {
+  width: 220px;
 }
 
 
