@@ -11,7 +11,7 @@ export default function Navbar(){
                             <div className="col-xl-2 col-lg-2">
                                 <div className={styles.logo_img}>
                                     <Link href='/' passHref>
-                                        <img src="img/logo.png" alt=""/>
+                                        <img src="/barnd/tedx.png" alt="abcd" height={70}/>
                                     </Link>
                                 </div>
                             </div>
@@ -20,17 +20,17 @@ export default function Navbar(){
                                     <div className={styles.main_menu}>
                                         <nav>
                                             <ul id="navigation">
-                                                <li><a className="active" href="index.html">home</a></li>
-                                                <li><a href="/team">Team</a></li>
-                                                <li><a href="#">pages <i className="ti-angle-down"></i></a>
+                                                <li><Link className="active" href="/" passHref>home</Link></li>
+                                                <li><Link href="/team" passHref>Team</Link></li>
+                                                <li><Link href="#" passHref>pages <i className="ti-angle-down"></i></Link>
                                                     <ul className={styles.submenu}>
-                                                        <li><a href="#">elements</a></li>
+                                                        <li><Link href="#" passHref>elements</Link></li>
                                                     </ul>
                                                 </li>
-                                                <li><a href="/sponsors">Sponsors</a></li>
-                                                <li><a href="#">Speakers</a></li>
-                                                <li><a href="#">Venue</a></li>
-                                                <li><a href="#">Contact</a></li>
+                                                <li><Link href="/sponsors" passHref>Sponsors</Link></li>
+                                                <li><Link href="#" passHref>Speakers</Link></li>
+                                                <li><Link href="#" passHref>Venue</Link></li>
+                                                <li><Link href="#" passHref>Contact</Link></li>
                                             </ul>
                                         </nav>
                                     </div>
@@ -38,7 +38,7 @@ export default function Navbar(){
                             </div>
                             <div className="col-xl-2 col-lg-2 d-none d-lg-block">
                                 <div className={styles.buy_ticket}>
-                                    <a href="#" className={styles.boxed_btn_white}>Buy Ticket</a>
+                                    <Link href="#" className={styles.boxed_btn_white} passHref>Buy Ticket</Link>
                                 </div>
                             </div>
                             <div className="col-12">

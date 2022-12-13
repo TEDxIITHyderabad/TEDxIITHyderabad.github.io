@@ -22,7 +22,7 @@ export default function Home() {
                                         Conference <br/>
                                         2023<br/>
                                         </h3>
-                                    <a href="#" className={styles.boxed_btn_white}>Nominate Speakers</a>
+                                    <Link href="#" className={styles.boxed_btn_white} passHref>Nominate Speakers</Link>
                                 </div>
                             </div>
                         </div>
