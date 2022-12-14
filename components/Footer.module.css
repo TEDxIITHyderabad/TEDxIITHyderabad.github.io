@@ -1,3 +1,4 @@
+
 .footer -menu li a:hover {
     text-decoration: none;
     color: #000;
@@ -89,7 +90,10 @@
     font-size: 16px;
     font-weight: 500;
   }
-  
+  .footer .footer_top .footer_widget ul.horizontal_social_icons li {
+    display: inline-block;
+    padding: 0 0.5rem;
+  }
   /* line 55, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget p.footer_text {
     font-size: 16px;

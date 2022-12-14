@@ -36,7 +36,7 @@ export default function Home() {
                     <div className="row align-items-center">
                         <div className="col-xl-4 col-md-6 col-lg-4">
                             <div className={styles.single_date}>
-                                <i className="ti-location-pin"></i>
+                                <i className={styles.ti_location_pin}></i>
                                 <span>IIT, Kandiiiiiii</span>
                             </div>
                         </div>

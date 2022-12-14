@@ -1,17 +1,16 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer(){
     return (
         <footer className={`${styles.footer} ${styles.footer_bg_1}`}>
-            {/* <div className={`${styles.circle_ball} d-none d-lg-block`}>
-                <img src="/banner/footer_ball.png" alt=""/>
-            </div> */}
+            
                 <div className={styles.footer_top}>
                     <div className="container">
                         <div className="row">
-                            <div className={`col-xl-9 col-md-6 col-lg-3 d-none d-lg-block`}>
+                            <div className={`col-xl-11 col-md-7 col-lg-7 d-none d-lg-block`}>
                                 <img src="/barnd/tedx.png" alt="" height={70} />
                                 <p style={{paddingTop:"30px", color:"white"}}> 
                                     Something about TEDx IIT Hyderabad.
@@ -24,21 +23,37 @@ export default function Footer(){
                                     Lorem Ipsum Lorem Ipsum Lorem Ipsum 
                                     Lorem Ipsum Lorem Ipsum Lorem Ipsum 
                                 </p>
-                            </div>
-                            <div className="col-xl-2 col-md-2 col-lg-2">
-                                <div className={styles.footer_widget}>
-                                    <h3 className={styles.footer_title}>
-                                            Follow Us
-                                    </h3>
-                                    <ul style={{ listStyle:'none' , padding:0, margin:0}}>
-                                        <li><a target="_blank" href="#">Facebook</a></li>
-                                        <li><a target="_blank" href="#">Twitter</a></li>
-                                        <li><a target="_blank" href="#">Instagram</a></li>
-                                        <li><a target="_blank" href="#">Youtube</a></li>
-                                        <li><a target="_blank" href="#">LinkedIn</a></li>
-                                    </ul>
-        
-                                </div>
+                                    <div className={styles.footer_widget}>
+                                        
+                                        <ul className={styles.horizontal_social_icons} style={{ listStyle:'none' , padding:2, margin:0}}>
+                                            <li>
+                                                <a target="_blank" href="#">
+                                                <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#">
+                                                <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#">
+                                                <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#">
+                                                <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a target="_blank" href="#">
+                                                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                                
+                                    </div>
                             </div>
                             <div className="col-xl-1 col-md-1 col-lg-1">
                                 <div className={styles.footer_widget}>
@@ -72,6 +87,15 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
+                <div>
+                    <ul className={styles.hori}>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                        <li>a</li>
+                    </ul>
+                </div>
+
         </footer>
     )
 }
