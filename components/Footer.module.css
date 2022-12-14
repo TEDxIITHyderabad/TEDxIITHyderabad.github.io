@@ -3,7 +3,7 @@
     color: #000;
   }
   .footer_bg_1 {
-    background-image: url(../public/banner/footer_bg_1.png);
+    background-color: black;
   }
   
   /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
@@ -24,8 +24,8 @@
   
   /* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top {
-    padding-top: 145px;
-    padding-bottom: 129px;
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
   
   @media (max-width: 767px) {
@@ -133,11 +133,13 @@
     font-size: 16px;
     color: #fff;
     line-height: 42px;
+    text-decoration: none;
+    list-style-type: none;
   }
   
   /* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget ul li a:hover {
-    color: #0181F5;
+    color: #ed0a0a;
   }
   
   /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
