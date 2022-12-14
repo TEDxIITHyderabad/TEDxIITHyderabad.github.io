@@ -6,7 +6,6 @@ import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fort
 export default function Footer(){
     return (
         <footer className={`${styles.footer} ${styles.footer_bg_1}`}>
-            
                 <div className={styles.footer_top}>
                     <div className="container">
                         <div className="row">
@@ -87,15 +86,6 @@ export default function Footer(){
                         </div>
                     </div>
                 </div>
-                <div>
-                    <ul className={styles.hori}>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                        <li>a</li>
-                    </ul>
-                </div>
-
         </footer>
     )
 }
