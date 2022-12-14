@@ -28,7 +28,7 @@ export default function Navbar(){
                                                     </ul>
                                                 </li>
                                                 <li><Link href="/sponsors" passHref>Sponsors</Link></li>
-                                                <li><Link href="#" passHref>Speakers</Link></li>
+                                                <li><Link href="/speakers" passHref>Speakers</Link></li>
                                                 <li><Link href="#" passHref>Venue</Link></li>
                                                 <li><Link href="#" passHref>Contact</Link></li>
                                             </ul>

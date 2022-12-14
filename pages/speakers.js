@@ -1,4 +1,6 @@
 import Head from 'next/head'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import styles from '../styles/Speakers.module.css'
 export default function Speakers(){
     return (
@@ -12,16 +14,13 @@ export default function Speakers(){
         </Head>
         <>
   {/* Breadcrumb Section Begin */}
+  <Navbar/>
   <section className={styles.breadcrumb_section}>
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
           <div className={styles.breadcrumb_text}>
             <h2>Feature Speakers</h2>
-            <div className="bt-option">
-              <a href="#">Home</a>
-              <span>Our Speakers</span>
-            </div>
           </div>
         </div>
       </div>
@@ -252,7 +251,8 @@ export default function Speakers(){
     </div>
   </section>
   {/* Speaker Section End */}
-</>
+  <Footer/>
+  </>
 
         </>
     )
