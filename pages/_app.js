@@ -1,7 +1,8 @@
 import '../styles/globals.css'
- import 'bootstrap/dist/css/bootstrap.css'
-// import '../styles/font-awesome.min.css'
-
+import '../styles/bootstrap.min.css'
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   return (

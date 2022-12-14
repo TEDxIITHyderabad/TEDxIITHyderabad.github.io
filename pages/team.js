@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import styles from '../styles/Team.module.css'
 
 export default function Team(){
@@ -13,6 +15,10 @@ export default function Team(){
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
+        <Navbar/>
+        <br/> {/*find a better way to do this */}
+        <br/>
+        <br/>
         <div className={styles.speakers_area}>
             <div className='d-none d-lg-block'>
                 <h1 class={styles.horizontal_text}>
@@ -360,6 +366,7 @@ export default function Team(){
             </div>
         </div>
         </div>
+        <Footer/>
         </>
     )
 }

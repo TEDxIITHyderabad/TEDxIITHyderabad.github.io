@@ -1,0 +1,259 @@
+
+.footer -menu li a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+  .footer_bg_1 {
+    background-color: black;
+  }
+  
+  /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer {
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* line 10, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .circle_ball {
+    position: absolute;
+    top: -124px;
+    left: 110px;
+  }
+  
+  /* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 15, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+    .footer .footer_top {
+      padding-top: 60px;
+      padding-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+    .footer .footer_top .footer_widget {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+    .footer .footer_top .footer_widget {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* line 29, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .footer_title {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 29, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+    .footer .footer_top .footer_widget .footer_title {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* line 39, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .footer_logo {
+    font-size: 22px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 39, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+    .footer .footer_top .footer_widget .footer_logo {
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* line 49, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget p {
+    color: #fff;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footer .footer_top .footer_widget ul.horizontal_social_icons li {
+    display: inline-block;
+    padding: 0 0.5rem;
+  }
+  /* line 55, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget p.footer_text {
+    font-size: 16px;
+    color: #B2B2B2;
+    margin-bottom: 23px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  /* line 61, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget p.footer_text a.domain {
+    color: #B2B2B2;
+    font-weight: 400;
+  }
+  
+  /* line 64, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget p.footer_text a.domain:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+  
+  /* line 70, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget p.footer_text.doanar a {
+    font-weight: 500;
+    color: #B2B2B2;
+  }
+  
+  /* line 74, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget p.footer_text.doanar a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+  }
+  
+  /* line 78, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget p.footer_text.doanar a.first {
+    margin-bottom: 10px;
+  }
+  
+  /* line 87, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget ul li a {
+    font-size: 16px;
+    color: #fff;
+    line-height: 42px;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  
+  /* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget ul li a:hover {
+    color: #ed0a0a;
+  }
+  
+  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .newsletter_form {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  /* line 100, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .newsletter_form input {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #000;
+    border: none;
+  }
+  
+  /* line 108, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .newsletter_form input::placeholder {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* line 113, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .newsletter_form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    color: #fff;
+    background: #fff;
+    padding: 10px;
+    padding: 0 22px;
+    cursor: pointer;
+  }
+  
+  /* line 127, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .footer_top .footer_widget .newsletter_text {
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  /* line 133, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .copy_right_text {
+    padding-bottom: 30px;
+  }
+  
+  /* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .copy_right_text .footer_border {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 30px;
+  }
+  
+  /* line 139, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .copy_right_text .copy_right {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 139, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+    .footer .copy_right_text .copy_right {
+      font-size: 14px;
+    }
+  }
+  
+  /* line 147, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .copy_right_text .copy_right a {
+    color: #fff;
+  }
+  
+  /* line 152, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .socail_links {
+    margin-top: 47px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 152, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+    .footer .socail_links {
+      margin-top: 30px;
+    }
+  }
+  
+  /* line 158, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .socail_links ul li {
+    display: inline-block;
+  }
+  
+  /* line 161, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .socail_links ul li a {
+    font-size: 18px;
+    color: #C3B2F0;
+    line-height: 42px;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    background: #8565E2;
+    border-radius: 3px;
+    line-height: 50px !important;
+    margin-right: 7px;
+  }
+  
+  /* line 173, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
+  .footer .socail_links ul li a:hover {
+    color: #fff !important;
+  }
