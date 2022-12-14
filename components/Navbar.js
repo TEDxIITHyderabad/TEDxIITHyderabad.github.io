@@ -1,11 +1,39 @@
 import Link from "next/link";
 import styles from "./Navbar.module.css";
-
+import React from "react";
+import { useEffect , useState} from "react";
+var $ = require("jquery");
+// if (typeof window !== "undefined") {
+//     window.$ = window.jQuery = require("jquery");
+//  }
+// $(window).on('scroll', function () {
+// 	var scroll = $(window).scrollTop();
+// 	if (scroll < 400) {
+//     $("#sticky-header").removeClass("sticky");
+//     $('#back-top').fadeIn(500);
+// 	} else {
+//     $("#sticky-header").addClass("sticky");
+//     $('#back-top').fadeIn(500);
+// 	}
+// });
 export default function Navbar(){
+    useEffect(() => {
+        // Client-side-only code
+        $(window).on('scroll', function () {
+            var scroll = $(window).scrollTop();
+            if (scroll < 400) {
+            $("#sticky_header").removeClass(`${styles.sticky}`);
+            // $('#back-top').fadeIn(500);
+            } else {
+            $("#sticky_header").addClass(`${styles.sticky}`);
+            // $('#back-top').fadeIn(500);
+            }
+        });
+    })
     return (
         <header>
             <div className={styles.header_area}>
-                <div id="sticky_header" className={styles.main_header_area} >
+                <div id="sticky_header" className={`${styles.main_header_area}`}>
                     <div className="container-fluid p-0">
                         <div className="row align-items-center justify-content-between no-gutters">
                             <div className="col-xl-2 col-lg-2">
