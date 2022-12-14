@@ -20,8 +20,8 @@ export default function Home() {
                             <div className="col-xl-9">
                                 <div className={styles.title_text}>
                                     <h3>TEDx IITH<br/>
-                                        Conference <br/>
-                                        2023<br/>
+                                        2023 <br/>
+                                        Edition<br/>
                                         </h3>
                                     <Link href="#" className={styles.boxed_btn_white} passHref>Nominate Speakers</Link>
                                 </div>

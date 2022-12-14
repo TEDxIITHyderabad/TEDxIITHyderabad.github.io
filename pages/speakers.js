@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import styles from '../styles/Speakers.module.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faGooglePlus, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+
 export default function Speakers(){
     return (
         <>
@@ -46,14 +49,17 @@ export default function Speakers(){
                     <span>Speaker</span>
                   </div>
                   <div className={styles.si_social}>
-                    <a href="#">
-                      <i className="fa fa-facebook" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-google-plus" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                    </a>
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faGooglePlus}></FontAwesomeIcon>
                     </a>
                   </div>
                   <p>
@@ -82,14 +88,17 @@ export default function Speakers(){
                     <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
-                    <a href="#">
-                      <i className="fa fa-facebook" />
+                  <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-google-plus" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                    </a>
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faGooglePlus}></FontAwesomeIcon>
                     </a>
                   </div>
                   <p>
@@ -118,14 +127,17 @@ export default function Speakers(){
                     <span>Manager</span>
                   </div>
                   <div className= {styles.si_social}>
-                    <a href="#">
-                      <i className="fa fa-facebook" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-google-plus" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                    </a>
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faGooglePlus}></FontAwesomeIcon>
                     </a>
                   </div>
                   <p>
@@ -154,14 +166,17 @@ export default function Speakers(){
                     <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
-                    <a href="#">
-                      <i className="fa fa-facebook" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-google-plus" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                    </a>
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faGooglePlus}></FontAwesomeIcon>
                     </a>
                   </div>
                   <p>
@@ -190,14 +205,17 @@ export default function Speakers(){
                     <span>CEO</span>
                   </div>
                   <div className= {styles.si_social}>
-                    <a href="#">
-                      <i className="fa fa-facebook" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-google-plus" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                    </a>
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faGooglePlus}></FontAwesomeIcon>
                     </a>
                   </div>
                   <p>
@@ -226,14 +244,17 @@ export default function Speakers(){
                     <span>Marketing Manager</span>
                   </div>
                   <div className= {styles.si_social}>
-                    <a href="#">
-                      <i className="fa fa-facebook" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-twitter" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                     </a>
-                    <a href="#">
-                      <i className="fa fa-google-plus" />
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                    </a>
+                    <a target="_blank" href="#">
+                      <FontAwesomeIcon icon={faGooglePlus}></FontAwesomeIcon>
                     </a>
                   </div>
                   <p>

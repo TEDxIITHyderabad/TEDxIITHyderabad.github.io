@@ -4,6 +4,8 @@ import Link from 'next/link'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import styles from '../styles/Team.module.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default function Team(){
     return (
@@ -47,9 +49,15 @@ export default function Team(){
                             <img className={styles.image} src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -70,9 +78,15 @@ export default function Team(){
                             <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -88,9 +102,15 @@ export default function Team(){
                             <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -106,9 +126,15 @@ export default function Team(){
                             <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -125,9 +151,15 @@ export default function Team(){
                             <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -143,9 +175,15 @@ export default function Team(){
                             <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -166,9 +204,15 @@ export default function Team(){
                             <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -182,9 +226,15 @@ export default function Team(){
                             <img src="/team/3.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -198,59 +248,15 @@ export default function Team(){
                             <img src="/team/3.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Albert Jackey</h3>
-                            <p>Product Designer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-md-6">
-                    <div class={styles.single_speaker}>
-                        <div class={styles.speaker_thumb}>
-                            <img src="/team/2.png" alt=""/>
-                            <div class={styles.hover_overlay}>
-                                <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Kelvin Cooper</h3>
-                            <p>Art Director</p>
-                        </div>
-                    </div>
-                    <div class={styles.single_speaker}>
-                        <div class={styles.speaker_thumb}>
-                            <img src="/team/1.png" alt=""/>
-                            <div class={styles.hover_overlay}>
-                                <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Marked Macau</h3>
-                            <p>UI/UX Designer</p>
-                        </div>
-                    </div>
-                    <div class={styles.single_speaker}>
-                        <div class={styles.speaker_thumb}>
-                            <img src="/team/3.png" alt=""/>
-                            <div class={styles.hover_overlay}>
-                                <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -266,9 +272,15 @@ export default function Team(){
                             <img src="/team/2.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -282,9 +294,15 @@ export default function Team(){
                             <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>    
                                 </div>
                             </div>
                         </div>
@@ -298,9 +316,15 @@ export default function Team(){
                             <img src="/team/3.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -316,9 +340,15 @@ export default function Team(){
                             <img src="/team/2.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>    
                                 </div>
                             </div>
                         </div>
@@ -332,9 +362,15 @@ export default function Team(){
                             <img src="/team/1.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>    
                                 </div>
                             </div>
                         </div>
@@ -348,9 +384,83 @@ export default function Team(){
                             <img src="/team/3.png" alt=""/>
                             <div class={styles.hover_overlay}>
                                 <div class={styles.social_icon}>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                            <h3>Albert Jackey</h3>
+                            <p>Product Designer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6">
+                    <div class={styles.single_speaker}>
+                        <div class={styles.speaker_thumb}>
+                            <img src="/team/2.png" alt=""/>
+                            <div class={styles.hover_overlay}>
+                                <div class={styles.social_icon}>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                            <h3>Kelvin Cooper</h3>
+                            <p>Art Director</p>
+                        </div>
+                    </div>
+                    <div class={styles.single_speaker}>
+                        <div class={styles.speaker_thumb}>
+                            <img src="/team/1.png" alt=""/>
+                            <div class={styles.hover_overlay}>
+                                <div class={styles.social_icon}>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                            <h3>Marked Macau</h3>
+                            <p>UI/UX Designer</p>
+                        </div>
+                    </div>
+                    <div class={styles.single_speaker}>
+                        <div class={styles.speaker_thumb}>
+                            <img src="/team/3.png" alt=""/>
+                            <div class={styles.hover_overlay}>
+                                <div class={styles.social_icon}>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
                                 </div>
                             </div>
                         </div>

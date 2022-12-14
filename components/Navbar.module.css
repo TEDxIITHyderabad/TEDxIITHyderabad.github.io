@@ -3,6 +3,7 @@
     left: 0;
     top: 0;
     width: 100%;
+
   }
   
   /* line 6, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -70,6 +71,7 @@
   .header_area .main_header_area .main_menu {
     text-align: center;
     padding: 12px 0;
+    
   }
   
   /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */

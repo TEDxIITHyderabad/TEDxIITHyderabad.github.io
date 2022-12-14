@@ -1,8 +1,11 @@
 
 .breadcrumb_section {
 	padding: 75px 0 75px;
+	background-color: rgb(242, 208, 208);
 }
-
+.speaker_section_spad{
+	background-color: rgb(242, 208, 208);
+}
 .breadcrumb_text {
 	text-align: center;
 	padding: 75px 0 0px;
