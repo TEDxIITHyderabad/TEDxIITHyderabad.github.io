@@ -475,6 +475,7 @@
   text-align: center;
   color: #fff !important;
   text-transform: capitalize;
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -490,6 +491,8 @@
   background: #fff;
   color: #000 !important;
   border: 2px solid #fff;
+  text-decoration: none;
+
 }
 
 /* line 96, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
