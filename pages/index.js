@@ -3,16 +3,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../components/Footer'
 import Logoscroll from '../components/Logoscroll'
-import Navbar from '../components/Navbar'
+import Navbarlol from '../components/Navbar'
 import styles from '../styles/Home.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarAlt, faLocationDot} from "@fortawesome/free-solid-svg-icons";
+import { faCalendarAlt, faClock, faLocationDot} from "@fortawesome/free-solid-svg-icons";
 import Countdown from '../components/Countdown'
 
 export default function Home() {
   return (
     <>
-      <Navbar></Navbar>
+      <Navbarlol></Navbarlol>
         {/* <div className="slider_area slider_bg_1"> */}
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
             <div className="slider_text">
@@ -45,7 +45,7 @@ export default function Home() {
                         <div className="col-xl-4 col-md-6 col-lg-4">
                             <div className={styles.single_date}>
                                 <FontAwesomeIcon icon={faLocationDot}/>
-                                <span> IIT Kandiiiiiii</span>
+                                <span> IIT Hyderabad</span>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-6 col-lg-3">
@@ -56,7 +56,11 @@ export default function Home() {
                         </div>
 
                         <div className="col-xl-5 col-md-12 col-lg-5">
-                            <Countdown/>
+                            {/* <Countdown/> */}
+                            <div className={styles.single_date}>
+                                <FontAwesomeIcon icon={faClock}/>
+                                <span> Coming Soon</span>
+                            </div>
                         </div>
                     </div>
                 </div>
