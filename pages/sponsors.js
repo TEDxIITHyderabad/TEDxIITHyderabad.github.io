@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../components/Footer'
 import Logoscroll from '../components/Logoscroll'
-import Navbar from '../components/Navbar'
+import NavbarComp from '../components/Navbar'
 
 export default function Sponsors() {
     return (
@@ -15,8 +15,7 @@ export default function Sponsors() {
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
-        <Navbar/>
-        <Logoscroll/>
+        <NavbarComp/>
         <Footer/>
         </>
     )

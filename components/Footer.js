@@ -10,7 +10,7 @@ export default function Footer(){
                     <div className="container">
                         <div className="row">
                             <div className={`col-md-2 col-lg-1 d-block`}>
-                                <img src="/barnd/tedx.png" alt="" height={40}/>
+                                <img src="/brand/tedx.png" alt="" height={40}/>
                             </div>
                             <div className={`col-md-12 col-lg-8 d-block text-center`}>
                                 <p style={{color:"red"}}> 

@@ -40,30 +40,32 @@ export default function Logoscroll(){
                     <div className="col-xl-12">
                         {/* <div className={styles.owlcarousel}> */}
                         <div className={styles.brand_active}>
-                            <OwlCarousel className="owl-theme" loop margin={10} nav responsive={Responsive} >
+                            <OwlCarousel className="owl-theme" loop margin={10} 
+                            nav responsive={Responsive} autoplay={true} autoplayHoverPause={true} 
+                            autoplaySpeed={800} autoplayTimeout={2000}>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/barnd/tedx.png" alt="" height={70}/>
+                                    <img src="/brand/tedx.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/barnd/logo1.png" alt="" height={70}/>
+                                    <img src="/brand/logo1.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/barnd/1.png" alt="" height={70}/>
+                                    <img src="/brand/1.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/barnd/2.png" alt="" height={70}/>
+                                    <img src="/brand/2.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/barnd/3.png" alt="" height={70}/>
+                                    <img src="/brand/3.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/barnd/4.png" alt="" height={70}/>
+                                    <img src="/brand/4.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/barnd/5.png" alt="" height={70}/>
+                                    <img src="/brand/5.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/barnd/6.png" alt="" height={70}/>
+                                    <img src="/brand/6.png" alt="" height={70}/>
                                 </div>
                             </OwlCarousel>
                         </div>

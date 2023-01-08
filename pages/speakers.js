@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import NavbarComp from '../components/Navbar'
 import styles from '../styles/Speakers.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faGooglePlus, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -17,7 +17,7 @@ export default function Speakers(){
         </Head>
         <>
   {/* Breadcrumb Section Begin */}
-  <Navbar/>
+  <NavbarComp/>
   <section className={styles.breadcrumb_section}>
     <div className="container">
       <div className="row">

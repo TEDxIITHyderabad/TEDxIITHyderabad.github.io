@@ -31,7 +31,7 @@ export default function NavbarComp(){
         //                     <div className="col-xl-2 col-lg-2">
         //                         <div className={styles.logo_img}>
         //                             <Link href='/' passHref>
-        //                                 <img src="/barnd/tedx.png" alt="abcd" height={70}/>
+        //                                 <img src="/brand/tedx.png" alt="abcd" height={70}/>
         //                             </Link>
         //                         </div>
         //                     </div>
@@ -86,7 +86,7 @@ export default function NavbarComp(){
         // </nav>
             <Navbar expand="lg" sticky="top" variant="dark" bg="black">
             <Container>
-              <Navbar.Brand href="/"><img src="/barnd/tedx.png" alt="TEDx IITHyderabad" height={30}/></Navbar.Brand>
+              <Navbar.Brand href="/"><img src="/brand/tedx.png" alt="TEDx IITHyderabad" height={30}/></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="me-auto" >

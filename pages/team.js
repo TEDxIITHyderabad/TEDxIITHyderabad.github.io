@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import NavbarComp from '../components/Navbar'
 import styles from '../styles/Team.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
@@ -17,7 +17,7 @@ export default function Team(){
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
-        <Navbar/>
+        <NavbarComp/>
         <br/> {/*find a better way to do this */}
         <br/>
         <br/>
@@ -43,7 +43,7 @@ export default function Team(){
 
                 {/* ---- OC below ---- */}
 
-                <div class="col-xl-6 col-md-6 offset-xl-3">
+                <div class="col-lg-4 offset-lg-4 col-md-6 col-sm-12">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
                             <img className={styles.image} src="/team/1.png" alt=""/>
@@ -72,7 +72,7 @@ export default function Team(){
 
                 {/* ---- cores start ---- */}
 
-                <div class="col-xl-4 col-md-6">
+                <div class="col-lg-4 col-md-6" style={{marginLeft:"156px"}}>
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
                             <img src="/team/1.png" alt=""/>
@@ -96,7 +96,7 @@ export default function Team(){
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
                             <img src="/team/1.png" alt=""/>
@@ -120,7 +120,55 @@ export default function Team(){
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-md-6">
+                <div class="col-lg-4 col-md-6">
+                    <div class={styles.single_speaker}>
+                        <div class={styles.speaker_thumb}>
+                            <img src="/team/1.png" alt=""/>
+                            <div class={styles.hover_overlay}>
+                                <div class={styles.social_icon}>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                            <h3>Jonson Miller</h3>
+                            <p>Creative Director</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class={styles.single_speaker}>
+                        <div class={styles.speaker_thumb}>
+                            <img src="/team/1.png" alt=""/>
+                            <div class={styles.hover_overlay}>
+                                <div class={styles.social_icon}>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                    </a>
+                                    <a target="_blank" href="#">
+                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                            <h3>Jonson Miller</h3>
+                            <p>Creative Director</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
                     <div class={styles.single_speaker}>
                         <div class={styles.speaker_thumb}>
                             <img src="/team/1.png" alt=""/>
@@ -145,57 +193,8 @@ export default function Team(){
                     </div>
                 </div>
 
-                <div class="col-xl-4 col-md-6 offset-xl-2">
-                    <div class={styles.single_speaker}>
-                        <div class={styles.speaker_thumb}>
-                            <img src="/team/1.png" alt=""/>
-                            <div class={styles.hover_overlay}>
-                                <div class={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Jonson Miller</h3>
-                            <p>Creative Director</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class={styles.single_speaker}>
-                        <div class={styles.speaker_thumb}>
-                            <img src="/team/1.png" alt=""/>
-                            <div class={styles.hover_overlay}>
-                                <div class={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Jonson Miller</h3>
-                            <p>Creative Director</p>
-                        </div>
-                    </div>
-                </div>
                 {/* ---- cores end ---- */}
-
-
+                <div><br/></div>
                 {/* ---- coords start ---- */}
 
                 <div class="col-xl-3 col-md-6">

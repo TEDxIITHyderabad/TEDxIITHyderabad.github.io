@@ -12,7 +12,7 @@ import Countdown from '../components/Countdown'
 export default function Home() {
   return (
     <>
-      <NavbarComp></NavbarComp>
+      <NavbarComp/>
         {/* <div className="slider_area slider_bg_1"> */}
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
             <div className="slider_text">

@@ -81,6 +81,7 @@
   /* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area .single_speaker .speaker_thumb img {
     width: 100%;
+    border-radius: 50%;
   }
   
   /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
@@ -100,6 +101,7 @@
     -ms-transform: translateY(80%);
     transform: translateY(80%);
     opacity: 0;
+    border-radius: 50%;
   }
   
   /* line 50, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
