@@ -3,13 +3,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../components/Footer'
 import Logoscroll from '../components/Logoscroll'
-import Navbar from '../components/Navbar'
+import NavbarComp from '../components/Navbar'
 import styles from '../styles/Home.module.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCalendarAlt, faClock, faLocationDot} from "@fortawesome/free-solid-svg-icons";
+import Countdown from '../components/Countdown'
 
 export default function Home() {
   return (
     <>
-      <Navbar></Navbar>
+      <NavbarComp></NavbarComp>
         {/* <div className="slider_area slider_bg_1"> */}
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
             <div className="slider_text">
@@ -23,7 +26,12 @@ export default function Home() {
                                         2023 <br/>
                                         Edition<br/>
                                         </h3>
-                                    <Link href="#" className={styles.boxed_btn_white} passHref>Nominate Speakers</Link>
+                                    <div>
+                                        <Link href="#" className={styles.boxed_btn_white} passHref>Nominate Speakers</Link>
+                                    </div>
+                                    <div>
+                                        <Link href="#" className={styles.boxed_btn_white} style={{marginTop: "10px"}} passHref>Buy Tickets</Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -36,21 +44,24 @@ export default function Home() {
                     <div className="row align-items-center">
                         <div className="col-xl-4 col-md-6 col-lg-4">
                             <div className={styles.single_date}>
-                                <i className={styles.ti_location_pin}></i>
-                                <span>IIT, Kandiiiiiii</span>
+                                <FontAwesomeIcon icon={faLocationDot}/>
+                                <span> IIT Hyderabad</span>
                             </div>
                         </div>
                         <div className="col-xl-3 col-md-6 col-lg-3">
                             <div className={styles.single_date}>
-                                <i className="ti-alarm-clock"></i>
-                                <span>32-35 Apr, 2023</span>
+                                <FontAwesomeIcon icon={faCalendarAlt}/>
+                                <span> 32-35 Apr, 2023</span>
                             </div>
                         </div>
 
                         <div className="col-xl-5 col-md-12 col-lg-5">
-                            <span id="clock"></span>
+                            {/* <Countdown/> */}
+                            <div className={styles.single_date}>
+                                <FontAwesomeIcon icon={faClock}/>
+                                <span> Coming Soon</span>
+                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>

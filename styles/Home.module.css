@@ -149,7 +149,7 @@
   background-size: cover;
   background-position: center  center;
   background-repeat: no-repeat;
-  padding-top: 300px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -364,10 +364,6 @@
   padding-right: 10px;
 }
 
-/* line 135, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-.slider_area .countdown_area {
-  padding-top: 60px;
-}
 
 /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area .countdown_time {
@@ -448,17 +444,18 @@
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
-  font-size: 120px;
-  top: -125px;
-  color: rgba(255, 255, 255, 0.08);
+  font-size: 80px;
+  top: -40px;
+  color: rgba(255, 255, 255, 0.1);
   font-weight: 700;
   right: -87px;
+  margin-right: 110px;
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
   /* line 178, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .opcity_text {
-    font-size: 90px;
+    font-size: 70px;
   }
 }
 

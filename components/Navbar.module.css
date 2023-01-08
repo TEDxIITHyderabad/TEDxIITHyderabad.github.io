@@ -315,4 +315,13 @@
       z-index: 9;
     }
   }
-  
+
+.navbar_link {
+  color: white;
+}
+.navbar_link:hover {
+  color: red;
+}
+#basic-nav-dropdown{
+  background-color: green;
+}
