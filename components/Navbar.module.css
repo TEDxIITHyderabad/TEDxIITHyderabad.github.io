@@ -315,51 +315,13 @@
       z-index: 9;
     }
   }
-  
 
-  
-  #contactme {
-    background-color: black;
-    color: white;
-    height: 180px;
-  }
-  
-  
-  #navbar {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-  }
-  
-  .top_nav {
-    background-color: #671100;
-  }
-  
-  .top_nav a {
-    color: #d3e316;
-  }
-  
-  h1.headingStatement {
-    font-family: Monospace;
-    font-size: 2em;
-  }
-  
-  
-  /* bootstrap override */
-  
-  a.btn-primary:hover {
-    text-decoration: none;
-  }
-  
-  .navbar_nav li a:hover {
-      background-color: #FF0000;
-      border-radius: 10px;
-  }
-  .navbar_toggle .icon_bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    background-color: #cccccc;
-    border-radius: 1px;
-  }
+.navbar_link {
+  color: white;
+}
+.navbar_link:hover {
+  color: red;
+}
+#basic-nav-dropdown{
+  background-color: green;
+}

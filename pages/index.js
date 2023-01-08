@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../components/Footer'
 import Logoscroll from '../components/Logoscroll'
-import Navbarlol from '../components/Navbar'
+import NavbarComp from '../components/Navbar'
 import styles from '../styles/Home.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt, faClock, faLocationDot} from "@fortawesome/free-solid-svg-icons";
@@ -12,7 +12,7 @@ import Countdown from '../components/Countdown'
 export default function Home() {
   return (
     <>
-      <Navbarlol></Navbarlol>
+      <NavbarComp></NavbarComp>
         {/* <div className="slider_area slider_bg_1"> */}
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
             <div className="slider_text">
