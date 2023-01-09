@@ -1,5 +1,5 @@
 /* line 12, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
-.speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
+.speakers_area .single_speaker_coords .speaker_thumb .hover_overlay .social_icon a:hover {
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
     background: #ff9600;
     /* Old browsers */
@@ -12,12 +12,25 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=0 );
     /* IE6-9 */
   }
-  
+  .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
+    background: #ff9600;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=0 );
+    /* IE6-9 */
+  }
   /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area {
     padding-top: 100px;
     position: relative;
     padding-bottom: 105px;
+    background-color: #8ba3b4;
   }
   
   /* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
@@ -65,11 +78,13 @@
       font-size: 90px;
     }
   }
-  
-  /* line 31, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area .single_speaker {
     margin-bottom: 90px;
     overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:70%;
   }
   
   /* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
@@ -133,7 +148,7 @@
     line-height: 50px;
     font-size: 17px;
     color: #FF0000;
-    margin: 0 7px;
+    margin: 0 3px;
   }
   
   /* line 70, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
@@ -168,6 +183,117 @@
   
   /* line 98, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area .single_speaker:hover .speaker_thumb .social_icon {
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+  /* line 31, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords {
+    margin-bottom: 90px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:80%;
+  }
+  
+  /* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords .speaker_thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords .speaker_thumb img {
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords .speaker_thumb .hover_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background: rgba(255, 0, 0, 0.5);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: translateY(80%);
+    -moz-transform: translateY(80%);
+    -ms-transform: translateY(80%);
+    transform: translateY(80%);
+    opacity: 0;
+    border-radius: 50%;
+  }
+  
+  /* line 50, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords .speaker_thumb .hover_overlay .social_icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 15px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+  /* line 58, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords .speaker_thumb .hover_overlay .social_icon a {
+    width: 50px;
+    height: 50px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: #fff;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 17px;
+    color: #FF0000;
+    margin: 0 5px;
+  }
+  
+  /* line 70, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords .speaker_thumb .hover_overlay .social_icon a:hover {
+    color: #fff;
+  }
+  
+  /* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords .speaker_name h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 7px;
+  }
+  
+  /* line 85, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords .speaker_name p {
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #FF0000;
+    font-weight: 400;
+  }
+  
+  /* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords:hover .hover_overlay {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* line 98, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
+  .speakers_area .single_speaker_coords:hover .speaker_thumb .social_icon {
     -webkit-transform: scaleX(1);
     -moz-transform: scaleX(1);
     -ms-transform: scaleX(1);
@@ -236,3 +362,332 @@
       margin-bottom: 30px;
     }
   }
+
+.image_OC{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+@media (min-width:1500px){
+  .OC {
+    margin-left: 10px;
+  }
+}
+
+
+
+
+
+  .text_blk {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    line-height: 25px;
+  }
+  
+  .responsive_container_block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    justify-content: flex-start;
+  }
+  
+  .container_block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    display: block;
+  }
+  
+  .responsive_cell_block {
+    min-height: 75px;
+  }
+  
+  .container {
+    max-width: 1380px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-left: auto;
+    padding-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    padding-left: 30px;
+  }
+  
+  .team_head_text {
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 70px;
+    margin-left: 0px;
+  }
+  
+  .name {
+    font-size: 18px;
+    margin-top: 11px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-weight: 700;
+  }
+  
+  .position {
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  
+  .team_card_container {
+    width: 263px;
+    margin-top: 0px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
+  
+  .teamcard_container {
+    justify-content: space-evenly;
+  }
+  
+  .team_img_wrapper {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+  }
+  
+  .team_img {
+    max-width: 100%;
+  }
+  
+  @media (max-width: 500px) {
+    .team_card_container {
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 30px;
+      margin-left: 0px;
+      width: 100%;
+    }
+  
+    .team_img {
+      width: 100%;
+    }
+  }
+
+
+
+.wk_desk_1 {
+  width: 8.333333%;
+}
+
+.wk_desk_2 {
+  width: 16.666667%;
+}
+
+.wk_desk_3 {
+  width: 25%;
+}
+
+.wk_desk_4 {
+  width: 33.333333%;
+}
+
+.wk_desk_5 {
+  width: 41.666667%;
+}
+
+.wk_desk_6 {
+  width: 50%;
+}
+
+.wk_desk_7 {
+  width: 58.333333%;
+}
+
+.wk_desk_8 {
+  width: 66.666667%;
+}
+
+.wk_desk_9 {
+  width: 75%;
+}
+
+.wk_desk_10 {
+  width: 83.333333%;
+}
+
+.wk_desk_11 {
+  width: 91.666667%;
+}
+
+.wk_desk_12 {
+  width: 100%;
+}
+
+@media (max-width: 1024px) {
+  .wk_ipadp_1 {
+    width: 8.333333%;
+  }
+
+  .wk_ipadp_2 {
+    width: 16.666667%;
+  }
+
+  .wk_ipadp_3 {
+    width: 25%;
+  }
+
+  .wk_ipadp_4 {
+    width: 33.333333%;
+  }
+
+  .wk_ipadp_5 {
+    width: 41.666667%;
+  }
+
+  .wk_ipadp_6 {
+    width: 50%;
+  }
+
+  .wk_ipadp_7 {
+    width: 58.333333%;
+  }
+
+  .wk_ipadp_8 {
+    width: 66.666667%;
+  }
+
+  .wk_ipadp_9 {
+    width: 75%;
+  }
+
+  .wk_ipadp_10 {
+    width: 83.333333%;
+  }
+
+  .wk_ipadp_11 {
+    width: 91.666667%;
+  }
+
+  .wk_ipadp_12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wk_tab_1 {
+    width: 8.333333%;
+  }
+
+  .wk_tab_2 {
+    width: 16.666667%;
+  }
+
+  .wk_tab_3 {
+    width: 25%;
+  }
+
+  .wk_tab_4 {
+    width: 33.333333%;
+  }
+
+  .wk_tab_5 {
+    width: 41.666667%;
+  }
+
+  .wk_tab_6 {
+    width: 50%;
+  }
+
+  .wk_tab_7 {
+    width: 58.333333%;
+  }
+
+  .wk_tab_8 {
+    width: 66.666667%;
+  }
+
+  .wk_tab_9 {
+    width: 75%;
+  }
+
+  .wk_tab_10 {
+    width: 83.333333%;
+  }
+
+  .wk_tab_11 {
+    width: 91.666667%;
+  }
+
+  .wk_tab_12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .wk_mobile_1 {
+    width: 8.333333%;
+  }
+
+  .wk_mobile_2 {
+    width: 16.666667%;
+  }
+
+  .wk_mobile_3 {
+    width: 25%;
+  }
+
+  .wk_mobile_4 {
+    width: 33.333333%;
+  }
+
+  .wk_mobile_5 {
+    width: 41.666667%;
+  }
+
+  .wk_mobile_6 {
+    width: 50%;
+  }
+
+  .wk_mobile_7 {
+    width: 58.333333%;
+  }
+
+  .wk_mobile_8 {
+    width: 66.666667%;
+  }
+
+  .wk_mobile_9 {
+    width: 75%;
+  }
+
+  .wk_mobile_10 {
+    width: 83.333333%;
+  }
+
+  .wk_mobile_11 {
+    width: 91.666667%;
+  }
+
+  .wk_mobile_12 {
+    width: 100%;
+  }
+}
