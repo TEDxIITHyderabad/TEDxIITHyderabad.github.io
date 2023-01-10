@@ -3,12 +3,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { SSRProvider } from 'react-bootstrap';
+import Layout from '../components/Layout';
 config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   return (
     <SSRProvider>
-      <Component {...pageProps} />
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
     </SSRProvider>
   )
 }

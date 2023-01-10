@@ -321,7 +321,23 @@
 }
 .navbar_link:hover {
   color: red;
+  text-decoration: none;
 }
 #basic-nav-dropdown{
   background-color: green;
+  text-decoration: none;
+}
+.nav-item .dropdown-menu {
+  background: #000000;
+}
+
+.nav-item .dropdown-item {
+  color: #ffffff;
+}
+
+.nav-item .dropdown-item:hover {
+  background: #f0ad4e;
+}
+.dropdown-menu-dark{
+  background-color: green !important;
 }

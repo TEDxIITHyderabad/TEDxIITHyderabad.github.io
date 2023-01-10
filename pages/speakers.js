@@ -17,7 +17,6 @@ export default function Speakers(){
         </Head>
         <>
   {/* Breadcrumb Section Begin */}
-  <NavbarComp/>
   <section className={styles.breadcrumb_section}>
     <div className="container">
       <div className="row">
@@ -272,7 +271,6 @@ export default function Speakers(){
     </div>
   </section>
   {/* Speaker Section End */}
-  <Footer/>
   </>
 
         </>

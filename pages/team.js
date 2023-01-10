@@ -17,7 +17,6 @@ export default function Team(){
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
-        <NavbarComp/>
         
     <div className={styles.speakers_area}>
         <div className='d-none d-lg-block'>
@@ -584,7 +583,6 @@ export default function Team(){
     
   </div>
 </div> */}
-        <Footer/>
         </>
     )
 }

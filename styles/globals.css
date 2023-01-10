@@ -10,7 +10,9 @@ body {
 .mb-95 {
   margin-bottom: 95px;
 }
-
+:root{
+  --bs-dropdown-bg: black;
+}
 @media (max-width: 767px) {
   /* line 262, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
   .mb-95 {

@@ -18,20 +18,16 @@ export default function Sponsors() {
             href="https://assets-global.website-files.com/62d1f2146087f67fb3fc980c/css/webflowconf-2022.webflow.81e13c77d.min.css"
             rel="stylesheet" type="text/css"></link>
         </Head>
-        <NavbarComp/>
         <section data-w-id="cf7a5bcc-72e5-3805-1397-f700e1ccb624" className="section cc-header">
             <div className="u-bg-grid-top_right cc-overlay"></div><img
                 src="https://assets-global.website-files.com/62d1f2146087f67fb3fc980c/6319f682d128c594a9015a97_Build-06.svg"
                 loading="eager" alt="" className="blur cc-top-right cc-short-header"/>
             <div className="glasses-wrapper">
-                <div className="glass cc-1"
-                    style="will-change: transform; transform: translate3d(0px, -0.70522em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                <div className="glass cc-1">
                 </div>
-                <div className="glass cc-4"
-                    style="will-change: transform; transform: translate3d(0px, -0.70522em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                <div className="glass cc-4">
                 </div>
-                <div className="glass cc-3"
-                    style="will-change: transform; transform: translate3d(0px, -0.70522em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                <div className="glass cc-3">
                 </div>
             </div>
             <div className="section u-pt-0">
@@ -75,7 +71,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -90,7 +86,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -105,7 +101,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -120,7 +116,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -135,7 +131,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -149,7 +145,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -164,7 +160,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -179,7 +175,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -194,7 +190,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -209,7 +205,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -224,7 +220,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:300px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"300px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -244,7 +240,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -259,7 +255,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -274,7 +270,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -289,7 +285,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -304,7 +300,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -319,7 +315,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -334,7 +330,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://bikemalik.com/wp-content/uploads/2018/01/Hero-Xtreme-Sports-1.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -349,7 +345,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -364,7 +360,7 @@ export default function Sponsors() {
                     <div className={`${styles.flip_card}`}>
                         <div className={`${styles.flip_card_inner}`}>
                             <div className={`${styles.flip_card_front}`}>
-                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style="width:300px;height:200px;"/>
+                                <img src="https://www.reuters.com/resizer/JCEDftTsl0Gdi4Kv1jD2-zWTGUU=/1920x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/2JAEG65I7FJRXALKYEP4QCCFJU.jpg" alt="amazon" style={{width:"300px",height:"200px"}}/>
                             </div>
                             <div className={`${styles.flip_card_back}`}>
                                 <h6>Amazon</h6>
@@ -377,7 +373,6 @@ export default function Sponsors() {
                 </div>
             </div>
         </section>
-        <Footer/>
         </>
     )
 }
