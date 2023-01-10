@@ -67,15 +67,16 @@
     font-size: 120px;
     font-weight: 700;
     position: absolute;
-    right: 0;
+    right: 0;  
+    margin-right: 10px;
     top: 100px;
-    color: #F3F3F3;
+    color: #ffffff;
   }
   
   @media (min-width: 992px) and (max-width: 1200px) {
     /* line 20, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
     .speakers_area .horizontal_text {
-      font-size: 90px;
+      font-size: 85px;
     }
   }
   .speakers_area .single_speaker {
@@ -344,6 +345,14 @@
   }
   
   @media (max-width: 767px) {
+    /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
+    .serction_title_large h3::before {
+      width: 80px;
+      right: -100px;
+    }
+  }
+  
+  @media (max-width: 300px) {
     /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
     .serction_title_large h3::before {
       width: 80px;

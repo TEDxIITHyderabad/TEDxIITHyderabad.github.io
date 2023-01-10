@@ -19,12 +19,12 @@ export default function Team(){
         </Head>
         <NavbarComp/>
         
-        <div className={styles.speakers_area}>
-            <div className='d-sm-none d-lg-block'>
-                <h1 className={styles.horizontal_text}>
-                    Team
-                </h1>
-            </div>
+    <div className={styles.speakers_area}>
+        <div className='d-none d-lg-block'>
+            <h1 className={styles.horizontal_text}>
+                Team
+            </h1>
+        </div>
         <div className="container">
             <div className="row">
                 <div className="col-xl-12">
@@ -38,9 +38,20 @@ export default function Team(){
                 </div>
             </div>
             <div className="row">
+                <div className="col-xl-12">
+                    <div className='mb-95'>
+                        <div className={styles.serction_title_large}> 
+                            <h3>
+                                OC
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="row">
 
                 {/* ---- OC below ---- */}
-
+                
                 {/* <div className="col-lg-4 offset-lg-4 col-md-6 col-sm-12"> */}
                 <div className="col-12 offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
                     <div className={styles.single_speaker}>
@@ -68,7 +79,17 @@ export default function Team(){
                 </div>
                 <div><br/></div>  {/*find a better method to do this */}
                 
-
+                <div className="row">
+                    <div className="col-xl-12">
+                        <div className='mb-95'>
+                            <div className={styles.serction_title_large}> 
+                                <h3>
+                                    Cores
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 {/* ---- cores start ---- */}
 
                 <div className="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-10 offset-1">
@@ -195,7 +216,17 @@ export default function Team(){
                 {/* ---- cores end ---- */}
                 <div><br/></div>
                 {/* ---- coords start ---- */}
-
+                <div className="row">
+                    <div className="col-xl-12">
+                        <div className='mb-95'>
+                            <div className={styles.serction_title_large}> 
+                                <h3>
+                                    Coordinators
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                     <div className={styles.single_speaker_coords}>
                         <div className={styles.speaker_thumb}>

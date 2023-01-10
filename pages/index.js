@@ -12,6 +12,13 @@ import Countdown from '../components/Countdown'
 export default function Home() {
   return (
     <>
+    <Head>
+            <meta charSet="utf-8"/>
+            <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
+            <title>TEDx IITH</title>
+            <meta name="description" content=""/>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </Head>
       <NavbarComp/>
         {/* <div className="slider_area slider_bg_1"> */}
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
