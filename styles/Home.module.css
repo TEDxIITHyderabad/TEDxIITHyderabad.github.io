@@ -502,5 +502,15 @@
   width: 220px;
 }
 
+.containerTable {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
 
+.wrapperTable {
+  width: 550px;
+}
 
