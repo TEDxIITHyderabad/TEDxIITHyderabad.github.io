@@ -33,13 +33,13 @@ export default function NavbarComp(){
                   <Nav.Link href="/speakers" className={`${styles.navbar_link}`}>Speakers</Nav.Link>
                   <Nav.Link href="/sponsors" className={`${styles.navbar_link}`}>Sponsors</Nav.Link>
                   <Nav.Link href="/team" className={`${styles.navbar_link}`}>Team</Nav.Link>
-                  <Nav.Link href="/contact" className={`${styles.navbar_link}`}>Contact Us</Nav.Link>
+                  <Nav.Link href="/contactus.html" className={`${styles.navbar_link}`}>Contact Us</Nav.Link>
                   <NavDropdown menuVariant="dark" className={`${styles.dropdown_menu_dark}`} title={<span className={`${styles.navbar_link}`} > CA program </span>} id="basic-nav-dropdown">
-                    <NavDropdown.Item href="#action/3.2" className={`${styles.navbar_link}`}>
+                    <NavDropdown.Item href="/CA/leaderboard" className={`${styles.navbar_link_dropdown}`}>
                       Incentives
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
-                    <NavDropdown.Item href="#action/3.4" className={`${styles.navbar_link}`} >
+                    <NavDropdown.Item href="/CA/leaderboard" className={`${styles.navbar_link_dropdown}`} >
                       Leaderboard
                     </NavDropdown.Item>
                   </NavDropdown>

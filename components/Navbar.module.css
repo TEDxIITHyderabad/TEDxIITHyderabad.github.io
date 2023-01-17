@@ -323,6 +323,18 @@
   color: red;
   text-decoration: none;
 }
+.navbar_link_dropdown {
+  color: white;
+}
+.navbar_link_dropdown:hover {
+  color: red;
+  text-decoration: none;
+}
+.navbar_link_dropdown:focus {
+  color: red;
+  background-color: #343a40;
+  text-decoration: none;
+}
 #basic-nav-dropdown{
   background-color: green;
   text-decoration: none;
@@ -338,6 +350,6 @@
 .nav-item .dropdown-item:hover {
   background: #f0ad4e;
 }
-.dropdown-menu-dark{
-  background-color: green !important;
-}
+/* .dropdown_menu_dark{
+  background-color: green;
+} */

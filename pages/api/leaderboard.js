@@ -7,9 +7,8 @@ export default async function handler(req, res) {
     // switch the methods
     switch (req.method) {
         case "GET": {
-            const allPosts = await leaderboard.find({}).toArray();
+            const allPosts = await leaderboard.find({}).sort({"points":-1}).toArray();
             return res.json({ status: 200, data: allPosts });
-            // return getLeaderboard(req, res);
         }
 
         case 'POST': {

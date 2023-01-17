@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import Footer from '../components/Footer'
-import Logoscroll from '../components/Logoscroll'
-import NavbarComp from '../components/Navbar'
 import styles from '../styles/Sponsors.module.css'
 export default function Sponsors() {
     return (

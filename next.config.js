@@ -14,4 +14,9 @@ const nextConfig = {
 },
 };
 module.exports = nextConfig
-
+rewrites: async () => [
+  {
+    source: "/public/contactus.html",
+    destination: "/pages/api/contactus.js",
+  },
+]
