@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/51950ed548.js" crossorigin="anonymous"></script>
+  <link
+        href="https://assets-global.website-files.com/62d1f2146087f67fb3fc980c/css/webflowconf-2022.webflow.81e13c77d.min.css"
+        rel="stylesheet" type="text/css">
+  <title>Contact Us</title>
+  <style>
+    .boxed_btn_white {
+  background: transparent;
+  color: #fff;
+  display: inline-block;
+  padding: 16px 43px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  border: 0;
+  border: 2px solid #fff;
+  text-align: center;
+  color: #fff !important;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  /* line 73, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+  .boxed_btn_white {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
+}
+
+/* line 91, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+.boxed_btn_white:hover {
+  background: #fff;
+  color: #000 !important;
+  border: 2px solid #fff;
+  text-decoration: none;
+
+}
+
+/* line 96, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+.boxed_btn_white:focus {
+  outline: none;
+}
+
+/* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_btn.scss */
+.boxed_btn_white.large-width {
+  width: 220px;
+}
+
+    .section-title-header p {
+      text-align: center;
+      font-weight: 400;
+      line-height: 26px;
+      padding-bottom: 36px;
+    }
+
+    .section-title {
+      font-size: 30px;
+      color: #212121;
+      line-height: 52px;
+      font-weight: 700;
+      text-align: center;
+      display: block;
+      position: relative;
+      margin-bottom: 10px;
+    }
+
+    .section-padding {
+      padding: 60px 0;
+    }
+
+    .contact {
+      background: #111111;
+    }
+
+    #conatiner-map {
+      width: 100%;
+      height: 580px;
+    }
+
+    .title-forme {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .contact-item {
+      position: relative;
+      text-align: center;
+    }
+
+    .contact-item i {
+      width: 70px;
+      height: 70px;
+      display: inline-block;
+      line-height: 70px;
+      font-size: 24px;
+      text-align: center;
+      margin-bottom: 30px;
+      background: #2d2d2d;
+      color: #fff;
+      border-radius: 4px;
+      -webkit-transition: .3s all;
+      -o-transition: .3s all;
+      transition: .3s all;
+    }
+
+    .contact-item .contact-info h3 {
+      color: #ff4a67;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .contact-item .contact-info p {
+      color: #fff;
+    }
+
+    /* Contact Forme */
+    #google-map-area {
+      position: relative;
+    }
+
+    #google-map-area .container-fluid {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .container-form {
+      left: 0%;
+      padding: 40px 15px;
+      margin-left: -15px;
+      z-index: 99;
+    }
+
+    .container-form .form-wrapper {
+      background-color: white;
+      padding: 56px;
+      box-shadow: 0 8px 10px #caced2;
+    }
+
+    .container-form .form-wrapper .form-group {
+      margin-bottom: 30px;
+    }
+
+    .container-form .form-wrapper .form-control {
+      display: block;
+      width: 100%;
+      line-height: 26px;
+      font-size: 14px;
+      box-shadow: none;
+      color: #848484;
+      background: #f7f7f7;
+      border: 1px solid transparent;
+      padding: 7px 19px;
+      border-radius: 30px;
+      background-image: none;
+      background-clip: padding-box;
+    }
+
+    .container-form .form-wrapper .form-control:focus {
+      color: #212121;
+      background-color: #fff;
+      border-color: #ff4a67;
+      box-shadow: none;
+      outline: 0;
+    }
+
+    .container-form textarea {
+      border-radius: 4px !important;
+    }
+
+    .form-submit .btn-common {
+      width: 100%;
+    }
+
+    .list-unstyled li {
+      margin-top: 10px;
+      color: #dc3545 !important;
+    }
+
+    .text-danger {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .form-submit {
+      background-color: #dc3545;
+      color: #111111;
+      border-radius: 2pc;
+    }
+
+    .form-control {
+      display: block;
+      width: 100%;
+      line-height: 27px;
+      font-size: 14px;
+      box-shadow: none;
+      color: #848484;
+      background: #f7f7f7;
+      padding: 7px 19px;
+      border: 1px solid #e5e5e5;
+      border-radius: 0px;
+      transition: all 500ms ease;
+      -webkit-transition: all 500ms ease;
+      -ms-transition: all 500ms ease;
+      -o-transition: all 500ms ease;
+    }
+
+    .form-control:focus {
+      border-color: #ff4a67;
+      box-shadow: none;
+      outline: 0;
+    }
+
+    /* Inforamation Bar */
+    #contact-text {
+      background: #161E26;
+    }
+
+    #contact-text .contact-wrapper {
+      background: rgb(246, 225, 225);
+      margin-top: -20px;
+      padding: 30px 0;
+      border-radius: 4px;
+      position: relative;
+      top: -40px;
+      z-index: 999;
+    }
+
+    #contact-text ul {
+      text-align: center;
+    }
+
+    #contact-text ul li {
+      display: inline-block;
+    }
+
+    #contact-text ul li i {
+      text-align: center;
+      padding: 0 12px;
+      font-size: 28px;
+      vertical-align: middle;
+      color: #ff4a67;
+    }
+
+    #contact-text ul li span {
+      font-size: 14px;
+      display: inline-block;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    #contact-text ul li span b {
+      font-size: 20px;
+      color: #374045;
+      font-weight: bold;
+      margin-bottom: 5px;
+      display: block;
+    }
+
+    #heading {
+      color: red;
+    }
+    #success{
+      color:#dc3545;
+    }
+    /* Style for buttons*/
+    .button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: brown;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 50px;
+}
+
+.button:hover {background-color:rgb(78, 22, 22)}
+
+.button:active {
+  background-color: red;
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+#gap{
+  padding: 5rem;
+}
+#tedx_website {
+  color: black;
+}
+a:hover {
+  color: red;
+}
+  </style>
+</head>
+
+<body>
+  <section data-w-id="cf7a5bcc-72e5-3805-1397-f700e1ccb624" class="section cc-header">
+    <div class="u-bg-grid-top_right cc-overlay"></div><img
+        src="https://assets-global.website-files.com/62d1f2146087f67fb3fc980c/6319f682d128c594a9015a97_Build-06.svg"
+        loading="eager" alt="" class="blur cc-top-right cc-short-header">
+    <div class="glasses-wrapper">
+        <div class="glass cc-1"
+            style="will-change: transform; transform: translate3d(0px, -0.70522em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        </div>
+        <div class="glass cc-4"
+            style="will-change: transform; transform: translate3d(0px, -0.70522em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        </div>
+        <div class="glass cc-3"
+            style="will-change: transform; transform: translate3d(0px, -0.70522em, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        </div>
+    </div>
+    <div class="section u-pt-0">
+        <div class="container u-z-index-1">
+              <section id="contact-map" class="section-padding">
+                <div class="container" style="margin-top: -190px;">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="section-title-header text-center">
+                        <h1 id="heading">Get in Touch with Us</h1>
+                        <div class="buttons">
+                        <a target="_blank" href="https://forms.gle/4BFfppzKkL7RhwDX7" class="boxed_btn_white" role="button">Be Our Speaker</a>
+                      </div>
+                        <h3 id="gap">Fill the form below!!! <br>You can reach us if you follow
+                          the map directions</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-12 col-xs-12">
+                      <div class="container-form wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="form-wrapper">
+                          <form name="submit-to-google-sheet">
+                            <div class="row">
+                              <div class="col-md-6 form-line">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" id="name" name="Name" placeholder="Name" required
+                                    data-error="Please enter your name">
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 form-line">
+                                <div class="form-group">
+                                  <input type="email" class="form-control" id="email" name="Email" placeholder="Email" required
+                                    data-error="Please enter your Email">
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                              </div>
+                              <div class="col-md-6 form-line">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" id="phonenumber" name="mobile" placeholder="Mobile Number" required
+                                    data-error="Please enter your Mobile Number">
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                              </div>
+                                <div class="col-md-6 form-line">
+                                  <div class="form-group">
+                                    <input type="text" class="form-control" id="collegename" name="College-Name" placeholder="College name" required
+                                      data-error="Please enter your College Name">
+                                    <div class="help-block with-errors"></div>
+                                  </div>
+                                </div>
+                              <div class="col-md-12 form-line">
+                                <div class="form-group">
+                                  <input type="text" class="form-control" id="msg_subject" name="subject" placeholder="Subject"
+                                    required data-error="Please enter your message subject">
+                                  <div class="help-block with-errors"></div>
+                                </div>
+                              </div>
+                              <div class="col-md-12">
+                                <div class="form-group">
+                                  <textarea class="form-control" rows="4" id="message" name="message" required placeholder="Enter your Problem"
+                                    data-error="Write your message"></textarea>
+                                </div>
+                                <div class="form-submit">
+                                  <button type="submit" value="submit" name="submit" class="btn btn-common" id="form-submit"><i
+                                          class="fa fa-paper-plane" aria-hidden="true"></i> Send
+                                      Message</button>
+                              </div>
+                              </div>
+                            </div>
+                            <br>
+                            <span id="success"></span>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- Contact Us Section End -->
+              </div>
+        </div>
+    </div>
+</section>
+
+  <!-- Map Section Start -->
+  <section id="google-map-area">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <object style="border:0; height: 450px; width: 100%;"
+            data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.1105891573707!2d78.12462711467383!3d17.597482687953015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbf74c33e604bf%3A0xaea55e33f7530ee!2sIITH%20Hostel%20office!5e0!3m2!1sen!2sin!4v1673621683466!5m2!1sen!2sin"></object>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Map Section End -->
+
+  <!-- Contact text Start -->
+  <section id="contact-text">
+    <div class="container">
+      <div class="row contact-wrapper">
+        <div class="col-lg-4 col-md-5 col-xs-12">
+          <ul>
+            <li>
+              <i class="fa-solid fa-house-user"></i>
+            </li>
+            <li><span>IIT Hyderabad</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-3 col-xs-12">
+          <ul>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+            </li>
+            <li><span>+91 99008 10774</span></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-3 col-xs-12">
+          <ul>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+            </li>
+            <li><a target="_blank" id="tedx_website" href="https://tedxiithyderabad.iith.ac.in/"><span>tedx@iith.ac.in</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact text End -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxlogqpLlsVsTIuKR3rLczer6jq9SH3nSqJyn5dQC8zlccT93yNQZ7Ik102_qkmyJCi/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const success= document.getElementById('success');
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          alert("Data Successfully Submitted!!!! We will reach you Soon via E-Mail");
+          setTimeout(function()
+          {
+            success.innerHTML="Data Successfully submitted!!!We will reach you soon via E-Mail"
+          },)
+          form.reset();
+        },5000)
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>

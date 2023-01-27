@@ -1,0 +1,172 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .spinner {
+    background-color: transparent;
+    border: 2px solid #999;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-top-color: red;
+    animation: spin 0.5s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* .container_countdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+  }
+  
+  .container_countdown h1 {
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: center;
+  } */
+  
+  .countdown {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .countdown article {
+    margin: 5px;
+  }
+  
+  .countdown p {
+    /* padding: 20px; */
+    background-color: #fff;
+    border-radius: 5px;
+    width: 50px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+  }
+  
+  .countdown h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+
+  .countdown_time {
+    text-align: right;
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+    .countdown_time {
+      margin-top: 40px;
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+    .countdown_time {
+      text-align: left;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+    .countdown_time {
+      text-align: left;
+    }
+  }
+  
+  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+  .countdown_time .single_countdown {
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+    .countdown_time .single_countdown {
+      margin-right: 10px;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+    .countdown_time .single_countdown {
+      margin-right: 10px;
+      margin-top: 20px;
+    }
+  }
+  
+  /* line 162, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+  .countdown_time .single_countdown h3 {
+    color: #fff;
+    font-size: 46px;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 162, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+    .countdown_time .single_countdown h3 {
+      font-size: 20px;
+    }
+  }
+  
+  /* line 170, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
+  .countdown_time .single_countdown span {
+    font-size: 16px;
+    color: #fff;
+    text-transform: capitalize;
+  }
