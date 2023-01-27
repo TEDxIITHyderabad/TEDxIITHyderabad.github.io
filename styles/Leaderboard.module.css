@@ -2,14 +2,12 @@
     background-size: cover;
     background-position: center  center;
     background-repeat: no-repeat;
-    padding-top: 50px;
     padding-bottom: 100px;
   }
   
   @media (max-width: 767px) {
     /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
     .slider_area {
-      padding-top: 140px;
       padding-bottom: 30px;
     }
   }
@@ -17,7 +15,6 @@
   @media (min-width: 768px) and (max-width: 991px) {
     /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
     .slider_area {
-      padding-top: 140px;
       padding-bottom: 30px;
     }
   }

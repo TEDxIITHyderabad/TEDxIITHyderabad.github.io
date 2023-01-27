@@ -12,9 +12,9 @@ const Table = ({ data, rowsPerPage }) => {
         <table className={styles.table}>
           <thead className={styles.tableRowHeader}>
             <tr>
-              <th className={styles.tableHeader}>Country</th>
-              <th className={styles.tableHeader}>Capital</th>
-              <th className={styles.tableHeader}>Language</th>
+              <th className={styles.tableHeader}>Name</th>
+              <th className={styles.tableHeader}>College Name</th>
+              <th className={styles.tableHeader}>Points</th>
             </tr>
           </thead>
           <tbody>
