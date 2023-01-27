@@ -44,28 +44,34 @@ export default function Logoscroll(){
                             nav responsive={Responsive} autoplay={true} autoplayHoverPause={true} 
                             autoplaySpeed={800} autoplayTimeout={2000}>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/brand/tedx.png" alt="" height={70}/>
+                                    <img src="/sponsors/suzuki-removebg-preview.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/brand/logo1.png" alt="" height={70}/>
+                                    <img src="/sponsors/geeks-removebg-preview.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/brand/1.png" alt="" height={70}/>
+                                    <img src="/sponsors/dare2-removebg.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/brand/2.png" alt="" height={70}/>
+                                    <img src="/sponsors/red-removebg-preview.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/brand/3.png" alt="" height={70}/>
+                                    <img src="/sponsors/moneycontrol-removebg-preview.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/brand/4.png" alt="" height={70}/>
+                                    <img src="/sponsors/hexafair-removebg-preview.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/brand/5.png" alt="" height={70}/>
+                                    <img src="/sponsors/jetbrains-removebg-preview.png" alt="" height={70}/>
                                 </div>
                                 <div className={styles.single_brand} style={{textAlign:'center'}}>
-                                    <img src="/brand/6.png" alt="" height={70}/>
+                                    <img src="/sponsors/innofly-removebg-preview.png" alt="" height={70}/>
+                                </div>
+                                <div className={styles.single_brand} style={{textAlign:'center'}}>
+                                    <img src="/sponsors/colegedunia-removebg-preview.png" alt="" height={70}/>
+                                </div>
+                                <div className={styles.single_brand} style={{textAlign:'center'}}>
+                                    <img src="/sponsors/campustimes-removebg-preview.png" alt="" height={70}/>
                                 </div>
                             </OwlCarousel>
                         </div>

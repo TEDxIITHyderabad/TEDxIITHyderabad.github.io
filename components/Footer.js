@@ -9,42 +9,42 @@ export default function Footer(){
                 <div className={styles.footer_top}>
                     <div className="container">
                         <div className="row">
-                            <div className={`col-md-2 col-lg-1 d-block`}>
-                                <img src="/brand/tedx.png" alt="" height={40}/>
+                            <div className={`offset-lg-0 col-lg-1 col-md-12 d-block`} style={{alignItems:"center"}}>
+                                <img className={`${styles.image_logo}`} src="/tedx_logo.png" alt="" height={110}/>
                             </div>
-                            <div className={`col-md-12 col-lg-8 d-block text-center`}>
+                            <div className={`offset-lg-0 col-lg-8 col-md-12  d-block text-center`}>
                                 <p style={{color:"red"}}> 
-                                    Something about TEDx IIT Hyderabad.
+                                    TEDx IIT Hyderabad
                                 </p>
                                 <p className={`${styles.copy_right} text-center`} style={{color:"white"}} >
    This independent TEDx event is operated under license from TED.
                                 </p>
                             </div>
-                            <div className={`col-md-5 col-lg-3 d-block`}>
+                            <div className={`offset-lg-0 col-lg-3 col-md-12  d-block text-center`}>
                                     <div className={styles.footer_widget}>
                                         <ul className={styles.horizontal_social_icons} style={{ listStyle:'none' , padding:2, margin:0}}>
                                             <li>
-                                                <a target="_blank" href="#">
+                                                <a target="_blank" href="https://www.instagram.com/tedx.iithyderabad/?hl=en">
                                                 <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a target="_blank" href="#">
+                                                <a target="_blank" href="https://www.facebook.com/TEDxIITHyd/">
                                                 <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a target="_blank" href="#">
+                                                <a target="_blank" href="https://twitter.com/tedxiithyd/">
                                                 <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
                                                 </a>
                                             </li>
-                                            <li>
+                                            {/* <li>
                                                 <a target="_blank" href="#">
                                                 <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
                                                 </a>
-                                            </li>
+                                            </li> */}
                                             <li>
-                                                <a target="_blank" href="#">
+                                                <a target="_blank" href="https://www.linkedin.com/company/tedxiith/?originalSubdomain=in">
                                                 <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                                 </a>
                                             </li>

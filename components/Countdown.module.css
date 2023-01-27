@@ -130,7 +130,7 @@
   /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
   .countdown_time .single_countdown {
     display: inline-block;
-    text-align: right;
+    text-align: left;
     margin-right: 20px;
   }
   

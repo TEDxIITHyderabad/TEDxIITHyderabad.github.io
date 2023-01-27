@@ -26,15 +26,15 @@ export default function Home() {
                         <div className="row">
                             <div className="col-xl-9">
                                 <div className={styles.title_text}>
-                                    <h3>TEDx IITH<br/>
+                                    <h3>TEDx IITHyderabad<br/>
                                         2023 <br/>
                                         Edition<br/>
                                         </h3>
                                     <div>
-                                        <Link href="#" className={styles.boxed_btn_white} passHref>Nominate Speakers</Link>
+                                        <Link target={'_blank'} href="https://forms.gle/4BFfppzKkL7RhwDX7" className={styles.boxed_btn_white} passHref>Nominate Speakers</Link>
                                     </div>
                                     <div>
-                                        <Link href="#" className={styles.boxed_btn_white} style={{marginTop: "10px"}} passHref>Buy Tickets</Link>
+                                        <Link href="#" className={styles.boxed_btn_white} style={{marginTop: "10px"}} passHref>Tickets Coming soon</Link>
                                     </div>
                                 </div>
                             </div>
@@ -55,16 +55,16 @@ export default function Home() {
                         <div className="col-xl-3 col-md-6 col-lg-3">
                             <div className={styles.single_date}>
                                 <FontAwesomeIcon icon={faCalendarAlt}/>
-                                <span> 32-35 Apr, 2023</span>
+                                <span> 2 Apr, 2023</span>
                             </div>
                         </div>
 
                         <div className="col-xl-5 col-md-12 col-lg-5">
-                            {/* <Countdown/> */}
-                            <div className={styles.single_date}>
+                            <Countdown/>
+                            {/* <div className={styles.single_date}>
                                 <FontAwesomeIcon icon={faClock}/>
                                 <span> Coming Soon</span>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

@@ -28,7 +28,7 @@ export default function CALeaderboard({allData}) {
     <Head>
             <meta charSet="utf-8"/>
             <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
-            <title>TEDx IITH</title>
+            <title>TEDx IITH | Leaderboard</title>
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </Head>

@@ -25,7 +25,7 @@ export default function NavbarComp(){
     return (
           <Navbar expand="lg" sticky="top" variant="dark" bg="black">
             <Container>
-              <Navbar.Brand href="/"><img src="/brand/tedx.png" alt="TEDx IITHyderabad" height={30}/></Navbar.Brand>
+              <Navbar.Brand href="/"><img src="/tedx_logo.png" alt="TEDx IITHyderabad" height={60}/></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="me-auto" >
@@ -36,7 +36,7 @@ export default function NavbarComp(){
                   <Nav.Link href="/contactus" className={`${styles.navbar_link}`}>Contact Us</Nav.Link>
                   <NavDropdown menuVariant="dark" className={`${styles.dropdown_menu_dark}`} title={<span className={`${styles.navbar_link}`} > CA program </span>} id="basic-nav-dropdown">
                     <NavDropdown.Item href="/CA/aboutus" className={`${styles.navbar_link_dropdown}`}>
-                      Incentives
+                      About Us
                     </NavDropdown.Item>
                     <NavDropdown.Divider />
                     <NavDropdown.Item href="/CA/incentives" className={`${styles.navbar_link_dropdown}`}>
@@ -49,7 +49,7 @@ export default function NavbarComp(){
                   </NavDropdown>
                 </Nav>
                 <Nav>
-                      <Link href="#" className={styles.boxed_btn_white} passHref>Buy Ticket</Link>
+                      <Link href="#" className={styles.boxed_btn_white} passHref>Tickets Coming soon</Link>
                 </Nav>
               </Navbar.Collapse>
             </Container>
