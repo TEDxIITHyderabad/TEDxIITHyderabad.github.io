@@ -17,7 +17,13 @@
 	font-weight: 600;
 	margin-bottom: 14px;
 }
-
+.breadcrumb_text h4 {
+	font-size: 30px;
+	color: #171822;
+	font-weight: 600;
+	margin-bottom: 14px;
+	text-decoration: underline;
+}
 .breadcrumb_text .bt-option a {
 	font-size: 18px;
 	color: #6a6b7c;
