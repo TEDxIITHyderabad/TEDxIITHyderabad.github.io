@@ -237,7 +237,7 @@
     left: 0;
     right: 0;
     text-align: center;
-    bottom: 15px;
+    bottom: 30px;
     -webkit-transition: 0.5s;
     -moz-transition: 0.5s;
     -o-transition: 0.5s;
@@ -260,7 +260,7 @@
     line-height: 50px;
     font-size: 17px;
     color: #FF0000;
-    margin: 0 5px;
+    margin: 0 1px;
   }
   
   /* line 70, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
@@ -303,7 +303,14 @@
   
   /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .serction_title_large h3 {
-    font-size: 80px;
+    font-size: 60px;
+    font-weight: 700;
+    color: #1F1F1F;
+    display: inline-block;
+    position: relative;
+  }
+  .serction_title_large h5 {
+    font-size: 40px;
     font-weight: 700;
     color: #1F1F1F;
     display: inline-block;
@@ -315,12 +322,18 @@
     .serction_title_large h3 {
       font-size: 35px;
     }
+    .serction_title_large h5 {
+      font-size: 25px;
+    }
   }
   
   @media (min-width: 768px) and (max-width: 991px) {
     /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
     .serction_title_large h3 {
       font-size: 45px;
+    }
+    .serction_title_large h5 {
+      font-size: 35px;
     }
   }
   
@@ -329,10 +342,24 @@
     .serction_title_large h3 {
       font-size: 60px;
     }
+    .serction_title_large h5 {
+      font-size: 40px;
+    }
   }
   
   /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
   .serction_title_large h3::before {
+    position: absolute;
+    right: 0;
+    content: "";
+    width: 128px;
+    height: 4px;
+    background-image: url(../public/team/line.png);
+    top: 50%;
+    margin-bottom: 2px;
+    right: -158px;
+  }
+  .serction_title_large h5::before {
     position: absolute;
     right: 0;
     content: "";
@@ -350,11 +377,20 @@
       width: 80px;
       right: -100px;
     }
+    .serction_title_large h5::before {
+      width: 80px;
+      right: -100px;
+    }
   }
   
   @media (max-width: 300px) {
     /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
     .serction_title_large h3::before {
+      width: 80px;
+      right: -100px;
+      display: none;
+    }
+    .serction_title_large h5::before {
       width: 80px;
       right: -100px;
       display: none;
