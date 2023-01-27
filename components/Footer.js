@@ -25,27 +25,22 @@ export default function Footer(){
                                         <ul className={styles.horizontal_social_icons} style={{ listStyle:'none' , padding:2, margin:0}}>
                                             <li>
                                                 <a target="_blank" href="https://www.instagram.com/tedx.iithyderabad/?hl=en">
-                                                <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                                <FontAwesomeIcon icon={faInstagram} className={`fa-2xl`}></FontAwesomeIcon>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a target="_blank" href="https://www.facebook.com/TEDxIITHyd/">
-                                                <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
+                                                <a target="_blank" href="https://www.facebook.com/TEDxIITHyd/" >
+                                                <FontAwesomeIcon icon={faFacebook} className={`fa-2xl`}></FontAwesomeIcon>
                                                 </a>
                                             </li>
                                             <li>
                                                 <a target="_blank" href="https://twitter.com/tedxiithyd/">
-                                                <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                                <FontAwesomeIcon icon={faTwitter} className={`fa-2xl`}></FontAwesomeIcon>
                                                 </a>
                                             </li>
-                                            {/* <li>
-                                                <a target="_blank" href="#">
-                                                <FontAwesomeIcon icon={faYoutube}></FontAwesomeIcon>
-                                                </a>
-                                            </li> */}
                                             <li>
                                                 <a target="_blank" href="https://www.linkedin.com/company/tedxiith/?originalSubdomain=in">
-                                                <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                                                <FontAwesomeIcon icon={faLinkedin} className={`fa-2xl`}></FontAwesomeIcon>
                                                 </a>
                                             </li>
                                         </ul>

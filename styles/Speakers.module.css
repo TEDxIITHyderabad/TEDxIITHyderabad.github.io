@@ -37,7 +37,7 @@
 	right: -17px;
 	top: 2px;
 	content: "";
-	font-family: "FontAwesome";
+	font-family: Helvetica, Arial, sans-serif !important;
 }
 
 .breadcrumb_text .bt-option span {
@@ -68,7 +68,7 @@
 }
 
 .speaker_item .si_text .si_title span {
-	color: #f44949;
+	color: #eb0028;
 	font-size: 16px;
 	display: block;
 }

@@ -1,6 +1,6 @@
 
 #spons{
-    color: red;
+    color: #eb0028;
 }
 #t1 {
     border-bottom-style: groove;
@@ -11,7 +11,7 @@
 #img1 {
     border-radius: 10px;
     border-style: double;
-    border-color: red;
+    border-color: #eb0028;
     border-width: 2px;
     height: 20rem;
 }

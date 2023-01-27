@@ -1,5 +1,5 @@
 .tableFooter {
-    background-color: #ef2727;
+    background-color: #eb0028;
     padding: 8px 0px;
     width: 100%;
     font-weight: 500;
@@ -24,7 +24,7 @@
   
   .activeButton {
     color: white;
-    background: #185adb;
+    background: #000000;
   }
   
   .inactiveButton {

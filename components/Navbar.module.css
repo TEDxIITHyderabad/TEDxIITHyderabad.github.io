@@ -87,7 +87,7 @@
     font-weight: 600;
     display: inline-block;
     padding: 35px 23px 35px 23px;
-    font-family: "Poppins", sans-serif;
+    font-family: Helvetica, Arial, sans-serif !important;
     position: relative;
     text-transform: capitalize;
     text-decoration: none;
@@ -128,12 +128,12 @@
   
   /* line 92, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header_area .main_header_area .main_menu ul li a:hover {
-    color: #ec0c0c;
+    color: #eb0028;
   }
   
   /* line 95, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
   .header_area .main_header_area .main_menu ul li a.active {
-    color: #f10909;
+    color: #eb0028;
   }
   
   /* line 99, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_header.scss */
@@ -267,7 +267,7 @@
     color: #fff;
     display: inline-block;
     padding: 16px 43px;
-    font-family: "Poppins", sans-serif;
+    font-family: Helvetica, Arial, sans-serif !important;
     font-size: 16px;
     font-weight: 500;
     border: 0;
@@ -320,18 +320,18 @@
   color: white;
 }
 .navbar_link:hover {
-  color: red;
+  color: #eb0028;
   text-decoration: none;
 }
 .navbar_link_dropdown {
   color: white;
 }
 .navbar_link_dropdown:hover {
-  color: red;
+  color: #eb0028;
   text-decoration: none;
 }
 .navbar_link_dropdown:focus {
-  color: red;
+  color: #eb0028;
   background-color: #343a40;
   text-decoration: none;
 }
