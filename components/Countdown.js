@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import styles from "./Countdown.module.css";
 
-
 const Countdown = () => {
   const [days, setDays] = useState(10)
   const [hours, setHours] = useState(10)
