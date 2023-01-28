@@ -14,7 +14,7 @@ export default function Footer(){
                             </div>
                             <div className={`offset-lg-0 col-lg-8 col-md-12  d-block text-center`}>
                                 <p style={{color:"red"}}> 
-                                    TEDx IIT Hyderabad
+                                    TEDx<span style={{color:"white"}}>IITHyderabad</span>
                                 </p>
                                 <p className={`${styles.copy_right} text-center`} style={{color:"white"}} >
    This independent TEDx event is operated under license from TED.
