@@ -13,7 +13,7 @@ export default function Incentives() {
                 <meta name="description" content=""/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
-        <iframe src="./../aboutus/ca-index.html" style={{border:"none",height:"482px",width:"100%"}} title='incentives'></iframe>
+        <iframe src="./../aboutus/ca-index.html" style={{border:"none",height:"499px",width:"100%"}} title='incentives'></iframe>
         </>
     )
 }

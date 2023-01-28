@@ -12,7 +12,7 @@ export default function Aboutus() {
                 <meta name="description" content=""/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
-        <iframe src="./../aboutus/about.html" style={{border:"none",height:"482px",width:"100%"}} title='aboutus'></iframe>
+        <iframe src="./../aboutus/about.html" style={{border:"none",height:"499px",width:"100%"}} title='aboutus'></iframe>
         </>
     )
 }

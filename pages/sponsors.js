@@ -13,7 +13,7 @@ export default function Sponsors() {
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
-        <iframe src="./../sponsors/partners.html" style={{border:"none",height:"482px",width:"100%"}} title='incentives'></iframe>
+        <iframe src="./../sponsors/partners.html" style={{border:"none",height:"499px",width:"100%"}} title='incentives'></iframe>
         
         </>
     )
