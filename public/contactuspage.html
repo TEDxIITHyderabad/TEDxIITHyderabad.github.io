@@ -12,6 +12,7 @@
   <link
         href="https://assets-global.website-files.com/62d1f2146087f67fb3fc980c/css/webflowconf-2022.webflow.81e13c77d.min.css"
         rel="stylesheet" type="text/css">
+        
   <title>Contact Us</title>
   <style>
     .boxed_btn_white {
@@ -268,8 +269,23 @@
     }
 
     #heading {
-      color: red;
+      color: transparent;
+      animation: effect 3s linear infinite;
+
     }
+    @keyframes effect {
+            0% {
+                background: linear-gradient(
+                        red, black);
+                -webkit-background-clip: text;
+            }
+ 
+            100% {
+                background: linear-gradient(
+                        black, red);
+                -webkit-background-clip: text;
+            }
+        }
     #success{
       color:#dc3545;
     }
@@ -329,7 +345,7 @@ a:hover {
                 <div class="container" style="margin-top: -190px;">
                   <div class="row">
                     <div class="col-12">
-                      <div class="section-title-header text-center">
+                      <div class="section-title-header text-center wow fadeInLeft">
                         <h1 id="heading">Get in Touch with Us</h1>
                         <div class="buttons">
                         <a target="_blank" href="https://forms.gle/4BFfppzKkL7RhwDX7" class="boxed_btn_white" role="button">Be Our Speaker</a>
@@ -452,6 +468,7 @@ a:hover {
     </div>
   </section>
   <!-- Contact text End -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbxlogqpLlsVsTIuKR3rLczer6jq9SH3nSqJyn5dQC8zlccT93yNQZ7Ik102_qkmyJCi/exec'
     const form = document.forms['submit-to-google-sheet']
