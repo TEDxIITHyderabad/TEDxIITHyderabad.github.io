@@ -16,6 +16,7 @@ export default function Speakers(){
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
         <>
+  <section className={styles.background_image}>
   {/* Breadcrumb Section Begin */}
   <section className={styles.breadcrumb_section}>
     <div className="container">
@@ -1598,7 +1599,7 @@ export default function Speakers(){
     </div>
   </section>
   {/* Speaker Section End */}
-
+  </section>
 
   </>
 
