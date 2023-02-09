@@ -7,7 +7,7 @@ const Leaderboard = ({allData}) => {
   return (
     <main className={styles.container}>
       <div className={styles.wrapper}>
-        <Table data={allData} rowsPerPage={5} />
+        <Table data={allData} rowsPerPage={10} />
       </div>
     </main>
   )

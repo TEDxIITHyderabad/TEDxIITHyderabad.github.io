@@ -30,9 +30,11 @@
     padding-top: 100px;
     position: relative;
     padding-bottom: 105px;
-    background-color: #8ba3b4;
+    /* background-color: #8ba3b4; */
   }
-  
+  .background_image{
+    background-image: url("../public/speakers/b-2.jpeg");
+  }
   /* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area.inc_padd {
     padding-top: 200px;
@@ -162,7 +164,8 @@
     font-size: 26px;
     font-weight: 600;
     margin-top: 40px;
-    margin-bottom: 7px;
+    margin-bottom: 1px;
+    color: #fff;
   }
   
   /* line 85, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
@@ -271,7 +274,8 @@
   /* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area .single_speaker_coords .speaker_name h3 {
     font-size: 26px;
-    font-weight: 600;
+    color: #ffffff;
+    font-weight: 400;
     margin-top: 40px;
     margin-bottom: 7px;
   }
@@ -305,14 +309,14 @@
   .serction_title_large h3 {
     font-size: 60px;
     font-weight: 700;
-    color: #1F1F1F;
+    color: #eb0028;
     display: inline-block;
     position: relative;
   }
   .serction_title_large h5 {
     font-size: 40px;
     font-weight: 700;
-    color: #1F1F1F;
+    color: #df3232;
     display: inline-block;
     position: relative;
   }
