@@ -4,7 +4,6 @@ import NavbarComp from '../components/Navbar'
 import styles from '../styles/Speakers.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-
 export default function Speakers(){
     return (
         <>
