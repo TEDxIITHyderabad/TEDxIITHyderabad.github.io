@@ -14,9 +14,7 @@ export default function Contactus(){
         <title>TEDx IITHyderabad | Contact Us</title>
         
         </Head>
-        <iframe src="./contactuspage.html" style={{border:"none",height:"650px",width:"100%"}} title='contactus'></iframe>
-
-        
+            <iframe src="./contactuspage.html" style={{height:"100vh",width:"100vw"}} title='contactus'></iframe>
         </>
     )
 }

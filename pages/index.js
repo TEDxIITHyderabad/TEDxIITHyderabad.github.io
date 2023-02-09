@@ -18,6 +18,7 @@ export default function Home() {
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </Head>
+    {/* <div style={{height:"100vh"}}> */}
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
             <div className="slider_text">
                 <div className="container">
@@ -71,6 +72,7 @@ export default function Home() {
             </div>
         </div>
         <Logoscroll/>
+    {/* </div> */}
     </>
   )
 }
