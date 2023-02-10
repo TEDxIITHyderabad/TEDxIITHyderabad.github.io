@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import NavbarComp from '../components/Navbar'
 import styles from '../styles/Team.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default function Team(){
     return (
@@ -41,7 +41,7 @@ export default function Team(){
                         <div className='mb-95'>
                             <div className={styles.serction_title_large}> 
                                 <h3>
-                                    Overall Head and Licensee
+                                    Heads
                                 </h3>
                             </div>
                         </div>
@@ -49,10 +49,30 @@ export default function Team(){
                 </div>
                 <div className="row">
 
-                    {/* ---- OC below ---- */}
-                    
+                    <div className="col-12 offset-xl-1 col-xl-5 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
+                        <div className={styles.single_speaker}>
+                            <div className={styles.speaker_thumb}>
+                                <img className={styles.image_OC} src="/team/Mahati_chittem.jpeg" alt=""/>
+                                <div className={styles.hover_overlay}>
+                                    <div className={styles.social_icon}>
+                                        <a target="_blank" href="#">
+                                        <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
+                                        </a>
+                                        <a target="_blank" href="#">
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className={styles.speaker_name} style={{textAlign:'center'}}>
+                                <h3>Mahati Chittem</h3>
+                                <p>Faculty in Charge</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <div><br/></div> */}
                     {/* <div className="col-lg-4 offset-lg-4 col-md-6 col-sm-12"> */}
-                    <div className="col-12 offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
+                    <div className="col-12 offset-xl-0 col-xl-5 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
                         <div className={styles.single_speaker}>
                             <div className={styles.speaker_thumb}>
                                 <img className={styles.image_OC} src="/team/Cores/Poorvika C.jpg" alt=""/>
@@ -62,10 +82,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -77,42 +94,7 @@ export default function Team(){
                         </div>
                     </div>
                     <div><br/></div>  {/*find a better method to do this */}
-                    <div className="row">
-                    <div className="col-xl-12">
-                        <div className='mb-95'>
-                            <div className={styles.serction_title_large}> 
-                                <h3>
-                                    Faculty in Charge
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                    <div className="col-12 offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
-                        <div className={styles.single_speaker}>
-                            <div className={styles.speaker_thumb}>
-                                <img className={styles.image_OC} src="/team/Mahati_chittem.jpeg" alt=""/>
-                                <div className={styles.hover_overlay}>
-                                    <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                                <h3>Mahati Chittem</h3>
-                                <p>FIC</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div><br/></div>  {/*find a better method to do this */}
+                      {/*find a better method to do this */}
                     
                     <div className="row">
                         <div className="col-xl-12">
@@ -137,10 +119,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -161,10 +140,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -185,10 +161,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -209,10 +182,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -234,10 +204,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -276,10 +243,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -299,10 +263,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -322,10 +283,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -345,10 +303,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -368,39 +323,13 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className={styles.speaker_name} style={{textAlign:'center'}}>
                                 <h3>Sakshi Jalla</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                        <div className={styles.single_speaker_coords}>
-                            <div className={styles.speaker_thumb}>
-                                <img src="/team/Coords/Branding&Design/Megha Chowdhury.JPG" alt=""/>
-                                <div className={styles.hover_overlay}>
-                                    <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                                <h3>Megha Chowdhury</h3>
                             </div>
                         </div>
                     </div>
@@ -414,10 +343,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -437,10 +363,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -473,10 +396,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -496,10 +416,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -519,10 +436,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -542,10 +456,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -565,10 +476,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -588,10 +496,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -611,10 +516,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -634,10 +536,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -672,10 +571,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -695,10 +591,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -718,10 +611,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -741,10 +631,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -764,10 +651,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -787,10 +671,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -810,10 +691,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -850,10 +728,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -873,10 +748,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -896,10 +768,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -919,10 +788,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -942,10 +808,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -965,10 +828,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -1002,10 +862,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -1025,10 +882,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -1048,10 +902,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -1071,10 +922,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -1094,10 +942,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
@@ -1117,10 +962,7 @@ export default function Team(){
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
-                                        <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
+                                        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>

@@ -48,7 +48,6 @@ export default function Speakers(){
                 <div className={styles.si_text}>
                   <div className={styles.si_title}>
                     <h4>Anju Arora</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className={styles.si_social}>
                     <a target="_blank" href="#">
@@ -87,7 +86,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Chirantana</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                   <a target="_blank" href="#">
@@ -126,7 +124,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Leena Haldar</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -165,7 +162,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Nupur Agarwal</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -204,7 +200,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Srinivas Prabhu</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -243,7 +238,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Yasaswini</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -305,7 +299,6 @@ export default function Speakers(){
                 <div className={styles.si_text}>
                   <div className={styles.si_title}>
                     <h4>Anahita Sarabhai</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className={styles.si_social}>
                     <a target="_blank" href="#">
@@ -344,7 +337,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Aruna Bahuguna</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                   <a target="_blank" href="#">
@@ -383,7 +375,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Kamal Nayak</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -422,7 +413,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Meghnad S</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -461,7 +451,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Pooja Dagli</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -500,7 +489,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Swami Sarvapriyananda</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -539,7 +527,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Vimal Chandran</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -601,7 +588,6 @@ export default function Speakers(){
                 <div className={styles.si_text}>
                   <div className={styles.si_title}>
                     <h4>Amala Akkineni</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className={styles.si_social}>
                     <a target="_blank" href="#">
@@ -640,7 +626,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Asif Qureshi</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                   <a target="_blank" href="#">
@@ -679,7 +664,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Hanif Kureshi</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -718,7 +702,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Ravi Narayan</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -757,7 +740,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Ritwik Mishra</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -796,7 +778,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Sophia David</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -858,7 +839,6 @@ export default function Speakers(){
                 <div className={styles.si_text}>
                   <div className={styles.si_title}>
                     <h4>Aditi Avasthi</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className={styles.si_social}>
                     <a target="_blank" href="#">
@@ -897,7 +877,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Anam Hashim</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                   <a target="_blank" href="#">
@@ -936,7 +915,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Arpan Shah</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -975,7 +953,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Bari Anwar</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1014,7 +991,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>KK Senthil Kumar</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1053,7 +1029,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Prof. BM Hegde</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1092,7 +1067,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Richa Singh</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1131,7 +1105,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Rajaram Bojji</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1193,7 +1166,6 @@ export default function Speakers(){
                 <div className={styles.si_text}>
                   <div className={styles.si_title}>
                     <h4>Anuj Gurwara</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className={styles.si_social}>
                     <a target="_blank" href="#">
@@ -1232,7 +1204,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Dr. Vishal Rao</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                   <a target="_blank" href="#">
@@ -1271,7 +1242,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Jayesh Ranjan</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1310,7 +1280,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Rajesh Narasimhan</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1349,7 +1318,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Ramesh Loganathan</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1388,7 +1356,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Vennela Krishna</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1450,7 +1417,6 @@ export default function Speakers(){
                 <div className={styles.si_text}>
                   <div className={styles.si_title}>
                     <h4>Ananda Shankar Jayant</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className={styles.si_social}>
                     <a target="_blank" href="#">
@@ -1489,7 +1455,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Neeraj Jain</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                   <a target="_blank" href="#">
@@ -1528,7 +1493,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>Subhas Chandra</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">
@@ -1567,7 +1531,6 @@ export default function Speakers(){
                 <div className= {styles.si_text}>
                   <div className= {styles.si_title}>
                     <h4>VK Saraswat</h4>
-                    <span>Speaker</span>
                   </div>
                   <div className= {styles.si_social}>
                     <a target="_blank" href="#">

@@ -15,13 +15,13 @@
 
 .breadcrumb_text h2 {
 	font-size: 60px;
-	/* color: #171822; */
+	color: #eb0028;
 	font-weight: 600;
 	margin-bottom: 14px;
-	color: transparent;
-	animation: someffect 3s ease infinite;
+	/* color: transparent; */
+	/* animation: someffect 3s ease infinite; */
 }
-@keyframes someffect {
+/* @keyframes someffect {
     0%,
     100% {
         text-shadow: 0 0 10px red, 0 0 20px red, 0 0 20px red, 0 0 20px red, 0 0 2px #fed128, 2px 2px 2px #806914;
@@ -31,7 +31,7 @@
         text-shadow: 0 0 2px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 2px black, 4px 4px 2px #40340a;
         color: red;
     }
-}
+} */
 
 .breadcrumb_text h4 {
 	font-size: 30px;
@@ -79,13 +79,13 @@
 
 
 .speaker_item .si_text .si_title h4 {
-	/* color: #171822; */
+	color: #eb0028;
 	font-weight: 600;
 	margin-bottom: 13px;
-	color: transparent;
-	animation: effect 3s linear infinite;
+	/* color: transparent; */
+	/* animation: effect 3s linear infinite; */
 }
-@keyframes effect {
+/* @keyframes effect {
 	0% {
 		background: linear-gradient(
 				red, white);
@@ -97,7 +97,7 @@
 				white, red);
 		-webkit-background-clip: text;
 	}
-}
+} */
 
 .speaker_item .si_text .si_title span {
 	color: #eb0028;
