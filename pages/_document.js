@@ -4,7 +4,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head/>
+        <Head>
+          <link rel="icon" href="/brand/logo1.png" />
+
+        </Head>
         <body>
           <Main />
           <NextScript />

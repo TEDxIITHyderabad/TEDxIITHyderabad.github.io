@@ -102,6 +102,24 @@
     display: inline-block;
     padding: 0 0.5rem;
   }
+  .horizontal_quick_links {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer .footer_top .footer_widget ul.horizontal_quick_links li {
+    border: 1.1px solid white;
+    border-radius: 5%;
+    margin: 15px 0 15px 15px;
+    display: inline-block;
+    padding: 0 1rem;
+  }
+  .footer .footer_top .footer_widget ul.horizontal_quick_links li:hover{
+    border: 1.1px solid #eb0028;
+    border-radius: 5%;
+    margin: 0 0 15px 15px;
+    display: inline-block;
+    padding: 0 1rem;
+  }
   /* line 55, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_footer.scss */
   .footer .footer_top .footer_widget p.footer_text {
     font-size: 16px;
