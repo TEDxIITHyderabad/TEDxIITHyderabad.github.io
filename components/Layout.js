@@ -1,6 +1,5 @@
 import NavbarComp from './Navbar'
 import Footer from './Footer'
-import Footercomp from './Footercomp'
 
 export default function Layout({ children }) {
   return (
@@ -8,7 +7,6 @@ export default function Layout({ children }) {
       <NavbarComp />
         <main>{children}</main>
       <Footer />
-      {/* <Footercomp/> */}
     </>
   )
 }

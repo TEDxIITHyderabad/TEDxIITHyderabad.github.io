@@ -2,8 +2,6 @@ import Link from "next/link";
 import styles from "./Footer.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import Head from "next/head";
-import { Button } from "bootstrap";
 export default function Footer(){
     return (
        
