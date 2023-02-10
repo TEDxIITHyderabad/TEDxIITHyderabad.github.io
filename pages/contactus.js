@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Contactus.module.css'
 import { useEffect } from 'react'
 export default function Contactus(){
     
