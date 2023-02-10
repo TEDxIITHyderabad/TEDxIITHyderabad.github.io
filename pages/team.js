@@ -49,7 +49,7 @@ export default function Team(){
                 </div>
                 <div className="row">
 
-                    <div className="col-12 offset-xl-1 col-xl-5 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
+                    <div className="col-12 offset-xl-2 col-xl-4 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
                         <div className={styles.single_speaker}>
                             <div className={styles.speaker_thumb}>
                                 <img className={styles.image_OC} src="/team/Mahati_chittem.jpeg" alt=""/>
@@ -72,7 +72,7 @@ export default function Team(){
                     </div>
                     {/* <div><br/></div> */}
                     {/* <div className="col-lg-4 offset-lg-4 col-md-6 col-sm-12"> */}
-                    <div className="col-12 offset-xl-0 col-xl-5 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
+                    <div className="col-12 offset-xl-0 col-xl-4 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
                         <div className={styles.single_speaker}>
                             <div className={styles.speaker_thumb}>
                                 <img className={styles.image_OC} src="/team/Cores/Poorvika C.jpg" alt=""/>
