@@ -10,7 +10,7 @@ export default function Footer(){
                     <div className="container">
                         <div className="row">
                             <div className={`col-12 d-block`} style={{alignItems:"center"}}>
-                                <img className={`${styles.image_logo}`} src="/tedx_logo.png" alt="" height={150}/>
+                                <img className={`${styles.image_logo}`} src="/TEDx_White_T_without_x.png" alt="Tedx IITHyderabad" height={70}/>
                             </div>
                             {/* <div className={`offset-lg-0 col-lg-1 col-md-12 d-block`} style={{alignItems:"center"}}>
                                 <img className={`${styles.image_logo}`} src="/tedx_logo.png" alt="" height={110}/>

@@ -5,27 +5,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Container } from "react-bootstrap";
-// import { useEffect , useState} from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faArrowDown, faArrowDown19, faArrowDown91, faArrowDownShortWide, faArrowsUpDown } from "@fortawesome/free-solid-svg-icons";
-
-// var $ = require("jquery");
 
 export default function NavbarComp(){
-    // useEffect(() => {
-    //     $(window).on('scroll', function () {
-    //         var scroll = $(window).scrollTop();
-    //         if (scroll < 400) {
-    //         $("#sticky_header").removeClass(`${styles.sticky}`);
-    //         } else {
-    //         $("#sticky_header").addClass(`${styles.sticky}`);
-    //         }
-    //     });
-    // })
     return (
           <Navbar expand="lg" sticky="top" variant="dark" bg="black">
             <Container>
-              <Navbar.Brand href="/"><img src="/tedx_logo.png" alt="TEDx IITHyderabad" height={60}/></Navbar.Brand>
+              <Navbar.Brand href="/"><img src="/TEDx_White_T.png" alt="TEDx IITHyderabad" height={60}/></Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav" >
                 <Nav className="me-auto" >

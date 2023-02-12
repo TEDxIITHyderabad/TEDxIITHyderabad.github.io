@@ -109,7 +109,7 @@
     height: 100%;
     left: 0;
     bottom: 0;
-    background: rgba(255, 0, 0, 0.5);
+    background: rgba(255, 0, 0, 0.7);
     -webkit-transition: 0.3s;
     -moz-transition: 0.3s;
     -o-transition: 0.3s;
@@ -134,7 +134,19 @@
     -o-transition: 0.5s;
     transition: 0.5s;
   }
-  
+  .speakers_area .single_speaker .speaker_thumb .hover_overlay p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 80px;
+    color: white;
+    font-size: 20px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+  }
   /* line 58, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
   .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a {
     width: 50px;
