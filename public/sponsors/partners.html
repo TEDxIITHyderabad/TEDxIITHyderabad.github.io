@@ -125,7 +125,7 @@
         }
 
         .frame .details {
-            height: 80%;
+            width: 90%;
             aspect-ratio: 16/9;
             padding: 5% 8%;
             position: absolute;
@@ -189,16 +189,36 @@
             }
         }
 
-        @media only screen and (max-width:768px) {
-            #t2 {
-                width: 70%;
-            }
-
-        }
-        #t2{
+        @media only screen and (min-width:767px) {
+             #t2{
             width: 45%;
             margin-left: auto;
             margin-right: auto;
+        }
+        }
+        @media only screen and (min-width:441px){
+            .details h4{
+                display: none;
+            }
+            .dis{
+                display: none;
+            }
+        }
+        @media only screen and (max-width:441px) {
+            .details p{
+                display: none;
+            }
+            .details  h5{
+                display: none;
+            }
+            .details h4{
+                color: blue;
+            }
+            .dis{
+                color:purple;
+            }
+            
+            
         }
         .heading{
             border: none;
@@ -239,12 +259,14 @@
             loading="eager" alt="" class="blur cc-bottom-center">
         <div class="container u-z-index-1">
             <h2 id="t1">TITLE SPONSOR</h2>
-            <div id="t2" class="frame"><img src="p-img/suzuki.png" alt="amazon">
+            <div id="t2" class="frame"><img class="imgc" src="p-img/suzuki.png" alt="amazon">
                 <div class="details">
                     <h5>Suzuki Innovation Center</h5>
                     <p>SIC's strongly believe that the best solutions to modern global problems are born in
                         collaborative ecosystems where like minds can connect, share, and augment their knowledge.
                     </p>
+                    <h4>Suzuki Innovation Center</h4>
+                    <h6 class="dis">Connect,Share and Augment your Knowledge</h6>
 
                     <a class="btn btn-sm-circle btn-danger mx-1" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-sm-circle btn-danger mx-1" href=""><i class="fab fa-twitter"></i></a>
