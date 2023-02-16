@@ -61,11 +61,11 @@ export default function Home() {
                         </div>
 
                         <div className="col-xl-5 col-md-12 col-lg-5">
-                            <Countdown/>
-                            {/* <div className={styles.single_date}>
+                            {/* <Countdown/> */}
+                            <div className={styles.single_date}>
                                 <FontAwesomeIcon icon={faClock}/>
                                 <span> Coming Soon</span>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
