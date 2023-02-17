@@ -56,7 +56,8 @@ export default function Home() {
                         <div className="col-xl-3 col-md-6 col-lg-3">
                             <div className={styles.single_date}>
                                 <FontAwesomeIcon icon={faCalendarAlt}/>
-                                <span> 2 Apr, 2023</span>
+                                {/*<span> 2 Apr, 2023</span>*/}
+                                <span>To be announced</span>
                             </div>
                         </div>
 
