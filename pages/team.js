@@ -284,17 +284,17 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                
                     <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                         <div className={styles.single_speaker_coords}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Coords/Branding&Design/Athul krishna.jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.instagram.com/athul_1897/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="http://www.linkedin.com/in/athulkrishna3">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -305,17 +305,17 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                    
                     <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                         <div className={styles.single_speaker_coords}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Coords/Branding&Design/Gatikrushna Mohapatra.jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.instagram.com/gatikrushna_/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="http://www.linkedin.com/in/gatikrushna-mohapatra">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -500,17 +500,17 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                    
                     <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                         <div className={styles.single_speaker_coords}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Coords/Content&Curation/Rishit D.jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.instagram.com/drishit2003/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.linkedin.com/in/rishit-d-581758223">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -521,17 +521,17 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                    
                     <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                         <div className={styles.single_speaker_coords}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Coords/Content&Curation/Sumedh Kashikar.jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.instagram.com/_sumedh_24/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.linkedin.com/in/sumedh-kashikar-0a4556230">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -551,7 +551,7 @@ export default function Team(){
                                         {/* <a target="_blank" href="#">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a> */}
-                                        <a target="_blank" href="www.linkedin.com/in/swarangi-tambat-a080691b4">
+                                        <a target="_blank" href="http://www.linkedin.com/in/swarangi-tambat-a080691b4">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -577,19 +577,19 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                    
                     <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                         <div className={styles.single_speaker_coords}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Coords/Experience&Hospitality/Aditya Kapilesh .jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.instagram.com/adityakapilesh112/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        {/* <a target="_blank" href="#">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
@@ -624,7 +624,7 @@ export default function Team(){
                                 <img src="/team/Coords/Experience&Hospitality/Ananda Krishnan .jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="https://www.instagram.com/anandan2.718 /">
+                                        <a target="_blank" href="https://www.instagram.com/anandan2.718/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="https://www.linkedin.com/in/ananda-krishnan-462703138">
@@ -678,17 +678,17 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                    
                     <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                         <div className={styles.single_speaker_coords}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Coords/Experience&Hospitality/Titeeksha Godambe .jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.instagram.com/titeeksha/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.linkedin.com/in/titeeksha-godambe-558b42256">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -756,17 +756,17 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                    
                     <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                         <div className={styles.single_speaker_coords}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Coords/Finance&Sponsorship/Areeb Hussain.JPG" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        {/* <a target="_blank" href="#">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                        </a>
-                                        <a target="_blank" href="#">
+                                        </a> */}
+                                        <a target="_blank" href="https://www.linkedin.com/in/areeb-hussain-875474253">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -837,17 +837,17 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                    
                     <div className="col-6 col-lg-3 col-sm-6 col-md-4">
                         <div className={styles.single_speaker_coords}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Coords/Finance&Sponsorship/Rutv Kocheta.jpeg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.instagram.com/rutv._/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.linkedin.com/in/rutv-kocheta-6a6201223">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
