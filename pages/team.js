@@ -938,7 +938,7 @@ export default function Team(){
                                 <img src="/team/Coords/Marketing&Sales/Mahin Bansal.jpeg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="https://www.instagram.com/mahin_1512/">
+                                        <a target="_blank" href="https://www.instagram.com/mahin__1512">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
                                         <a target="_blank" href="https://www.linkedin.com/in/mahin-bansal-1b007124a">
