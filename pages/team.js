@@ -177,13 +177,12 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* contact dets left */}
                     <div className="col-lg-4 offset-lg-2 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-10 offset-1">
                         <div className={styles.single_speaker}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Cores/Prakhar Patni.jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
-                                    {/* <p>+91 99008 10774</p> */}
+                                     <p>+91 96070 48465</p>
                                     <div className={styles.social_icon}>
                                         <a target="_blank" href="https://www.instagram.com/prakhar_patni_23_/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
@@ -201,17 +200,18 @@ export default function Team(){
                             </div>
                         </div>
                     </div>
-                    {/* details left */}
+                    
                     <div className="col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-10 offset-1">
                         <div className={styles.single_speaker}>
                             <div className={styles.speaker_thumb}>
                                 <img src="/team/Cores/Ritik.jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
+                                    <p>+91 88588 82038</p>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://instagram.com/ritik_113?igshid=ZDdkNTZiNTM=">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.linkedin.com/in/ritik-b47567220">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -270,10 +270,10 @@ export default function Team(){
                                 <img src="/team/Coords/Branding&Design/Ansh Agarwal.jpeg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://instagram.com/anshhh2705?igshid=YmMyMTA2M2Y=">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.linkedin.com/in/ansh-agarwal-60516b214">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
@@ -333,17 +333,17 @@ export default function Team(){
                                 <img src="/team/Coords/Branding&Design/IMG_20220716_181055_Bokeh.jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://instagram.com/shiksha_jalla?igshid=NTE5MzUyOTU=">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.linkedin.com/in/shiksha-jalla-76577716b">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                             <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                                <h3>Sakshi Jalla</h3>
+                                <h3>Shiksha Jalla</h3>
                             </div>
                         </div>
                     </div>
@@ -958,12 +958,12 @@ export default function Team(){
                                 <img src="/team/Coords/Marketing&Sales/Manas Bhargava .jpg" alt=""/>
                                 <div className={styles.hover_overlay}>
                                     <div className={styles.social_icon}>
-                                        <a target="_blank" href="#">
+                                        <a target="_blank" href="https://www.instagram.com/manas_bhargava_/">
                                         <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
                                         </a>
-                                        <a target="_blank" href="#">
+                                        {/* <a target="_blank" href="#">
                                         <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
