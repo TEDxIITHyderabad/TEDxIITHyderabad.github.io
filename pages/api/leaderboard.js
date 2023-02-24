@@ -2,8 +2,8 @@ import clientPromise from "../../lib/mongodb";
 
 export default async function handler(req, res) {
     const client = await clientPromise;
-    const db = client.db("testing_leaderboard_fetch");
-    const leaderboard = db.collection("leaderboard");
+    const db = client.db("TEDx2023");
+    const leaderboard = db.collection("Leaderboard");
     // switch the methods
     switch (req.method) {
         case "GET": {
@@ -23,7 +23,7 @@ async function getLeaderboard(req,res){
         let { db } = await connectToDatabase();
         // fetch the posts
         let data = await db
-            .collection('leaderboard')
+            .collection('Leaderboard')
             .find({})
             .sort({})
             .toArray();
@@ -48,7 +48,7 @@ async function addUser(req, res) {
         // connect to the database
         let { db } = await connectToDatabase();
         // add the post
-        await db.collection('leaderboard').insertOne(JSON.parse(req.body));
+        await db.collection('Leaderboard').insertOne(JSON.parse(req.body));
         // return a message
         return res.json({
             message: 'Post added successfully',
