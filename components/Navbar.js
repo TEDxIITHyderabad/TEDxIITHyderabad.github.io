@@ -19,19 +19,6 @@ export default function NavbarComp(){
                   <Nav.Link href="/sponsors" className={`${styles.navbar_link}`}>Sponsors</Nav.Link>
                   <Nav.Link href="/team" className={`${styles.navbar_link}`}>Team</Nav.Link>
                   <Nav.Link href="/contactus" className={`${styles.navbar_link}`}>Contact Us</Nav.Link>
-//                   <NavDropdown menuVariant="dark" className={`${styles.dropdown_menu_dark}`} title={<span className={`${styles.navbar_link}`} > CA program </span>} id="basic-nav-dropdown">
-//                     <NavDropdown.Item href="/CA/aboutus" className={`${styles.navbar_link_dropdown}`}>
-//                       About Us
-//                     </NavDropdown.Item>
-//                     <NavDropdown.Divider />
-//                     <NavDropdown.Item href="/CA/incentives" className={`${styles.navbar_link_dropdown}`}>
-//                       Incentives
-//                     </NavDropdown.Item>
-//                     <NavDropdown.Divider />
-//                     <NavDropdown.Item href="/CA/leaderboard" className={`${styles.navbar_link_dropdown}`} >
-//                       Leaderboard
-//                     </NavDropdown.Item>
-//                   </NavDropdown>
                 </Nav>
                 <Nav>
                       <Link href="#" className={styles.boxed_btn_white} passHref>Tickets Coming soon</Link>
