@@ -86,12 +86,6 @@ export default function Footer(){
                                                 {/* <Button variant="primary" size="lg"> abcd </Button> */}
                                             </li>
                                             <li>
-                                                    <Link href="/CA/aboutus">About Us</Link>
-                                            </li>
-                                            <li>
-                                                    <Link href="/CA/incentives">CA Program</Link>
-                                            </li>
-                                            <li>
                                                     <Link target={"_blank"} href="https://docs.google.com/forms/d/e/1FAIpQLSdcZiEC5DQSGLvwqvpJlvHOoaFa3-zKp38oVFiCh-4BJZ_2IQ/viewform">Nominate Speakers</Link>
                                             </li>
                                         </ul>
