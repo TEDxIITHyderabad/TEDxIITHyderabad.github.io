@@ -1,81 +1,50 @@
-import Link from "next/link";
 import styles from "./Navbar.module.css";
-import React from "react";
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Container } from "react-bootstrap";
-// import { useEffect , useState} from "react";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { faArrowDown, faArrowDown19, faArrowDown91, faArrowDownShortWide, faArrowsUpDown } from "@fortawesome/free-solid-svg-icons";
+import React, { useEffect, useState } from "react";
 
-// var $ = require("jquery");
 
-export default function NavbarComp(){
-    // useEffect(() => {
-    //     $(window).on('scroll', function () {
-    //         var scroll = $(window).scrollTop();
-    //         if (scroll < 400) {
-    //         $("#sticky_header").removeClass(`${styles.sticky}`);
-    //         } else {
-    //         $("#sticky_header").addClass(`${styles.sticky}`);
-    //         }
-    //     });
-    // })
+export default function Navbar(){
+  const [isNavExpanded, setIsNavExpanded] = useState(false);
     return (
-          <Navbar expand="lg" sticky="top" variant="dark" bg="black">
-            <Container>
-              <Navbar.Brand href="/"><img src="/tedx_logo.png" alt="TEDx IITHyderabad" height={60}/></Navbar.Brand>
-              <Navbar.Toggle aria-controls="basic-navbar-nav" />
-              <Navbar.Collapse id="basic-navbar-nav" >
-                <Nav className="me-auto" >
-                  <Nav.Link href="/" className={`${styles.navbar_link}`}>Home</Nav.Link>
-                  <Nav.Link href="/speakers" className={`${styles.navbar_link}`}>Speakers</Nav.Link>
-                  <Nav.Link href="/sponsors" className={`${styles.navbar_link}`}>Sponsors</Nav.Link>
-                  <Nav.Link href="/team" className={`${styles.navbar_link}`}>Team</Nav.Link>
-                  <Nav.Link href="/contactus" className={`${styles.navbar_link}`}>Contact Us</Nav.Link>
-                  <NavDropdown menuVariant="dark" className={`${styles.dropdown_menu_dark}`} title={<span className={`${styles.navbar_link}`} > CA program </span>} id="basic-nav-dropdown">
-                    <NavDropdown.Item href="/CA/aboutus" className={`${styles.navbar_link_dropdown}`}>
-                      About Us
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="/CA/incentives" className={`${styles.navbar_link_dropdown}`}>
-                      Incentives
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item href="/CA/leaderboard" className={`${styles.navbar_link_dropdown}`} >
-                      Leaderboard
-                    </NavDropdown.Item>
-                  </NavDropdown>
-                </Nav>
-                <Nav>
-                      <Link href="#" className={styles.boxed_btn_white} passHref>Tickets Coming soon</Link>
-                </Nav>
-              </Navbar.Collapse>
-            </Container>
-          </Navbar>
-          // <header className="section page-header">
-          //   <nav className={`${styles.navigation}`}>
+      
+          <header className={`${styles.site_header}`}>
+            <div className={`${styles.site_header__wrapper}`}>
+              <a href="#" className={`${styles.brand}`}><img className={`${styles.navbar_logo}`} src="/tedx_logo.png" alt="TEDx IITHyderabad"/></a>
+              <nav className="nav">
+              <button
+                className={`${styles.hamburger}`}
+                onClick={() => {
+                  setIsNavExpanded(!isNavExpanded);
+                }}
+              >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    viewBox="0 0 20 20"
+                    fill="white"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z"
+                      clipRule="evenodd"
+                    />
+                  </svg>
+                </button>
+                <div 
+                className={isNavExpanded?`${styles.navigation_menu} ${styles.expanded}`:`${styles.navigation_menu}`}>
+                  <ul className={isNavExpanded?`${styles.dropdown_menu}`:``}>
+                    <li ><a href="#">Home</a></li>
+                    <li ><a href="#">About Us</a></li>
+                    <li ><a href="#">Event Info</a></li>
+                    <li ><a href="#">Speakers</a></li>
+                    <li ><a href="#">Campus Outreach</a></li>
+                    <li ><a href="#">Contact Us</a></li>
+                    <li ><a href="#">Partners</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </header>
 
-          //     <div className={`${styles.logo}`}>
-          //       <h1>LOGO</h1>
-          //     </div>
-
-          //     <ul className={`${styles.menu_list}`}>
-          //       <li><a href="ca-index.html">Home</a></li>
-          //       <li><a href="about.html">About</a></li>
-          //       <li><a href="#">Services</a></li>
-          //       <li><a href="#portfolio">Project</a></li>
-          //       <li><a href="#">Contact Us</a></li>
-          //     </ul>
-
-          //     <div className={`${styles.humbarger}`}>
-          //       <div className={`${styles.bar}`}></div>
-          //       <div className={`${styles.bar}`}></div>
-          //       <div className={`${styles.bar}`}></div>
-          //     </div>
-          //   </nav>
-          // </header>
     )
 
 }

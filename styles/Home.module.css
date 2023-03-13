@@ -141,7 +141,8 @@
 } */
 
 .slider_bg_1 {
-  background-image: url(../public/banner/banner_1.png);
+  /* background-image: url(../public/banner/banner_1.png); */
+  background-color: #302e2e;
 }
 
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
@@ -150,7 +151,7 @@
   background-position: center  center;
   background-repeat: no-repeat;
   padding-top: 50px;
-  padding-bottom: 100px;
+  /* padding-bottom: 100px; */
 }
 
 @media (max-width: 767px) {

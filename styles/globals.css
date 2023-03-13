@@ -29,3 +29,18 @@ body {
   color: #eb0028;
   font-family: Helvetica, Arial, sans-serif !important;
  }
+ /* a {
+  color: #818494;
+  font-weight: 500;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #007bff;
+  text-decoration: none;
+} */
+
+footer {
+  background: #000000;
+}

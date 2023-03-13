@@ -6,6 +6,8 @@ import styles from '../styles/Home.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt, faClock, faLocationDot} from "@fortawesome/free-solid-svg-icons";
 import Countdown from '../components/Countdown';
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </Head>
+    {/* <Navbar/> */}
+    <Navbar/>
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
             <div className="slider_text">
                 <div className="container">
@@ -69,8 +73,9 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+        <Footer/>
         </div>
-        <Logoscroll/>
+        {/* <Logoscroll/> */}
     </>
   )
 }
