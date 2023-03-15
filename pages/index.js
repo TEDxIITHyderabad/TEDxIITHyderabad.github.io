@@ -8,7 +8,18 @@ import { faCalendarAlt, faClock, faLocationDot} from "@fortawesome/free-solid-sv
 import Countdown from '../components/Countdown';
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import ImageScroll from '../components/HorizontalImageScroll'
+import {speakers} from './speakers1'
+import React from "react";
+import Grid from '/components/GridSpeakers'
 
+
+const images = [
+    { image: '/homepageimg/Rectangle 35.png', width: 350, height: 350 },
+    { image: '/homepageimg/Rectangle 36.png', width: 350, height: 350 },
+    { image: '/homepageimg/Rectangle 37.png', width: 350, height: 350 },
+    { image: '/homepageimg/Image 2.png', width: 350, height: 350 },
+  ];
 
 export default function Home() {
   return (
@@ -21,7 +32,7 @@ export default function Home() {
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
     </Head>
     {/* <Navbar/> */}
-    <Navbar/>
+    {/* <Navbar/>
         <div className={`${styles.slider_area} ${styles.slider_bg_1}`}>
             <div className="slider_text">
                 <div className="container">
@@ -64,17 +75,30 @@ export default function Home() {
                         </div>
 
                         <div className="col-xl-5 col-md-12 col-lg-5">
-                            <Countdown/>
+                            <Countdown/> */}
                             {/* <div className={styles.single_date}>
                                 <FontAwesomeIcon icon={faClock}/>
                                 <span> Coming Soon</span>
                             </div> */}
-                        </div>
+                        {/* </div>
                     </div>
                 </div>
             </div>
         <Footer/>
-        </div>
+        </div> */}
+        <Navbar/>
+     
+     
+      <div className={styles.speakers_2023}>SPEAKERS 2023</div>
+        <ImageScroll speakers={speakers}/>
+        <h1 className={styles.speakers_2023}>REASON TO ATTEND</h1>
+        <Grid/>
+        
+        <h1 className={styles.speakers_2023}>GLIMPSE</h1>
+        <ImageScroll speakers={images}/>
+        <Footer/> 
+       
+
         {/* <Logoscroll/> */}
     </>
   )

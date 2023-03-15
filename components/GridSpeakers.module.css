@@ -1,0 +1,50 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  
+  .item {
+    background-color: #7B120D;
+    border-radius: 20px;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+  }
+  
+  @media (max-width: 767px) {
+    .grid {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+    .item{
+      margin: 20px;
+      padding: 30px;
+    }
+  }
+  @media(min-width:1200px){
+    .grid{
+      margin-left:1rem;
+    margin-right:1rem;
+    }
+    .item{
+     margin:20px;
+     height:160px;
+     text-align: center;
+     padding: 30px;
+    }
+  }
+  @media screen and (min-width: 767px) and (max-width: 1200px) {
+    .grid{
+      margin: 20px;
+    }
+    .item{
+      margin:9px;
+      text-align: center;
+      padding: 20px;
+    }
+  }
