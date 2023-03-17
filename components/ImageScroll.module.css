@@ -3,13 +3,15 @@
   }
   
   .image_scroll_container {
-    animation-name: scroll;
-    animation-duration: 90s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
-    padding: px;
+    animation: scroll 90s linear infinite ;
+    justify-content: space-around;
+    /* animation-duration: 90s; */
+    /* animation-iteration-count: infinite;
+    animation-timing-function: ease-out; */
   }
-  
+  .image_scroll_container:hover {
+    animation-play-state: paused;
+  }
   @keyframes scroll {
     0% {
       transform: translateX(0);
@@ -26,7 +28,7 @@
     margin-top: 30px;
     margin-right: 20px;
     text-align: center;
-    transition: transform 0.3 ease-in-out;
+    /* transition: transform 0.3 ease-in-out; */
   }
   
   .image_scroll_item:hover {

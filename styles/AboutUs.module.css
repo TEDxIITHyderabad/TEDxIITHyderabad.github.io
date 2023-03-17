@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+.background{
+    background-image: url("/homepageimg/background.png");
+    background-size: cover;
+    background-color: black;
+}
+.intro_box{
+    color: white;
+    margin-top: 86px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+.intro_heading{
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+
+/* identical to box height */
+
+    color: #F02D23;
+}
+
+.intro_text{
+    margin-top: 37px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+
+/* or 180% */
+
+    color: #FFFFFF; 
+}
+.button{
+    margin-top: 67px;
+    font-family:Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    border: 6px solid transparent;
+    padding: 0px 15px 0px 15px;
+}
+
+.button:hover{
+    color: rgba(240, 45, 35, 0.8);
+    border-left: 6px solid #F02D23;
+
+}
+.active{
+    color: rgba(240, 45, 35, 0.8);
+    border-left: 6px solid #F02D23;
+}
+.button:focus{
+    border-left: 6px solid #F02D23;
+    color: rgba(240, 45, 35, 0.8);
+
+    /* transform: rotate(-90deg); */
+}
+
+.box_header_container{
+    width: 100%;
+    background-color: #7B120D;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px 0px 19px 30px;
+    gap: 10px;
+}
+.box_header_text{
+
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 30px;
+
+    /* identical to box height, or 83% */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.box{
+    margin-top: 200px;
+
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(240, 45, 35, 0) 0%, rgba(240, 45, 35, 0.17) 100%);
+    border: 1px solid #B32B24;
+    border-radius: 0px 0px 20px 20px;
+}
+/* .box_main_container{
+
+} */
+.box_main_text{
+    padding: 19px 0px 19px 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+
+/* or 167% */
+
+color: #FFFFFF;
+}
+
+
+.team_box{
+    margin-top: 200px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team_box_header{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+
+    /* identical to box height */
+
+    color: #F02D23;
+}
+
+.team_box_main_grid{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+.team_box_main{
+    margin-top: 60px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+.team_box_main_grid_item{
+    margin-top: 100px;
+    width:370px;
+    background: linear-gradient(180deg, rgba(240, 45, 35, 0) 0%, rgba(240, 45, 35, 0.17) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.team_box_main_grid_item_image img{
+    width: 100%;
+    height: 370px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.team_box_main_grid_item_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 20px 14px;
+    gap: 8px;
+    text-transform: capitalize  ;
+    /* position: absolute;
+    width: 350px;
+    height: 80px;
+    left: 350px;
+    top: 450px; */
+
+    background: #7C120D;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+.image_name{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.image_position{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    
+    /* identical to box height, or 125% */
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}

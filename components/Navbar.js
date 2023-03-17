@@ -33,7 +33,7 @@ export default function Navbar(){
                 className={isNavExpanded?`${styles.navigation_menu} ${styles.expanded}`:`${styles.navigation_menu}`}>
                   <ul className={isNavExpanded?`${styles.dropdown_menu}`:``}>
                     <li ><a href="#">Home</a></li>
-                    <li ><a href="#">About Us</a></li>
+                    <li ><a href="/aboutus">About Us</a></li>
                     <li ><a href="#">Event Info</a></li>
                     <li ><a href="#">Speakers</a></li>
                     <li ><a href="#">Campus Outreach</a></li>

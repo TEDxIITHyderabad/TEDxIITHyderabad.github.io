@@ -1,4 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Philosopher');
+.background{
+    background-image: url("/homepageimg/background.png");
+    background-size: cover;
+    background-color: black;
+}
 .speakers_2023{
   color: red;
   text-align: center;
@@ -22,4 +27,269 @@
   min-height: 200px;
   border: 2px #ccc solid;
   color: #fff;
+}
+
+/* body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+} */
+
+.main {
+    position: relative;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.hero-main {
+    position: absolute;
+    top: 35%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Philosopher';
+    color: white;
+}
+
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+    min-width: 100%;
+}
+
+.hero-image {
+    min-height: 100%;
+    max-width: 100%;
+}
+
+
+.hero-title {
+    font-size: 180px;
+    margin: 0;
+    letter-spacing: 50px;
+    text-shadow: 4px 4px 10px black;
+    user-select: none;
+}
+
+.hero-subtitle {
+    font-size: 32px;
+    margin: 0;
+    letter-spacing: 10px;
+    text-shadow: 4px 4px 10px black;
+    user-select: none;
+}
+
+.hero-theme-cont {
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-theme {
+    font-size: 40px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    user-select: none;
+    color: white;
+}
+
+.hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.hero-buttons p {
+    margin: 10px;
+}
+
+.buttons {
+    flex-grow: 1;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    height: 80px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    letter-spacing: 3px;
+}
+
+.merch {
+    color: white;
+    background-color: #D91E1D;
+}
+
+
+.main-video-cont {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.main-video {
+    margin: 8%;
+    margin-left: 10%;
+    width: 45vw;
+    height: 22.5vw;
+}
+
+/* .main-video {
+    margin: 8%;
+    margin-left: 10%;
+    flex-grow: 4;
+} */
+
+
+.main-video-text {
+    flex-grow: 1;
+    margin: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+
+.main-video-text div {
+    display: inline;
+    margin: 0;
+    color: red;
+
+}
+
+@media (min-width: 1000px) and (max-width: 1615px) {
+    .main-video-text {
+        font-size: 42px;
+    }
+}
+
+@media (min-width: 773px) and (max-width: 1000px) {
+    .hero-title {
+        font-size: 150px;
+    }
+
+    .hero-subtitle {
+        font-size: 28px;
+    }
+
+    .hero-theme {
+        font-size: 35px;
+    }
+
+    .buttons {
+        height: 65px;
+    }
+}
+
+@media (max-width: 772px) {
+    .hero-title {
+        font-size: 70px;
+        width: 85%;
+        /* padding-left: 38px; */
+    }
+
+    .hero-subtitle {
+        font-size: 23px;
+        letter-spacing: normal;
+    }
+
+    .hero-theme {
+        font-size: 22px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .buttons {
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .main-video {
+        margin: 8%;
+        margin-top: 15%;
+        margin-left: 10%;
+        width: 90vw;
+        height: 45vw;
+    }
+
+    .main-video-text {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-height: 800px) and (orientation: landscape) {
+    .hero-title {
+        font-size: 150px;
+    }
+
+    .hero-theme {
+        font-size: 35px;
+    }
+
+    .buttons {
+        height: 60px;
+    }
+}
+
+@media (max-height: 600px) and (orientation: landscape) {
+    .hero-title {
+        font-size: 110px;
+    }
+
+    .hero-subtitle {
+        font-size: 27px;
+    }
+
+    .hero-theme {
+        font-size: 33px;
+        margin-bottom: -8px;
+    }
+}
+
+@media (max-height: 480px) and (orientation: landscape) {
+    .hero-main {
+        top: 25%;
+    }
+
+    .hero-title {
+        font-size: 70px;
+    }
+
+    .hero-subtitle {
+        font-size: 25px;
+    }
+
+    .hero-theme {
+        font-size: 28px;
+        margin-bottom: -8px;
+    }
+
+    .buttons {
+        height: 50px;
+    }
 }
