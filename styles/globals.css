@@ -44,3 +44,13 @@ a:hover {
 footer {
   background: #000000;
 }
+
+.dropdown-menu {
+  background-color: #FF2B06 ! important;
+}
+.dropdown-item{
+  background-color: transparent !important;
+}
+/* .dropdown-item:hover{
+  color: rgb(0, 0, 0) !important;
+} */

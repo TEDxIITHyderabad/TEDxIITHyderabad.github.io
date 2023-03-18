@@ -2,7 +2,7 @@
 
 .background{
     background-image: url("/homepageimg/background.png");
-    background-size: cover;
+    background-size: contain;
     background-color: black;
 }
 .intro_box{
@@ -35,6 +35,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
+    text-align: justify;
 
 /* or 180% */
 
@@ -111,13 +112,13 @@
 
 } */
 .box_main_text{
-    padding: 19px 0px 19px 19px;
+    padding: 19px 19px 19px 19px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 40px;
-
+    text-align: justify;
 /* or 167% */
 
 color: #FFFFFF;
@@ -141,14 +142,6 @@ color: #FFFFFF;
 
     color: #F02D23;
 }
-
-.team_box_main_grid{
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -40px;
-}
-
 .team_box_main{
     margin-top: 60px;
     font-family: Helvetica;
@@ -162,9 +155,17 @@ color: #FFFFFF;
     color: #FFFFFF;
 }
 
+.team_box_main_grid{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+
 .team_box_main_grid_item{
     margin-top: 100px;
-    width:370px;
+    /* width:30vw; */
     background: linear-gradient(180deg, rgba(240, 45, 35, 0) 0%, rgba(240, 45, 35, 0.17) 100%);
     border: 1px solid #FFFFFF;
     border-radius: 20px;
@@ -172,10 +173,19 @@ color: #FFFFFF;
     margin-right: auto;
     box-sizing: border-box;
 }
-
+.team_box_main_grid_item_head{
+    margin-top: 100px;
+    /* width:30vw; */
+    background: linear-gradient(180deg, rgba(240, 45, 35, 0) 0%, rgba(240, 45, 35, 0.17) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
 .team_box_main_grid_item_image img{
     width: 100%;
-    height: 370px;
+    /* height: 370px; */
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -203,7 +213,7 @@ color: #FFFFFF;
     font-family: Helvetica;
     font-style: normal;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 20px;
 
     /* identical to box height, or 100% */
@@ -222,7 +232,7 @@ color: #FFFFFF;
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.9rem;
     line-height: 20px;
     
     /* identical to box height, or 125% */
@@ -235,4 +245,52 @@ color: #FFFFFF;
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+@media screen and (min-width:980px){
+    .team_box_main_grid_item{
+        width:350px;
+    }
+    .team_box_main_grid_item_head{
+        width:350px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .team_box_main_grid_item{
+        width:60%;
+    }
+    .team_box_main_grid_item_head{
+        width:60%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+    .team_box_main_grid_item_head{
+        width:100%;
+    }
+    .team_box_main_grid_item{
+        width:100%;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1600px){
+    .team_box_main_grid_item{
+        width:100%;
+    }
+    .team_box_main_grid_item_head{
+        width:350px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .box_main_text{
+        font-size: 20px;
+    }
+    .intro_text{
+        font-size: 15px;
+        margin-top: 37px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width:350px){
+    .button{
+        font-size: 10vw;
+    }
 }

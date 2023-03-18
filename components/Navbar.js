@@ -1,22 +1,22 @@
 import styles from "./Navbar.module.css";
 import React, { useEffect, useState } from "react";
-
-
-export default function Navbar(){
+import { useRouter } from "next/router";
+import { Dropdown } from "react-bootstrap";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+export default function NavbarComp(){
   const [isNavExpanded, setIsNavExpanded] = useState(false);
+  const router = useRouter();
+  const path = router?.pathname;
     return (
       
-          <header className={`${styles.site_header}`}>
-            <div className={`${styles.site_header__wrapper}`}>
-              <a href="#" className={`${styles.brand}`}><img className={`${styles.navbar_logo}`} src="/tedx_logo.png" alt="TEDx IITHyderabad"/></a>
-              <nav className="nav">
-              <button
-                className={`${styles.hamburger}`}
-                onClick={() => {
-                  setIsNavExpanded(!isNavExpanded);
-                }}
-              >
-                  <svg
+          <Navbar expand="lg" className={`${styles.site_header}`}>
+              <Container>
+                <Navbar.Brand href="/" className={`${styles.brand}`}><img className={`${styles.navbar_logo}`} src="/tedx_logo.png" alt="TEDx IITHyderabad"/></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" className={`${styles.hamburger}`} >
+                <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5"
                     viewBox="0 0 20 20"
@@ -28,23 +28,26 @@ export default function Navbar(){
                       clipRule="evenodd"
                     />
                   </svg>
-                </button>
-                <div 
-                className={isNavExpanded?`${styles.navigation_menu} ${styles.expanded}`:`${styles.navigation_menu}`}>
-                  <ul className={isNavExpanded?`${styles.dropdown_menu}`:``}>
-                    <li ><a href="#">Home</a></li>
-                    <li ><a href="/aboutus">About Us</a></li>
-                    <li ><a href="#">Event Info</a></li>
-                    <li ><a href="#">Speakers</a></li>
-                    <li ><a href="#">Campus Outreach</a></li>
-                    <li ><a href="#">Contact Us</a></li>
-                    <li ><a href="#">Partners</a></li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </header>
+                </Navbar.Toggle>
+                <Navbar.Collapse id="basic-navbar-nav " className={`justify-content-end ${styles.navigation_menu}`}>
+                  <Nav >
+                    <Nav.Link style={{color: (path=="/")?"#F02D23":""}} href="/">Home</Nav.Link>
+                    <Nav.Link style={{color: (path=="/aboutus")?"#F02D23":""}} href="/aboutus">About Us</Nav.Link>
+                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="#">Event Info</Nav.Link>
+                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="#">Speakers</Nav.Link>
 
+                    <NavDropdown title="Campus Outreach" id="basic-nav-dropdown">
+                      <NavDropdown.Item style={{color: (path=="#")?"#F02D23":""}} className={`${styles.dropdown_item}`} href="#action/3.1">Campus Outreach</NavDropdown.Item>
+                      <NavDropdown.Item style={{color: (path=="#")?"#F02D23":""}} className={`${styles.dropdown_item}`} href="#action/3.2">
+                        Leaderboard
+                      </NavDropdown.Item>
+                    </NavDropdown>
+                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="#">Contact Us</Nav.Link>
+                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="#">Partners</Nav.Link>
+                  </Nav>
+                </Navbar.Collapse>
+              </Container>
+            </Navbar>
     )
 
 }

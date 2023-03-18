@@ -1,16 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import Navbar from '../components/Navbar'
+import NavbarComp from '../components/Navbar'
 import styles from '../styles/AboutUs.module.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
-import Grid from '/components/GridSpeakers'
-import ImageScroll from '../components/HorizontalImageScroll'
-import {speakers} from './speakers1'
 import Footer from '../components/Footer'
 import { useState } from 'react'
-import { Button } from 'react-bootstrap'
 
 const images = [
     { image: '/homepageimg/Rectangle 35.png', width: 350, height: 350 },
@@ -31,7 +25,7 @@ export default function AboutUs(){
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
         <div className={styles.background}>
-        <Navbar/>
+        <NavbarComp/>
             <div className={`${styles.intro_box}`}>
                 <div className={`${styles.intro_heading}`}>
                     About us
@@ -58,9 +52,9 @@ export default function AboutUs(){
                         Our Motto
                     </div>
                 </div>
-                    <div className={`${styles.box_main_text}`}>
-                        "Ideas Worth Sharing" : We believe that for humankind to truly progress and achieve our potential, the exchange of ideas between people is essential. TED helps us list the problems people face even in the remotest corners of the world. This promotes discussions to come up with solutions and ideas from pioneers and amateurs in different backgrounds. Most ideas, often end up being ignored or rejected, and even the ones that are accepted are often not implemented. We aim to play our little role in guiding these embryos and nurture them with the hope that they help us progress and march forward.
-                    </div>
+                <div className={`${styles.box_main_text}`}>
+                    "Ideas Worth Sharing" : We believe that for humankind to truly progress and achieve our potential, the exchange of ideas between people is essential. TED helps us list the problems people face even in the remotest corners of the world. This promotes discussions to come up with solutions and ideas from pioneers and amateurs in different backgrounds. Most ideas, often end up being ignored or rejected, and even the ones that are accepted are often not implemented. We aim to play our little role in guiding these embryos and nurture them with the hope that they help us progress and march forward.
+                </div>
             </div>
             <div className={`${styles.box}`}>
                 <div className={`${styles.box_header_container}`}>
@@ -80,10 +74,10 @@ export default function AboutUs(){
                     Heads
                     <div className={`${styles.team_box_main_grid}`}>
                         <div className='row'>
-                            <div className={`col-12 col-md-6`}>
-                                <div className={`${styles.team_box_main_grid_item}`}>
+                            <div className={`col-12 col-md-6`} >
+                                <div className={`${styles.team_box_main_grid_item_head}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
-                                        <img src="/team/Cores/Poorvika C.jpg" width={300} alt="image"/>
+                                        <img src="/team/Cores/Poorvika C.jpg"  alt="image"/>
                                     </div>
                                     <div className={`${styles.team_box_main_grid_item_text}`}>
                                         <span style={{transform: "rotate(-180deg)"}}>
@@ -98,7 +92,7 @@ export default function AboutUs(){
                                 </div>
                             </div>
                             <div className={`col-12 col-md-6`}>
-                                <div className={`${styles.team_box_main_grid_item}`}>
+                                <div className={`${styles.team_box_main_grid_item_head}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Cores/Poorvika C.jpg"  alt="image"/>
                                     </div>
@@ -121,7 +115,7 @@ export default function AboutUs(){
                     Core Team
                     <div className={`${styles.team_box_main_grid}`}>
                         <div className='row'>
-                            <div className={`col-12 col-lg-4`}>
+                            <div className={`col-12  col-md-6 col-lg-4 `}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Cores/Ritik.jpg" alt="image"/>
@@ -138,7 +132,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-4`} >
+                            <div className={`col-12 col-md-6 col-lg-4 `} >
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Cores/Madhuri Annavazzala .jpeg"     alt="image"/>
@@ -155,7 +149,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12  col-lg-4`}>
+                            <div className={`col-12 col-md-6 col-lg-4 `}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Cores/Vikhyath.jpg" alt="image"/>
@@ -172,7 +166,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-4`} style={{marginLeft:"auto"}}>
+                            <div className={`col-12 col-md-6 col-lg-4 `} style={{marginLeft:"auto"}}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Cores/Prakhar Patni.jpg"  alt="image"/>
@@ -189,7 +183,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-4`} style={{marginRight:"auto"}}>
+                            <div className={`col-12 col-md-6 col-lg-4 `} style={{marginRight:"auto"}}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Cores/Gowri Govindaraj .JPG" alt="image"/>
@@ -213,7 +207,7 @@ export default function AboutUs(){
                     Branding & Design
                     <div className={`${styles.team_box_main_grid}`}>
                         <div className='row'>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Branding&Design/Ambady Ravi .jpg" width={300} alt="image"/>
@@ -227,7 +221,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Branding&Design/Ansh Agarwal.jpeg"  alt="image"/>
@@ -241,7 +235,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Branding&Design/Athul krishna.jpg" width={300} alt="image"/>
@@ -255,7 +249,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Branding&Design/Gatikrushna Mohapatra.jpg"  alt="image"/>
@@ -269,7 +263,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} style={{marginLeft:"auto"}}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `} style={{marginLeft:"auto"}}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Branding&Design/IMG_20220716_181055_Bokeh.jpg" width={300} alt="image"/>
@@ -283,7 +277,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Branding&Design/Pracheet Padher.jpeg" width={300} alt="image"/>
@@ -297,7 +291,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} style={{marginRight:"auto"}}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `} style={{marginRight:"auto"}}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Branding&Design/Trisha_Patidar.jpg"  alt="image"/>
@@ -319,7 +313,7 @@ export default function AboutUs(){
                     Content and Curation
                     <div className={`${styles.team_box_main_grid}`}>
                         <div className='row'>
-                        <div className={`col-12 col-lg-3`}>
+                        <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Content&Curation/Amulya Tallamraju.jpg" width={300} alt="image"/>
@@ -333,7 +327,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Content&Curation/Hitesh Donepudi .jpg"  alt="image"/>
@@ -347,7 +341,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Content&Curation/Ishita Dingare.png" width={300} alt="image"/>
@@ -361,7 +355,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Content&Curation/Karthik M Nambiar.JPG"  alt="image"/>
@@ -375,7 +369,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} >
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} >
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Content&Curation/PrachiSharma.jpg" width={300} alt="image"/>
@@ -389,7 +383,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Content&Curation/Rishit D.jpg" width={300} alt="image"/>
@@ -403,7 +397,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} >
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} >
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Content&Curation/Sumedh Kashikar.jpg"  alt="image"/>
@@ -417,7 +411,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} >
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} >
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Content&Curation/Swarangi Tambat.JPG.jpg"  alt="image"/>
@@ -438,7 +432,7 @@ export default function AboutUs(){
                     Experience & Hospitality
                     <div className={`${styles.team_box_main_grid}`}>
                         <div className='row'>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Experience&Hospitality/Aditya Kapilesh .jpg" width={300} alt="image"/>
@@ -452,7 +446,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Experience&Hospitality/AmithReddy.jpg"  alt="image"/>
@@ -466,7 +460,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Experience&Hospitality/Ananda Krishnan .jpg" width={300} alt="image"/>
@@ -480,7 +474,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Experience&Hospitality/Kushagra.jpg"  alt="image"/>
@@ -494,7 +488,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} style={{marginLeft:"auto"}}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginLeft:"auto"}}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Experience&Hospitality/Suddhodhan .jpg" width={300} alt="image"/>
@@ -508,7 +502,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Experience&Hospitality/Titeeksha Godambe .jpg" width={300} alt="image"/>
@@ -522,7 +516,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} style={{marginRight:"auto"}}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginRight:"auto"}}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Experience&Hospitality/Vedant Kshirsagar .jpg"  alt="image"/>
@@ -544,7 +538,7 @@ export default function AboutUs(){
                 Finance & Sponsorship
                     <div className={`${styles.team_box_main_grid}`}>
                         <div className='row'>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Finance&Sponsorship/Akshat Jain.jpg"  alt="image"/>
@@ -558,7 +552,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Finance&Sponsorship/Areeb Hussain.JPG"  alt="image"/>
@@ -572,7 +566,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Finance&Sponsorship/Kartik Katekar.jpg" alt="image"/>
@@ -586,7 +580,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Finance&Sponsorship/Mouktika.jpg"  alt="image"/>
@@ -600,7 +594,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} style={{marginLeft:"auto"}}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginLeft:"auto"}}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Finance&Sponsorship/Niharika Singh.jpg" width={300} alt="image"/>
@@ -614,7 +608,7 @@ export default function AboutUs(){
                                     </div> 
                                 </div>
                             </div>
-                            <div className={`col-12 col-lg-3`} style={{marginRight:"auto"}}>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginRight:"auto"}}>
                                 <div className={`${styles.team_box_main_grid_item}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
                                         <img src="/team/Coords/Finance&Sponsorship/Rutv Kocheta.jpeg"  alt="image"/>
@@ -623,6 +617,98 @@ export default function AboutUs(){
                                         <span style={{transform: "rotate(-180deg)"}}>
                                             <div className={`${styles.image_name}`}>
                                             Rutv Kocheta
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.team_box_main}`} style={{marginTop:"200px"}}>
+                Marketing & Sales 
+                    <div className={`${styles.team_box_main_grid}`}>
+                        <div className='row'>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Aditya Sridhar.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Aditya Sridhar
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Dhruvin Shah.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Dhruvin Shah
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Krutika Kulkarni .jpg" alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Krutika Kulkarni
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Mahin Bansal.jpeg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Mahin Bansal
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginLeft:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Manas Bhargava .jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Manas Bhargava
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginRight:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Sai Harish Madireddi.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Sai Harish Madireddiḥ
                                             </div>
                                         </span>
                                     </div> 

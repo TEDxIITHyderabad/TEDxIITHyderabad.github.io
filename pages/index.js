@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarAlt, faClock, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import Countdown from '../components/Countdown';
 import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
+import NavbarComp from '../components/Navbar'
 import ImageScroll from '../components/HorizontalImageScroll'
 import { speakers } from './speakers1'
 import React from "react";
@@ -32,8 +32,7 @@ export default function Home() {
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-      <div className={styles.background}>
-        <Navbar/>
+        <NavbarComp/>
       <div className={styles.main}>
         <img className={styles["hero-image"]} src="/images/background.jpg" draggable="false" />
         <div className={styles["hero-main"]}>
@@ -50,6 +49,7 @@ export default function Home() {
 
       </div>
 
+      <div className={styles.background}>
 
       <div className={styles["main-video-cont"]}>
         <iframe className={styles["main-video"]} src="https://www.youtube.com/embed/7HQ1OLYaTyE"></iframe>
@@ -59,12 +59,23 @@ export default function Home() {
           <div>health & fitness</div>
         </div>
       </div>
+
         <div className={styles.speakers_2023}>SPEAKERS 2023</div>
         <ImageScroll speakers={speakers} />
         <h1 className={styles.speakers_2023}>REASON TO ATTEND</h1>
         <Grid />
         <h1 className={styles.speakers_2023}>GLIMPSE</h1>
         <ImageScroll speakers={images} />
+        {/* <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown button
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div> */}
         <Footer />
       </div>
 
