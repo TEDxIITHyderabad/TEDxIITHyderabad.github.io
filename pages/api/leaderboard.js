@@ -1,9 +1,12 @@
 import clientPromise from "../../lib/mongodb";
 
+
+let {  MONGODB_DB , MONGODB_Collection } = process.env;
+
 export default async function handler(req, res) {
     const client = await clientPromise;
-    const db = client.db("testing_leaderboard_fetch");
-    const leaderboard = db.collection("leaderboard");
+    const db = client.db(MONGODB_DB);
+    const leaderboard = db.collection(MONGODB_Collection);
     // switch the methods
     switch (req.method) {
         case "GET": {
@@ -11,9 +14,9 @@ export default async function handler(req, res) {
             return res.json({ status: 200, data: allPosts });
         }
 
-        case 'POST': {
-            return addUser(req, res);
-        }
+        // case 'POST': {
+        //     return addUser(req, res);
+        // }
     }
 }
 

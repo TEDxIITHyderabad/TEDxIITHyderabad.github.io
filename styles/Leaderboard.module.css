@@ -1,290 +1,129 @@
-.slider_area {
-    background-size: cover;
-    background-position: center  center;
+@import url('https://fonts.googleapis.com/css2?family=Philosopher');
+.background{
+    background-image: url("/homepageimg/leaderboard.png");
+    background-size: 100vw 15% ;
+    background-position: center top;
     background-repeat: no-repeat;
-    padding-bottom: 100px;
+    margin-top: 86px;
+    background-color: black;
+    text-align: center;
+}
+.title{
+  padding-top: 120px;
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100px;
+  letter-spacing: 0.02em;
+  color: #F02D23;
+}
+
+.ellipses th,
+.ellipses td {
+  word-wrap: break-word;
+}
+.head{
+  background: #C72E26 !important;
+  border-bottom: transparent;
+  height: 4vw;
+
+}
+.top3{
+  background: linear-gradient(180deg, rgba(97, 23, 19, 0.81) 0%,
+   rgba(240, 45, 35, 0.44) 49.09%, rgba(97, 23, 19, 0.56) 100%) !important;
+  border-bottom: transparent;
+  height: 5vw;
+  padding: 10px;
+}
+
+.rest{
+  background: linear-gradient(180deg, rgba(97, 23, 19, 0.486) 0%, rgba(240, 45, 35, 0.264) 49.09%, rgba(97, 23, 19, 0.336) 100%);
+  border-bottom: transparent;
+  height: 5vw;
+  padding: 10px;
+}
+
+.text{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  vertical-align: middle;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.line{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ffffff;
+    margin: 1em 0;
+
+    padding: 0;
+}
+.head_text{
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+.icon{
+  color: yellow;
+  position: absolute;
+  left: 4%;
+}
+
+@media screen and (max-width: 687px) {
+  .title{
+    font-size: 48px;
+    line-height: 50px;
   }
-  
-  @media (max-width: 767px) {
-    /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area {
-      padding-bottom: 30px;
-    }
+  .text{
+    font-size: 17px;
+    line-height: 20px;
   }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area {
-      padding-bottom: 30px;
-    }
+  .head_text{
+    font-size: 17px;
+    line-height: 20px;
   }
-  
-  /* line 18, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .position_relv {
-    position: relative;
+  .background{
+    background-size: 100vw 8% ;
   }
-  
-  /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text {
-    position: relative;
-    margin-bottom: 213px;
-    z-index: 3;
-    padding: 55px 8px 12px 0px;
+}
+
+@media screen and (max-width: 352px){
+  .title{
+    font-size: 36px;
+    line-height: 40px;
   }
-  
-  @media (max-width: 767px) {
-    /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text {
-      margin-bottom: 30px;
-    }
+  .text{
+    font-size: 14px;
+    line-height: 20px;
   }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text {
-      margin-bottom: 30px;
-    }
+  .head_text{
+    font-size: 14px;
+    line-height: 20px;
   }
-  
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 22, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text {
-      margin-bottom: 30px;
-    }
+  .background{
+    background-size: 100vw 5% ;
   }
-  
-  /* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text.title_text2 {
-    margin-bottom: 60px;
-    padding: 55px 8px 25px 0px;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 36, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text.title_text2 {
-      margin-bottom: 0;
-      padding: 0;
-    }
-  }
-  
-  /* line 43, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text.title_text2::before {
-    display: none;
-  }
-  
-  /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text.title_text2:after {
-    position: absolute;
-    background-image: url(../public/banner/path2.png);
-    content: "";
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
-    left: -14.5%;
-    width: 120%;
-    height: 120%;
-    top: -7%;
-    opacity: 0.6;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text.title_text2:after {
-      display: none;
-    }
-  }
-  
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text.title_text2:after {
-      display: none;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text.title_text2:after {
-      display: none;
-    }
-  }
-  
-  @media (min-width: 1200px) and (max-width: 1500px) {
-    /* line 46, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text.title_text2:after {
-      display: none;
-    }
-  }
-  
-  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text::before {
-    position: absolute;
-    background-image: url(../public/banner/path.png);
-    content: "";
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: -1;
-    left: -14.5%;
-    width: 120%;
-    height: 120%;
-    top: -7%;
-    opacity: 0.6;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text::before {
-      display: none;
-    }
-  }
-  
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text::before {
-      display: none;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text::before {
-      display: none;
-    }
-  }
-  
-  @media (min-width: 1200px) and (max-width: 1500px) {
-    /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text::before {
-      display: none;
-    }
-  }
-  
-  /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .title_text h3 {
-    font-size: 90px;
-    font-weight: 700;
-    text-transform: capitalize;
-    line-height: 100px;
-    color: #fff;
-    margin-bottom: 66px;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text h3 {
-      font-size: 36px;
-      line-height: 43px;
-      margin-bottom: 30px;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text h3 {
-      font-size: 46px;
-      line-height: 55px;
-      margin-bottom: 30px;
-    }
-  }
-  
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 97, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .title_text h3 {
-      font-size: 60px;
-      line-height: 70px;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* line 121, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .single_date {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 121, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .single_date {
-      margin-bottom: 15px;
-    }
-  }
-  
-  /* line 128, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .single_date i {
-    padding-right: 10px;
-  }
-  
-  
-  /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .countdown_time {
-    text-align: right;
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .countdown_time {
-      margin-top: 40px;
-      text-align: left;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .countdown_time {
-      text-align: left;
-    }
-  }
-  
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 138, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .countdown_time {
-      text-align: left;
-    }
-  }
-  
-  /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .countdown_time .single_countdown {
-    display: inline-block;
-    text-align: right;
-    margin-right: 20px;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .countdown_time .single_countdown {
-      margin-right: 10px;
-      margin-top: 20px;
-    }
-  }
-  
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 150, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .countdown_time .single_countdown {
-      margin-right: 10px;
-      margin-top: 20px;
-    }
-  }
-  
-  /* line 162, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .countdown_time .single_countdown h3 {
-    color: #fff;
-    font-size: 46px;
-    font-weight: 600;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 162, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-    .slider_area .countdown_time .single_countdown h3 {
-      font-size: 20px;
-    }
-  }
-  
-  /* line 170, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
-  .slider_area .countdown_time .single_countdown span {
-    font-size: 16px;
-    color: #fff;
-    text-transform: capitalize;
-  }
-  .slider_bg_1 {
-    background-image: url(../public/banner/banner_1.png);
-  }
+}
+
+/* .fixed_table {
+  table-layout: fixed;
+} */
+
+/* .ellipses th,
+.ellipses td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+} */

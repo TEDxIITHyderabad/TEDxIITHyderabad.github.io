@@ -51,6 +51,19 @@ footer {
 .dropdown-item{
   background-color: transparent !important;
 }
-/* .dropdown-item:hover{
-  color: rgb(0, 0, 0) !important;
-} */
+table{
+  border-collapse: separate !important;
+  border-spacing: 0 31px !important;
+}
+.react-bootstrap-table table {
+  table-layout: auto !important;
+  }
+
+.row>*{
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+.row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}

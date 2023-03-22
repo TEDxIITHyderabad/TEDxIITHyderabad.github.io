@@ -42,7 +42,10 @@
 } */
 
 .navigation_menu a{
-  color: #ffffff !important;
+  color: #ffffff;
+}
+.navigation_menu a:hover{
+  color: #F02D23 !important;
 }
 .navigation_menu a:focus{
   color: #F02D23 !important;

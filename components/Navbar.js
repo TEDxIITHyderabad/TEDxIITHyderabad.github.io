@@ -10,6 +10,7 @@ export default function NavbarComp(){
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const router = useRouter();
   const path = router?.pathname;
+  console.log(path)
     return (
       
           <Navbar expand="lg" className={`${styles.site_header}`}>
@@ -38,7 +39,7 @@ export default function NavbarComp(){
 
                     <NavDropdown title="Campus Outreach" id="basic-nav-dropdown">
                       <NavDropdown.Item style={{color: (path=="#")?"#F02D23":""}} className={`${styles.dropdown_item}`} href="#action/3.1">Campus Outreach</NavDropdown.Item>
-                      <NavDropdown.Item style={{color: (path=="#")?"#F02D23":""}} className={`${styles.dropdown_item}`} href="#action/3.2">
+                      <NavDropdown.Item style={{color: (path=="#")?"#F02D23":""}} className={`${styles.dropdown_item}`} href="/CampusOutreach/Leaderboard">
                         Leaderboard
                       </NavDropdown.Item>
                     </NavDropdown>
