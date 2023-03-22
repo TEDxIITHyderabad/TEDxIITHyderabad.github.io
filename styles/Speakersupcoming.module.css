@@ -1,0 +1,38 @@
+.body {
+    background-image: url("/speakers/background.png");
+    background-size: cover;
+    background-color: black;
+    margin-top: 90px;
+}
+
+.heading {
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+    margin-left: 6rem;
+    /* identical to box height */
+    color: #F02D23;
+}
+
+.year {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    margin-left: 6rem;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+@media  (max-width:400px) {
+    .heading {
+        font-weight: 700;
+        margin-left: 4rem;
+    }
+
+}

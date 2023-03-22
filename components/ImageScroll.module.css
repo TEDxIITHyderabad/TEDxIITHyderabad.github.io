@@ -39,12 +39,20 @@
     margin-top: 18px;
     font-size:xx-large;
     font-weight:bolder;
+    color: #FFFFFF;
+    font-family: 'Helvetica';
+    font-style: normal;
+    line-height: 30px;
   }
   .speaker_des{
     text-align: center;
     padding-top: 3px;
     font-size:medium;
     font-weight: lighter;
+    font-family: 'Helvetica';
+    font-style: normal;
+    line-height: 30px;
+    color: #FFFFFF;
   }
   .icon_fill{
     background: rgba(255, 255, 255, 0.3);
