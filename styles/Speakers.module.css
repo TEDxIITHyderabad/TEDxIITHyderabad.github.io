@@ -4,16 +4,10 @@
 
 .speaker_item {
 	margin-bottom: 50px;
-	margin-left: 25px;
 }
 
 .speaker_item .si_pic img {
-	min-width: 100%;
 	border-radius: 20px;
-}
-
-.speaker_item .si_text .si-title {
-	margin-bottom: 28px;
 }
 
 .speaker_item .si_text .si_title h4 {
@@ -25,34 +19,30 @@
 	color: #FF2B06;
 
 }
-.speaker_item .si_text .si_title p{
+
+.speaker_item .si_text .si_title p {
 	font-family: 'Helvetica';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 40px;
-/* identical to box height, or 167% */
-
-
-color: #FFFFFF;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
+	/* identical to box height, or 167% */
+	color: #FFFFFF;
 
 }
 
 
-.speaker_item .si_text  p {
+.speaker_item .si_text p {
 	font-family: 'Helvetica';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 30px;
 	/* or 188% */
-
-
 	color: #FFFFFF;
-
 }
 
-@media only screen and (min-width:1400px) {
+/* @media only screen and (min-width:1400px) {
 	.speaker_item .si_text p {
 		padding-left: 5rem;
 	}
@@ -64,8 +54,8 @@ color: #FFFFFF;
 
 @media only screen and (max-width: 1400px) {
 	.speaker_item .si_pic img {
-		width: 250px;
-		height: 320px;
+		width: 350px;
+		height: 350px;
 		border-radius: 20px;
 	}
 
@@ -74,6 +64,14 @@ color: #FFFFFF;
 	}
 
 }
+@media (max-width:1200px){
+	.speaker_item .si_pic img {
+		width: 350px;
+		height: 350px;
+		border-radius: 20px;
+	}
+} */
+
 
 /* @media only screen and (min-width:992px) and (max-width:1200px){
     .col-lg-6{
@@ -81,16 +79,40 @@ color: #FFFFFF;
     }
 }
      */
-@media only screen and (max-width: 991px) {
+/* @media only screen and (max-width: 991px) {
 	.speaker_item .si_text .si_title {
 		padding-top: 30px;
 	}
+} */
+@media (max-width:767px){
+	.speaker_item {
+		text-align: center;
+	}
 }
-
-@media (min-width:992px) and (max-width:1200px) {
-
+@media (min-width:767px) and (max-width:992px) {
 	.speaker_item .si_text p,
 	.speaker_item .si_text h4 {
-		padding-left: 3rem;
+		padding-left: 25px;
+	}
+
+	.my-custom-container {
+		width: 120%;
+	}
+}
+@media (max-height:350px) or (max-width:350px){
+	.speaker_item .si_pic img{
+		width:250px;
+		height:250px
+	}
+}
+@media (min-width:992px) and (max-width:1200px){
+	.speaker_item .si_text{
+		padding-left: 0px;
+	}
+}
+@media (min-width:1200px){
+	.speaker_item .si_pic img{
+		width:300px;
+		height:300px;
 	}
 }

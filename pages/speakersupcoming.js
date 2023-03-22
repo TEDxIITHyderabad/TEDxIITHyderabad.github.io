@@ -33,17 +33,17 @@ export default function Upcomingspeakers() {
 
           {/* Speaker Section Begin */}
           <section className={styles.speaker_section_spad}>
-            <div className="container">
+            <div className="container my-custom-container">
               <div className="row">
-                <div className="col-sm-6">
+                <div className="col-xl-6">
                   <div className={styles.speaker_item}>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-5">
                         <div className={styles.si_pic}>
                           <img src="speakers/2022/Copy of Anju Arora.jpg" alt="" width={350} height={350} />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
                             <h4>Yasaswini Jonnalagadda</h4>
@@ -57,15 +57,15 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-xl-6">
                   <div className={styles.speaker_item}>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-5">
                         <div className={styles.si_pic}>
                           <img src="speakers/2022/Copy of Chirantana 2.jpg" alt="" width={350} height={350} />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
                             <h4>Chirantana</h4>
@@ -81,15 +81,15 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-xl-6">
                   <div className={styles.speaker_item}>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-5">
                         <div className={styles.si_pic}>
                           <img src="speakers/2022/Copy of Leena Haldar 1.jpg" alt="" width={350} height={350} />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
                             <h4>Leena Haldar</h4>
@@ -105,15 +105,15 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-xl-6">
                   <div className={styles.speaker_item}>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-5">
                         <div className={styles.si_pic}>
                           <img src="speakers/2022/Copy of Nupur Agarwal0.jpg" alt="" width={350} height={350} />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
                             <h4>Nupur Agarwal</h4>
@@ -129,15 +129,15 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-xl-6">
                   <div className={styles.speaker_item}>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-5">
                         <div className={styles.si_pic}>
                           <img src="speakers/2022/Copy of Srinivas Prabhu.jpg" alt="" width={350} height={350} />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
                             <h4>Srinivas Prabhu</h4>
@@ -153,15 +153,15 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-xl-6">
                   <div className={styles.speaker_item}>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-5">
                         <div className={styles.si_pic}>
                           <img src="speakers/2022/Copy of Yasaswini copy.jpg" alt="" width={350} height={350} />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
                             <h4>Yasaswini</h4>
@@ -177,15 +177,15 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-xl-6">
                   <div className={styles.speaker_item}>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-5">
                         <div className={styles.si_pic}>
                           <img src="speakers/2022/Copy of Anju Arora.jpg" alt="" width={350} height={350} />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
                             <h4>Anju Arora</h4>
@@ -201,15 +201,15 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-6">
+                <div className="col-xl-6">
                   <div className={styles.speaker_item}>
                     <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-5">
                         <div className={styles.si_pic}>
                           <img src="speakers/2022/Copy of Chirantana 2.jpg" alt="" width={350} height={350} />
                         </div>
                       </div>
-                      <div className="col-lg-6">
+                      <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
                             <h4>Chirantana</h4>
@@ -232,6 +232,13 @@ export default function Upcomingspeakers() {
           <Footer />
         </section>
       </section>
+      <style jsx>
+        {`
+        .my-custom-container{
+          //  width:127%;
+        }
+        `}
+      </style>
     </>
   )
 }
