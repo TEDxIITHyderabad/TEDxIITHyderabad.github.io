@@ -41,6 +41,9 @@
 	/* or 188% */
 	color: #FFFFFF;
 }
+.read_more{
+	color:red;
+}
 
 /* @media only screen and (min-width:1400px) {
 	.speaker_item .si_text p {
@@ -112,8 +115,37 @@
 }
 @media (min-width:1200px){
 	.speaker_item .si_pic img{
-		width:300px;
-		height:300px;
+		width:250px;
+		height:250px;
 	}
+	.speaker_item .si_text .si_title h4 {
+		font-family: 'Helvetica';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 25x;
+		color: #FF2B06;
+		padding-left: 25px;
+	}
+	.speaker_item .si_text .si_title p {
+		font-family: 'Helvetica';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 25px;
+		line-height: 20px;
+		/* identical to box height, or 167% */
+		color: #FFFFFF;
+		padding-left: 25px;
 	
+	}
+	.speaker_item .si_text p {
+		font-family: 'Helvetica';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 30px;
+		/* or 188% */
+		color: #FFFFFF;
+		padding-left: 25px;;
+	}
 }

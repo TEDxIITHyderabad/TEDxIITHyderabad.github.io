@@ -1,0 +1,186 @@
+.speaker_section {
+    padding-top: 0;
+}
+
+.speaker_item {
+    margin-bottom: 50px;
+}
+
+.speaker_item .si_pic img {
+    border-radius: 20px;
+}
+
+.speaker_item .si_text .si_title h4 {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+
+    /* R - Tedx */
+    padding-top: 7px;;
+    color: #FF2B06;
+
+
+}
+
+
+.speaker_item .si_text p {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #FFFFFF;
+}
+
+.read_more {
+    color: red;
+}
+
+/* @media only screen and (min-width:1400px) {
+	.speaker_item .si_text p {
+		padding-left: 5rem;
+	}
+
+	.speaker_item .si_text .si_title h4 {
+		padding-left: 5rem;
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.speaker_item .si_pic img {
+		width: 350px;
+		height: 350px;
+		border-radius: 20px;
+	}
+
+	.speaker_item {
+		margin-bottom: 50px;
+	}
+
+}
+@media (max-width:1200px){
+	.speaker_item .si_pic img {
+		width: 350px;
+		height: 350px;
+		border-radius: 20px;
+	}
+} */
+
+
+/* @media only screen and (min-width:992px) and (max-width:1200px){
+    .col-lg-6{
+        margin-left: 5px;
+    }
+}
+     */
+/* @media only screen and (max-width: 991px) {
+	.speaker_item .si_text .si_title {
+		padding-top: 30px;
+	}
+} */
+@media (max-width:576px) {
+    .speaker_item {
+        text-align: center;
+    }
+}
+
+/* @media (min-width:767px) and (max-width:992px) {
+
+    .speaker_item .si_text p,
+    .speaker_item .si_text h4 {
+        padding-left: 25px;
+    }
+
+    .my-custom-container {
+        width: 120%;
+    }
+} */
+
+@media (max-height:350px) or (max-width:350px) {
+    .speaker_item .si_pic img {
+        width: 250px;
+        height: 250px
+    }
+}
+
+/* @media (min-width:992px) and (max-width:1200px) {
+    .speaker_item .si_text {
+        padding-left: 0px;
+    }
+} */
+
+/* @media (min-width:1200px) {
+    .speaker_item .si_pic img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .speaker_item .si_text .si_title h4 {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 25x;
+        color: #FF2B06;
+        padding-left: 25px;
+    }
+
+    .speaker_item .si_text .si_title p {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 20px;
+        identical to box height, or 167%
+        color: #FFFFFF;
+        padding-left: 25px;
+
+    }
+
+    .speaker_item .si_text p {
+        font-family: 'Helvetica';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        or 188%
+        color: #FFFFFF;
+        padding-left: 25px;
+        ;
+    }
+
+} */
+@media (min-width:576px) and (max-width:768px){
+    .speaker_item .si_pic img{
+        width:250px;
+        height:250px;
+    }
+    .speaker_item {
+        padding-right: 10px;
+    }
+}
+@media (min-width:768px) and (max-width:992px){
+    .speaker_item .si_pic img{
+        width: 300px;
+        height:300px;
+    }
+    .speaker_item {
+        padding-right: 15px;
+    }
+}
+@media (min-width:1200px){
+    .speaker_item .si_pic img{
+        width: 250px;
+        height:250px;
+    }
+    .speaker_item {
+        padding-right: 15px;
+    }
+}

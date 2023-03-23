@@ -50,7 +50,7 @@ export default function Upcomingspeakers() {
                             <p>Topic - Global Issues</p>
                           </div>
                           <p>
-                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is ..... Read more.
+                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more}>.....Read more.</span> 
                           </p>
                         </div>
                       </div>
@@ -68,13 +68,11 @@ export default function Upcomingspeakers() {
                       <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
-                            <h4>Chirantana</h4>
+                            <h4>Yasaswini Jonnalagadda</h4>
+                            <p>Topic - Global Issues</p>
                           </div>
                           <p>
-                            Businesses often become known today through effective
-                            marketing. The marketing may be in the form of a regular
-                            news item or half column society news in the Sunday
-                            newspaper.
+                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more}>.....Read more.</span> 
                           </p>
                         </div>
                       </div>
@@ -92,13 +90,11 @@ export default function Upcomingspeakers() {
                       <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
-                            <h4>Leena Haldar</h4>
+                            <h4>Yasaswini Jonnalagadda</h4>
+                            <p>Topic - Global Issues</p>
                           </div>
                           <p>
-                            Businesses often become known today through effective
-                            marketing. The marketing may be in the form of a regular
-                            news item or half column society news in the Sunday
-                            newspaper.
+                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more}>.....Read more.</span> 
                           </p>
                         </div>
                       </div>
@@ -116,13 +112,11 @@ export default function Upcomingspeakers() {
                       <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
-                            <h4>Nupur Agarwal</h4>
+                            <h4>Yasaswini Jonnalagadda</h4>
+                            <p>Topic - Global Issues</p>
                           </div>
                           <p>
-                            Businesses often become known today through effective
-                            marketing. The marketing may be in the form of a regular
-                            news item or half column society news in the Sunday
-                            newspaper.
+                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more}>.....Read more.</span> 
                           </p>
                         </div>
                       </div>
@@ -140,13 +134,11 @@ export default function Upcomingspeakers() {
                       <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
-                            <h4>Srinivas Prabhu</h4>
+                            <h4>Yasaswini Jonnalagadda</h4>
+                            <p>Topic - Global Issues</p>
                           </div>
                           <p>
-                            Businesses often become known today through effective
-                            marketing. The marketing may be in the form of a regular
-                            news item or half column society news in the Sunday
-                            newspaper.
+                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more}>.....Read more.</span> 
                           </p>
                         </div>
                       </div>
@@ -164,13 +156,11 @@ export default function Upcomingspeakers() {
                       <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
-                            <h4>Yasaswini</h4>
+                            <h4>Yasaswini Jonnalagadda</h4>
+                            <p>Topic - Global Issues</p>
                           </div>
                           <p>
-                            Businesses often become known today through effective
-                            marketing. The marketing may be in the form of a regular
-                            news item or half column society news in the Sunday
-                            newspaper.
+                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more}>.....Read more.</span> 
                           </p>
                         </div>
                       </div>
@@ -188,13 +178,11 @@ export default function Upcomingspeakers() {
                       <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
-                            <h4>Anju Arora</h4>
+                            <h4>Yasaswini Jonnalagadda</h4>
+                            <p>Topic - Global Issues</p>
                           </div>
                           <p>
-                            Businesses often become known today through effective
-                            marketing. The marketing may be in the form of a regular
-                            news item or half column society news in the Sunday
-                            newspaper.
+                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more}>.....Read more.</span> 
                           </p>
                         </div>
                       </div>
@@ -212,13 +200,11 @@ export default function Upcomingspeakers() {
                       <div className="col-md-6 col-lg-7">
                         <div className={styles.si_text}>
                           <div className={styles.si_title}>
-                            <h4>Chirantana</h4>
+                            <h4>Yasaswini Jonnalagadda</h4>
+                            <p>Topic - Global Issues</p>
                           </div>
                           <p>
-                            Businesses often become known today through effective
-                            marketing. The marketing may be in the form of a regular
-                            news item or half column society news in the Sunday
-                            newspaper.
+                          How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more}>.....Read more.</span> 
                           </p>
                         </div>
                       </div>
@@ -232,13 +218,6 @@ export default function Upcomingspeakers() {
           <Footer />
         </section>
       </section>
-      <style jsx>
-        {`
-        .my-custom-container{
-          //  width:127%;
-        }
-        `}
-      </style>
     </>
   )
 }

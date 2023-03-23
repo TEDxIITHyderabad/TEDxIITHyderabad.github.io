@@ -6,7 +6,7 @@ export default function SpeakersPage() {
             <div className="heading1">
                 <span className="upcoming_speakers">Upcoming Speakers-2023 &gt;&gt;&gt;</span>
                 <button className="speaker_2023_new">
-                    <Link href="/speakers">
+                    <Link href="/speakersupcoming">
                         <span className="link">Upcoming Speakers-2023</span>
                     </Link>
                 </button>
@@ -21,42 +21,42 @@ export default function SpeakersPage() {
                 <div className="row">
                     <div className="col-lg-2 col-sm-4 col-6">
                         <button className="speaker_2023">
-                            <Link href="/speakers">
+                            <Link href="/speakers2022">
                                 <span className="link">Speakers-2022</span>
                             </Link>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
                         <button className="speaker_2023">
-                            <Link href="/speakers">
+                            <Link href="/speakers2021">
                                 <span className="link">Speakers-2021</span>
                             </Link>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
                         <button className="speaker_2023">
-                            <Link href="/speakers">
+                            <Link href="/speakers2020">
                                 <span className="link">Speakers-2020</span>
                             </Link>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
                         <button className="speaker_2023">
-                            <Link href="/speakers">
+                            <Link href="/speakers2019">
                                 <span className="link">Speakers-2019</span>
                             </Link>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
                         <button className="speaker_2023">
-                            <Link href="/speakers">
+                            <Link href="/speakers2018">
                                 <span className="link">Speakers-2018</span>
                             </Link>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
                         <button className="speaker_2023">
-                            <Link href="/speakers">
+                            <Link href="/speakers2017">
                                 <span className="link">Speakers-2017</span>
                             </Link>
                         </button>

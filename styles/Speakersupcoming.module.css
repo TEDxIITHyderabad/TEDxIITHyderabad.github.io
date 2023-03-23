@@ -37,3 +37,8 @@
     }
 
 }
+@media (min-width:1200px){
+    .heading,.year{
+        padding-left:10vw;
+    }
+}
