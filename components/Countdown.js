@@ -47,7 +47,7 @@ const Countdown = () => {
         </div>
       ) : (
         <section className="container">
-          {/* <div className={styles.countdown}> */}
+          <div className={styles.countdown}>
           <div className={styles.countdown_time}>
             <div className={styles.single_countdown}>
               <h3>{days}</h3>
@@ -65,6 +65,7 @@ const Countdown = () => {
               <h3>{seconds}</h3>
               <span>Seconds</span>
             </div>
+          </div>
           </div>
         </section>
       )}
