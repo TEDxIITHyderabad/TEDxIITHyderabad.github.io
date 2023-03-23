@@ -6,7 +6,7 @@
 /* line 4, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_slider.scss */
 .slider_area {
   background-size: cover;
-  background-position: center  center;
+  background-position: center center;
   background-repeat: no-repeat;
   padding-top: 50px;
   padding-bottom: 100px;
@@ -373,3 +373,22 @@
   width: 550px;
 }
 
+.theme_release {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7% 5% 0 5%;
+}
+
+.theme {
+  font-size: 170%;
+  color: red;
+  margin: 1%;
+  font-weight: 800;
+  text-align: center;
+}
+
+.theme_video {
+  width: 90%;
+  aspect-ratio: 2;
+}
