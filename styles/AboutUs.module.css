@@ -262,17 +262,25 @@ color: #FFFFFF;
         width:60%;
     }
 }
+@media screen and (min-width:768px) and (max-width:980px){
+    .team_box_main_grid_item{
+        width:80%;
+    }
+    .team_box_main_grid_item_head{
+        width:80%;
+    }
+}
 @media screen and (min-width:992px) and (max-width:1200px){
     .team_box_main_grid_item_head{
-        width:100%;
+        width:90%;
     }
     .team_box_main_grid_item{
-        width:100%;
+        width:90%;
     }
 }
 @media screen and (min-width:1200px) and (max-width:1600px){
     .team_box_main_grid_item{
-        width:100%;
+        width: 270px;
     }
     .team_box_main_grid_item_head{
         width:350px;
