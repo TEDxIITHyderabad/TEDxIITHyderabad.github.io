@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher');
+
+.partners_main {
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: relative;
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.sponsers{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5%;
+    overflow-x: hidden;
+}
+
+.sponser_bg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    max-height: 90%;   
+    /* min-width: 100%; */
+}
+
+/* .sponser-bg{
+    min-height: 100%;
+    max-width: 100%;
+} */
+
+.title{
+    font-family: 'Philosopher';
+    font-weight: 900;
+    color: red;
+    font-size: 300%;
+    /* margin-top: 2%; */
+    text-align: center;
+}
+
+.sponserslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.sponseritem{
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+    flex-direction: column;
+    width: 25%;
+}
+
+.sponseritem img{
+    width: 100%;
+}
+
+.sponseritem p{
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+}
+
+
+@media (max-width: 772px) {
+    .sponseritem{
+        width: 80%;
+    }
+    .sponserslist{
+        margin: 7% 0 0 0;
+        flex-wrap: wrap;
+    }
+}

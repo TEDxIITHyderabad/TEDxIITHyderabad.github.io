@@ -7,10 +7,10 @@
 .speakers_2023{
   color: red;
   text-align: center;
-  /* font-family: 'Philosopher';
-  font-style: normal; */
+  font-family: 'Philosopher';
+  /* font-style: normal; */
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: max(3.25vw, 5vh);
   line-height: 72px;
   margin-top: 200px;
 }
@@ -126,6 +126,17 @@
     font-size: 18px;
     border: none;
     letter-spacing: 3px;
+}
+
+.theme_desc {
+    text-indent: 75px;
+    margin: 2% 10% 0 10%;
+    font-size: max(1.25vw,1.75vh);
+    color: white;
+}
+
+.theme_cont{
+    display: flex;
 }
 
 .merch {

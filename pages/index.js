@@ -32,7 +32,7 @@ export default function Home() {
         <meta name="description" content="" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
-        <NavbarComp/>
+      <NavbarComp />
       <div className={styles.main}>
         <img className={styles["hero-image"]} src="/images/background.jpg" draggable="false" />
         <div className={styles["hero-main"]}>
@@ -51,17 +51,23 @@ export default function Home() {
 
       <div className={styles.background}>
 
-      <div className={styles["main-video-cont"]}>
-        <iframe className={styles["main-video"]} src="https://www.youtube.com/embed/7HQ1OLYaTyE"></iframe>
-        <div className={styles["main-video-text"]}>Weaving the<br />
-          Saga of humanity<br />
-          through
-          <div>health & fitness</div>
+        <div className={styles["main-video-cont"]}>
+          <iframe className={styles["main-video"]} src="https://www.youtube.com/embed/7HQ1OLYaTyE"></iframe>
+          <div className={styles["main-video-text"]}>Weaving the<br />
+            Saga of humanity<br />
+            through
+            <div> health & fitness</div>
+          </div>
         </div>
-      </div>
+
+
+        <div className={styles.speakers_2023}>THEME</div>
+        <div className={styles.theme_desc}>Humans have been kicking around a pale blue dot in space for a while now. The rise and fall, the ups and downs, and the meandering turns humankind has taken have been painted and weaved onto the tapestry - our legacy and the proof of our existence in an otherwise unchanging and indifferent universe. People spanning cultures, eras, nationalities, and backgrounds have contributed to compiling the saga of all time. This saga has been visualized, part by part, and time-to-time in tapestries. Join us as we weave together the tapestry of the lives, the ideas, and the revolutions made by transient individuals to make an immortal and magnificent representation of humanity: Humanity's Tapestry.</div>
+        {/* TODO: Add images and hoer effect*/}
+        <div className={styles.theme_cont}></div>
 
         <div className={styles.speakers_2023}>SPEAKERS 2023</div>
-        <ImageScroll speakers={speakers} />
+        <ImageScroll speakers={speakers} />``
         <h1 className={styles.speakers_2023}>REASON TO ATTEND</h1>
         <Grid />
         <h1 className={styles.speakers_2023}>GLIMPSE</h1>

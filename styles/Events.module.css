@@ -60,6 +60,7 @@
     display: flex;
     flex-direction: row;
     margin: 6% 0 0 10%;
+    cursor: pointer;
 }
 
 .ted_button_wrap {
@@ -94,9 +95,9 @@
     text-align: center;
     width: 100%;
     background: linear-gradient(to bottom, rgba(240, 45, 35, 1), rgba(240, 45, 35, 0.30), rgba(240, 45, 35, 0.4));
-    height: 10%;
     font-size: max(2.5vw, 3vh);
     margin: 10% 0 0 0;
+    padding: 0.75% 0 0.75% 0;
     letter-spacing: 2px;
     color: #F02D23;
     font-weight: 800;
@@ -246,9 +247,9 @@
     text-align: center;
     width: 100%;
     background: linear-gradient(to bottom, rgba(240, 45, 35, 1), rgba(240, 45, 35, 0.30), rgba(240, 45, 35, 0.4));
-    height: 10%;
     font-size: max(2.5vw, 3vh);
     margin: 10% 0 0 0;
+    padding: 0.75% 0 0.75% 0;
     letter-spacing: 5px;
     color: white;
     font-weight: 800;
@@ -263,7 +264,7 @@
 
 .speaker_item {
     min-width: 250px;
-    width: 35%;
+    width: 42%;
     margin: 2%;
     display: flex;
     flex-direction: column;

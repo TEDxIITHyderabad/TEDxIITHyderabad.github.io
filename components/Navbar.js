@@ -33,7 +33,7 @@ export default function NavbarComp(){
                   <Nav >
                     <Nav.Link style={{color: (path=="/")?"#F02D23":""}} href="/">Home</Nav.Link>
                     <Nav.Link style={{color: (path=="/aboutus")?"#F02D23":""}} href="/aboutus">About Us</Nav.Link>
-                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="/events">Event Info</Nav.Link>
+                    <Nav.Link style={{color: (path=="/events")?"#F02D23":""}} href="/events">Event Info</Nav.Link>
                     <Nav.Link style={{color: (path=="/speakersupcoming")?"#F02D23":""}} href="/speakersupcoming">Speakers</Nav.Link>
 
                     <NavDropdown title="Campus Outreach" id="basic-nav-dropdown">
@@ -41,8 +41,8 @@ export default function NavbarComp(){
                         Leaderboard
                       </NavDropdown.Item>
                     </NavDropdown>
-                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="/contactus">Contact Us</Nav.Link>
-                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="#">Partners</Nav.Link>
+                    <Nav.Link style={{color: (path=="/contactus")?"#F02D23":""}} href="/contactus">Contact Us</Nav.Link>
+                    <Nav.Link style={{color: (path=="/partners")?"#F02D23":""}} href="/partners">Partners</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>
