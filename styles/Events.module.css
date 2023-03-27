@@ -7,7 +7,11 @@
     overflow-x: hidden;
     background: black;
 }
-
+.background{
+    background-image: url("/homepageimg/event_info.png");
+    background-size: cover;
+    background-color: black;
+}
 .main {
     position: relative;
     height: 100svh;

@@ -36,11 +36,11 @@ export default function NavbarComp(){
                     <Nav.Link style={{color: (path=="/events")?"#F02D23":""}} href="/events">Event Info</Nav.Link>
                     <Nav.Link style={{color: (path=="/speakersupcoming")?"#F02D23":""}} href="/speakersupcoming">Speakers</Nav.Link>
 
-                    <NavDropdown title="Campus Outreach" id="basic-nav-dropdown">
+                    {/* <NavDropdown title="Campus Outreach" id="basic-nav-dropdown">
                       <NavDropdown.Item style={{color: (path=="#")?"#F02D23":""}} className={`${styles.dropdown_item}`} href="/CampusOutreach/Leaderboard">
                         Leaderboard
                       </NavDropdown.Item>
-                    </NavDropdown>
+                    </NavDropdown> */}
                     <Nav.Link style={{color: (path=="/contactus")?"#F02D23":""}} href="/contactus">Contact Us</Nav.Link>
                     <Nav.Link style={{color: (path=="/partners")?"#F02D23":""}} href="/partners">Partners</Nav.Link>
                   </Nav>

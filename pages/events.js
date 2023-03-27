@@ -59,36 +59,38 @@ export default function Speakers() {
 
             </div>
             <hr className={styles.theme_start} />
-            <div className={styles.theme_desc}>
+            <div className={styles.background}>
+                <div className={styles.theme_desc}>
 
-                <p>Humanity could be a million years old or just a definition
-                    jotted down a few centuries back. That said, homo sapiens
-                    have been kicking around a pale blue dot in space for a
-                    while now. And while lingering about, we have made a legacy
-                    to boast about.</p>
-                <p>The rise and fall, the ups and downs, and the meandering
-                    turns mankind has taken have been painted and weaved onto
-                    the tapestry - our legacy and the proof of our existence in
-                    an otherwise unchanging and indifferent universe. People
-                    spanning cultures, eras, nationalities, and backgrounds have
-                    all contributed their part to compiling the greatest saga of
-                    all time. This saga has been visualized, part by part, and
-                    time-to-time in tapestries. These tapestries follow the
-                    well-known saying: "Pictures speak a thousand words!"</p>
-                <p>Join us as we weave together the tapestry of the lives, the
-                    ideas, and the revolutions made by transient individuals to
-                    make an immortal and magnificent representation of humanity:
-                    Humanity's Tapestry...</p>
+                    <p>Humanity could be a million years old or just a definition
+                        jotted down a few centuries back. That said, homo sapiens
+                        have been kicking around a pale blue dot in space for a
+                        while now. And while lingering about, we have made a legacy
+                        to boast about.</p>
+                    <p>The rise and fall, the ups and downs, and the meandering
+                        turns mankind has taken have been painted and weaved onto
+                        the tapestry - our legacy and the proof of our existence in
+                        an otherwise unchanging and indifferent universe. People
+                        spanning cultures, eras, nationalities, and backgrounds have
+                        all contributed their part to compiling the greatest saga of
+                        all time. This saga has been visualized, part by part, and
+                        time-to-time in tapestries. These tapestries follow the
+                        well-known saying: "Pictures speak a thousand words!"</p>
+                    <p>Join us as we weave together the tapestry of the lives, the
+                        ideas, and the revolutions made by transient individuals to
+                        make an immortal and magnificent representation of humanity:
+                        Humanity's Tapestry...</p>
 
-            </div>
-            <hr className={styles.theme_end} />
-            <div className={styles.event}>
-                <div className={styles.hero_title} style={{ textAlign: "center", margin: "0 0 3% 0" }}>Event Venue </div>
-                <div className={styles.event_title} style={{ color: "white" }}>2 April 2023</div>
-                <div className={styles.event_title}>10:00am onwards</div>
-                <div className={styles.event_address}>Auditorium, Academic Block- A, IIT
-                    Hyderabad, kandi, Sangareddy, Telengana, 502284</div>
-                <button className={styles.buttons}>BUY EVENT TICKETS NOW</button>
+                </div>
+                <hr className={styles.theme_end} />
+                <div className={styles.event}>
+                    <div className={styles.hero_title} style={{ textAlign: "center", margin: "0 0 3% 0" }}>Event Venue </div>
+                    <div className={styles.event_title} style={{ color: "white" }}>2 April 2023</div>
+                    <div className={styles.event_title}>10:00am onwards</div>
+                    <div className={styles.event_address}>Auditorium, Academic Block- A, IIT
+                        Hyderabad, kandi, Sangareddy, Telengana, 502284</div>
+                    <button className={styles.buttons}>BUY EVENT TICKETS NOW</button>
+                </div>
             </div>
 
             <div className={styles.speakers_head_title}>INTRODUCING OUR SPEAKERS</div>

@@ -213,7 +213,7 @@ color: #FFFFFF;
     font-family: Helvetica;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 20px;
 
     /* identical to box height, or 100% */
@@ -246,7 +246,7 @@ color: #FFFFFF;
     order: 0;
     flex-grow: 0;
 }
-@media screen and (min-width:980px){
+@media screen and (min-width:980px) and (max-width:992px){
     .team_box_main_grid_item{
         width:350px;
     }
@@ -270,7 +270,7 @@ color: #FFFFFF;
         width:80%;
     }
 }
-@media screen and (min-width:992px) and (max-width:1200px){
+@media screen and (min-width:992px) and (max-width:1400px){
     .team_box_main_grid_item_head{
         width:90%;
     }
@@ -278,9 +278,9 @@ color: #FFFFFF;
         width:90%;
     }
 }
-@media screen and (min-width:1200px) and (max-width:1600px){
+@media screen and (min-width:1400px) and (max-width:1600px){
     .team_box_main_grid_item{
-        width: 270px;
+        width: 250px;
     }
     .team_box_main_grid_item_head{
         width:350px;
