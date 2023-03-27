@@ -314,10 +314,10 @@ export default function Upcomingspeakers() {
               <div className={styles.modal_body}>
                 <div className="container">
                   <div className="row">
-                    <div className="col-lg-5">
-                      <img src={selectedSpeaker.imageSrc} alt="" width={350} height={350} />
+                    <div className="col-lg-5 col-xl-5">
+                      <img src={selectedSpeaker.imageSrc} className={styles.modal_image} alt="" width={350} height={350} />
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7 col-xl-7">
                       <h4>{selectedSpeaker.name}</h4>
                       <h6>Topic - {selectedSpeaker.topic}</h6>
                       <p>{selectedSpeaker.content}</p>

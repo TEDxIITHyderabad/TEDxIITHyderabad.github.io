@@ -4,11 +4,16 @@ export default function SpeakersPage() {
     return (
         <>
             <div className={`${styles.heading1}`}>
-                <span className={`${styles.upcoming_speakers}`} style={{marginRight:"50px"}}>Upcoming Speakers-2023 =&gt;</span>
-                <button className={`${styles.speaker_2023}`}>
-                    <Link href="/speakersupcoming">
+                <span className={`${styles.upcoming_speakers} `} style={{marginRight:"50px"}}>Upcoming Speakers-2023 =&gt;</span>
+                <button className={`${styles.speaker_2023} ${styles.link}`}>
+                    {/* <Link href="/speakersupcoming">
                         <span className={`${styles.link}`}>Upcoming Speakers-2023</span>
-                    </Link>
+                    </Link> */}
+                    <a href="/speakersupcoming">
+                                {/* <span className={`${styles.link}`}> */}
+                                    Upcoming Speakers-2023
+                                {/* </span> */}
+                            </a>
                 </button>
             </div>
             <hr className={`${styles.line}`}></hr>
@@ -20,10 +25,15 @@ export default function SpeakersPage() {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-2 col-sm-4 col-6">
-                        <button className={`${styles.speaker_2023}`}>
-                            <Link href="/speakers2022">
+                        <button className={`${styles.speaker_2023} ${styles.link}`}>
+                            {/* <Link href="/speakers2022">
                                 <span className={`${styles.link}`}>Speakers-2022</span>
-                            </Link>
+                            </Link> */}
+                            <a href="/speakers2022">
+                                {/* <span className={`${styles.link}`}> */}
+                                    Speakers-2022
+                                {/* </span> */}
+                            </a>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
@@ -36,31 +46,51 @@ export default function SpeakersPage() {
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
-                        <button className={`${styles.speaker_2023}`}>
-                            <Link href="/speakers2020">
+                        <button className={`${styles.speaker_2023} ${styles.link}`}>
+                            {/* <Link href="/speakers2020">
                                 <span className={`${styles.link}`}>Speakers-2020</span>
-                            </Link>
+                            </Link> */}
+                            <a href="/speakers2020">
+                                {/* <span className={`${styles.link}`}> */}
+                                    Speakers-2020
+                                {/* </span> */}
+                            </a>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
-                        <button className={`${styles.speaker_2023}`}>
-                            <Link href="/speakers2019">
+                        <button className={`${styles.speaker_2023} ${styles.link}`}>
+                            {/* <Link href="/speakers2019">
                                 <span className={`${styles.link}`}>Speakers-2019</span>
-                            </Link>
+                            </Link> */}
+                            <a href="/speakers2019">
+                                {/* <span className={`${styles.link}`}> */}
+                                    Speakers-2019
+                                {/* </span> */}
+                            </a>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
-                        <button className={`${styles.speaker_2023}`}>
-                            <Link href="/speakers2018">
+                        <button className={`${styles.speaker_2023} ${styles.link}`}>
+                            {/* <Link href="/speakers2018">
                                 <span className={`${styles.link}`}>Speakers-2018</span>
-                            </Link>
+                            </Link> */}
+                            <a href="/speakers2018">
+                                {/* <span className={`${styles.link}`}> */}
+                                    Speakers-2018
+                                {/* </span> */}
+                            </a>
                         </button>
                     </div>
                     <div className="col-lg-2 col-sm-4 col-6">
-                        <button className={`${styles.speaker_2023}`}>
-                            <Link href="/speakers2017">
+                        <button className={`${styles.speaker_2023} ${styles.link}`}>
+                            {/* <Link href="/speakers2017">
                                 <span className={`${styles.link}`}>Speakers-2017</span>
-                            </Link>
+                            </Link> */}
+                            <a href="/speakers2017">
+                                {/* <span className={`${styles.link}`}> */}
+                                    Speakers-2017
+                                {/* </span> */}
+                            </a>
                         </button>
                     </div>
                 </div>
