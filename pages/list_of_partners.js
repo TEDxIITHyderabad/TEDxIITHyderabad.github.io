@@ -2,35 +2,35 @@ export const partners = {
     'TITLE SPONSOR': [
         {
             name: 'Suzuki Innovation Center',
-            image: 'sic.png',
+            image: './sponsors/SIC Horizontal Logo.jpg',
         }
     ],
     'SILVER SPONSOR':[
         {
             name: 'Caprus IT',
-            image: 'caprus.png',
+            image: './sponsors/Caprus IT Logo PDF.pdf',
         },
     ],
     'BRONZE SPONSOR':[
         {
             name: 'Remit 2 Any',
-            image: 'remit2any.png',
+            image: './sponsors/Remit2Any logo.jpg',
         },
         {
             name: 'Sids Farm',
-            image: 'sids.png',
+            image: './sponsors/SIDS FARM logo - BLACK-08.png',
         }
     ],
     'MERCHANDISE PARTNER': [
         {
             name: 'Kapdamart',
-            image: 'kapdamart.png',
+            image: './sponsors/Kapdamart logo.jpg',
         }
     ],
     'WELLNESS PARTNER':[
         {
             name: 'Body First',
-            image: 'bodyfirst.png',
+            image: './sponsors/Body first logo.png',
         }
     ],
 
