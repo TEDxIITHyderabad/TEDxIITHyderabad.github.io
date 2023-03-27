@@ -8,7 +8,7 @@ export const partners = {
     'SILVER SPONSOR':[
         {
             name: 'Caprus IT',
-            image: './sponsors/Caprus IT Logo PDF.pdf',
+            image: './sponsors/Caprus IT Logo.png',
         },
     ],
     'BRONZE SPONSOR':[
