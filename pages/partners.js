@@ -3,12 +3,20 @@ import Footer from '../components/Footer'
 import NavbarComp from '../components/Navbar'
 import styles from '../styles/Partners.module.css'
 import { partners } from './/list_of_partners'
+import Link from 'next/link'
+import { useRouter } from 'next/router';
+
 
 export default function Speakers() {
+    const router = useRouter();
+  
+    const handleClick = () => {
+      router.push('contactus');
+    };
     return (
         <div class={styles.partners_main}>
             <NavbarComp />            
-
+            <div className={styles.background_image}>
             <div className={styles.sponsers}>
                 <img src="/sponsors/sponsersbg1.png" className={styles.sponser_bg} />
                 <div className={styles.title} style={{ textTransform: "uppercase" }}>TITLE SPONSERS</div>
@@ -78,7 +86,35 @@ export default function Speakers() {
                 </div>
             </div>
             </div>
+            <div className={styles.reasons}>
+                <div className={styles.head_container}>
+                    <h2 className={styles.head_content}>Reasons To Partner with us</h2>
+                </div>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-4 col-md-6">
+                            <img src="./sponsors/reasonstoattend.png" className={styles.reasons_image}></img>
+                            <p className={styles.reason_heading}>typesetting industry</p>
+                            <p className={styles.reason_content}>is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                        <div className="col-lg-4 col-md-6">
+                            <img src="./sponsors/reasonstoattend.png" className={styles.reasons_image}></img>
+                            <p className={styles.reason_heading}>typesetting industry</p>
+                            <p className={styles.reason_content}>is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                        <div className="col-lg-4">
+                            <img src="./sponsors/reasonstoattend.png" className={styles.reasons_image}></img>
+                            <p className={styles.reason_heading}>typesetting industry</p>
+                            <p className={styles.reason_content}>is simply dummy text of the printing and typesetting industry. </p>
+                        </div>
+                    </div>
+                </div>
+                <button className={styles.contact_now} onClick={handleClick}>Contact Now
+                    </button>
+
+            </div>
             <Footer />
+            </div>
         </div>
     )
 }

@@ -7,9 +7,14 @@
     position: relative;
     background-color: black;
     overflow-x: hidden;
+    padding-top: 15px;
 }
-
-.sponsers{
+.background_image{
+    background-image: url("/homepageimg/background.png");
+    background-repeat: none;
+    background-size: cover;
+}
+.sponsers {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,12 +22,12 @@
     overflow-x: hidden;
 }
 
-.sponser_bg{
+.sponser_bg {
     position: absolute;
     top: 0;
     right: 0;
     z-index: -1;
-    max-height: 90%;   
+    max-height: 90%;
     /* min-width: 100%; */
 }
 
@@ -31,7 +36,7 @@
     max-width: 100%;
 } */
 
-.title{
+.title {
     font-family: 'Philosopher';
     font-weight: 900;
     color: red;
@@ -40,14 +45,14 @@
     text-align: center;
 }
 
-.sponserslist{
+.sponserslist {
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
 
-.sponseritem{
+.sponseritem {
     display: flex;
     justify-content: center;
     margin: 4%;
@@ -55,11 +60,11 @@
     width: 25%;
 }
 
-.sponseritem img{
+.sponseritem img {
     width: 100%;
 }
 
-.sponseritem p{
+.sponseritem p {
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 150%;
@@ -68,11 +73,92 @@
 
 
 @media (max-width: 772px) {
-    .sponseritem{
+    .sponseritem {
         width: 80%;
     }
-    .sponserslist{
+
+    .sponserslist {
         margin: 7% 0 0 0;
         flex-wrap: wrap;
+    }
+}
+.reasons_image {
+    width: 155px;
+    border-radius: 77.5px;
+    border-color: #7A140F;
+    border-style: outset;
+    border-width: 30px;
+    display: block;
+    margin: auto;
+}
+
+.head_content{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    color: #F02D23;
+    text-align: center;
+}
+.head_container{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.reason_heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    color: #F02D23;
+    text-align: center;
+}
+
+.reason_content {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.col-lg-6 {
+    position: relative;
+}
+
+.contact_now {
+    background: #F02D23;
+    border-radius: 20px;
+    display: block;
+    margin: auto;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #FFFFFF;
+    padding:  10px;
+}
+@media(min-width:425px){
+    .contact_now{
+        padding: 5px 10%;
     }
 }
