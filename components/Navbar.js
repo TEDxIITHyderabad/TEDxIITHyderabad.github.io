@@ -33,7 +33,7 @@ export default function NavbarComp(){
                   <Nav >
                     <Nav.Link style={{color: (path=="/")?"#F02D23":""}} href="/">Home</Nav.Link>
                     <Nav.Link style={{color: (path=="/aboutus")?"#F02D23":""}} href="/aboutus">About Us</Nav.Link>
-                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="#">Event Info</Nav.Link>
+                    <Nav.Link style={{color: (path=="#")?"#F02D23":""}} href="/events">Event Info</Nav.Link>
                     <Nav.Link style={{color: (path=="/speakersupcoming")?"#F02D23":""}} href="/speakersupcoming">Speakers</Nav.Link>
 
                     <NavDropdown title="Campus Outreach" id="basic-nav-dropdown">
