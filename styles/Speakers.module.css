@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher');
 .speaker_section {
 	padding-top: 0;
 }
@@ -11,7 +12,7 @@
 }
 
 .speaker_item .si_text .si_title h4 {
-	font-family: 'Helvetica';
+	    font-family: 'Philosopher';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 32px;
@@ -21,7 +22,7 @@
 }
 
 .speaker_item .si_text .si_title p {
-	font-family: 'Helvetica';
+	    font-family: 'Philosopher';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -33,7 +34,7 @@
 
 
 .speaker_item .si_text p {
-	font-family: 'Helvetica';
+	    font-family: 'Philosopher';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -48,7 +49,7 @@
 }
 
 .modal_main .modal_body p {
-	font-family: 'Helvetica';
+	    font-family: 'Philosopher';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -60,7 +61,7 @@
 }
 
 .modal_main .modal_body h4 {
-	font-family: 'Helvetica';
+	    font-family: 'Philosopher';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 32px;
@@ -75,7 +76,7 @@
 }
 
 .modal_main .modal_body h6 {
-	font-family: 'Helvetica';
+	    font-family: 'Philosopher';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
@@ -218,7 +219,7 @@
 	}
 
 	.speaker_item .si_text .si_title h4 {
-		font-family: 'Helvetica';
+		    font-family: 'Philosopher';
 		font-style: normal;
 		font-weight: 700;
 		font-size: 25px;
@@ -228,7 +229,7 @@
 	}
 
 	.speaker_item .si_text .si_title p {
-		font-family: 'Helvetica';
+		    font-family: 'Philosopher';
 		font-style: normal;
 		font-weight: 400;
 		font-size: 25px;
@@ -240,7 +241,7 @@
 	}
 
 	.speaker_item .si_text p {
-		font-family: 'Helvetica';
+		    font-family: 'Philosopher';
 		font-style: normal;
 		font-weight: 400;
 		font-size: 16px;

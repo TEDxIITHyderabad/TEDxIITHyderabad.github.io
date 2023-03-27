@@ -4,7 +4,7 @@ export default function SpeakersPage() {
     return (
         <>
             <div className={`${styles.heading1}`}>
-                <span className={`${styles.upcoming_speakers}`} style={{marginRight:"50px"}}>Upcoming Speakers-2023 &gt;&gt;&gt;</span>
+                <span className={`${styles.upcoming_speakers}`} style={{marginRight:"50px"}}>Upcoming Speakers-2023 =&gt;</span>
                 <button className={`${styles.speaker_2023}`}>
                     <Link href="/speakersupcoming">
                         <span className={`${styles.link}`}>Upcoming Speakers-2023</span>

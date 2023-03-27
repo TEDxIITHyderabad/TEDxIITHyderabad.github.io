@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher');
 .past_speakers {
     font-weight: bolder;
     font-size: xx-large;
@@ -6,6 +7,7 @@
 .upcoming_speakers {
     font-size: xx-large;
     font-weight: bold;
+    font-family: 'Philosopher';
 }
 
 .speaker_2023_new {
@@ -70,6 +72,7 @@ padding:5px
     font-weight: bold;
     font-size: large;
     /* background-color: #7B120D; */
+    font-family: 'Philosopherr';
 }
 
 @media only screen and (min-width:367px) and (max-width:576px) {
