@@ -16,6 +16,41 @@
     border-radius: 15px;
 }
 
+.speaker_button_cont{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    overflow-x: scroll;
+    justify-content: center;
+}
+
+
+.speaker_button_cont::-webkit-scrollbar{
+    height: 0;
+    width: 0;
+}
+
+
+.speaker_button_cont a{
+    margin: 0 0.75% 0 0.75%;
+}
+
+.buttons {
+    flex-grow: 1;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 1% 10% 1% 10%;
+    width: max(12vw,20vh);
+    height: 60px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: max(0.9vw,1.75vh);
+    background-color: #F02D23;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+}
+
 .line {
     display: block;
     height: 1px;
@@ -33,7 +68,7 @@
 }
 
 .container {
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .row {
@@ -56,9 +91,7 @@ padding:5px
     font-size: 20px;
     line-height: 36px;
     letter-spacing: 0.04em;
-
     border-radius: 10px;
-
 }
 
 .speaker_2023 a {
@@ -72,7 +105,13 @@ padding:5px
     font-weight: bold;
     font-size: large;
     /* background-color: #7B120D; */
-    font-family: 'Philosopherr';
+    font-family: 'Philosopherr=';
+}
+
+@media (max-width:870px){
+    .speaker_button_cont{
+        justify-content: flex-start;
+    }
 }
 
 @media only screen and (min-width:367px) and (max-width:576px) {

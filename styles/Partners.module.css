@@ -96,7 +96,7 @@
     font-family: 'Philosopher';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: max(3.25vw, 5vh);
     line-height: 44px;
     /* identical to box height */
 
@@ -157,6 +157,23 @@
     color: #FFFFFF;
     padding:  10px;
 }
+
+.buttons {
+    flex-grow: 1;
+    border-radius: 15px;
+    padding: 1% 10% 1% 10%;
+    display: block;
+    margin: auto;
+    height: 80px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: max(0.9vw,1.75vh);
+    background-color: #F02D23;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+}
+
 @media(min-width:425px){
     .contact_now{
         padding: 5px 10%;
