@@ -109,7 +109,8 @@ export default function Speakers() {
                         </div>
                     </div>
                 </div>
-                <button className={styles.contact_now} onClick={handleClick}>Contact Now
+
+                <button className={styles.buttons} onClick={handleClick}>CONTACT NOW
                     </button>
 
             </div>
