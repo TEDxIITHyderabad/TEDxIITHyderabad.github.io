@@ -308,3 +308,9 @@
 .close {
 	margin: 10px;
 }
+@media(max-width:767px){
+	.speaker_item{
+		display: block;
+		margin: auto;
+	}
+}

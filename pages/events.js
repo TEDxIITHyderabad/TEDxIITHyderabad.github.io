@@ -29,7 +29,7 @@ export default function Speakers() {
             <div className={styles.events_main}>
                 <NavbarComp />
                 <div className={showvideo ? styles.theme_video : styles.displaynone}>
-                    <div className={styles.close_button} onClick={()=>{changeshowvideo(false)}}>X</div>
+                    <div className={styles.close_button} onClick={() => { changeshowvideo(false) }}>X</div>
                     <iframe className={styles.main_video} src="https://www.youtube.com/embed/vsZUFsGzxcA"></iframe>
                 </div>
                 <div className={styles.main}>
