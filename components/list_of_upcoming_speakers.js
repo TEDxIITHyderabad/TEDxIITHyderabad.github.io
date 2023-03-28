@@ -5,24 +5,11 @@ export const speakers = [
         about: 'Neha Bhat specializes in feminist-oriented, trauma-informed art therapy and counseling between India and the U.S. She employs trauma-focused therapy for survivors of sexual violence, offers crisis counseling, and uses art as a radical tool of living and coping against oppressive systems. Her work as an interdisciplinary artist informs her professional counseling practice, enabling her to bring into the clinical setting elements of play through visual art, theatre, and movement into the clinical setting. She has worked at global institutions, including the University of Michigan, the Art Institute of Chicago, Rush Medical Centre, and the Tata Institute of Social Sciences.',
         image: 'speakers/speaker-1.jpg'
     },
-
-    {
-        name: 'Dr. Avinash DeSousa',
-        desc: 'Psychiatrist, Psychotherapist',
-        about: 'Dr. Avinash DeSousa is a Psychiatrist and psychotherapist based in Mumbai and has been practicing for over 20 years. He is a Research Associate at the Department of Psychiatry, Lokmanya Tilak Municipal Medical College, Mumbai and also the founder trustee of DeSousa Foundation- a trust that works in the area of mental health awareness across all sectors. He is an Associate Professor and Secretary at International Institute of Organizational Psychological Medicine. He is an Associate Editor of Global Bioethics Enquiry and is a part of the editorial board of various other journals. He is one of the few psychiatrists who in addition to a psychiatry degree has a Masters in Counseling & Psychotherapy, an M Phil in Applied Psychology, an MBA in Human Resource Development. He has over 750 publications in national and international journals and is the author of 12 books in the area of mental health. He was awarded a Doctorate in Clinical Psychology from the University of Hertfordshire UK in the year 2011.',
-        image: 'speakers/speaker-2.jpg'
-    },
     {
         name: 'Dr. CVS Kiran',
         desc: 'Lead, R&D Strategist at Skyroot Aerospace, R&D Director at AnanthaP',
         about: 'Being a man with a vision that sees beyond our universe, Dr. CVS Kiran is a proud contributor to Skyroot Aerospace’s missions as a lead and R&D strategist and as a R&D director at AnanthaP. He has also worked for VSSC while being associated with the HIU and KIT as a guest scientist. Dr. Kiran was elected as a fellow for Andhra Pradesh Akademi of Sciences and also served as member of scientific convent - KIT. He has published about 100 scientific papers and holds one patent. With an unassuming appearance coupled with extraordinary thoughts, his work for the prestigious missions in the field of Science and Technology in India truly motivates and encourages the young generation to aspire for mammoth endeavours.',
         image: 'speakers/speaker-3.jpg'
-    },
-    {
-        name: 'Raghav Verma',
-        desc: 'Co-Founder at Chaayos, Indian Institute of Technology - Delhi Alumnus',
-        about: 'Neha Raghav Verma, along with Nitin Saluja, founded Chaayos - a franchise that experiments with \'chai\' and puts the customer\'s choice as their first priority. He completed his Bachelor of Technology, Chemical Engineering at IIT Delhi and continued his education by pursuing Master of Technology, Computer Applications in Chemical Engineering at IIT Delhi. He worked as a Business Analyst at Operation Solutions from 2010 to 2012. He entered the field of entrepreneurship by co-founding an online education startup, PrepSquare. PrepSquare aimed at helping students assess and analyse their performance in tests. In 2013, he co-founded Chaayos, a company that has expanded its reach with innovative ideas, delivery services and partnerships with transport agencies.',
-        image: 'speakers/speaker-4.jpg'
     },
     {
         name: 'Dr. Yadvendradev Jhala',
@@ -36,4 +23,17 @@ export const speakers = [
         about: 'Raju Kendre, a Social Entrepreneur, Hailing from a nomadic tribal family in Vidarbha, where hisparents did not even finish primary education. Raju Kendre\'s journey to becoming a socialentrepreneur is all the more remarkable. Raju\'s own lived experience inspires him to foundEklavya India Foundation in 2017. The Foundation\'s mission is to promote higher education andleadership in first-generation learners, Over the last six years, Eklavya India Foundation hasmade a significant impact by conducting career awareness workshops for 25,000 students fromrural and tribal regions and enabling 700 first-generation learners to gain admission into top-notch universities and fellowship programmes. The Foundation has also provided a cumulative0.5 Million hours of mentorship and career guidance in the last six years.',
         image: 'speakers/speaker-6.jpg'
     },
+    {
+        name: 'Murtuza Kutianawalla',
+        desc: 'Founder and CEO, Bizzy Baby media and entertainment',
+        about: "Murtuza Kutianawalla, born in Mumbai, at 33 years of age has a combined experience of 12 years in the media and entertainment industry. After finishing his M.COM with his key interest in storytelling he went ahead and kickstarted a theatre company where he Directed and Produced 5 commercially successful plays with over 200 shows across India and overseas. Simultaneously, he worked as an Anchor/VJ for Walt Disney India in 2011. He represented Disney India in the friends for change, in Orlando along with Hosting Airtels Champions League, held in South Africa (A Disney and ESPN initiative). He was then casted as a protagonist for a Walt Disney India series called “Best of Luck Nikki '' as Rohan Singh that ran across 4 seasons. Best of luck Nikki has gathered over a billion views on YouTube and Hotstar and is still counting. Murtuza has also worked on ads like PEPSI, COKE, MCDONALDS and NIKON with Priyanka Chopra! Since 2016, he worked with a large global MCN/kids network called Hooplakidz where he wore the creative hat to help create and grow several IP's in the digital ecosystem. Bizzy Baby Media, was founded by him in 2017, where he accelerated his vision by creating several IP's in the animation sector along with several studios and brands till date. Today, After working on successful campaigns for ICICI Bank, JSW One Homes and UNESCO, his aim is to build brands through effective content marketing. Every story is good! All you need is a good storyteller!",
+        image: 'speakers/speaker-6.jpg'
+
+    },
+    {
+        name: 'Aarathi Selvan',
+        desc: 'Clinical psychologist',
+        about: "Aarathi Selvan is the founder of Pause for Perspective. They are a Counseling psychologist with a dual Masters from Columbia University, a clinical psychologist with an MPhil from Osmania University and a Phd Scholar at the University of Madras. They lead Pause for Perspective, a mental health organisation in Hyderabad that works towards mental health and well being from the intersections of embodied social justice, anti caste, anti patriarchy, queer affirmative, neurodivergence affirmative and disability justice. They work with a team of women and trans and non binary practitioners with a vision of offering access to mental health awareness, and advocacy for well being for young people, families and collectives in the margins. They work with government and budget private schools to offer mental health awareness and advocacy, they offer mental health and gender and sexuality awareness education for children and their stakeholders in institutions and welfare homes in the city of Hyderabad. In the last four years their team has reached more than 10,000 children across different schools in Hyderabad as well and as many young people across colleges in Hyderabad to spread mental health awareness.  They also have a training team that works together for three months a year to offer free therapy for those in the margins. In the last two years their team has been able to reach 400 people offering 4500 hours of Counseling through this means. It is Aarathi's continued vision to work towards sustainable mental health support and access for all, especially those in the margins through the lens of embodied social justice. Aarathi works as a therapist, supervisor, teacher and mentor for mental health practitioners across the country. ",
+        image: 'speakers/speaker-6.jpg'
+    }
 ]

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Footer from '../components/Footer'
 import NavbarComp from '../components/Navbar'
 import styles from '../styles/Partners.module.css'
-import { partners } from './/list_of_partners'
+import { partners } from '../components/list_of_partners'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
 

@@ -57,7 +57,7 @@ export default function HorizontalScroll({ speakers }) {
             removeArrowOnDeviceType={["tablet", "mobile"]}>
             {speakers && speakers.map((speaker, index) => (
                 <div>
-                    <img alt={speaker.name} src={speaker.image} />
+                    <img alt={speaker.name} src={speaker.image} width={speaker.width} height={speaker.height} className={styles.speaker_image}/>
                     {speaker.name && <div className={styles.speaker_name}>{speaker.name}</div>}
                     {speaker.des && <div className={styles.speaker_des}>{speaker.des}</div>}
                 </div>

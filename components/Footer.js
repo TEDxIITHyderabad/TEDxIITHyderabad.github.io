@@ -18,14 +18,14 @@ export default function Footer(){
                                 `offset-lg-1
                                 col-lg-4 
 
-                                offset-md-1
+                                offset-md-2
                                 col-md-4
 
-                                offset-sm-1 
+                                offset-sm-2 
                                 col-sm-6 
 
-                                offset-0
-                                col-12 
+                                offset-4
+                                col-8 
 
                                 p-0 
                                 mb-5 
@@ -54,8 +54,8 @@ export default function Footer(){
                                 col-sm-4
                                 offset-sm-0 
 
-                                offset-0
-                                col-12 
+                                offset-4
+                                col-8 
                                 
                                 p-0 
                                 mb-5 
@@ -77,11 +77,11 @@ export default function Footer(){
                                 offset-md-0
                                 col-md-4
 
-                                offset-sm-3
+                                offset-sm-5
                                 col-sm-6 
 
-                                offset-0
-                                col-12 
+                                offset-4
+                                col-8
 
                                 mb-5 
                                 p-0 

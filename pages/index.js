@@ -10,7 +10,7 @@ import Countdown from '../components/Countdown';
 import Footer from '../components/Footer'
 import NavbarComp from '../components/Navbar'
 import ImageScroll from '../components/HorizontalImageScroll'
-import { speakers } from './speakers1'
+import { speakers } from '../components/speakers1'
 import React from "react";
 import Grid from '/components/GridSpeakers'
 import HorizontalScroll from '../components/HorizontalScroll.js';
@@ -43,7 +43,7 @@ export default function Home() {
           <p className={styles["hero-theme"]}>Timely and timeless, humanity is the best of us</p>
           <div className={styles["hero-buttons"]}>
             <button className={styles.buttons + " " + styles["book-tickets"]}>BOOK TICKETS</button>
-            <button className={styles.buttons + " " + styles.merch}>CHECKOUT MERCH</button>
+            {/* <button className={styles.buttons + " " + styles.merch}>CHECKOUT MERCH</button> */}
           </div>
         </div>
 
