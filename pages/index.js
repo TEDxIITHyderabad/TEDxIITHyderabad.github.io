@@ -75,35 +75,35 @@ export default function Home() {
           <div class={styles.sub_theme_main}>
             <div class={styles.sub_theme_image_cont1}>
               <div class={styles.sub_theme_image_cont2}>
-                <img class={styles.sub_theme_image} src='sponsors/reasonstoattend.png' />
+                <img class={styles.sub_theme_image} src='subthemes/Business.png' />
               </div>
             </div>
           </div>
           <div class={styles.sub_theme_main}>
             <div class={styles.sub_theme_image_cont1}>
               <div class={styles.sub_theme_image_cont2}>
-                <img class={styles.sub_theme_image} src='sponsors/reasonstoattend.png' />
+                <img class={styles.sub_theme_image} src='subthemes/Education.png' />
               </div>
             </div>
           </div>
           <div class={styles.sub_theme_main}>
             <div class={styles.sub_theme_image_cont1}>
               <div class={styles.sub_theme_image_cont2}>
-                <img class={styles.sub_theme_image} src='sponsors/reasonstoattend.png' />
+                <img class={styles.sub_theme_image} src='subthemes/Nature_and_Wildlife.png' />
               </div>
             </div>
           </div>
           <div class={styles.sub_theme_main}>
             <div class={styles.sub_theme_image_cont1}>
               <div class={styles.sub_theme_image_cont2}>
-                <img class={styles.sub_theme_image} src='sponsors/reasonstoattend.png' />
+                <img class={styles.sub_theme_image} src='subthemes/Science_and_tech.png' />
               </div>
             </div>
           </div>
           <div class={styles.sub_theme_main}>
             <div class={styles.sub_theme_image_cont1}>
               <div class={styles.sub_theme_image_cont2}>
-                <img class={styles.sub_theme_image} src='sponsors/reasonstoattend.png' />
+                <img class={styles.sub_theme_image} src='subthemes/Social_Sciences.png' />
               </div>
             </div>
           </div>
