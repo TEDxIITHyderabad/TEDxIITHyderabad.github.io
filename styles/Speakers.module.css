@@ -10,6 +10,7 @@
 
 .speaker_item .si_pic img {
 	border-radius: 20px;
+	border: 1px solid rgba(255, 228, 228, 0.8);
 }
 
 .speaker_item .si_text .si_title h4 {
@@ -283,6 +284,8 @@
 	.modal_image {
 		display: block;
 		margin: auto;
+		border: 1px solid rgba(255, 228, 228, 0.8);
+		border-radius: 8px;
 	}
 }
 

@@ -23,7 +23,7 @@ export const speakers = [
   {
   name: 'Aarathi Selvan',
     des: 'Clinical psychologist',
-     image: '/speakers/2023/Aarathi Selvan.jpg',
+     image: '/speakers/2023/Aarathi Selvan_updated.jpg',
     width: 350,
     height: 350,
   },
@@ -37,7 +37,7 @@ export const speakers = [
   {
     name: 'Murtuza Kutianawalla',
     des: 'Founder and CEO, Bizzy Baby media and entertainment',
-    image: '/speakers/2023/MurtuzaPicture.jpg',
+    image: '/speakers/2023/MurtuzaPicture_updated.jpg',
     width: 350,
     height: 350,
   },
