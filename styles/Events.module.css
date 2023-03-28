@@ -82,8 +82,8 @@
     position: absolute;
     top: max(43%, 45vh);
     left: 43%;
-    width: max(8vw, 10vh);
-    z-index: 100;
+    width: max(8vw,10vh);
+    z-index: 80;
 }
 
 .hero_title {

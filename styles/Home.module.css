@@ -258,10 +258,15 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
-
+    text-align: left;
     color: #FFFFFF;
 }
-
+.book-tickets{
+    color: white;
+    background-color: #D91E1D;
+    margin-left: 25%;
+    margin-right: 25%;
+}
 .main-video-text div {
     display: inline;
     margin: 0;

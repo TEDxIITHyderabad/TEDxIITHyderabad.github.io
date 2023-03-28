@@ -278,7 +278,7 @@ color: #FFFFFF;
         width:90%;
     }
 }
-@media screen and (min-width:1400px) and (max-width:1600px){
+@media screen and (min-width:1400px) {
     .team_box_main_grid_item{
         width: 250px;
     }

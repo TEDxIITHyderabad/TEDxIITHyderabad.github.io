@@ -3,7 +3,7 @@ import Footer from '../components/Footer'
 import NavbarComp from '../components/Navbar'
 import styles from '../styles/Events.module.css'
 import React, { useState } from 'react';
-import { speakers } from './/list_of_upcoming_speakers.js';
+import { speakers } from './list_of_upcoming_speakers.js';
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 
 
