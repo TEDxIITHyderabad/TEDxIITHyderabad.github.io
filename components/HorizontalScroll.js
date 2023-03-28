@@ -33,8 +33,7 @@ export default function HorizontalScroll({ speakers }) {
         }
     };
     return (<>
-        <p>Hello peeps</p>
-        <Carousel  className={styles.image_cont} responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000} removeArrowOnDeviceType={["tablet", "mobile"]}>
+        <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000} removeArrowOnDeviceType={["tablet", "mobile"]}>
             {speakers && speakers.map((speaker, index) => (
                 <div>
                     <img alt={speaker.name} src={speaker.image} />

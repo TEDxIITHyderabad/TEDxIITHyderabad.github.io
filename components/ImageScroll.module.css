@@ -1,10 +1,6 @@
 .ImgScroll {
   margin-left: 25px;
 }
-.image_cont{
-  display: flex;
-  justify-content: center;
-}
 
 .image_scroll_container {
   animation: scroll 90s linear infinite;
