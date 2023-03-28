@@ -1,63 +1,72 @@
-.ImgScroll{
-    margin-left: 25px;
-  }
-  
-  .image_scroll_container {
-    animation: scroll 90s linear infinite ;
-    justify-content: space-around;
-    /* animation-duration: 90s; */
-    /* animation-iteration-count: infinite;
+.ImgScroll {
+  margin-left: 25px;
+}
+.image_cont{
+  display: flex;
+  justify-content: center;
+}
+
+.image_scroll_container {
+  animation: scroll 90s linear infinite;
+  justify-content: space-around;
+  /* animation-duration: 90s; */
+  /* animation-iteration-count: infinite;
     animation-timing-function: ease-out; */
+}
+
+.image_scroll_container:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
   }
-  .image_scroll_container:hover {
-    animation-play-state: paused;
+
+  100% {
+    transform: translateX(-100%);
   }
-  @keyframes scroll {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
-  
-  .image_scroll_item {
-    flex-shrink: 0;
-    width: 350px;
-    height: 450px;
-    margin-top: 30px;
-    margin-right: 20px;
-    text-align: center;
-    /* transition: transform 0.3 ease-in-out; */
-  }
-  
-  .image_scroll_item:hover {
-    transform: scale(1.05);
-  }
-  .speaker_name{
-    text-align: center;
-    margin-top: 18px;
-    font-size:xx-large;
-    font-weight:bolder;
-    color: #FFFFFF;
-    font-family: 'Helvetica';
-    font-style: normal;
-    line-height: 30px;
-  }
-  .speaker_des{
-    text-align: center;
-    padding-top: 3px;
-    font-size:medium;
-    font-weight: lighter;
-    font-family: 'Helvetica';
-    font-style: normal;
-    line-height: 30px;
-    color: #FFFFFF;
-  }
-  .icon_fill{
-    background: rgba(255, 255, 255, 0.3);
+}
+
+.image_scroll_item {
+  flex-shrink: 0;
+  width: 350px;
+  height: 450px;
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align: center;
+  /* transition: transform 0.3 ease-in-out; */
+}
+
+.image_scroll_item:hover {
+  transform: scale(1.05);
+}
+
+.speaker_name {
+  text-align: center;
+  margin-top: 18px;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #FFFFFF;
+  font-family: 'Helvetica';
+  font-style: normal;
+  line-height: 30px;
+}
+
+.speaker_des {
+  text-align: center;
+  padding-top: 3px;
+  font-size: medium;
+  font-weight: lighter;
+  font-family: 'Helvetica';
+  font-style: normal;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.icon_fill {
+  background: rgba(255, 255, 255, 0.3);
   transform: rotate(90deg);
   width: 77.5px;
   height: 70px;
-  }
-  
+}

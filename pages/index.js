@@ -13,7 +13,7 @@ import ImageScroll from '../components/HorizontalImageScroll'
 import { speakers } from './speakers1'
 import React from "react";
 import Grid from '/components/GridSpeakers'
-
+import HorizontalScroll from '../components/HorizontalScroll.js';
 
 const images = [
   { image: '/homepageimg/Rectangle 35.png', width: 350, height: 350 },
@@ -52,7 +52,7 @@ export default function Home() {
       <div className={styles.background}>
 
         <div className={styles["main-video-cont"]}>
-          <iframe className={styles["main-video"]} src="https://www.youtube.com/embed/7HQ1OLYaTyE"></iframe>
+          <iframe className={styles["main-video"]} src="https://www.youtube.com/embed/vsZUFsGzxcA"></iframe>
           <div className={styles["main-video-text"]}>Weaving the<br />
             Saga of humanity<br />
             through
@@ -67,11 +67,13 @@ export default function Home() {
         <div className={styles.theme_cont}></div>
 
         <div className={styles.speakers_2023}>SPEAKERS 2023</div>
-        <ImageScroll speakers={speakers} />``
+        <HorizontalScroll speakers={speakers}/>
+
+
         <h1 className={styles.speakers_2023}>REASON TO ATTEND</h1>
         <Grid />
         <h1 className={styles.speakers_2023}>GLIMPSE</h1>
-        <ImageScroll speakers={images} />
+        <HorizontalScroll speakers={images} />
         {/* <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Dropdown button
