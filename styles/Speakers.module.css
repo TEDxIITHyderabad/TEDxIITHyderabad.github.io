@@ -266,10 +266,20 @@
 		overflow-y: auto;
 	}
 
+	.modal_class::-webkit-scrollbar {
+		width: 12px;
+		background-color: rgb(103, 18, 18);
+	}
+
+	.modal_class::-webkit-scrollbar-thumb {
+		background-color: inherit;
+		border-radius: 10px;
+	}
+
 	.modal_main {
 		border: 1px solid #FF2B06;
 		box-shadow: 10px 10px 20px rgba(240, 45, 35, 0.1);
-		border-radius: 20px;
+		border-radius: 5px;
 	}
 
 	.modal_main .modal_body {
@@ -308,9 +318,17 @@
 .close {
 	margin: 10px;
 }
-@media(max-width:767px){
-	.speaker_item{
+
+@media(max-width:767px) {
+	.speaker_item {
 		display: block;
 		margin: auto;
+	}
+}
+
+@media (max-width:992px) {
+	.modal_image {
+		border: 1px solid rgba(255, 228, 228, 0.8);
+		border-radius: 8px;
 	}
 }

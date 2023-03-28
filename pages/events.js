@@ -112,11 +112,20 @@ export default function Speakers() {
                 <div className={styles.speakers_list}>
                     {speakers && speakers.map(speaker =>
                         <div className={styles.speaker_item}>
-                            <img src={speaker.image} className={styles.speaker_image}/>
+                            <img src={speaker.image} className={styles.speaker_image} />
                             <p>{speaker.name}</p>
                             <hr />
                             <p className={styles.speaker_pos}>{speaker.desc}</p>
-                            <div className={styles.speaker_desc}>{speaker.about}</div>
+                            <div className={styles.speaker_desc}>
+                                {speaker.addLineBreak1 ?
+                                    speaker.about.split('\n').map(line => <div className={styles.new_line1}>{line}</div>) :
+                                    speaker.addLineBreak2 ?
+                                        speaker.about.split('\n\n').map(line => <div className={styles.new_line2}>{line}</div>) :
+                                        speaker.addLineBreak3 ?
+                                        speaker.about.split('\n\n\n').map(line => <div className={styles.new_line3}>{line}</div>) :
+                                        <div>{speaker.about}</div>
+                                }
+                            </div>
                         </div>
                     )}
                 </div>

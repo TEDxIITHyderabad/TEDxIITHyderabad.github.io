@@ -25,17 +25,17 @@ export default function SpeakersPage() {
                     <button className={styles.buttons}>SPEAKERS 2021</button>
                 </a>
                 <a href="/speakers2020" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2020</button>
+                    <button className={styles.buttons}>SPEAKERS 2019</button>
                 </a>
 
                 <a href="/speakers2019" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2019</button>
+                    <button className={styles.buttons}>SPEAKERS 2017</button>
                 </a>
                 <a href="/speakers2018" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2018</button>
+                    <button className={styles.buttons}>SPEAKERS 2016</button>
                 </a>
                 <a href="/speakers2017" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2017</button>
+                    <button className={styles.buttons}>SPEAKERS 2015</button>
                 </a>
             </div>
 

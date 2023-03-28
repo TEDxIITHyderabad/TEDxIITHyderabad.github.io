@@ -319,7 +319,7 @@ export default function Upcomingspeakers() {
                     </div>
                     <div className="col-lg-7 col-xl-7">
                       <h4>{selectedSpeaker.name}</h4>
-                      <h6>Topic - {selectedSpeaker.topic}</h6>
+                      <h6>{selectedSpeaker.topic}</h6>
                       <p>{selectedSpeaker.content}</p>
                     </div>
                   </div>
