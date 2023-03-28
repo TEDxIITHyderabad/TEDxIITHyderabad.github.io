@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher');
+
 .background{
     background-image: url("/homepageimg/background.png");
     background-size: cover;
@@ -216,13 +217,52 @@
 
 .theme_cont{
     display: flex;
+    justify-content: center;
+    margin: 5%;
+    flex-wrap: wrap;
+}
+
+.sub_theme_main{
+    margin: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 23px solid rgba(55, 10, 8, 0.6);
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.sub_theme_image_cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 23px solid rgba(84, 17, 14, 1);
+    border-radius: 50%;
+    background-color: rgba(143, 26, 20, 1);
+    aspect-ratio: 1;
+}
+
+.sub_theme_image_cont2{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.sub_theme_image{
+    width: 150px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    border: 2px solid white;
 }
 
 .merch {
     color: white;
     background-color: #D91E1D;
 }
-
 
 .main-video-cont {
     display: flex;
@@ -233,7 +273,6 @@
     align-items: center;
     justify-content: start;
     align-content: center;
-    /* text-align: center; */
 }
 
 .main-video {
@@ -243,22 +282,13 @@
     height: 22.5vw;
 }
 
-/* .main-video {
-    margin: 8%;
-    margin-left: 10%;
-    flex-grow: 4;
-} */
-
-
 .main-video-text {
     flex-grow: 1;
-    margin: 20px;
     font-family: Helvetica;
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 55px;
-
     color: #FFFFFF;
 }
 
@@ -266,7 +296,6 @@
     display: inline;
     margin: 0;
     color: red;
-
 }
 
 @media (min-width: 1000px) and (max-width: 1615px) {
@@ -291,6 +320,7 @@
     .buttons {
         height: 65px;
     }
+    
 }
 
 @media (max-width: 772px) {
@@ -327,6 +357,19 @@
 
     .main-video-text {
         font-size: 32px;
+    }
+
+    .sub_theme_image{
+        width: 50px;
+    }
+
+    .sub_theme_main{
+        margin: 8%;
+        border: 15px solid rgba(55, 10, 8, 0.6);
+    }
+
+    .sub_theme_image_cont1{
+        border: 15px solid rgba(84, 17, 14, 1);
     }
 
 }
