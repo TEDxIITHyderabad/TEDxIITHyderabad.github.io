@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHouse, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
 import Footer from '../components/Footer';
-
+import FormData from 'form-data';
 export default function Contactus() {
 
         const scriptURL = 'https://script.google.com/macros/s/AKfycbxlogqpLlsVsTIuKR3rLczer6jq9SH3nSqJyn5dQC8zlccT93yNQZ7Ik102_qkmyJCi/exec'
