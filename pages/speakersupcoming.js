@@ -193,7 +193,7 @@ export default function Upcomingspeakers() {
                               <p>Founder and CEO, Bizzy Baby media and entertainment</p>
                             </div>
                             <p>
-                            Murtuza Kutianawalla, born in Mumbai, at 33 years of age has a combined experience of 12 years in the media and entertainment industry. After finishing his M.COM with his key interest in storytelling <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Murtuza Kutianawalla, born in Mumbai, at 33 years of age has a combined experience of 12 years in the media and entertainment industry. After finishing his M.COM with his <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
