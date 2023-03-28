@@ -10,7 +10,7 @@ import Countdown from '../components/Countdown';
 import Footer from '../components/Footer'
 import NavbarComp from '../components/Navbar'
 import ImageScroll from '../components/HorizontalImageScroll'
-import { speakers } from './speakers1'
+import { speakers } from '../components/speakers1'
 import React from "react";
 import Grid from '/components/GridSpeakers'
 import HorizontalScroll from '../components/HorizontalScroll.js';
