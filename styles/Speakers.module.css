@@ -223,7 +223,7 @@
 		font-style: normal;
 		font-weight: 700;
 		font-size: 25px;
-		line-height: 25x;
+		line-height: 20x;
 		color: #FF2B06;
 		padding-left: 30px;
 	}
@@ -232,8 +232,8 @@
 		    font-family: 'Philosopher';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 25px;
-		line-height: 20px;
+		font-size: 18px;
+		line-height: 27px;
 		/* identical to box height, or 167% */
 		color: #FFFFFF;
 		padding-left: 30px;
@@ -258,6 +258,8 @@
 		width: 90%;
 		margin-left: 5%;
 		margin-top: 20vh;
+		max-height:60vh;
+		overflow-y: auto;
 	}
 	.modal_main{
 		background: #000000;
