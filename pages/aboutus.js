@@ -77,7 +77,7 @@ export default function AboutUs(){
                             <div className={`col-12 col-md-6`} >
                                 <div className={`${styles.team_box_main_grid_item_head}`}>
                                     <div className={`${styles.team_box_main_grid_item_image}`}>
-                                        <img src="/team/Cores/Poorvika C.jpg"  alt="image"/>
+                                        <img src="/team/Cores/mahati chittem.jpg"  alt="image"/>
                                     </div>
                                     <div className={`${styles.team_box_main_grid_item_text}`}>
                                         <span style={{transform: "rotate(-180deg)"}}>
