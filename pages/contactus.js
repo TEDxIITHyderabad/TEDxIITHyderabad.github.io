@@ -4,6 +4,7 @@ import styles from '../styles/Contactus.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHouse, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
+import Footer from '../components/Footer';
 
 export default function Contactus() {
 
@@ -171,6 +172,7 @@ export default function Contactus() {
                         </div>
                     </div>
                 </section>
+                <Footer />
             </div>
             {/* <iframe src="./contactuspage.html" style={{border:"none",height:"482px",width:"100%"}} title='contactus'></iframe> */}
         </>

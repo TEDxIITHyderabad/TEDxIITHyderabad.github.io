@@ -5,9 +5,24 @@ import styles from "./ImageScroll.module.css"
 
 
 export default function HorizontalScroll({ speakers }) {
+    const CustomRightArrow = ({ onClick, ...rest }) => {
+        const {
+            onMove,
+            carouselState: { currentSlide, deviceType }
+        } = rest;
+        return (<div className={`${styles.carousel_button} ${styles.next}`} onClick={() => onClick()}><img src='images/next.png' /></div>);
+    };
+
+    const CustomLeftArrow = ({ onClick, ...rest }) => {
+        const {
+            onMove,
+            carouselState: { currentSlide, deviceType }
+        } = rest;
+        return (<div className={`${styles.carousel_button} ${styles.prev}`} onClick={() => onClick()}><img src='images/next.png' /></div>);
+    };
+
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 8
         },
@@ -33,12 +48,18 @@ export default function HorizontalScroll({ speakers }) {
         }
     };
     return (<>
-        <Carousel responsive={responsive} infinite={true} autoPlay={true} autoPlaySpeed={2000} removeArrowOnDeviceType={["tablet", "mobile"]}>
+        <Carousel responsive={responsive}
+            customRightArrow={<CustomRightArrow />}
+            customLeftArrow={<CustomLeftArrow />}
+            infinite={true}
+            autoPlay={true}
+            autoPlaySpeed={2000}
+            removeArrowOnDeviceType={["tablet", "mobile"]}>
             {speakers && speakers.map((speaker, index) => (
                 <div>
                     <img alt={speaker.name} src={speaker.image} />
-                    { speaker.name && <div className={styles.speaker_name}>{speaker.name}</div>}
-                    { speaker.des && <div className={styles.speaker_des}>{speaker.des}</div>}
+                    {speaker.name && <div className={styles.speaker_name}>{speaker.name}</div>}
+                    {speaker.des && <div className={styles.speaker_des}>{speaker.des}</div>}
                 </div>
             ))}
         </Carousel>

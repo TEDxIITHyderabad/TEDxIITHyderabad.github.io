@@ -56,7 +56,14 @@ export default function Home() {
           <div className={styles["main-video-text"]}>Weaving the<br />
             Saga of humanity<br />
             through
-            <div> health & fitness</div>
+            <div class={styles.slidingVertical}> 
+              <span>Pleasure</span>
+              <span>Science and technology</span>
+              {/* <span>Social Sciences</span> */}
+              <span>Business</span>
+              <span>Education</span>
+              <span>Nature and Wildlife</span>
+            </div>
           </div>
         </div>
 
