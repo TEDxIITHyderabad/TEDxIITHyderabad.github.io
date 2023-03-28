@@ -147,7 +147,7 @@ export default function Contactus() {
                                         <FontAwesomeIcon icon={faHouse}></FontAwesomeIcon>
                                     </li>
                                     {"     "}
-                                    <li><span>IIT Hyderabad</span></li>
+                                    <li><span style={{fontSize:"20px"}}>IIT Hyderabad</span></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-3 col-xs-12">
@@ -157,7 +157,7 @@ export default function Contactus() {
                                     </li>
                                     {"     "}
 
-                                    <li><span>+91 99008 10774</span></li>
+                                    <li><span style={{fontSize:"20px"}}>+91 99008 10774</span></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-3 col-xs-12">
@@ -166,7 +166,7 @@ export default function Contactus() {
                                         <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
                                     </li>
                                     {"     "}
-                                    <li><a target="_blank" id={styles.tedx_website} href="https://tedxiithyderabad.iith.ac.in/"><span>tedx@iith.ac.in</span></a></li>
+                                    <li><a target="_blank" id={styles.tedx_website} href="https://tedxiithyderabad.iith.ac.in/"><span style={{fontSize:"20px"}}>tedx@iith.ac.in</span></a></li>
                                 </ul>
                             </div>
                         </div>

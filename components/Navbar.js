@@ -43,6 +43,7 @@ export default function NavbarComp(){
                     </NavDropdown> */}
                     <Nav.Link style={{color: (path=="/contactus")?"#F02D23":""}} href="/contactus">Contact Us</Nav.Link>
                     <Nav.Link style={{color: (path=="/partners")?"#F02D23":""}} href="/partners">Partners</Nav.Link>
+                    <Nav.Link style={{color: (path=="/team")?"#F02D23":""}} href="/team">Team</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Container>

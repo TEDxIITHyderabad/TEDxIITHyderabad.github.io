@@ -27,11 +27,12 @@ export default function Speakers() {
                 <div className={styles.background_image}>
                 <div className={styles.sponsers}>
                     <img src="/sponsors/sponsersbg1.png" className={styles.sponser_bg} />
-                    <div className={styles.title} style={{ textTransform: "uppercase" }}>TITLE SPONSERS</div>
+                    <div className={styles.title} style={{ textTransform: "uppercase" }}>TITLE SPONSER</div>
                     <div className={styles.sponserslist}>
                         <div className={styles.sponseritem}>
-                            <img src={partners['TITLE SPONSOR'][0].image} alt={partners['TITLE SPONSOR'][0].name}/>
-                            <p color="black"> {partners['TITLE SPONSOR'][0].name}</p>
+                        <a className={styles.sic} href="https://sic.iith.ac.in/#page-top"><img src={partners['TITLE SPONSOR'][0].image} alt={partners['TITLE SPONSOR'][0].name}/>
+                            <p color="black">{partners['TITLE SPONSOR'][0].name} </p>
+                            </a>
                         </div>
                         {/* <div className={styles.sponseritem}>
                             <img src={partners[][0].image} alt={partners[][0].name}/>

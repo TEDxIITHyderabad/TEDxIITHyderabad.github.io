@@ -1,1102 +1,676 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-import Footer from '../components/Footer'
 import NavbarComp from '../components/Navbar'
 import styles from '../styles/Team.module.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from "@fortawesome/free-brands-svg-icons";
+import Footer from '../components/Footer'
 
-export default function Team(){
+
+export default function AboutUs(){
     return (
         <>
         <Head>
             <meta charSet="utf-8"/>
             <meta httpEquiv="x-ua-compatible" content="ie=edge"/>
-            <title>TEDx IITHyderabad | Team</title>
+            <title>TEDx IITHyderabad | About Us</title>
             <meta name="description" content=""/>
             <meta name="viewport" content="width=device-width, initial-scale=1"/>
         </Head>
-        
-    <div className={styles.speakers_area}>
-        <div className='d-none d-lg-block'>
-            <h1 className={styles.horizontal_text}>
-                Team
-            </h1>
+        <div className={styles.background}>
+        <NavbarComp/>
+            <div className={`${styles.team_box}`}>
+                <div className={`${styles.team_box_header}`}>
+                    TEAM
+                </div>
+                <div className={`${styles.team_box_main}`}>
+                    Heads
+                    <div className={`${styles.team_box_main_grid}`}>
+                        <div className='row'>
+                            <div className={`col-12 col-md-6`} >
+                                <div className={`${styles.team_box_main_grid_item_head}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Cores/mahati chittem.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                                Mahati Chittem
+                                            </div>
+                                            <div className={`${styles.image_position}`}>
+                                                Faculty in Charge
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6`}>
+                                <div className={`${styles.team_box_main_grid_item_head}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Cores/Poorvika C.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                                Poorvika C
+                                            </div>
+                                            <div className={`${styles.image_position}`}>
+                                                Overall Head and Licensee
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.team_box_main}`} style={{marginTop:"200px"}}>
+                    Core Team
+                    <div className={`${styles.team_box_main_grid}`}>
+                        <div className='row'>
+                            <div className={`col-12  col-md-6 col-lg-4 `}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Cores/Ritik.jpg" alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                                Ritik
+                                            </div>
+                                            <div className={`${styles.image_position}`}>
+                                                Branding & Design Core
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 `} >
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Cores/Madhuri Annavazzala .jpeg"     alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Madhuri Annavazzala
+                                            </div>
+                                            <div className={`${styles.image_position}`}>
+                                            Content & Curation Core
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 `}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Cores/Vikhyath.jpg" alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Vikhyath
+                                            </div>
+                                            <div className={`${styles.image_position}`}>
+                                            Experience & Hospitality Core
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 `} style={{marginLeft:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Cores/Prakhar Patni.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Prakhar Patni
+                                            </div>
+                                            <div className={`${styles.image_position}`}>
+                                            Finance & Sponsorship
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 `} style={{marginRight:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Cores/Gowri Govindaraj .JPG" alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Gowri Govindaraj
+                                            </div>
+                                            <div className={`${styles.image_position}`}>
+                                            Marketing & Sales
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.team_box_main}`} style={{marginTop:"200px"}}>
+                    Branding & Design
+                    <div className={`${styles.team_box_main_grid}`}>
+                        <div className='row'>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Branding&Design/Ambady Ravi .jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                                Ambady Ravi
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Branding&Design/Ansh Agarwal.jpeg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Ansh Agarwal
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Branding&Design/Athul krishna.jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Athul Krishna
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Branding&Design/Gatikrushna Mohapatra.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Gatikrushna Mohapatra
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `} style={{marginLeft:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Branding&Design/IMG_20220716_181055_Bokeh.jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Sakshi Jalla
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Branding&Design/Pracheet Padher.jpeg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Pracheet Padher
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3 `} style={{marginRight:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Branding&Design/Trisha_Patidar.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Trisha Patidar
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.team_box_main}`} style={{marginTop:"200px"}}>
+                    Content and Curation
+                    <div className={`${styles.team_box_main_grid}`}>
+                        <div className='row'>
+                        <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Content&Curation/Amulya Tallamraju.jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Amulya Tallamraju
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Content&Curation/Hitesh Donepudi .jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Hitesh Donepudi
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Content&Curation/Ishita Dingare.png" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Ishita Dingare
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Content&Curation/Karthik M Nambiar.JPG"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Karthik M Nambiar
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} >
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Content&Curation/PrachiSharma.jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Prachi Sharma
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Content&Curation/Rishit D.jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Rishit D
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} >
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Content&Curation/Sumedh Kashikar.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Sumedh Kashikar
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} >
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Content&Curation/Swarangi Tambat.JPG.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Swarangi Tambat
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.team_box_main}`} style={{marginTop:"200px"}}>
+                    Experience & Hospitality
+                    <div className={`${styles.team_box_main_grid}`}>
+                        <div className='row'>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Experience&Hospitality/Aditya Kapilesh .jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Aditya Kapilesh
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Experience&Hospitality/AmithReddy.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Amith Reddy
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Experience&Hospitality/Ananda Krishnan .jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Ananda Krishnan
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Experience&Hospitality/Kushagra.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Kushagra Gupta
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginLeft:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Experience&Hospitality/Suddhodhan .jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Suddhodhan
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Experience&Hospitality/Titeeksha Godambe .jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Titeeksha Godambe
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginRight:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Experience&Hospitality/Vedant Kshirsagar .jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Vedant Kshirsagar
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.team_box_main}`} style={{marginTop:"200px"}}>
+                Finance & Sponsorship
+                    <div className={`${styles.team_box_main_grid}`}>
+                        <div className='row'>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Finance&Sponsorship/Akshat Jain.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Akshat Jain
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Finance&Sponsorship/Areeb Hussain.JPG"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Areeb Hussain
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Finance&Sponsorship/Kartik Katekar.jpg" alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Kartik Katekar
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Finance&Sponsorship/Mouktika.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Mouktika
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginLeft:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Finance&Sponsorship/Niharika Singh.jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Niharika Singh
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginRight:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Finance&Sponsorship/Rutv Kocheta.jpeg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Rutv Kocheta
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div className={`${styles.team_box_main}`} style={{marginTop:"200px"}}>
+                Marketing & Sales 
+                    <div className={`${styles.team_box_main_grid}`}>
+                        <div className='row'>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Aditya Sridhar.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Aditya Sridhar
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Dhruvin Shah.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Dhruvin Shah
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Krutika Kulkarni .jpg" alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Krutika Kulkarni
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Mahin Bansal.jpeg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Mahin Bansal
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginLeft:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Manas Bhargava .jpg" width={300} alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Manas Bhargava
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div className={`col-12 col-md-6 col-lg-4 col-xl-3`} style={{marginRight:"auto"}}>
+                                <div className={`${styles.team_box_main_grid_item}`}>
+                                    <div className={`${styles.team_box_main_grid_item_image}`}>
+                                        <img src="/team/Coords/Marketing&Sales/Sai Harish Madireddi.jpg"  alt="image"/>
+                                    </div>
+                                    <div className={`${styles.team_box_main_grid_item_text}`}>
+                                        <span style={{transform: "rotate(-180deg)"}}>
+                                            <div className={`${styles.image_name}`}>
+                                            Sai Harish Madireddiḥ
+                                            </div>
+                                        </span>
+                                    </div> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <Footer/>
         </div>
-        <div className="container">
-            <div className="row">
-                <div className="col-xl-12">
-                    <div className='mb-95'>
-                        <div className={styles.serction_title_large}> 
-                            <h3>
-                                Team
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-xl-12">
-                    <div className='mb-95'>
-                        <div className={styles.serction_title_large}> 
-                            <h3>
-                                Overall Head and Licensee
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="row">
-
-                {/* ---- OC below ---- */}
-                
-                {/* <div className="col-lg-4 offset-lg-4 col-md-6 col-sm-12"> */}
-                <div className="col-12 offset-xl-3 col-xl-6 offset-lg-2 col-lg-8 col-md-10 offset-md-1 col-sm-12">
-                    <div className={styles.single_speaker}>
-                        <div className={styles.speaker_thumb}>
-                            <img className={styles.image_OC} src="/team/Cores/Poorvika C.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Poorvika C</h3>
-                            <p>Overall Head and Licensee</p>
-                        </div>
-                    </div>
-                </div>
-                <div><br/></div>  {/*find a better method to do this */}
-                
-                <div className="row">
-                    <div className="col-xl-12">
-                        <div className='mb-95'>
-                            <div className={styles.serction_title_large}> 
-                                <h3>
-                                    Cores
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* ---- cores start ---- */}
-
-                <div className="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-10 offset-1">
-                    <div className={styles.single_speaker}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Cores/Gowri Govindaraj .JPG" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Gowri Govindaraj</h3>
-                            <p>Marketing & Sales</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-10 offset-1">
-                    <div className={styles.single_speaker}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Cores/Vikhyath.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Vikhyath</h3>
-                            <p>Experience & Hospitality</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-10 offset-1">
-                    <div className={styles.single_speaker}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Cores/Madhuri Annavazzala .jpeg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Madhuri Annavazzala</h3>
-                            <p>Content & Curation</p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 offset-lg-2 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-10 offset-1">
-                    <div className={styles.single_speaker}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Cores/Prakhar Patni.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Prakhar Patni</h3>
-                            <p>Finance & Sponsorship
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 offset-lg-0 col-md-6 offset-md-3 col-sm-8 offset-sm-2 col-10 offset-1">
-                    <div className={styles.single_speaker}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Cores/Ritik.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Ritik</h3>
-                            <p>Branding & Design</p>
-                        </div>
-                    </div>
-                </div>
-                {/* ---- cores end ---- */}
-                <div><br/></div>
-                {/* ---- coords start ---- */}
-                <div className="row">
-                    <div className="col-xl-12">
-                        <div className='mb-95'>
-                            <div className={styles.serction_title_large}> 
-                                <h3>
-                                    Coordinators
-                                </h3>
-                                <br/>
-                                <h5>
-                                    Branding & Design
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Branding&Design/Ambady Ravi .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Ambady Ravi</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Branding&Design/Ansh Agarwal.jpeg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Ansh Agarwal</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Branding&Design/Athul krishna.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Athul krishna</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Branding&Design/Gatikrushna Mohapatra.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Gatikrushna Mohapatra</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Branding&Design/IMG_20220716_181055_Bokeh.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Sakshi Jalla</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Branding&Design/Megha Chowdhury.JPG" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Megha Chowdhury</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Branding&Design/Pracheet Padher.jpeg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Pracheet Padher</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Branding&Design/Trisha_Patidar.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Trisha Patidar</h3>
-                        </div>
-                    </div>
-                </div>
-                
-
-                <div className="row">
-                    <div className="col-xl-12">
-                        <div className='mb-95'>
-                            <div className={styles.serction_title_large}> 
-                                <h5>
-                                    Content & Curation
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Content&Curation/Amulya Tallamraju.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Amulya Tallamraju</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Content&Curation/Hitesh Donepudi .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Hitesh Donepudi</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Content&Curation/Ishita Dingare.png" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Ishita Dingare</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Content&Curation/Karthik M Nambiar.JPG" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Karthik M Nambiar</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Content&Curation/PrachiSharma.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Prachi Sharma</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Content&Curation/Rishit D.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Rishit D</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Content&Curation/Sumedh Kashikar.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Sumedh Kashikar</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Content&Curation/Swarangi Tambat.JPG.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Swarangi Tambat</h3>
-                        </div>
-                    </div>
-                </div>
-
-
-
-
-                <div className="row">
-                    <div className="col-xl-12">
-                        <div className='mb-95'>
-                            <div className={styles.serction_title_large}> 
-                                <h5>
-                                    Experience & Hospitality
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Experience&Hospitality/Aditya Kapilesh .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Aditya Kapilesh</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Experience&Hospitality/AmithReddy.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Amith Reddy</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Experience&Hospitality/Ananda Krishnan .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Ananda Krishnan</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Experience&Hospitality/Kushagra.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Kushagra Gupta</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Experience&Hospitality/Suddhodhan .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Suddhodhan</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Experience&Hospitality/Titeeksha Godambe .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Titeeksha Godambe</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Experience&Hospitality/Vedant Kshirsagar .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Vedant Kshirsagar</h3>
-                        </div>
-                    </div>
-                </div>
-                {/* ---- cores end ---- */}
-
-
-
-
-
-                <div className="row">
-                    <div className="col-xl-12">
-                        <div className='mb-95'>
-                            <div className={styles.serction_title_large}> 
-                                <h5>
-                                    Finance & Sponsorship
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Finance&Sponsorship/Akshat Jain.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Akshat Jain</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Finance&Sponsorship/Areeb Hussain.JPG" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Areeb Hussain</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Finance&Sponsorship/Kartik Katekar.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Kartik Katekar</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Finance&Sponsorship/Mouktika.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Mouktika</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Finance&Sponsorship/Niharika Singh.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Niharika Singh</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Finance&Sponsorship/Rutv Kocheta.jpeg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Rutv Kocheta</h3>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div className="row">
-                    <div className="col-xl-12">
-                        <div className='mb-95'>
-                            <div className={styles.serction_title_large}> 
-                                <h5>
-                                    Marketing & Sales
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Marketing&Sales/Aditya Sridhar.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Aditya Sridhar</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Marketing&Sales/Dhruvin Shah.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Dhruvin Shah</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Marketing&Sales/Krutika Kulkarni .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Krutika Kulkarni</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Marketing&Sales/Mahin Bansal.jpeg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Mahin Bansal</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Marketing&Sales/Manas Bhargava .jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Manas Bhargava</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-6 col-lg-3 col-sm-6 col-md-4">
-                    <div className={styles.single_speaker_coords}>
-                        <div className={styles.speaker_thumb}>
-                            <img src="/team/Coords/Marketing&Sales/Sai Harish Madireddi.jpg" alt=""/>
-                            <div className={styles.hover_overlay}>
-                                <div className={styles.social_icon}>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faInstagram}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faFacebook}></FontAwesomeIcon>
-                                    </a>
-                                    <a target="_blank" href="#">
-                                    <FontAwesomeIcon icon={faTwitter}></FontAwesomeIcon>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className={styles.speaker_name} style={{textAlign:'center'}}>
-                            <h3>Sai Harish Madireddi</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
         </>
     )
 }

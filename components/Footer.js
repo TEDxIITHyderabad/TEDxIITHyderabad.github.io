@@ -60,13 +60,13 @@ export default function Footer(){
                                 p-0 
                                 mb-5 
                                 `} >
-                                    <h5 className={`mb-4  ${styles.title}`}>Follow TED</h5>
+                                    <h5 className={`mb-4  ${styles.title}`}>Follow TEDx</h5>
                                     <ul className={`list-group`}>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.facebook.com/TED/">Facebook</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://twitter.com/TEDTalks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">Twitter</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.instagram.com/ted/?hl=en">Instagram</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.youtube.com/c/ted">YouTube</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.linkedin.com/company/ted-conferences">LinkedIn</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.instagram.com/tedxhyd/?hl=en">Instagram</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.youtube.com/channel/UC9rUC6h741BwWpkCb8ui-4A">YouTube</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://twitter.com/TEDxIITHyd">Twitter</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://in.linkedin.com/company/tedxiith">LinkedIn</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.facebook.com/TEDxIITHyderabad/">Facebook</a></li>
                                     <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://blog.ted.com/">TED Blog</a></li>
                                     </ul>
                             </div>

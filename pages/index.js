@@ -114,7 +114,7 @@ export default function Home() {
         <HorizontalScroll speakers={speakers}/>
 
 
-        <h1 className={styles.speakers_2023}>REASON TO ATTEND</h1>
+        <h1 className={styles.speakers_2023}>REASONS TO ATTEND</h1>
         <Grid />
         <h1 className={styles.speakers_2023}>GLIMPSE</h1>
         <HorizontalScroll speakers={images} />

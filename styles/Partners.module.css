@@ -179,3 +179,11 @@
         padding: 5px 10%;
     }
 }
+
+.sic {
+    color: white;
+    text-decoration: none;
+}
+.sic:hover{
+    color: red;
+}

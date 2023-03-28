@@ -1,738 +1,305 @@
-/* line 12, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_extend.scss */
-.speakers_area .single_speaker_coords .speaker_thumb .hover_overlay .social_icon a:hover {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
-    background: #ff9600;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=0 );
-    /* IE6-9 */
-  }
-  .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff9600+0,fe531e+26,c022a5+57,1bb8f9+100 */
-    background: #ff9600;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #ff9600 0%, #fe531e 26%, #c022a5 57%, #1bb8f9 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9600', endColorstr='#1bb8f9',GradientType=0 );
-    /* IE6-9 */
-  }
-  /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area {
+@import url("https://fonts.googleapis.com/css2?family=Philosopher&display=swap");
+
+.background{
+    background-image: url("/homepageimg/background.png");
+    background-size: contain;
+    background-color: black;
+}
+.intro_box{
+    color: white;
+    margin-top: 86px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+.intro_heading{
     padding-top: 100px;
-    position: relative;
-    padding-bottom: 105px;
-    background-color: #8ba3b4;
-  }
-  
-  /* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area.inc_padd {
-    padding-top: 200px;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-    .speakers_area.inc_padd {
-      padding-bottom: 0px;
-      padding-top: 50px;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* line 5, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-    .speakers_area.inc_padd {
-      padding-bottom: 100px;
-      padding-top: 70px;
-    }
-  }
-  
-  @media (max-width: 767px) {
-    /* line 1, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-    .speakers_area {
-      padding-bottom: 0px;
-      padding-top: 50px;
-    }
-  }
-  
-  /* line 20, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .horizontal_text {
-    font-size: 120px;
+    text-transform: uppercase;
+    font-family: 'Philosopher';
+    font-style: normal;
     font-weight: 700;
-    position: absolute;
-    right: 0;  
-    margin-right: 10px;
-    top: 100px;
-    color: #ffffff;
-  }
-  
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 20, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-    .speakers_area .horizontal_text {
-      font-size: 85px;
-    }
-  }
-  .speakers_area .single_speaker {
-    margin-bottom: 90px;
-    overflow: hidden;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:70%;
-  }
-  
-  /* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker .speaker_thumb {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker .speaker_thumb img {
-    width: 100%;
-    border-radius: 50%;
-  }
-  
-  /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker .speaker_thumb .hover_overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    background: rgba(255, 0, 0, 0.5);
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    -webkit-transform: translateY(80%);
-    -moz-transform: translateY(80%);
-    -ms-transform: translateY(80%);
-    transform: translateY(80%);
-    opacity: 0;
-    border-radius: 50%;
-  }
-  
-  /* line 50, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon {
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    bottom: 40px;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-  }
-  
-  /* line 58, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a {
-    width: 50px;
-    height: 50px;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    background: #fff;
-    display: inline-block;
-    line-height: 50px;
-    font-size: 17px;
-    color: #eb0028;
-    margin: 0 3px;
-  }
-  
-  /* line 70, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker .speaker_thumb .hover_overlay .social_icon a:hover {
-    color: #fff;
-  }
-  
-  /* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker .speaker_name h3 {
-    font-size: 26px;
-    font-weight: 600;
-    margin-top: 40px;
-    margin-bottom: 7px;
-  }
-  
-  /* line 85, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker .speaker_name p {
-    margin-bottom: 0;
-    font-size: 16px;
-    color: #eb0028;
+    font-size: 64px;
+    line-height: 72px;
+
+/* identical to box height */
+
+    color: #F02D23;
+}
+
+.intro_text{
+    margin-top: 37px;
+    font-family: Helvetica;
+    font-style: normal;
     font-weight: 400;
-  }
-  
-  /* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker:hover .hover_overlay {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-  
-  /* line 98, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker:hover .speaker_thumb .social_icon {
-    -webkit-transform: scaleX(1);
-    -moz-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-  /* line 31, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords {
-    margin-bottom: 90px;
-    overflow: hidden;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:80%;
-  }
-  
-  /* line 34, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords .speaker_thumb {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* line 37, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords .speaker_thumb img {
-    width: 100%;
-    border-radius: 50%;
-  }
-  
-  /* line 40, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords .speaker_thumb .hover_overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    bottom: 0;
-    background: rgba(255, 0, 0, 0.5);
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    -webkit-transform: translateY(80%);
-    -moz-transform: translateY(80%);
-    -ms-transform: translateY(80%);
-    transform: translateY(80%);
-    opacity: 0;
-    border-radius: 50%;
-  }
-  
-  /* line 50, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords .speaker_thumb .hover_overlay .social_icon {
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    bottom: 30px;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-  }
-  
-  /* line 58, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords .speaker_thumb .hover_overlay .social_icon a {
-    width: 50px;
-    height: 50px;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    background: #fff;
-    display: inline-block;
-    line-height: 50px;
-    font-size: 17px;
-    color: #eb0028;
-    margin: 0 1px;
-  }
-  
-  /* line 70, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords .speaker_thumb .hover_overlay .social_icon a:hover {
-    color: #fff;
-  }
-  
-  /* line 79, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords .speaker_name h3 {
-    font-size: 26px;
-    font-weight: 600;
-    margin-top: 40px;
-    margin-bottom: 7px;
-  }
-  
-  /* line 85, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords .speaker_name p {
-    margin-bottom: 0;
-    font-size: 16px;
-    color: #eb0028;
-    font-weight: 400;
-  }
-  
-  /* line 93, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords:hover .hover_overlay {
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-  
-  /* line 98, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_speakers.scss */
-  .speakers_area .single_speaker_coords:hover .speaker_thumb .social_icon {
-    -webkit-transform: scaleX(1);
-    -moz-transform: scaleX(1);
-    -ms-transform: scaleX(1);
-    transform: scaleX(1);
-  }
-  
-  /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
-  .serction_title_large h3 {
-    font-size: 60px;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: justify;
+
+/* or 180% */
+
+    color: #FFFFFF; 
+}
+.button{
+    margin-top: 67px;
+    font-family:Helvetica;
+    font-style: normal;
     font-weight: 700;
-    color: #1F1F1F;
-    display: inline-block;
-    position: relative;
-  }
-  .serction_title_large h5 {
     font-size: 40px;
-    font-weight: 700;
-    color: #1F1F1F;
-    display: inline-block;
-    position: relative;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
-    .serction_title_large h3 {
-      font-size: 35px;
-    }
-    .serction_title_large h5 {
-      font-size: 25px;
-    }
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
-    .serction_title_large h3 {
-      font-size: 45px;
-    }
-    .serction_title_large h5 {
-      font-size: 35px;
-    }
-  }
-  
-  @media (min-width: 992px) and (max-width: 1200px) {
-    /* line 57, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
-    .serction_title_large h3 {
-      font-size: 60px;
-    }
-    .serction_title_large h5 {
-      font-size: 40px;
-    }
-  }
-  
-  /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
-  .serction_title_large h3::before {
-    position: absolute;
-    right: 0;
-    content: "";
-    width: 128px;
-    height: 4px;
-    background-image: url(../public/team/line.png);
-    top: 50%;
-    margin-bottom: 2px;
-    right: -158px;
-  }
-  .serction_title_large h5::before {
-    position: absolute;
-    right: 0;
-    content: "";
-    width: 128px;
-    height: 4px;
-    background-image: url(../public/team/line.png);
-    top: 50%;
-    margin-bottom: 2px;
-    right: -158px;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
-    .serction_title_large h3::before {
-      width: 80px;
-      right: -100px;
-    }
-    .serction_title_large h5::before {
-      width: 80px;
-      right: -100px;
-    }
-  }
-  
-  @media (max-width: 300px) {
-    /* line 72, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_section_title.scss */
-    .serction_title_large h3::before {
-      width: 80px;
-      right: -100px;
-      display: none;
-    }
-    .serction_title_large h5::before {
-      width: 80px;
-      right: -100px;
-      display: none;
-    }
-  }
-  
-  .mb-95 {
-    margin-bottom: 95px;
-  }
-  
-  @media (max-width: 767px) {
-    /* line 262, C:/Users/SPN Graphics/Desktop/CL September/209/HTML/scss/_reset.scss */
-    .mb-95 {
-      margin-bottom: 30px;
-    }
-  }
-
-.image_OC{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+    line-height: 48px;
+    color: #FFFFFF;
+    border: 6px solid transparent;
+    padding: 0px 15px 0px 15px;
 }
 
-@media (min-width:1500px){
-  .OC {
-    margin-left: 10px;
-  }
+.button:hover{
+    color: rgba(240, 45, 35, 0.8);
+    border-left: 6px solid #F02D23;
+
+}
+.active{
+    color: rgba(240, 45, 35, 0.8);
+    border-left: 6px solid #F02D23;
+}
+.button:focus{
+    border-left: 6px solid #F02D23;
+    color: rgba(240, 45, 35, 0.8);
+
+    /* transform: rotate(-90deg); */
 }
 
-
-
-
-
-  .text_blk {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    line-height: 25px;
-  }
-  
-  .responsive_container_block {
-    min-height: 75px;
-    height: fit-content;
+.box_header_container{
     width: 100%;
+    background-color: #7B120D;
     display: flex;
-    flex-wrap: wrap;
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;
-    justify-content: flex-start;
-  }
-  
-  .container_block {
-    min-height: 75px;
-    height: fit-content;
-    width: 100%;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    display: block;
-  }
-  
-  .responsive_cell_block {
-    min-height: 75px;
-  }
-  
-  .container {
-    max-width: 1380px;
-    margin-top: 80px;
-    margin-right: auto;
-    margin-bottom: 80px;
-    margin-left: auto;
-    padding-top: 0px;
-    padding-right: 30px;
-    padding-bottom: 0px;
-    padding-left: 30px;
-  }
-  
-  .team_head_text {
-    font-size: 48px;
-    line-height: 50px;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 70px;
-    margin-left: 0px;
-  }
-  
-  .name {
-    font-size: 18px;
-    margin-top: 11px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    flex-direction: row;
+    align-items: center;
+    padding: 19px 0px 19px 30px;
+    gap: 10px;
+}
+.box_header_text{
+
+    font-family: 'Philosopher';
+    font-style: normal;
     font-weight: 700;
-  }
-  
-  .position {
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-  }
-  
-  .team_card_container {
-    width: 263px;
-    margin-top: 0px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-    margin-left: 15px;
-  }
-  
-  .teamcard_container {
-    justify-content: space-evenly;
-  }
-  
-  .team_img_wrapper {
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-  }
-  
-  .team_img {
-    max-width: 100%;
-  }
-  
-  @media (max-width: 500px) {
-    .team_card_container {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 30px;
-      margin-left: 0px;
-      width: 100%;
+    font-size: 36px;
+    line-height: 30px;
+
+    /* identical to box height, or 83% */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.box{
+    margin-top: 200px;
+
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 86px;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, rgba(240, 45, 35, 0) 0%, rgba(240, 45, 35, 0.17) 100%);
+    border: 1px solid #B32B24;
+    border-radius: 0px 0px 20px 20px;
+}
+/* .box_main_container{
+
+} */
+.box_main_text{
+    padding: 19px 19px 19px 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: justify;
+/* or 167% */
+
+color: #FFFFFF;
+}
+
+
+.team_box{
+    margin-top: 80px;
+    padding-top: 70px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.team_box_header{
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+
+    /* identical to box height */
+
+    color: #F02D23;
+}
+.team_box_main{
+    margin-top: 60px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-transform: uppercase;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+}
+
+.team_box_main_grid{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}
+
+
+.team_box_main_grid_item{
+    margin-top: 100px;
+    /* width:30vw; */
+    background: linear-gradient(180deg, rgba(240, 45, 35, 0) 0%, rgba(240, 45, 35, 0.17) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.team_box_main_grid_item_head{
+    margin-top: 100px;
+    /* width:30vw; */
+    background: linear-gradient(180deg, rgba(240, 45, 35, 0) 0%, rgba(240, 45, 35, 0.17) 100%);
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+.team_box_main_grid_item_image img{
+    width: 100%;
+    /* height: 370px; */
+    border-radius: 20px 20px 0px 0px;
+}
+
+.team_box_main_grid_item_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 20px 14px;
+    gap: 8px;
+    text-transform: capitalize  ;
+    /* position: absolute;
+    width: 350px;
+    height: 80px;
+    left: 350px;
+    top: 450px; */
+
+    background: #7C120D;
+    box-shadow: 0px -10px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 20px 20px 0px 0px;
+    transform: rotate(-180deg);
+}
+
+.image_name{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.1rem;
+    line-height: 20px;
+
+    /* identical to box height, or 100% */
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.image_position{
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 20px;
+    
+    /* identical to box height, or 125% */
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+@media screen and (min-width:980px) and (max-width:992px){
+    .team_box_main_grid_item{
+        width:350px;
     }
-  
-    .team_img {
-      width: 100%;
+    .team_box_main_grid_item_head{
+        width:350px;
     }
-  }
-
-
-
-.wk_desk_1 {
-  width: 8.333333%;
+}
+@media screen and (min-width:576px) and (max-width:768px){
+    .team_box_main_grid_item{
+        width:60%;
+    }
+    .team_box_main_grid_item_head{
+        width:60%;
+    }
+}
+@media screen and (min-width:768px) and (max-width:980px){
+    .team_box_main_grid_item{
+        width:80%;
+    }
+    .team_box_main_grid_item_head{
+        width:80%;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1400px){
+    .team_box_main_grid_item_head{
+        width:90%;
+    }
+    .team_box_main_grid_item{
+        width:90%;
+    }
+}
+@media screen and (min-width:1400px) {
+    .team_box_main_grid_item{
+        width: 250px;
+    }
+    .team_box_main_grid_item_head{
+        width:350px;
+    }
 }
 
-.wk_desk_2 {
-  width: 16.666667%;
+@media screen and (max-width:576px){
+    .box_main_text{
+        font-size: 20px;
+    }
+    .intro_text{
+        font-size: 15px;
+        margin-top: 37px;
+        line-height: 25px;
+    }
 }
-
-.wk_desk_3 {
-  width: 25%;
-}
-
-.wk_desk_4 {
-  width: 33.333333%;
-}
-
-.wk_desk_5 {
-  width: 41.666667%;
-}
-
-.wk_desk_6 {
-  width: 50%;
-}
-
-.wk_desk_7 {
-  width: 58.333333%;
-}
-
-.wk_desk_8 {
-  width: 66.666667%;
-}
-
-.wk_desk_9 {
-  width: 75%;
-}
-
-.wk_desk_10 {
-  width: 83.333333%;
-}
-
-.wk_desk_11 {
-  width: 91.666667%;
-}
-
-.wk_desk_12 {
-  width: 100%;
-}
-
-@media (max-width: 1024px) {
-  .wk_ipadp_1 {
-    width: 8.333333%;
-  }
-
-  .wk_ipadp_2 {
-    width: 16.666667%;
-  }
-
-  .wk_ipadp_3 {
-    width: 25%;
-  }
-
-  .wk_ipadp_4 {
-    width: 33.333333%;
-  }
-
-  .wk_ipadp_5 {
-    width: 41.666667%;
-  }
-
-  .wk_ipadp_6 {
-    width: 50%;
-  }
-
-  .wk_ipadp_7 {
-    width: 58.333333%;
-  }
-
-  .wk_ipadp_8 {
-    width: 66.666667%;
-  }
-
-  .wk_ipadp_9 {
-    width: 75%;
-  }
-
-  .wk_ipadp_10 {
-    width: 83.333333%;
-  }
-
-  .wk_ipadp_11 {
-    width: 91.666667%;
-  }
-
-  .wk_ipadp_12 {
-    width: 100%;
-  }
-}
-
-@media (max-width: 768px) {
-  .wk_tab_1 {
-    width: 8.333333%;
-  }
-
-  .wk_tab_2 {
-    width: 16.666667%;
-  }
-
-  .wk_tab_3 {
-    width: 25%;
-  }
-
-  .wk_tab_4 {
-    width: 33.333333%;
-  }
-
-  .wk_tab_5 {
-    width: 41.666667%;
-  }
-
-  .wk_tab_6 {
-    width: 50%;
-  }
-
-  .wk_tab_7 {
-    width: 58.333333%;
-  }
-
-  .wk_tab_8 {
-    width: 66.666667%;
-  }
-
-  .wk_tab_9 {
-    width: 75%;
-  }
-
-  .wk_tab_10 {
-    width: 83.333333%;
-  }
-
-  .wk_tab_11 {
-    width: 91.666667%;
-  }
-
-  .wk_tab_12 {
-    width: 100%;
-  }
-}
-
-@media (max-width: 500px) {
-  .wk_mobile_1 {
-    width: 8.333333%;
-  }
-
-  .wk_mobile_2 {
-    width: 16.666667%;
-  }
-
-  .wk_mobile_3 {
-    width: 25%;
-  }
-
-  .wk_mobile_4 {
-    width: 33.333333%;
-  }
-
-  .wk_mobile_5 {
-    width: 41.666667%;
-  }
-
-  .wk_mobile_6 {
-    width: 50%;
-  }
-
-  .wk_mobile_7 {
-    width: 58.333333%;
-  }
-
-  .wk_mobile_8 {
-    width: 66.666667%;
-  }
-
-  .wk_mobile_9 {
-    width: 75%;
-  }
-
-  .wk_mobile_10 {
-    width: 83.333333%;
-  }
-
-  .wk_mobile_11 {
-    width: 91.666667%;
-  }
-
-  .wk_mobile_12 {
-    width: 100%;
-  }
+@media screen and (max-width:350px){
+    .button{
+        font-size: 10vw;
+    }
 }
