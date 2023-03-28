@@ -225,7 +225,7 @@
 		font-size: 25px;
 		line-height: 25x;
 		color: #FF2B06;
-		padding-left: 20px;
+		padding-left: 30px;
 	}
 
 	.speaker_item .si_text .si_title p {
@@ -236,7 +236,7 @@
 		line-height: 20px;
 		/* identical to box height, or 167% */
 		color: #FFFFFF;
-		padding-left: 20px;
+		padding-left: 30px;
 
 	}
 
@@ -248,7 +248,7 @@
 		line-height: 30px;
 		/* or 188% */
 		color: #FFFFFF;
-		padding-left: 20px;
+		padding-left: 30px;
 		padding-right: 10px;
 	}
 }
