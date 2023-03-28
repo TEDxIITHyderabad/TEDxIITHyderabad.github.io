@@ -350,7 +350,9 @@ p.speaker_pos {
     height: 0;
     width: 80%;
 }
-
+.speaker_image{
+    padding-top: 30px;
+}
 @media (max-width: 772px) {
     .player {
         left: 40%;

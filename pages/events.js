@@ -112,7 +112,7 @@ export default function Speakers() {
                 <div className={styles.speakers_list}>
                     {speakers && speakers.map(speaker =>
                         <div className={styles.speaker_item}>
-                            <img src={speaker.image} />
+                            <img src={speaker.image} className={styles.speaker_image}/>
                             <p>{speaker.name}</p>
                             <hr />
                             <p className={styles.speaker_pos}>{speaker.desc}</p>
