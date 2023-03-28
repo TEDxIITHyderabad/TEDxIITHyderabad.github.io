@@ -1,17 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher');
 
-.events_main{
+.theme_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 101;
+    width: 100svw;
+    height: 100svh;
+    background-color: rgba(240, 248, 255,0.85);
+}
+
+.main_video{
+    user-select: none;
+    z-index: 102;
+    width: max(80vw,45vh);
+    aspect-ratio: 2;
+}
+
+.close_button{
+    z-index: 105;
+    font-size: max(2vw,5vh);
+    color:black;
+    cursor: pointer;
+    position: absolute;
+    right: 3%;
+    top: 3%;
+}
+
+.displaynone{
+    display: none;
+}
+
+.events_main {
     margin: 0;
     padding: 0;
     color: white;
     overflow-x: hidden;
     background: black;
 }
-.background{
+
+.background {
     background-image: url("/homepageimg/event_info.png");
     background-size: cover;
     background-color: black;
 }
+
 .main {
     position: relative;
     height: 100svh;
@@ -44,9 +80,9 @@
 
 .player {
     position: absolute;
-    top: max(43%,45vh);
+    top: max(43%, 45vh);
     left: 43%;
-    width: max(8vw,10vh);
+    width: max(8vw, 10vh);
     z-index: 100;
 }
 
@@ -74,7 +110,7 @@
 }
 
 .ted_button {
-    font-size: max(1.75vw,2.5vh);
+    font-size: max(1.75vw, 2.5vh);
     padding: 3% 8% 3% 8%;
     font-family: 'Inter', sans-serif;
     background-color: black;
@@ -88,7 +124,7 @@
 
 .about_ted_desc {
     margin: 2% 10% 0 10%;
-    font-size: max(1.5vw,2vh);
+    font-size: max(1.5vw, 2vh);
 }
 
 .theme_head_title {
@@ -140,7 +176,7 @@
 
 
 .theme_title {
-    font-size: max(7vw,6vh);
+    font-size: max(7vw, 6vh);
     margin: 0;
     letter-spacing: 50px;
     text-shadow: 4px 4px 10px black;
@@ -148,7 +184,7 @@
 }
 
 .theme_subtitle {
-    font-size: max(2vw,2.5vh);
+    font-size: max(2vw, 2.5vh);
     text-align: center;
     margin: 0;
     letter-spacing: 7px;
@@ -165,7 +201,7 @@
 }
 
 .theme_theme {
-    font-size: max(2vw,2.5vh);
+    font-size: max(2vw, 2.5vh);
     text-align: center;
     letter-spacing: 3px;
     margin-bottom: 15px;
@@ -182,7 +218,7 @@
 .theme_desc {
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
-    font-size: max(1.25vw,2vh);
+    font-size: max(1.25vw, 2vh);
     margin: 0 0 0 0;
 }
 
@@ -192,7 +228,7 @@
 
 .theme_desc p:nth-child(3) {
     color: #F02D23;
-    font-size: max(1.35vw,2.15vh);
+    font-size: max(1.35vw, 2.15vh);
 }
 
 .theme_end {
@@ -236,7 +272,7 @@
     height: 80px;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-    font-size: max(0.9vw,1.75vh);
+    font-size: max(0.9vw, 1.75vh);
     background-color: #F02D23;
     color: white;
     border: none;
@@ -279,7 +315,7 @@
     background: linear-gradient(to bottom, rgba(61, 6, 3, 1), rgba(18, 17, 17, 0));
 }
 
-.speaker_item p{
+.speaker_item p {
     color: #F02D23;
     margin: 0;
     text-align: center;
@@ -288,7 +324,7 @@
     font-size: max(2vw, 3vh);
 }
 
-p.speaker_pos{
+p.speaker_pos {
     font-family: 'Open Sans';
     font-size: max(1.25vw, 2.25vh);
 
@@ -303,7 +339,7 @@ p.speaker_pos{
     background-color: rgba(124, 18, 13, 0.8);
     padding: 5% 3% 5% 3%;
     margin: 7% 0 0 0;
-    font-size: max(1vw,2vh);
+    font-size: max(1vw, 2vh);
     border-radius: 0 0 50px 50px;
     position: relative;
     bottom: 0;
@@ -316,7 +352,7 @@ p.speaker_pos{
 }
 
 @media (max-width: 772px) {
-    .player{
+    .player {
         left: 40%;
     }
 
@@ -329,7 +365,7 @@ p.speaker_pos{
         width: 85%;
     }
 
-    .theme_title{
+    .theme_title {
         padding-left: 3vh;
     }
 
@@ -342,6 +378,6 @@ p.speaker_pos{
     }
 
     .speaker_item {
-    width: 95%;
+        width: 95%;
     }
 }

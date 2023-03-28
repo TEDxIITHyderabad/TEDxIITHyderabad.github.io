@@ -4,9 +4,11 @@ import NavbarComp from '../components/Navbar'
 import styles from '../styles/Events.module.css'
 import React, { useState } from 'react';
 import { speakers } from './/list_of_upcoming_speakers.js';
+import { faTimes } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function Speakers() {
-    console.log(speakers);
+    const [showvideo, changeshowvideo] = useState(false);
     const about_ted = ['TED - Technology, Entertainment and Design. The story of TED has humble origins, a one-off conference in 1984 about compact disks, e-books and mapping coastlines using fractals. Slowly, the choice of panelists was expanded to include business tycoons, scientists, philosophers, religious and spiritual leaders and many others. TED, now, stands out as one the most unique, creative and intellectual highlights globally. TED also gave birth to a plethora of many sister events - TED-Ed, a medium of education through captivating animations, TEDGlobal - a global conference held at different locations in the world, TED Prize - giving the winner a chance to wish and change the world. Although TED had limited speakers and accepted people only with invites, TED has grown to include and accept all people into its family, continuously inspiring and pushing us forward.',
         'TEDx is an initiative of TED to achieve their motto, "ideas worth sharing", to the next level. This initiative allows independent local groups to organize TED events locally and explore the stories, ideas and thoughts of the people around us. TEDx also helps people locally to interact with their heroes and capture the spirit of TED. TEDx organises live events based on a theme and also provides recorded videos of the speakers, reaching out to people globally on the internet. TEDx provides guidlines to the organisers to curate content, create designs and invite speakers in accrodance with the TED guidelines. TEDx creates an oppurtunity to interact with people all across the world. ',
         'TEDxIITHyderabad is an initiative to bring the spirit of TED to the community of IIT Hyderabad. This event provides a gateway for some of the talented individuals at this institution to get inspired and motivated to push their limits and polish coal to synthesize dazzling diamonds. TEDxIITHyderabad, founded in 2015, has since been one of IIT Hyderabad\'s most awaited and excited annual events.'
@@ -26,9 +28,13 @@ export default function Speakers() {
             </Head>
             <div className={styles.events_main}>
                 <NavbarComp />
+                <div className={showvideo ? styles.theme_video : styles.displaynone}>
+                    <div className={styles.close_button} onClick={()=>{changeshowvideo(false)}}>X</div>
+                    <iframe className={styles.main_video} src="https://www.youtube.com/embed/vsZUFsGzxcA"></iframe>
+                </div>
                 <div className={styles.main}>
                     <img className={styles.hero_image} src="images/background.png" draggable="false" />
-                    <img className={styles.player} src="images/player.png" />
+                    <img className={styles.player} src="images/player.png" onClick={() => { changeshowvideo(true) }} />
                     <div className={styles.hero_main}>
                         <p className={styles.hero_title}>EVENT<br />INFORMATION</p>
                     </div>
