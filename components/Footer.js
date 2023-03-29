@@ -15,6 +15,33 @@ export default function Footer(){
                     <div className={`col-lg-9 col-12`}>
                         <div className={`row`} style={{marginBottom:"50px", marginTop:"30px"}}>
                             <div className={
+                                `col-lg-3 
+                                offset-lg-0
+
+                                col-md-2
+                                offset-md-0 
+
+                                col-sm-4
+                                offset-sm-0 
+
+                                offset-4
+                                col-8 
+                                
+                                p-0 
+                                mb-5 
+                                `} >
+                                    <h5 className={`mb-4  ${styles.title}`}>Follow TEDxIITHyderabad</h5>
+                                    <ul className={`list-group`}>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.instagram.com/tedx.iithyderabad/?hl=en">Instagram</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.youtube.com/channel/UC9rUC6h741BwWpkCb8ui-4A">YouTube</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://twitter.com/TEDxIITHyd">Twitter</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://in.linkedin.com/company/tedxiith">LinkedIn</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.facebook.com/TEDxIITHyderabad/">Facebook</a></li>
+                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://blog.ted.com/">TED Blog</a></li>
+                                    </ul>
+                            </div>
+
+                            <div className={
                                 `offset-lg-1
                                 col-lg-4 
 
@@ -44,32 +71,7 @@ export default function Footer(){
                                     </ul>
                             </div>  
 
-                            <div className={
-                                `col-lg-3 
-                                offset-lg-0
-
-                                col-md-2
-                                offset-md-0 
-
-                                col-sm-4
-                                offset-sm-0 
-
-                                offset-4
-                                col-8 
-                                
-                                p-0 
-                                mb-5 
-                                `} >
-                                    <h5 className={`mb-4  ${styles.title}`}>Follow TEDx</h5>
-                                    <ul className={`list-group`}>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.instagram.com/tedxhyd/?hl=en">Instagram</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.youtube.com/channel/UC9rUC6h741BwWpkCb8ui-4A">YouTube</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://twitter.com/TEDxIITHyd">Twitter</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://in.linkedin.com/company/tedxiith">LinkedIn</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://www.facebook.com/TEDxIITHyderabad/">Facebook</a></li>
-                                    <li className={`list-group-item bg-transparent border-0 p-0 mb-2 ${styles.text}`}><a target="_blank" href="https://blog.ted.com/">TED Blog</a></li>
-                                    </ul>
-                            </div>
+                            
 
                             <div className={
                                 `col-lg-4
