@@ -113,7 +113,7 @@ export default function Speakers() {
                     </div>
                 </div>
                 </div>
-                <div className={styles.reasons}>
+                {/* <div className={styles.reasons}>
                     <div className={styles.head_container}>
                         <h2 className={styles.head_content}>Reasons To Partner with us</h2>
                     </div>
@@ -140,7 +140,7 @@ export default function Speakers() {
                     <button className={styles.buttons} onClick={handleClick}>CONTACT NOW
                         </button>
 
-                </div>
+                </div> */}
                 <Footer />
                 </div>
             </div>
