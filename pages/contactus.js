@@ -56,7 +56,7 @@ export default function Contactus() {
                                         <div className={`text-center ${styles.section_title_header}`}>
                                             <h1 id={`${styles.heading}`}>Get in Touch with Us</h1>
                                             <div className={styles.buttons}>
-                                                <a target="_blank" href="https://forms.gle/4BFfppzKkL7RhwDX7" className={styles.boxed_btn_white} role="button">Be Our Speaker</a>
+                                                <a target="_blank" href="https://unstop.com/o/9ICh86s?lb=JfDgvZP" className={styles.boxed_btn_white} role="button">BOOK TICKETS</a>
                                             </div>
                                             <h3 className={styles.gap}>Fill the form below!!! <br />You can reach us if you follow
                                                 the map directions</h3>

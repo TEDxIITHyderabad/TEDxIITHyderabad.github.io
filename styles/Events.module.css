@@ -405,3 +405,65 @@ p.speaker_pos {
         width: 95%;
     }
 }
+.intro_box{
+    color: white;
+    margin-top: 86px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+
+}
+.intro_heading{
+    padding-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 72px;
+
+/* identical to box height */
+
+    color: #F02D23;
+}
+.intro_text{
+    margin-top: 37px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    text-align: justify;
+
+/* or 180% */
+
+    color: #FFFFFF; 
+}
+.button{
+    margin-top: 67px;
+    font-family:Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    border: 6px solid transparent;
+    padding: 0px 15px 0px 15px;
+}
+
+.button:hover{
+    color: rgba(240, 45, 35, 0.8);
+    border-left: 6px solid #F02D23;
+
+}
+.active{
+    color: rgba(240, 45, 35, 0.8);
+    border-left: 6px solid #F02D23;
+}
+.button:focus{
+    border-left: 6px solid #F02D23;
+    color: rgba(240, 45, 35, 0.8);
+
+    /* transform: rotate(-90deg); */
+}
