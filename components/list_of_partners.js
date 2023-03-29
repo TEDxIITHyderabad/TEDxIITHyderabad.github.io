@@ -19,7 +19,11 @@ export const partners = {
         {
             name: 'Sids Farm',
             image: './sponsors/SIDS FARM logo - BLACK-08.png',
-        }
+        },
+        {
+            name: 'SCCL',
+            image: './sponsors/SCCL LOGO-0.png',
+        },
     ],
     'MERCHANDISE PARTNER': [
         {

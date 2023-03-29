@@ -66,10 +66,14 @@ export default function Speakers() {
                             <img src={partners['BRONZE SPONSOR'][1].image} alt={partners['BRONZE SPONSOR'][1].name}/>
                             <p color="black"> {partners['BRONZE SPONSOR'][1].name}</p>
                         </div>
+                        <div className={styles.sponseritem}>
+                            <img src={partners['BRONZE SPONSOR'][2].image} alt={partners['BRONZE SPONSOR'][2].name}/>
+                            <p color="black"> {partners['BRONZE SPONSOR'][2].name}</p>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.sponsers}>
-                    <div className={styles.title} style={{ textTransform: "uppercase" }}>MERCHANDISE SPONSORS</div>
+                    <div className={styles.title} style={{ textTransform: "uppercase" }}>MERCHANDISE PARTNER</div>
                     <div className={styles.sponserslist}>
                         <div className={styles.sponseritem}>
                             <img src={partners['MERCHANDISE PARTNER'][0].image} alt={partners['MERCHANDISE PARTNER'][0].name}/>
@@ -82,7 +86,7 @@ export default function Speakers() {
                     </div>
                 </div>
                 <div className={styles.sponsers}>
-                    <div className={styles.title} style={{ textTransform: "uppercase" }}>WELLNESS SPONSORS</div>
+                    <div className={styles.title} style={{ textTransform: "uppercase" }}>WELLNESS PARTNER</div>
                     <div className={styles.sponserslist}>
                         <div className={styles.sponseritem}>
                             <img src={partners['WELLNESS PARTNER'][0].image} alt={partners['WELLNESS PARTNER'][0].name}/>
