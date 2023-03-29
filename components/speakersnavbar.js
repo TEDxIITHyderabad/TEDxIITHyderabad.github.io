@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from './Speakers.module.css';
+import style from '../styles/Contactus.module.css'
 export default function SpeakersPage() {
     return (
         <>
@@ -16,26 +17,26 @@ export default function SpeakersPage() {
             <div className={styles.speaker_button_cont}>
 
                 <a href="/speakersupcoming" className={styles.buttons_a}>
-                    <button className={styles.buttons}>SPEAKERS 2023</button>
+                    <button className={style.boxed_btn_white}>SPEAKERS 2023</button>
                 </a>
                 <a href="/speakers2022" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2022</button>
+                    <button className={style.boxed_btn_white}>SPEAKERS 2022</button>
                 </a>
                 <a href="/speakers2021" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2021</button>
+                    <button className={style.boxed_btn_white}>SPEAKERS 2021</button>
                 </a>
                 <a href="/speakers2020" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2019</button>
+                    <button className={style.boxed_btn_white}>SPEAKERS 2019</button>
                 </a>
 
                 <a href="/speakers2019" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2017</button>
+                    <button className={style.boxed_btn_white}>SPEAKERS 2017</button>
                 </a>
                 <a href="/speakers2018" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2016</button>
+                    <button className={style.boxed_btn_white}>SPEAKERS 2016</button>
                 </a>
                 <a href="/speakers2017" style={{ textDecoration: 'none' }}>
-                    <button className={styles.buttons}>SPEAKERS 2015</button>
+                    <button className={style.boxed_btn_white}>SPEAKERS 2015</button>
                 </a>
             </div>
 

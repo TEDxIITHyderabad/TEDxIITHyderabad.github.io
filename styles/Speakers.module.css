@@ -85,11 +85,14 @@
 	/* identical to box height, or 167% */
 
 	color: #FFFFFF;
+}
 
+.modal_body{
+	margin-bottom: 20px;
 }
 
 .modal_main {
-	background-image: url("/speakers/b8.jpeg");
+	background-image: url("/images/speakerbackground2.png");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -256,6 +259,19 @@
 	}
 }
 
+.speaker_overlay{
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	background-color: rgb(39 39 39 / 75%);
+}
+
+.modal_class{
+	background-color: black;
+}
+
 @media (min-width:992px) {
 	.modal_class {
 		width: 90%;
@@ -316,6 +332,11 @@
 
 .close {
 	margin: 10px;
+	margin-left: 15px;
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 30px;
 }
 
 @media(max-width:767px) {
