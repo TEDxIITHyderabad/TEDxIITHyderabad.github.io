@@ -141,7 +141,7 @@ export default function Upcomingspeakers() {
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
                               <h4>Dr CVS Kiran</h4>
-                              <p>Lead, R&D Strategist at Skyroot Aerospace, R&D Director at AnanthaP</p>
+                              <p>Lead - R&D and Strategy at Skyroot Aerospace, Hon. Director at AnanthaP</p>
                             </div>
                             <p>
                             Being a man with a vision that sees beyond our universe, Dr. CVS Kiran is a proud contributor to Skyroot Aerospace’s missions as a lead and R&D strategist and as a R&D director a <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>

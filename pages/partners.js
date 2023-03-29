@@ -40,6 +40,20 @@ export default function Speakers() {
                         </div>
                     </div> */}
                 </div>
+                
+                <div className={styles.sponsers}>
+                    <div className={styles.title} style={{ textTransform: "uppercase" }}>GOLD SPONSORS</div>
+                    <div className={styles.sponserslist}>
+                        <div className={styles.sponseritem}>
+                            <img src={partners['GOLD SPONSOR'][0].image} alt={partners['GOLD SPONSOR'][0].name}/>
+                            <p color="black"> {partners['GOLD SPONSOR'][0].name}</p>
+                        </div>
+                        {/* <div className={styles.sponseritem}>
+                            <img src={partners[][0].image} alt={partners[][0].name}/>
+                            <p color="black"> {partners[][0].name}</p>
+                        </div> */}
+                    </div>
+                </div>
 
                 <div className={styles.sponsers}>
                     <div className={styles.title} style={{ textTransform: "uppercase" }}>SILVER SPONSORS</div>
@@ -66,10 +80,14 @@ export default function Speakers() {
                             <img src={partners['BRONZE SPONSOR'][1].image} alt={partners['BRONZE SPONSOR'][1].name}/>
                             <p color="black"> {partners['BRONZE SPONSOR'][1].name}</p>
                         </div>
+                        <div className={styles.sponseritem}>
+                            <img src={partners['BRONZE SPONSOR'][2].image} alt={partners['BRONZE SPONSOR'][2].name}/>
+                            <p color="black"> {partners['BRONZE SPONSOR'][2].name}</p>
+                        </div>
                     </div>
                 </div>
                 <div className={styles.sponsers}>
-                    <div className={styles.title} style={{ textTransform: "uppercase" }}>MERCHANDISE SPONSORS</div>
+                    <div className={styles.title} style={{ textTransform: "uppercase" }}>MERCHANDISE PARTNER</div>
                     <div className={styles.sponserslist}>
                         <div className={styles.sponseritem}>
                             <img src={partners['MERCHANDISE PARTNER'][0].image} alt={partners['MERCHANDISE PARTNER'][0].name}/>
@@ -82,7 +100,7 @@ export default function Speakers() {
                     </div>
                 </div>
                 <div className={styles.sponsers}>
-                    <div className={styles.title} style={{ textTransform: "uppercase" }}>WELLNESS SPONSORS</div>
+                    <div className={styles.title} style={{ textTransform: "uppercase" }}>WELLNESS PARTNER</div>
                     <div className={styles.sponserslist}>
                         <div className={styles.sponseritem}>
                             <img src={partners['WELLNESS PARTNER'][0].image} alt={partners['WELLNESS PARTNER'][0].name}/>
@@ -95,7 +113,7 @@ export default function Speakers() {
                     </div>
                 </div>
                 </div>
-                <div className={styles.reasons}>
+                {/* <div className={styles.reasons}>
                     <div className={styles.head_container}>
                         <h2 className={styles.head_content}>Reasons To Partner with us</h2>
                     </div>
@@ -122,7 +140,7 @@ export default function Speakers() {
                     <button className={styles.buttons} onClick={handleClick}>CONTACT NOW
                         </button>
 
-                </div>
+                </div> */}
                 <Footer />
                 </div>
             </div>

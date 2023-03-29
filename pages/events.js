@@ -102,8 +102,8 @@ export default function Speakers() {
                         <div className={styles.event_title} style={{ color: "white" }}>2 April 2023</div>
                         <div className={styles.event_title}>10:00am onwards</div>
                         <div className={styles.event_address}>Auditorium, Academic Block- A, IIT
-                            Hyderabad, kandi, Sangareddy, Telengana, 502284</div>
-                        <button className={styles.buttons}>BUY EVENT TICKETS NOW</button>
+                            Hyderabad, Kandi, Sangareddy, Telengana, 502284</div>
+                        <button className={styles.buttons}><a target="_blank" href="https://unstop.com/o/9ICh86s?lb=JfDgvZP">BUY EVENT TICKETS NOW</a></button>
                     </div>
                 </div>
 

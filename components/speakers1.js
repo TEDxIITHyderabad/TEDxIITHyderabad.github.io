@@ -1,7 +1,7 @@
 export const speakers = [
   {
     name: 'Dr CVS Kiran',
-    des: 'Lead, R&D Strategist at Skyroot Aerospace, R&D Director at AnanthaP',
+    des: 'Lead - R&D and Strategy at Skyroot, Hon. Director at AnanthaP',
     image: '/speakers/2023/kiran.png',
     width: 350,
     height: 350,
