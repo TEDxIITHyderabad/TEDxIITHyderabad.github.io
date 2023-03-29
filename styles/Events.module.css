@@ -279,6 +279,11 @@
     letter-spacing: 3px;
 }
 
+.buttons a {
+    color: white;
+    text-decoration: none;
+  }
+
 .speakers_head_title {
     display: flex;
     align-items: center;

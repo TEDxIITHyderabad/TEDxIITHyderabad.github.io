@@ -42,7 +42,7 @@ export default function Home() {
         <div className={styles["hero-theme-cont"]}>
           <p className={styles["hero-theme"]}>Timely and timeless, humanity is the best of us</p>
           <div className={styles["hero-buttons"]}>
-            <button className={styles.buttons + " " + styles["book-tickets"]}>BOOK TICKETS</button>
+            <button className={styles.buttons + " " + styles["book-tickets"]}><a target="_blank" href="https://unstop.com/o/9ICh86s?lb=JfDgvZP">BOOK TICKETS</a></button>
             {/* <button className={styles.buttons + " " + styles.merch}>CHECKOUT MERCH</button> */}
           </div>
         </div>
