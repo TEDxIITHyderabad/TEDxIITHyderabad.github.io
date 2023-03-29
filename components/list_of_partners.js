@@ -5,6 +5,12 @@ export const partners = {
             image: './sponsors/SIC Horizontal Logo.jpg',
         }
     ],
+    'GOLD SPONSOR':[
+        {
+            name: 'LIC',
+            image: './sponsors/lic.png',
+        },
+    ],
     'SILVER SPONSOR':[
         {
             name: 'Caprus IT',
