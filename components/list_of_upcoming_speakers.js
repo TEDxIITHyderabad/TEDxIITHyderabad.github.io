@@ -32,7 +32,7 @@ export const speakers = [
     },
     {
         name: 'Dr. CVS Kiran',
-        desc: 'Lead, R&D Strategist at Skyroot Aerospace, R&D Director at AnanthaP',
+        desc: 'Lead, R&D and Strategy at Skyroot, Hon. Director at AnanthaP',
         about: 'Being a man with a vision that sees beyond our universe, Dr. CVS Kiran is a proud contributor to Skyroot Aerospace’s missions as a lead and R&D strategist and as a R&D director at AnanthaP.\n\n He has also worked for VSSC while being associated with the HIU and KIT as a guest scientist.\n\n Dr. Kiran was elected as a fellow for Andhra Pradesh Akademi of Sciences and also served as member of scientific convent - KIT. \n\nHe has published about 100 scientific papers and holds one patent. With an unassuming appearance coupled with extraordinary thoughts, his work for the prestigious missions in the field of Science and Technology in India truly motivates and encourages the young generation to aspire for mammoth endeavours.',
         image: '/speakers/2023/kiran.png',
         addLineBreak2: true 
