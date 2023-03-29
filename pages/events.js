@@ -4,7 +4,8 @@ import NavbarComp from '../components/Navbar'
 import styles from '../styles/Events.module.css'
 import React, { useEffect, useState } from 'react';
 import { speakers } from '../components/list_of_upcoming_speakers.js';
-import { faTimes } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTimes } from '@fortawesome/free-solid-svg-icons'
 
 
 export default function Speakers() {
@@ -31,12 +32,12 @@ export default function Speakers() {
             <div className={styles.events_main}>
                 <NavbarComp />
                 <div className={showvideo ? styles.theme_video : styles.displaynone}>
-                    <div className={styles.close_button} onClick={() => { changeshowvideo(false) }}>X</div>
+                    <div className={styles.close_button} onClick={() => { changeshowvideo(false) }}><FontAwesomeIcon icon={faTimes} /></div>
                     <iframe className={styles.main_video} src="https://www.youtube.com/embed/vsZUFsGzxcA"></iframe>
                 </div>
                 <div className={styles.main}>
                     <img className={styles.hero_image} src="images/background.png" draggable="false" />
-                    <img className={styles.player} src="images/player.png" onClick={() => { changeshowvideo(true) }} />
+                    <img className={styles.player} draggable={false} src="images/player.png" onClick={() => { changeshowvideo(true) }} />
                     <div className={styles.hero_main}>
                         <p className={styles.hero_title}>EVENT<br />INFORMATION</p>
                     </div>

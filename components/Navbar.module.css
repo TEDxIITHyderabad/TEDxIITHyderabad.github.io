@@ -45,10 +45,10 @@
   color: #ffffff;
 }
 .navigation_menu a:hover{
-  color: #F02D23 !important;
+  color: black !important;
 }
 .navigation_menu a:focus{
-  color: #F02D23 !important;
+  color: black !important;
 }
 
 .subitem{

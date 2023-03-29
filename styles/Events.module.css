@@ -10,7 +10,7 @@
     z-index: 101;
     width: 100svw;
     height: 100svh;
-    background-color: rgba(240, 248, 255,0.85);
+	background-color: rgb(39 39 39 / 75%);
 }
 
 .main_video{
@@ -23,7 +23,7 @@
 .close_button{
     z-index: 105;
     font-size: max(2vw,5vh);
-    color:black;
+    color:white;
     cursor: pointer;
     position: absolute;
     right: 3%;
@@ -82,7 +82,7 @@
     position: absolute;
     top: max(43%, 45vh);
     left: 43%;
-    width: max(8vw,10vh);
+    width: max(7.5vw,10vh);
     z-index: 80;
 }
 
