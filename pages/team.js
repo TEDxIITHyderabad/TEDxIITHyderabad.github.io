@@ -658,7 +658,7 @@ export default function AboutUs(){
                                     <div className={`${styles.team_box_main_grid_item_text}`}>
                                         <span style={{transform: "rotate(-180deg)"}}>
                                             <div className={`${styles.image_name}`}>
-                                            Sai Harish Madireddiḥ
+                                            Sai Harish Madireddi
                                             </div>
                                         </span>
                                     </div> 
