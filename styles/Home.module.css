@@ -414,6 +414,28 @@
 
 }
 
+@media (max-height: 800px) and (orientation: portrait) {
+    .hero-title{
+        font-size: 70px !important;
+    }
+
+    .hero-subtitle{
+        margin-top: 1px !important;
+    }
+
+    .hero-theme{
+        font-size: 18px !important;
+    }
+
+
+}
+
+@media (max-height: 720px){
+    .hero-subtitle{
+        font-size: 23px !important;
+    }
+}
+
 @media (max-height: 800px) {
     .hero-title {
         font-size: 150px;

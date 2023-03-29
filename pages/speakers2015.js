@@ -120,7 +120,7 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
-                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button} >
                             <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
                             </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
@@ -147,7 +147,7 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
-                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button} >
                             <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
                             </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
@@ -175,7 +175,7 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
-                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button} >
                             <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
                             </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
@@ -202,7 +202,7 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
-                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button} >
                             <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
                             </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
@@ -229,7 +229,7 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
-                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button} >
                             <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
                             </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
@@ -304,7 +304,7 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
-                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button} >
                             <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
                             </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
