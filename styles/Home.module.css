@@ -413,10 +413,14 @@
     }
 
 }
-/* 
+
 @media (max-height: 800px) {
     .hero-title {
         font-size: 150px;
+    }
+
+    .hero-subtitle{
+        margin-top: 7px;
     }
 
     .hero-theme {
@@ -435,6 +439,7 @@
 
     .hero-subtitle {
         font-size: 27px;
+        margin-top: 25px;
     }
 
     .hero-theme {
@@ -464,10 +469,10 @@
     .buttons {
         height: 50px;
     }
-} */
+}
 
 
-@media (max-height: 800px) and (orientation: landscape){
+/* @media (max-height: 800px) and (orientation: landscape){
     .hero-title {
         font-size: 150px;
     }
@@ -519,4 +524,4 @@
     }
 }
 
-
+ */
