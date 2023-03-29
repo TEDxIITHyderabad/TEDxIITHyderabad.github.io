@@ -352,3 +352,34 @@
 		border-radius: 8px;
 	}
 }
+
+  .si_pic {
+	position: relative;
+	cursor:pointer;
+  }
+  
+  .play_icon {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 60x;
+	height: 60px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	opacity: 0.7;
+	z-index: 1;
+  }
+  .si_pic:hover .play_icon{
+		display: flex;
+  }
+  .si_pic img {
+	border-radius: 8px;
+	display: block;
+	margin: 0 auto;
+  }
+  
+  
+  

@@ -9,7 +9,7 @@ import styles from '../styles/Speakers.module.css'
 import React, { useState } from "react" // import useState hook
 import Modal from 'react-modal';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faCirclePlay,faTimes } from '@fortawesome/free-solid-svg-icons'
 
 export default function Upcomingspeakers() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -26,6 +26,7 @@ export default function Upcomingspeakers() {
       topic: '',
       imageSrc: 'speakers/2017/Aditi Avasthi.jpg',
       content: "Aditi Avasthi is the Founder and CEO at Embibe.com which is an exciting artificial intelligence platform that is personalising the delivery of education to students in emerging markets with a deep stack on content intelligence using computer vision and machine learning.",
+      youtubeLink:'https://youtu.be/P9rpYLOdBdM',
     },
   ];
   const speakers2 = [
@@ -34,6 +35,7 @@ export default function Upcomingspeakers() {
       topic: '',
       imageSrc: 'speakers/2017/Anam Hashim.jpg',
       content: "Anam Hashim is a professional bike stunt performer and freestyle stunt rider, and India's only female street-bike freestyle athlete. She also runs an organisation to promote Stunt Riding and Adventure Sports in India. She is breaking stereotypes in a male-dominated profession and is a youth icon in her own right.",
+      youtubeLink:'https://youtu.be/LBpRMqjNl20',
     },
   ];
   const speakers3 = [
@@ -42,6 +44,7 @@ export default function Upcomingspeakers() {
       topic: '',
       imageSrc: 'speakers/2017/Arpan Shah.jpg',
       content: "Arpan Shah is a technologist, investor and data scientist based in California. A graduate of Stanford University, Arpan specializes in Systems and Data. He is currently head of data at Robinhood, one of the most successful Fintech companies in the Bay Area, and also advises and invests in startups with his investment firm in India.",
+      youtubeLink:'https://youtu.be/bAQI0FiewmM',
     },
   ];
   const speakers4 = [
@@ -50,6 +53,7 @@ export default function Upcomingspeakers() {
       topic: '',
       imageSrc: 'speakers/2017/Bari Anwar.jpg',
       content: "Bari Anwar, better known as ZeDDisbug, is one of the first Indian e-sportsmen. Soon after college, he went on to captain “Beyond Infinity” - undoubtedly the best Dota 2 team from India. Becoming a professional gamer in India was not an easy choice, however, and he has been championing e-sports and awareness about gaming throughout his career.",
+      youtubeLink:'https://youtu.be/uTSaaY2uUcY',
     },
   ];
    const speakers6 = [
@@ -58,6 +62,7 @@ export default function Upcomingspeakers() {
        topic: '',
        imageSrc: 'speakers/2017/Prof. BM Hegde.jpg',
        content: "Professor B.M. Hegde is a medical scientist, educationist and author who has contributed immensely in the field of healthcare medical science, and is known for his holistic approach. He has been bestowed the prestigious Padma Bhushan award in 2010. He works towards putting together a system of medical care delivery which is authentic, inexpensive, patient friendly and easily accessible.",
+       youtubeLink:'https://youtu.be/K-mgmIjaRlY',
      },
    ];
 const speakers5 = [
@@ -66,6 +71,7 @@ const speakers5 = [
       topic: '',
       imageSrc: 'speakers/2017/KK Senthil Kumar.jpg',
       content: "KK Senthil Kumar is the award winning cinematographer behind movies like the Bahubali saga, Magadheera, Eega and Arundhati. Known for his grand setups and large scale action sequences, He received SIIMA award for Best Cinematographer for Eega. Senthil has blurred the line between VFX and Reality in his movies and has received critical acclaim for his work.",
+      youtubeLink:'https://youtu.be/B2DQfFfYJXA',
     },
   ];
 
@@ -76,6 +82,7 @@ const speakers5 = [
        topic: '',
        imageSrc: 'speakers/2017/Rajaram Bojji.jpg',
        content: "Mr. Rajaram Bojji is the inventor of revolutionary 'skybus metro’, a technologist and conceptualiser. He has worked as the MD and CEO of the Konkan Railway corporation (India). He has worked on field operations and research and development in the Indian railways, and was a consultant to many countries. His work has been instrumental in improving the reliability and safety of the railways at a low cost.",
+       youtubeLink:'https://youtu.be/PqUd7H_L-Ew',
      },
    ];
 const speakers8 = [
@@ -84,6 +91,7 @@ const speakers8 = [
       topic: '',
       imageSrc: 'speakers/2017/Richa Singh.jpg',
       content: "Richa Singh is the Co-founder of yourdost.com. Graduating from IIT Guwahati, she began her company, which is an emotional support system for people to discuss problems with qualified and experienced individuals, in anonymity. She is a young entrepreneur wanting to change the stigma around seeking emotional well-being in the world.",
+      youtubeLink:'https://youtu.be/yAsnF8nCuOQ',
     },
   ];
   return (
@@ -115,7 +123,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -139,7 +150,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -164,7 +178,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -188,7 +205,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -212,7 +232,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -236,7 +259,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -260,7 +286,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -284,7 +313,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -321,7 +353,12 @@ const speakers8 = [
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-5 col-xl-5">
-                      <img src={selectedSpeaker.imageSrc} className={styles.modal_image} alt="" width={350} height={350} />
+                    <div className={styles.si_pic}  onClick={() => window.open(selectedSpeaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(selectedSpeaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
+                            <img className={styles.modal_image} src={selectedSpeaker.imageSrc} alt="" width={350} height={350} />
+                          </div>
                     </div>
                     <div className="col-lg-7 col-xl-7">
                       <h4>{selectedSpeaker.name}</h4>

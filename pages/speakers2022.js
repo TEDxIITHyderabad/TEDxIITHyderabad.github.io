@@ -9,7 +9,8 @@ import styles from '../styles/Speakers.module.css'
 import React, { useState } from "react" // import useState hook
 import Modal from 'react-modal';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faCirclePlay,faTimes } from '@fortawesome/free-solid-svg-icons'
+
 
 export default function Upcomingspeakers() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -26,6 +27,7 @@ export default function Upcomingspeakers() {
       topic: 'Co-founder of The Period Hub',
       imageSrc: 'speakers/2022/Copy of Anju Arora.jpg',
       content: "Anju is the director of The Period Hub, an organisation that works with sustainable menstrual health and hygiene. They strive to eradicate menstrual taboos and provide sustainable, natural, and holistic period care to menstruators..",
+      youtubeLink: 'https://youtu.be/l6vllOmyxNY',
     },
   ];
   const speakers2 = [
@@ -34,6 +36,7 @@ export default function Upcomingspeakers() {
       topic: 'WASH professional',
       imageSrc: 'speakers/2022/Copy of Chirantana 2.jpg',
       content: "Chirantana has a Double Masters in Environmental Sciences and Resources. She is a WASH professional and has exclusively worked in implementing developmental projects in Rural areas and Urban Slums. She was selected for the prestigious International Visitor Leadership program(IVLP) for the year 2015 by the US Consulate Hyderabad and represented India in Washington She is also the Co Founder of Period Hub pvt Ltd, a Menstrual Wellness platform.",
+      youtubeLink: 'https://youtu.be/TjMJdOZ2KVo',
     },
   ];
   const speakers3 = [
@@ -42,16 +45,18 @@ export default function Upcomingspeakers() {
       topic: 'Cancer survivor and emotional wellness coach',
       imageSrc: 'speakers/2022/Copy of Leena Haldar 1.jpg',
       content: "Leena R Haldar is a workshop leader and an emotional wellness coach who has been facilitating transformational workshops for over a decade now. Certified by the Hay House, USA, to lead Heal Your Life workshops, Leena, is also a trainer of Emotional Freedom Techniques (EFT). As a cancer warrior, she works to give back to society by leading wellness programs for cancer patients, survivors and care-givers through her initiative Canservelove. Her vision is to bring about an emotional wellness revolution so people can experience peace and to launch an emotional wellness routine in schools as she believes that most issues get sorted if we catch them young",
+      youtubeLink: 'https://youtu.be/IndTCD2IriQ',
     }
   ];
-   const speakers4 = [
-     {
-       name: 'Nupur Agarwal',
-       topic: 'Co founder of Kiwi Kisan Window',
-       imageSrc: 'speakers/2022/Copy of Nupur Agarwal0.jpg',
-       content: "Nupur is the co-founder of KIWI Kisan Window, a fair trade organic food brand that has tie ups with International business in UAE and Europe. She is a social entrepreneur and works towards achieving social equality and development of the society. She also founded the evolve foundation, an ecosystem that provides socio economic benefit to rural india and uplifts environmental and cultural awarness in urban india via various handmade organic products.",
-     }
-   ];
+  const speakers4 = [
+    {
+      name: 'Nupur Agarwal',
+      topic: 'Co founder of Kiwi Kisan Window',
+      imageSrc: 'speakers/2022/Copy of Nupur Agarwal0.jpg',
+      content: "Nupur is the co-founder of KIWI Kisan Window, a fair trade organic food brand that has tie ups with International business in UAE and Europe. She is a social entrepreneur and works towards achieving social equality and development of the society. She also founded the evolve foundation, an ecosystem that provides socio economic benefit to rural india and uplifts environmental and cultural awarness in urban india via various handmade organic products.",
+      youtubeLink: 'https://youtu.be/UMDJEeEY7BY',
+    }
+  ];
   // const speakers6 = [
   //   {
   //     name: 'Yasaswini Jonnalagadda',
@@ -65,6 +70,7 @@ export default function Upcomingspeakers() {
     topic: 'Head of HR for Netcracker',
     imageSrc: 'speakers/2022/Copy of Srinivas Prabhu.jpg',
     content: 'Srinivas is the Head of HR for Netcracker, a wholly-owned subsidiary of NEC. He leads all the HR functions for an employee base of over 3500 and growing. In the past, he worked with Corporations like Hewlett Packard, Thomson Reuters, and Polycom, with specific expertise in aligning business strategy with HR interventions, initiatives, and programs. He holds a Masters degree from Ecole de Management, Grenoble, France, with a specific focus on International Business.',
+    youtubeLink: 'https://youtu.be/vHMBbFRJJ2I',
   }];
 
 
@@ -79,6 +85,7 @@ export default function Upcomingspeakers() {
     topic: 'Social worker and director of DeepStack Software',
     imageSrc: 'speakers/2022/Copy of Yasaswini copy.jpg',
     content: "Yasaswini is a social worker and the director of DeepStack Software. She launched ‘Project Prisha,’ an initiative aimed at enabling women to set up small-scale businesses such as establishing flour mills, shops, and pushcarts intended to boost self-reliance among women belonging to the disadvantaged end of the socioeconomic spectrum.",
+    youtubeLink: 'https://youtu.be/gf_1_8dNgRU',
   }];
   return (
     <>
@@ -109,7 +116,10 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -120,7 +130,7 @@ export default function Upcomingspeakers() {
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Anju is the director of The Period Hub, an organisation that works with sustainable menstrual health and hygiene. They strive to eradicate menstrual <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                              Anju is the director of The Period Hub, an organisation that works with sustainable menstrual health and hygiene. They strive to eradicate menstrual <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -133,7 +143,10 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -144,7 +157,7 @@ export default function Upcomingspeakers() {
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Chirantana has a Double Masters in Environmental Sciences and Resources. She is a WASH professional and has exclusively worked in implementing developmental  <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                              Chirantana has a Double Masters in Environmental Sciences and Resources. She is a WASH professional and has exclusively worked in implementing developmental  <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -158,18 +171,21 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                            <h4>{speaker.name}</h4>
+                              <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Leena R Haldar is a workshop leader and an emotional wellness coach who has been facilitating transformational workshops for over a decade now. Certified by the Hay <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                              Leena R Haldar is a workshop leader and an emotional wellness coach who has been facilitating transformational workshops for over a decade now. Certified by the Hay <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -182,18 +198,21 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                            <h4>{speaker.name}</h4>
+                              <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Nupur is the co-founder of KIWI Kisan Window, a fair trade organic food brand that has tie ups with International business in UAE and Europe. She is a social <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                              Nupur is the co-founder of KIWI Kisan Window, a fair trade organic food brand that has tie ups with International business in UAE and Europe. She is a social <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -206,18 +225,21 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                            <h4>{speaker.name}</h4>
+                              <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Srinivas is the Head of HR for Netcracker, a wholly-owned subsidiary of NEC. He leads all the HR functions for an employee base of over 3500 and growing. In<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                              Srinivas is the Head of HR for Netcracker, a wholly-owned subsidiary of NEC. He leads all the HR functions for an employee base of over 3500 and growing. In<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -278,18 +300,21 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                            <h4>{speaker.name}</h4>
+                              <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Yasaswini is a social worker and the director of DeepStack Software. She launched ‘Project Prisha,’ an initiative aimed at enabling women to set up small-scale<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                              Yasaswini is a social worker and the director of DeepStack Software. She launched ‘Project Prisha,’ an initiative aimed at enabling women to set up small-scale<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -315,7 +340,12 @@ export default function Upcomingspeakers() {
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-5 col-xl-5">
-                      <img src={selectedSpeaker.imageSrc} className={styles.modal_image} alt="" width={350} height={350} />
+                    <div className={styles.si_pic}  onClick={() => window.open(selectedSpeaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(selectedSpeaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
+                            <img className={styles.modal_image} src={selectedSpeaker.imageSrc} alt="" width={350} height={350} />
+                          </div>
                     </div>
                     <div className="col-lg-7 col-xl-7">
                       <h4>{selectedSpeaker.name}</h4>

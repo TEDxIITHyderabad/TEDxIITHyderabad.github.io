@@ -9,7 +9,7 @@ import styles from '../styles/Speakers.module.css'
 import React, { useState } from "react" // import useState hook
 import Modal from 'react-modal';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faCirclePlay,faTimes } from '@fortawesome/free-solid-svg-icons'
 
 export default function Upcomingspeakers() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -26,6 +26,7 @@ export default function Upcomingspeakers() {
       topic: 'Performer, Activist, Poet, Founder Director QueerAbad',
       imageSrc: 'speakers/2021/anahita sarabhai.jpg',
       content: "Anahita (she/her, they/them) is the Founder-Director of QueerAbad, Ahmedabad's only Queer-Ally support and community platform. She is an educator and facilitator, teaching IB Theatre Arts and English Literature to 11th & 12th grade students, as well as running theatre based workshops on creativity, team & confidence building, mental health & peer support, & positive communication, for corporate and NGO clients. Regardless of the work or project, Anahita focuses on having a continued dialogue and engagement with gender, sexuality and the self.",
+      youtubeLink:'https://youtu.be/4vM9n5C4Gv8',
     },
   ];
   const speakers2 = [
@@ -34,6 +35,7 @@ export default function Upcomingspeakers() {
       topic: 'Indian Police Service - Director General of Police (retired)',
       imageSrc: 'speakers/2021/Aruna Bahuguna.jpg',
       content: "Aruna Bahuguna is the first woman IPS officer in erstwhile Andhra Pradesh. She has served in challenging areas across the country and had risen to the seniormost rank of Director General of Police. She has been Indian Police Medal for Distinguished Service, President’s Police Medal for Meritorious Service and Union Home Minister’s Disc for Excellence in an Institution.",
+      youtubeLink:'https://youtu.be/I3xQWhIE-kE',
     },
   ];
   const speakers3 = [
@@ -42,6 +44,7 @@ export default function Upcomingspeakers() {
       topic: 'Founder & Director, Good Universe NGO',
       imageSrc: 'speakers/2021/Kamal Nayak.jpg',
       content: "Kamal Nayak, the founder of the NGO Good Universe, is a UN SDSN Fellow, who advocates for sustainability in the field of women’s health, climate change, and gender equality. His NGO’s vision is to create a free and equal world where women, children and transgender can lead a dignified and secure life. Good Universe has positively impacted more than 40,000 women directly, and 10,00,000 women indirectly in the last six years. Being dearly addressed as the Padman of Hyderabad, he has also earned the title of Hyderabad Heroes Award by TOI.",
+      youtubeLink:'https://youtu.be/qoLTWCbG7p0',
     },
   ];
   const speakers4 = [
@@ -50,6 +53,7 @@ export default function Upcomingspeakers() {
       topic: 'Associate Editor, Newslaundry.com',
       imageSrc: 'speakers/2021/Meghnad S.jpg',
       content: "Meghnad is a public policy professional and a die-hard Parliament nerd who’s currently the Associate Editor at Newslaundry. When he is not watching Lok Sabha and Rajya Sabha TV obsessively, he spends his time poring over legislation, trying to simplify them on Twitter and writing columns about them using GIFs. He hosted a series to simplify the working of the Indian government called ‘Consti-tuition’ with Newslaundry. He is a former LAMP fellow and has worked with multiple MPs in the past.",
+      youtubeLink:'https://youtu.be/C55yyTl1vwM',
     },
   ];
 //   const speakers6 = [
@@ -66,6 +70,7 @@ const speakers5 = [
       topic: 'Co-founded the Robin Hood Academy',
       imageSrc: 'speakers/2021/Pooja Dagli.jpg',
       content: "Pooja Dagli is the founder of Robin Hood Academy, an initiative of the Robin Hood Army. Professionally, she is pursuing a career in corporate law. Her foodie genes, love for kids, and a strong desire to give back to society found her soul mate in Robin Hood Army. The Robin Hood Academy was founded in 2016 to empower underprivileged kids and bridge the education gap. The academy has mentored over 7300 street children in more than 102 cities, and over 1800 children, fondly called 'Academy Graduates', are enrolled in government-recognized schools.",
+      youtubeLink:'https://youtu.be/Lqt7w0BKUUI',
     },
   ];
 
@@ -76,6 +81,7 @@ const speakers5 = [
        topic: 'Visual Artist',
        imageSrc: 'speakers/2021/Vimal Chandran.jpg',
        content: "Adept in various art and photography genres, with an impeccable flair for creativity, Vimal Chandran could be aptly named a Visual Artist. He's a self-taught artist whose work is a skilful concoction of urban art, illustrations, installations, graphic design, photography and film. Hailing from Kerala, Vimal currently lives in Bangalore, India. Vimal undertakes commercial assignments/ brand collaborations with as much passion as his self initiated works. He is also the founder of 'Unposted letters' that showcases his works on unique lifestyle products. to",
+       youtubeLink:'https://youtu.be/maK87FO1Jy4',
      },
    ];
 const speakers8 = [
@@ -84,6 +90,7 @@ const speakers8 = [
       topic: 'Monk in Charge, Vedanta Society of New York',
       imageSrc: 'speakers/2021/Swami Sarvapriyananda.jpg',
       content: "Swami Sarvapriyananda is a Hindu monk of the Ramakrishna Order for more than 25 years. Currently, he is the head of the Vedanta Society of New York, a position he has been serving since January 2017. He was also in residence at Harvard Divinity School at Harvard University last year. He frequently speaks at events centred on the teachings of Advaita Vedanta. His spiritual lectures and teachings on the various texts of Advaita Vedanta are widely popular and followed by people worldwide. His series of lectures titled Who am I? are some of his most-watched talks.",
+      youtubeLink:'https://youtu.be/B1oYvwMVbiw',
     },
   ];
   return (
@@ -115,7 +122,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -139,7 +149,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -164,7 +177,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -188,7 +204,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -212,7 +231,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -260,7 +282,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -284,7 +309,10 @@ const speakers8 = [
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -321,7 +349,12 @@ const speakers8 = [
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-5 col-xl-5">
-                      <img src={selectedSpeaker.imageSrc} className={styles.modal_image} alt="" width={350} height={350} />
+                    <div className={styles.si_pic}  onClick={() => window.open(selectedSpeaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(selectedSpeaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
+                            <img className={styles.modal_image} src={selectedSpeaker.imageSrc} alt="" width={350} height={350} />
+                          </div>
                     </div>
                     <div className="col-lg-7 col-xl-7">
                       <h4>{selectedSpeaker.name}</h4>

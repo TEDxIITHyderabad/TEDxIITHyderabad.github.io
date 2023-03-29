@@ -9,7 +9,7 @@ import styles from '../styles/Speakers.module.css'
 import React, { useState } from "react" // import useState hook
 import Modal from 'react-modal';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTimes } from '@fortawesome/free-solid-svg-icons'
+import { faCirclePlay,faTimes } from '@fortawesome/free-solid-svg-icons'
 
 export default function Upcomingspeakers() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
@@ -26,6 +26,7 @@ export default function Upcomingspeakers() {
       topic: '',
       imageSrc: 'speakers/2015/ananda shankar jayant.jpg',
       content: "Dr Ananda Shankar Jayant, is celebrated as one of India’s leading classical dancers, choreographers and dance scholars. Ananda’s TED talk is ranked as one of 50 Amazingly Motivational talks on Youtube as well as one of 12 Incredible TED talks on cancer. Now she talks about a new perspective on Ideas Behind The Horizon",
+      youtubeLink:'https://youtu.be/uo7S6pXGegA',
     },
   ];
   const speakers2 = [
@@ -34,6 +35,7 @@ export default function Upcomingspeakers() {
       topic: '',
       imageSrc: 'speakers/2015/VK Saraswat.jpg',
       content: "An Engineer, Scientist, Visionary and a leader. who formerly served as the Director General of the Defence Research and Development Organisation of India and the Chief Scientific Advisor to the Indian Minister of Defence.Who with his experience has given a new perspective towards Sustainable Development. ",
+      youtubeLink:'https://youtu.be/YmFcge3jnlI',
     },
   ];
   const speakers3 = [
@@ -42,6 +44,7 @@ export default function Upcomingspeakers() {
       topic: '',
       imageSrc: 'speakers/2015/Neeraj Jain.jpg',
       content: "",
+      youtubeLink:'https://youtu.be/TkGgYhxIg7Y',
     },
   ];
   const speakers4 = [
@@ -50,6 +53,7 @@ export default function Upcomingspeakers() {
       topic: '',
       imageSrc: 'speakers/2015/Subhas Chandra.png',
       content: "",
+      youtubeLink:'https://youtu.be/-wckO2el0N4',
     },
   ];
 //   const speakers6 = [
@@ -115,7 +119,10 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -139,7 +146,10 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -164,7 +174,10 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -188,7 +201,10 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -212,7 +228,10 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -284,7 +303,10 @@ export default function Upcomingspeakers() {
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
+                          <div className={styles.si_pic}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(speaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
                             <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
@@ -321,7 +343,12 @@ export default function Upcomingspeakers() {
                 <div className="container">
                   <div className="row">
                     <div className="col-lg-5 col-xl-5">
-                      <img src={selectedSpeaker.imageSrc} className={styles.modal_image} alt="" width={350} height={350} />
+                    <div className={styles.si_pic}  onClick={() => window.open(selectedSpeaker.youtubeLink, '_blank')}>
+                            <div className={styles.play_button}  onClick={() => window.open(selectedSpeaker.youtubeLink, '_blank')}>
+                            <FontAwesomeIcon className={styles.play_icon}icon={faCirclePlay} />
+                            </div>
+                            <img className={styles.modal_image} src={selectedSpeaker.imageSrc} alt="" width={350} height={350} />
+                          </div>
                     </div>
                     <div className="col-lg-7 col-xl-7">
                       <h4>{selectedSpeaker.name}</h4>
