@@ -40,6 +40,20 @@ export default function Speakers() {
                         </div>
                     </div> */}
                 </div>
+                
+                <div className={styles.sponsers}>
+                    <div className={styles.title} style={{ textTransform: "uppercase" }}>GOLD SPONSORS</div>
+                    <div className={styles.sponserslist}>
+                        <div className={styles.sponseritem}>
+                            <img src={partners['GOLD SPONSOR'][0].image} alt={partners['GOLD SPONSOR'][0].name}/>
+                            <p color="black"> {partners['GOLD SPONSOR'][0].name}</p>
+                        </div>
+                        {/* <div className={styles.sponseritem}>
+                            <img src={partners[][0].image} alt={partners[][0].name}/>
+                            <p color="black"> {partners[][0].name}</p>
+                        </div> */}
+                    </div>
+                </div>
 
                 <div className={styles.sponsers}>
                     <div className={styles.title} style={{ textTransform: "uppercase" }}>SILVER SPONSORS</div>
