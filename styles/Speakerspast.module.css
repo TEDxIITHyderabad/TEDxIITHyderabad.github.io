@@ -12,7 +12,11 @@
 }
 
 .speaker_item .si_text .si_title h4 {
+<<<<<<< Updated upstream
         font-family: 'Philosopher';
+=======
+    font-family: 'Philosopher';
+>>>>>>> Stashed changes
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -29,7 +33,11 @@
 
 
 .speaker_item .si_text p {
+<<<<<<< Updated upstream
         font-family: 'Philosopher';
+=======
+    font-family: 'Philosopher';
+>>>>>>> Stashed changes
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -124,7 +132,11 @@
     }
 
     .speaker_item .si_text .si_title h4 {
+<<<<<<< Updated upstream
             font-family: 'Philosopher';
+=======
+        font-family: 'Philosopher';
+>>>>>>> Stashed changes
         font-style: normal;
         font-weight: 700;
         font-size: 25px;
@@ -134,7 +146,11 @@
     }
 
     .speaker_item .si_text .si_title p {
+<<<<<<< Updated upstream
             font-family: 'Philosopher';
+=======
+        font-family: 'Philosopher';
+>>>>>>> Stashed changes
         font-style: normal;
         font-weight: 400;
         font-size: 25px;
@@ -146,7 +162,11 @@
     }
 
     .speaker_item .si_text p {
+<<<<<<< Updated upstream
             font-family: 'Philosopher';
+=======
+        font-family: 'Philosopher';
+>>>>>>> Stashed changes
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
