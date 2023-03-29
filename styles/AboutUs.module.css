@@ -302,3 +302,62 @@ color: #FFFFFF;
         font-size: 10vw;
     }
 }
+.ted_buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 6% 0 0 10%;
+    cursor: pointer;
+}
+.ted_button_wrap {
+    background: linear-gradient(to right, #F02D23, black 110%);
+    padding: 2px;
+    width: 25%;
+}
+@media (max-width: 772px){
+    .player {
+        left: 40%;
+    }
+
+    .ted_buttons {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .ted_button_wrap {
+        width: 85%;
+    }
+
+    .theme_title {
+        padding-left: 3vh;
+    }
+
+    .ted_button {
+        padding: 3% 5% 3% 5%;
+    }
+
+    .event_address {
+        width: 80%;
+    }
+
+    .speaker_item {
+        width: 95%;
+    }
+}
+.ted_button {
+    font-size: max(1.75vw, 2.5vh);
+    padding: 3% 8% 3% 8%;
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+    color: rgba(240, 45, 35, 0.5);
+}
+
+.selected {
+    color: white;
+    font-weight: 700;
+}
+
+.about_ted_desc {
+    margin: 2% 10% 0 10%;
+    font-size: max(1.5vw, 2vh);
+    color: white;
+}
