@@ -7,12 +7,14 @@ export const speakers = [
         addLineBreak1: true 
     },
     {
-        name: 'Dr. CVS Kiran',
-        desc: 'Lead, R&D Strategist at Skyroot Aerospace, R&D Director at AnanthaP',
-        about: 'Being a man with a vision that sees beyond our universe, Dr. CVS Kiran is a proud contributor to Skyroot Aerospace’s missions as a lead and R&D strategist and as a R&D director at AnanthaP.\n\n He has also worked for VSSC while being associated with the HIU and KIT as a guest scientist.\n\n Dr. Kiran was elected as a fellow for Andhra Pradesh Akademi of Sciences and also served as member of scientific convent - KIT. \n\nHe has published about 100 scientific papers and holds one patent. With an unassuming appearance coupled with extraordinary thoughts, his work for the prestigious missions in the field of Science and Technology in India truly motivates and encourages the young generation to aspire for mammoth endeavours.',
-        image: '/speakers/2023/kiran.png',
-        addLineBreak2: true 
+        name: 'Murtuza Kutianawalla',
+        desc: 'Founder and CEO, Bizzy Baby media and entertainment',
+        about: "Murtuza Kutianawalla, born in Mumbai, at 33 years of age has a combined experience of 12 years in the media and entertainment industry. After finishing his M.COM with his key interest in storytelling he went ahead and kickstarted a theatre company where he Directed and Produced 5 commercially successful plays with over 200 shows across India and overseas. Simultaneously, he worked as an Anchor/VJ for Walt Disney India in 2011. He represented Disney India in the friends for change, in Orlando along with Hosting Airtels Champions League, held in South Africa (A Disney and ESPN initiative).\n\n He was then casted as a protagonist for a Walt Disney India series called “Best of Luck Nikki '' as Rohan Singh that ran across 4 seasons. Best of luck Nikki has gathered over a billion views on YouTube and Hotstar and is still counting. Murtuza has also worked on ads like PEPSI, COKE, MCDONALDS and NIKON with Priyanka Chopra! Since 2016, he worked with a large global MCN/kids network called Hooplakidz where he wore the creative hat to help create and grow several IP's in the digital ecosystem. \n\nBizzy Baby Media, was founded by him in 2017, where he accelerated his vision by creating several IP's in the animation sector along with several studios and brands till date. Today, After working on successful campaigns for ICICI Bank, JSW One Homes and UNESCO, his aim is to build brands through effective content marketing. Every story is good! All you need is a good storyteller!",
+        image: '/speakers/2023/MurtuzaPicture_updated.jpg',
+        addLineBreak2: true
+
     },
+    
     
     {
         name: 'Raju Kendre',
@@ -22,12 +24,18 @@ export const speakers = [
         addLineBreak3: true 
     },
     {
-        name: 'Murtuza Kutianawalla',
-        desc: 'Founder and CEO, Bizzy Baby media and entertainment',
-        about: "Murtuza Kutianawalla, born in Mumbai, at 33 years of age has a combined experience of 12 years in the media and entertainment industry. After finishing his M.COM with his key interest in storytelling he went ahead and kickstarted a theatre company where he Directed and Produced 5 commercially successful plays with over 200 shows across India and overseas. Simultaneously, he worked as an Anchor/VJ for Walt Disney India in 2011. He represented Disney India in the friends for change, in Orlando along with Hosting Airtels Champions League, held in South Africa (A Disney and ESPN initiative).\n\n He was then casted as a protagonist for a Walt Disney India series called “Best of Luck Nikki '' as Rohan Singh that ran across 4 seasons. Best of luck Nikki has gathered over a billion views on YouTube and Hotstar and is still counting. Murtuza has also worked on ads like PEPSI, COKE, MCDONALDS and NIKON with Priyanka Chopra! Since 2016, he worked with a large global MCN/kids network called Hooplakidz where he wore the creative hat to help create and grow several IP's in the digital ecosystem. \n\nBizzy Baby Media, was founded by him in 2017, where he accelerated his vision by creating several IP's in the animation sector along with several studios and brands till date. Today, After working on successful campaigns for ICICI Bank, JSW One Homes and UNESCO, his aim is to build brands through effective content marketing. Every story is good! All you need is a good storyteller!",
-        image: '/speakers/2023/MurtuzaPicture_updated.jpg',
-        addLineBreak2: true
-
+        name: 'Aarathi Selvan',
+        desc: 'Clinical psychologist',
+        about: "Aarathi Selvan is the founder of Pause for Perspective. They are a Counseling psychologist with a dual Masters from Columbia University, a clinical psychologist with an MPhil from Osmania University and a Phd Scholar at the University of Madras.\n\n They lead Pause for Perspective, a mental health organisation in Hyderabad that works towards mental health and well being from the intersections of embodied social justice, anti caste, anti patriarchy, queer affirmative, neurodivergence affirmative and disability justice. They work with a team of women and trans and non binary practitioners with a vision of offering access to mental health awareness, and advocacy for well being for young people, families and collectives in the margins.\n\n They work with government and budget private schools to offer mental health awareness and advocacy, they offer mental health and gender and sexuality awareness education for children and their stakeholders in institutions and welfare homes in the city of Hyderabad. \n\nIn the last four years their team has reached more than 10,000 children across different schools in Hyderabad as well and as many young people across colleges in Hyderabad to spread mental health awareness.  They also have a training team that works together for three months a year to offer free therapy for those in the margins. In the last two years their team has been able to reach 400 people offering 4500 hours of Counseling through this means. \n\nIt is Aarathi's continued vision to work towards sustainable mental health support and access for all, especially those in the margins through the lens of embodied social justice. Aarathi works as a therapist, supervisor, teacher and mentor for mental health practitioners across the country. ",
+        image: '/speakers/2023/Aarathi Selvan_updated.jpg',
+        addLineBreak2: true 
+    },
+    {
+        name: 'Dr. CVS Kiran',
+        desc: 'Lead, R&D Strategist at Skyroot Aerospace, R&D Director at AnanthaP',
+        about: 'Being a man with a vision that sees beyond our universe, Dr. CVS Kiran is a proud contributor to Skyroot Aerospace’s missions as a lead and R&D strategist and as a R&D director at AnanthaP.\n\n He has also worked for VSSC while being associated with the HIU and KIT as a guest scientist.\n\n Dr. Kiran was elected as a fellow for Andhra Pradesh Akademi of Sciences and also served as member of scientific convent - KIT. \n\nHe has published about 100 scientific papers and holds one patent. With an unassuming appearance coupled with extraordinary thoughts, his work for the prestigious missions in the field of Science and Technology in India truly motivates and encourages the young generation to aspire for mammoth endeavours.',
+        image: '/speakers/2023/kiran.png',
+        addLineBreak2: true 
     },
     {
         name: 'Dr. Yadvendradev Jhala',
@@ -36,11 +44,5 @@ export const speakers = [
         image: '/speakers/2023/jhala.png',
         addLineBreak1: true 
     },
-    {
-        name: 'Aarathi Selvan',
-        desc: 'Clinical psychologist',
-        about: "Aarathi Selvan is the founder of Pause for Perspective. They are a Counseling psychologist with a dual Masters from Columbia University, a clinical psychologist with an MPhil from Osmania University and a Phd Scholar at the University of Madras.\n\n They lead Pause for Perspective, a mental health organisation in Hyderabad that works towards mental health and well being from the intersections of embodied social justice, anti caste, anti patriarchy, queer affirmative, neurodivergence affirmative and disability justice. They work with a team of women and trans and non binary practitioners with a vision of offering access to mental health awareness, and advocacy for well being for young people, families and collectives in the margins.\n\n They work with government and budget private schools to offer mental health awareness and advocacy, they offer mental health and gender and sexuality awareness education for children and their stakeholders in institutions and welfare homes in the city of Hyderabad. \n\nIn the last four years their team has reached more than 10,000 children across different schools in Hyderabad as well and as many young people across colleges in Hyderabad to spread mental health awareness.  They also have a training team that works together for three months a year to offer free therapy for those in the margins. In the last two years their team has been able to reach 400 people offering 4500 hours of Counseling through this means. \n\nIt is Aarathi's continued vision to work towards sustainable mental health support and access for all, especially those in the margins through the lens of embodied social justice. Aarathi works as a therapist, supervisor, teacher and mentor for mental health practitioners across the country. ",
-        image: '/speakers/2023/Aarathi Selvan_updated.jpg',
-        addLineBreak2: true 
-    }
+    
 ]
