@@ -16,10 +16,16 @@ import Grid from '/components/GridSpeakers'
 import HorizontalScroll from '../components/HorizontalScroll.js';
 
 const images = [
-  { image: '/homepageimg/Rectangle 35.png', width: 350, height: 350 },
-  { image: '/homepageimg/Rectangle 36.png', width: 350, height: 350 },
-  { image: '/homepageimg/Rectangle 37.png', width: 350, height: 350 },
-  { image: '/homepageimg/image 2.png', width: 350, height: 350 },
+  { image: '/homepageimg/glimpse1.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse10.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse3.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse4.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse5.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse6.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse7.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse9.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse2.jpg', width: 400, height: 267 },
+  { image: '/homepageimg/glimpse8.jpg', width: 400, height: 267 },
 ];
 
 export default function Home() {
