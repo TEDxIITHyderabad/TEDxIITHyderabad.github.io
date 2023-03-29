@@ -22,70 +22,70 @@ export default function Upcomingspeakers() {
 
   const speakers1 = [
     {
-      name: 'Dr Ananda Shankar Jayant',
+      name: 'Aditi Avasthi',
       topic: '',
-      imageSrc: 'speakers/2015/ananda shankar jayant.jpg',
-      content: "Dr Ananda Shankar Jayant, is celebrated as one of India’s leading classical dancers, choreographers and dance scholars. Ananda’s TED talk is ranked as one of 50 Amazingly Motivational talks on Youtube as well as one of 12 Incredible TED talks on cancer. Now she talks about a new perspective on Ideas Behind The Horizon",
+      imageSrc: 'speakers/2017/Aditi Avasthi.jpg',
+      content: "Aditi Avasthi is the Founder and CEO at Embibe.com which is an exciting artificial intelligence platform that is personalising the delivery of education to students in emerging markets with a deep stack on content intelligence using computer vision and machine learning.",
     },
   ];
   const speakers2 = [
     {
-      name: 'Dr V K Saraswat',
+      name: 'Anam Hashim',
       topic: '',
-      imageSrc: 'speakers/2015/VK Saraswat.jpg',
-      content: "An Engineer, Scientist, Visionary and a leader. who formerly served as the Director General of the Defence Research and Development Organisation of India and the Chief Scientific Advisor to the Indian Minister of Defence.Who with his experience has given a new perspective towards Sustainable Development. ",
+      imageSrc: 'speakers/2017/Anam Hashim.jpg',
+      content: "Anam Hashim is a professional bike stunt performer and freestyle stunt rider, and India's only female street-bike freestyle athlete. She also runs an organisation to promote Stunt Riding and Adventure Sports in India. She is breaking stereotypes in a male-dominated profession and is a youth icon in her own right.",
     },
   ];
   const speakers3 = [
     {
-      name: 'Neeraj Jain',
+      name: 'Arpan Shah',
       topic: '',
-      imageSrc: 'speakers/2015/Neeraj Jain.jpg',
-      content: "",
+      imageSrc: 'speakers/2017/Arpan Shah.jpg',
+      content: "Arpan Shah is a technologist, investor and data scientist based in California. A graduate of Stanford University, Arpan specializes in Systems and Data. He is currently head of data at Robinhood, one of the most successful Fintech companies in the Bay Area, and also advises and invests in startups with his investment firm in India.",
     },
   ];
   const speakers4 = [
     {
-      name: 'Subhas Chandra',
+      name: 'Bari Anwar',
       topic: '',
-      imageSrc: 'speakers/2015/Subhas Chandra.png',
-      content: "",
+      imageSrc: 'speakers/2017/Bari Anwar.jpg',
+      content: "Bari Anwar, better known as ZeDDisbug, is one of the first Indian e-sportsmen. Soon after college, he went on to captain “Beyond Infinity” - undoubtedly the best Dota 2 team from India. Becoming a professional gamer in India was not an easy choice, however, and he has been championing e-sports and awareness about gaming throughout his career.",
     },
   ];
-//   const speakers6 = [
-//     {
-//       name: '',
-//       topic: '',
-//       imageSrc: 'speakers/2015/.jpg',
-//       content: "",
-//     },
-//   ];
-// const speakers5 = [
-//     {
-//       name: '',
-//       topic: '',
-//       imageSrc: 'speakers/2015/.jpg',
-//       content: "",
-//     },
-//   ];
+   const speakers6 = [
+     {
+       name: 'Prof. BM Hegde',
+       topic: '',
+       imageSrc: 'speakers/2017/Prof. BM Hegde.jpg',
+       content: "Professor B.M. Hegde is a medical scientist, educationist and author who has contributed immensely in the field of healthcare medical science, and is known for his holistic approach. He has been bestowed the prestigious Padma Bhushan award in 2010. He works towards putting together a system of medical care delivery which is authentic, inexpensive, patient friendly and easily accessible.",
+     },
+   ];
+const speakers5 = [
+    {
+      name: 'KK Senthil Kumar',
+      topic: '',
+      imageSrc: 'speakers/2017/KK Senthil Kumar.jpg',
+      content: "KK Senthil Kumar is the award winning cinematographer behind movies like the Bahubali saga, Magadheera, Eega and Arundhati. Known for his grand setups and large scale action sequences, He received SIIMA award for Best Cinematographer for Eega. Senthil has blurred the line between VFX and Reality in his movies and has received critical acclaim for his work.",
+    },
+  ];
 
 
-//   const speakers7 = [
-//     {
-//       name: '',
-//       topic: '',
-//       imageSrc: 'speakers/2015/.jpg',
-//       content: "",
-//     },
-//   ];
-// const speakers8 = [
-//     {
-//       name: '',
-//       topic: '',
-//       imageSrc: 'speakers/2015/.jpg',
-//       content: "",
-//     },
-//   ];
+   const speakers7 = [
+     {
+       name: 'Rajaram Bojji',
+       topic: '',
+       imageSrc: 'speakers/2017/Rajaram Bojji.jpg',
+       content: "Mr. Rajaram Bojji is the inventor of revolutionary 'skybus metro’, a technologist and conceptualiser. He has worked as the MD and CEO of the Konkan Railway corporation (India). He has worked on field operations and research and development in the Indian railways, and was a consultant to many countries. His work has been instrumental in improving the reliability and safety of the railways at a low cost.",
+     },
+   ];
+const speakers8 = [
+    {
+      name: 'Richa Singh',
+      topic: '',
+      imageSrc: 'speakers/2017/Richa Singh.jpg',
+      content: "Richa Singh is the Co-founder of yourdost.com. Graduating from IIT Guwahati, she began her company, which is an emotional support system for people to discuss problems with qualified and experienced individuals, in anonymity. She is a young entrepreneur wanting to change the stigma around seeking emotional well-being in the world.",
+    },
+  ];
   return (
     <>
       <Head>
@@ -98,13 +98,13 @@ export default function Upcomingspeakers() {
       <div> <Navbar /></div>
       <section className={style.body}>
         <div style={{ paddingTop: "25px" }}>
-          <SpeakersPage />
+           {/* <SpeakersPage /> */}
         </div>
         <section className={style.main_content}>
           <div className={style.heading}>
             Past Speakers
           </div>
-          <div className={style.year}>2015</div>
+          <div className={style.year}>2017</div>
 
           {/* Speaker Section Begin */}
           <section className={styles.speaker_section_spad}>
@@ -126,7 +126,7 @@ export default function Upcomingspeakers() {
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Dr Ananda Shankar Jayant, is celebrated as one of India’s leading classical dancers, choreographers and dance scholars. Ananda’s TED talk is<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Aditi Avasthi is the Founder and CEO at Embibe.com which is an exciting artificial intelligence platform that is personalising the delivery of education to<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -150,7 +150,7 @@ export default function Upcomingspeakers() {
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            An Engineer, Scientist, Visionary and a leader. who formerly served as the Director General of the Defence Research and Development Organisation of India<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Anam Hashim is a professional bike stunt performer and freestyle stunt rider, and India's only female street-bike freestyle athlete. She also runs <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -174,9 +174,9 @@ export default function Upcomingspeakers() {
                             <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
-                            {/* <p>
-                           <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
-                            </p> */}
+                            <p>
+                            Arpan Shah is a technologist, investor and data scientist based in California. A graduate of Stanford University, Arpan specializes in Systems and Data. <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            </p>
                           </div>
                         </div>
                       </div>
@@ -198,16 +198,16 @@ export default function Upcomingspeakers() {
                             <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
-                            {/* <p>
-                           <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
-                            </p> */}
+                            <p>
+                            Bari Anwar, better known as "ZeDDisbug", is one of the first Indian e-sportsmen. Soon after college, he went on to captain “Beyond Infinity” - undoubtedly <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
-                {/* {speakers5.map((speaker) => (
+                {speakers5.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
@@ -223,31 +223,31 @@ export default function Upcomingspeakers() {
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Srinivas is the Head of HR for Netcracker, a wholly-owned subsidiary of NEC. He leads all the HR functions for an employee base of over 3500 and growing. In<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            KK Senthil Kumar is the award winning cinematographer behind movies like the Bahubali saga, Magadheera, Eega and Arundhati. Known for his grand In<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                ))} */}
-                {/* {speakers6.map((speaker) => (
+                ))}
+                {speakers6.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}>
-                            <img src="speakers/2022/Copy of Yasaswini copy.jpg" alt="" width={350} height={350} />
+                            <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                              <h4>Yasaswini Jonnalagadda</h4>
-                              <p>Topic - Global Issues</p>
+                            <h4>{speaker.name}</h4>
+                              <p>{speaker.topic}</p>
                             </div>
                             <p>
-                              How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Professor B.M. Hegde is a medical scientist, educationist and author who has contributed immensely in the field of healthcare medical science, and is known for <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -261,25 +261,25 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}>
-                            <img src="speakers/2022/Copy of Anju Arora.jpg" alt="" width={350} height={350} />
+                            <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                              <h4>Yasaswini Jonnalagadda</h4>
-                              <p>Topic - Global Issues</p>
+                              <h4>{speaker.name}</h4>
+                              <p>{speaker.topic}</p>
                             </div>
                             <p>
-                              How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Mr. Rajaram Bojji is the inventor of revolutionary 'skybus metro’, a technologist and conceptualiser. He has worked as the MD and CEO of the Konkan Railway  <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                ))} */}
-                {/* {speakers8.map((speaker) => (
+                ))}
+                {speakers8.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
@@ -295,14 +295,14 @@ export default function Upcomingspeakers() {
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Yasaswini is a social worker and the director of DeepStack Software. She launched ‘Project Prisha,’ an initiative aimed at enabling women to set up small-scale<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Richa Singh is the Co-founder of yourdost.com. Graduating from IIT Guwahati, she began her company, which is an emotional support system for people<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                ))} */}
+                ))}
               </div>
             </div>
           </section>

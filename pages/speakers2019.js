@@ -22,68 +22,68 @@ export default function Upcomingspeakers() {
 
   const speakers1 = [
     {
-      name: 'Aditi Avasthi',
+      name: 'Amala Akkineni',
       topic: '',
-      imageSrc: 'speakers/2017/Aditi Avasthi.jpg',
-      content: "Aditi Avasthi is the Founder and CEO at Embibe.com which is an exciting artificial intelligence platform that is personalising the delivery of education to students in emerging markets with a deep stack on content intelligence using computer vision and machine learning.",
+      imageSrc: 'speakers/2019/Amala Akkineni.jpg',
+      content: "Amala Akkineni is an actress, a dancer and an animal rights activist. She is the founder of the Blue Cross Society of Hyderabad and has been aiding in protecting and nurturing hundreds of stray animals for the past 25 years. She has thus helped in transforming the public perception towards stray animals. Amala’s work has been widely recognized and appreciated by the government as well as private organisations alike.",
     },
   ];
   const speakers2 = [
     {
-      name: 'Anam Hashim',
+      name: 'Asif Qureshi',
       topic: '',
-      imageSrc: 'speakers/2017/Anam Hashim.jpg',
-      content: "Anam Hashim is a professional bike stunt performer and freestyle stunt rider, and India's only female street-bike freestyle athlete. She also runs an organisation to promote Stunt Riding and Adventure Sports in India. She is breaking stereotypes in a male-dominated profession and is a youth icon in her own right.",
+      imageSrc: 'speakers/2019/Asif Qureshi.jpg',
+      content: "Asif Qureshi is an associate professor in the Department of Civil Engineering at IIT Hyderabad, and the leader of the Emerging Contaminants Group (ECG) which focuses on industrial micro-pollutants that cause neurological, cardiovascular and endocrine disruption in humans. He has also led the expedition to Antarctica for four months in 2017, where they have discovered Antarctic fungi that can be used to fight Acute Lymphoblastic Leukaemia.",
     },
   ];
   const speakers3 = [
     {
-      name: 'Arpan Shah',
+      name: 'Hanif Kureshi',
       topic: '',
-      imageSrc: 'speakers/2017/Arpan Shah.jpg',
-      content: "Arpan Shah is a technologist, investor and data scientist based in California. A graduate of Stanford University, Arpan specializes in Systems and Data. He is currently head of data at Robinhood, one of the most successful Fintech companies in the Bay Area, and also advises and invests in startups with his investment firm in India.",
+      imageSrc: 'speakers/2019/Hanif Kureshi.jpg',
+      content: "Hanif Kureshi is the co-founder and artistic director of St+art India. St+art is a non-profit founded for the sole purpose of bringing artists from around the world to collaborate with Indian artists. Their art not just brightens the dull and erratically constructed neighbourhoods like in New Delhi, Mumbai and Hyderabad. It is also like a wave of fresh air that rekindles creativity and imagination in people who are so accustomed to the constant struggles of life in chaotic cities that they lose consciousness of their own power to imagine. In the words of Hanif Kureshi himself, “Street art has an entirely different perspective on art. The art world is unapproachable for the common man. In a gallery the intention is to go and see art. However, in public spaces, such as Shahpur Jat, the art comes to you. It takes you by surprise and the impact is greater when you are not prepared. The street is a democratic medium. The space always comes first and this differentiates street art from other art.",
     },
   ];
   const speakers4 = [
     {
-      name: 'Bari Anwar',
+      name: 'Ravi Narayan',
       topic: '',
-      imageSrc: 'speakers/2017/Bari Anwar.jpg',
-      content: "Bari Anwar, better known as ZeDDisbug, is one of the first Indian e-sportsmen. Soon after college, he went on to captain “Beyond Infinity” - undoubtedly the best Dota 2 team from India. Becoming a professional gamer in India was not an easy choice, however, and he has been championing e-sports and awareness about gaming throughout his career.",
+      imageSrc: 'speakers/2019/Ravi Narayan.jpg',
+      content: "Ravi Narayan is a pioneer in the Venture Catalyst/Startup Accelerator space. He has worked for the past decade, in building institutions for supporting entrepreneurship globally. He has advised corporations and governments in implementing startup and innovation programs. He has also pioneered a Digital Transformation Program that leverages innovative and disruptive technologies from startups globally. Ravi is a founding chair of PAN-IIT in Washington DC, TiE Entrepreneurial Summit (TES) in Bangalore and the NASSCOM Product Conclave in Bangalore.",
     },
   ];
-   const speakers6 = [
-     {
-       name: 'Prof. BM Hegde',
-       topic: '',
-       imageSrc: 'speakers/2017/Prof. BM Hegde.jpg',
-       content: "Professor B.M. Hegde is a medical scientist, educationist and author who has contributed immensely in the field of healthcare medical science, and is known for his holistic approach. He has been bestowed the prestigious Padma Bhushan award in 2010. He works towards putting together a system of medical care delivery which is authentic, inexpensive, patient friendly and easily accessible.",
-     },
-   ];
+//   const speakers6 = [
+//     {
+//       name: '',
+//       topic: '',
+//       imageSrc: 'speakers/2019/.jpg',
+//       content: "",
+//     },
+//   ];
 const speakers5 = [
     {
-      name: 'KK Senthil Kumar',
+      name: 'Ritwik Mishra',
       topic: '',
-      imageSrc: 'speakers/2017/KK Senthil Kumar.jpg',
-      content: "KK Senthil Kumar is the award winning cinematographer behind movies like the Bahubali saga, Magadheera, Eega and Arundhati. Known for his grand setups and large scale action sequences, He received SIIMA award for Best Cinematographer for Eega. Senthil has blurred the line between VFX and Reality in his movies and has received critical acclaim for his work.",
+      imageSrc: 'speakers/2019/Ritwik Mishra.jpg',
+      content: "Ritwik Mishra is a Talent Management professional with specialization in Organizational Development and Learning & Development. He focuses on creating holistic and systemic solutions to enhance the efficiency and effectiveness of organizations and people. He believes that such solutions are scalable and sustainable and hence best suited to organizations operating in a dynamic and uncertain environment.",
     },
   ];
 
 
-   const speakers7 = [
-     {
-       name: 'Rajaram Bojji',
-       topic: '',
-       imageSrc: 'speakers/2017/Rajaram Bojji.jpg',
-       content: "Mr. Rajaram Bojji is the inventor of revolutionary 'skybus metro’, a technologist and conceptualiser. He has worked as the MD and CEO of the Konkan Railway corporation (India). He has worked on field operations and research and development in the Indian railways, and was a consultant to many countries. His work has been instrumental in improving the reliability and safety of the railways at a low cost.",
-     },
-   ];
+//   const speakers7 = [
+//     {
+//       name: '',
+//       topic: '',
+//       imageSrc: 'speakers/2019/.jpg',
+//       content: "",
+//     },
+//   ];
 const speakers8 = [
     {
-      name: 'Richa Singh',
+      name: 'Sophia David',
       topic: '',
-      imageSrc: 'speakers/2017/Richa Singh.jpg',
-      content: "Richa Singh is the Co-founder of yourdost.com. Graduating from IIT Guwahati, she began her company, which is an emotional support system for people to discuss problems with qualified and experienced individuals, in anonymity. She is a young entrepreneur wanting to change the stigma around seeking emotional well-being in the world.",
+      imageSrc: 'speakers/2019/Sophia David.png',
+      content: "Sophia David is an Inclusion & Diversity advocate and prefers the pronouns “she, her and hers” while she self identifies. She is a Facilitator, a Consultant and a Leader Coach by profession, with about 16 years of work experience. Sophia works with various Diversity & Inclusion panels and councils in bringing awareness and sensitization around issues that people face in the workplace. She is instrumental in bringing policy changes and benefits awareness to people from different walks of life. In the past, she has worked with the learning organizations of several industries such as – Aerospace, Retail, Customer Care, Engineering, Pharmaceuticals, Banking, Publishing and Management consulting. She is certified from the University of Cambridge, UK, has a background in Neuro-linguistics and Psychology while holding a degree in Mathematics. She is British Council certified and certified by the International Coach Federation (ICF). She is a Human Rights Activist with a focus on Women & LGBTQ issues and believes everyone should lend their voice to issues that affect people. She does a lot of pro bono work, presenting and talking to leaders and professionals from different walks of life from universities to multinational companies.      ",
     },
   ];
   return (
@@ -98,13 +98,13 @@ const speakers8 = [
       <div> <Navbar /></div>
       <section className={style.body}>
         <div style={{ paddingTop: "25px" }}>
-          <SpeakersPage />
+           {/* <SpeakersPage /> */}
         </div>
         <section className={style.main_content}>
           <div className={style.heading}>
             Past Speakers
           </div>
-          <div className={style.year}>2017</div>
+          <div className={style.year}>2019</div>
 
           {/* Speaker Section Begin */}
           <section className={styles.speaker_section_spad}>
@@ -126,7 +126,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Aditi Avasthi is the Founder and CEO at Embibe.com which is an exciting artificial intelligence platform that is personalising the delivery of education to<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Amala Akkineni is an actress, a dancer and an animal rights activist. She is the founder of the Blue Cross Society of Hyderabad and has been aiding <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -150,7 +150,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Anam Hashim is a professional bike stunt performer and freestyle stunt rider, and India's only female street-bike freestyle athlete. She also runs <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Asif Qureshi is an associate professor in the Department of Civil Engineering at IIT Hyderabad, and the leader of the Emerging Contaminants Group<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -175,7 +175,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Arpan Shah is a technologist, investor and data scientist based in California. A graduate of Stanford University, Arpan specializes in Systems and Data. <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Hanif Kureshi is the co-founder and artistic director of St+art India. St+art is a non-profit founded for the sole purpose of bringing artists from around the world <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -199,7 +199,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Bari Anwar, better known as "ZeDDisbug", is one of the first Indian e-sportsmen. Soon after college, he went on to captain “Beyond Infinity” - undoubtedly <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Ravi Narayan is a pioneer in the Venture Catalyst/Startup Accelerator space. He has worked for the past decade, in building institutions for supporting <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -223,7 +223,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            KK Senthil Kumar is the award winning cinematographer behind movies like the Bahubali saga, Magadheera, Eega and Arundhati. Known for his grand In<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Ritwik Mishra is a Talent Management professional with specialization in Organizational Development and Learning & Development. He focuses on creating <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -231,23 +231,23 @@ const speakers8 = [
                     </div>
                   </div>
                 ))}
-                {speakers6.map((speaker) => (
+                {/* {speakers6.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}>
-                            <img src={speaker.imageSrc} alt="" width={350} height={350} />
+                            <img src="speakers/2022/Copy of Yasaswini copy.jpg" alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                            <h4>{speaker.name}</h4>
-                              <p>{speaker.topic}</p>
+                              <h4>Yasaswini Jonnalagadda</h4>
+                              <p>Topic - Global Issues</p>
                             </div>
                             <p>
-                            Professor B.M. Hegde is a medical scientist, educationist and author who has contributed immensely in the field of healthcare medical science, and is known for <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                              How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -261,24 +261,24 @@ const speakers8 = [
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}>
-                            <img src={speaker.imageSrc} alt="" width={350} height={350} />
+                            <img src="speakers/2022/Copy of Anju Arora.jpg" alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                              <h4>{speaker.name}</h4>
-                              <p>{speaker.topic}</p>
+                              <h4>Yasaswini Jonnalagadda</h4>
+                              <p>Topic - Global Issues</p>
                             </div>
                             <p>
-                            Mr. Rajaram Bojji is the inventor of revolutionary 'skybus metro’, a technologist and conceptualiser. He has worked as the MD and CEO of the Konkan Railway  <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                              How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                ))}
+                ))} */}
                 {speakers8.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
@@ -295,7 +295,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Richa Singh is the Co-founder of yourdost.com. Graduating from IIT Guwahati, she began her company, which is an emotional support system for people<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Sophia David is an Inclusion & Diversity advocate and prefers the pronouns “she, her and hers” while she self identifies. She is a Facilitator, a Consultant and a Leader<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>

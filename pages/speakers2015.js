@@ -22,59 +22,59 @@ export default function Upcomingspeakers() {
 
   const speakers1 = [
     {
-      name: 'Jayesh Ranjan',
+      name: 'Dr Ananda Shankar Jayant',
       topic: '',
-      imageSrc: 'speakers/2016/Jayesh Ranjan.jpg',
-      content: "Mr. Jayesh Ranjan is a member of the Indian Administrative Service (IAS) of the 1992 batch and working in the state of Telangana. He holds a Masters Degree in Psychology from Delhi University, a degree in Business Management from the Indian Institute of Management, Calcutta, and a Masters in Public Management from Lee Kuan Yew School of Public Policy, National University of Singapore. Jayesh Ranjan is the Secretary, Information Technology, Electronics & Communications Department , Government of Telangana, Commissioner of Industries and Managing Director of the Telangana State Industrial Infrastructure Corporation (TSIIC). His responsibilities include identifying industrial development opportunities in the state, attracting investments, and providing the required infrastructure support to the industrial units.",
+      imageSrc: 'speakers/2015/ananda shankar jayant.jpg',
+      content: "Dr Ananda Shankar Jayant, is celebrated as one of India’s leading classical dancers, choreographers and dance scholars. Ananda’s TED talk is ranked as one of 50 Amazingly Motivational talks on Youtube as well as one of 12 Incredible TED talks on cancer. Now she talks about a new perspective on Ideas Behind The Horizon",
     },
   ];
   const speakers2 = [
     {
-      name: 'Rajesh Narasimhan',
+      name: 'Dr V K Saraswat',
       topic: '',
-      imageSrc: 'speakers/2016/Rajesh Narasimhan.jpg',
-      content: "Rajesh Narasimhan is a part Hindi feature film writer, part marketing guy and full time motorcyclist. Over the last 14 years he has worked across advertising agencies like Ogilvy & Mather, a youth television channel like MTV and one of India's biggest movie studios, Yash Raj Films. Rajesh's love for riding has has always been reciprocated and helped him find stories. He believes that the road is the ultimate classroom in life.",
+      imageSrc: 'speakers/2015/VK Saraswat.jpg',
+      content: "An Engineer, Scientist, Visionary and a leader. who formerly served as the Director General of the Defence Research and Development Organisation of India and the Chief Scientific Advisor to the Indian Minister of Defence.Who with his experience has given a new perspective towards Sustainable Development. ",
     },
   ];
   const speakers3 = [
     {
-      name: 'Vennela Krishna',
+      name: 'Neeraj Jain',
       topic: '',
-      imageSrc: 'speakers/2016/Vennela Krishna.jpg',
-      content: "Vennela Krishna is a student of law at NALSAR University, Hyderabad. She found her love for teaching at a young age, and took up a job as a trainer for law aspirants when she was in her first year of law school. A year later, she founded a start-up that brought together bright students who made it to the best colleges in the country to mentor and guide junior aspirants of law. Her vision behind the start-up was to eliminate teacher-student hierarchies and to guide the younger generation of students as friends who have been there, and done that. She leads the team that comprises of numerous students from various parts of the country, and the team is motivated to disrupt traditional structures of education.",
+      imageSrc: 'speakers/2015/Neeraj Jain.jpg',
+      content: "",
     },
   ];
   const speakers4 = [
     {
-      name: 'Anuj Gurwara',
+      name: 'Subhas Chandra',
       topic: '',
-      imageSrc: 'speakers/2016/Anuj Gurwara.jpg',
+      imageSrc: 'speakers/2015/Subhas Chandra.png',
       content: "",
     },
   ];
-   const speakers6 = [
-     {
-       name: 'Ramesh Loganathan',
-       topic: '',
-     imageSrc: 'speakers/2016/Ramesh Loganathan.jpg',
-       content: "",
-     },
-   ];
- const speakers5 = [
-    {
-       name: 'Dr. Vishal Rao',
-       topic: '',
-       imageSrc: 'speakers/2016/Dr. Vishal Rao.jpg',
-       content: "",
-     },
-   ];
+//   const speakers6 = [
+//     {
+//       name: '',
+//       topic: '',
+//       imageSrc: 'speakers/2015/.jpg',
+//       content: "",
+//     },
+//   ];
+// const speakers5 = [
+//     {
+//       name: '',
+//       topic: '',
+//       imageSrc: 'speakers/2015/.jpg',
+//       content: "",
+//     },
+//   ];
 
 
 //   const speakers7 = [
 //     {
 //       name: '',
 //       topic: '',
-//       imageSrc: 'speakers/2016/.jpg',
+//       imageSrc: 'speakers/2015/.jpg',
 //       content: "",
 //     },
 //   ];
@@ -82,7 +82,7 @@ export default function Upcomingspeakers() {
 //     {
 //       name: '',
 //       topic: '',
-//       imageSrc: 'speakers/2016/.jpg',
+//       imageSrc: 'speakers/2015/.jpg',
 //       content: "",
 //     },
 //   ];
@@ -98,13 +98,13 @@ export default function Upcomingspeakers() {
       <div> <Navbar /></div>
       <section className={style.body}>
         <div style={{ paddingTop: "25px" }}>
-          <SpeakersPage />
+           {/* <SpeakersPage /> */}
         </div>
         <section className={style.main_content}>
           <div className={style.heading}>
             Past Speakers
           </div>
-          <div className={style.year}>2016</div>
+          <div className={style.year}>2015</div>
 
           {/* Speaker Section Begin */}
           <section className={styles.speaker_section_spad}>
@@ -126,7 +126,7 @@ export default function Upcomingspeakers() {
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Mr. Jayesh Ranjan is a member of the Indian Administrative Service (IAS) of the 1992 batch and working in the state of Telangana. He holds a Masters Degree in  <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Dr Ananda Shankar Jayant, is celebrated as one of India’s leading classical dancers, choreographers and dance scholars. Ananda’s TED talk is<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -150,7 +150,7 @@ export default function Upcomingspeakers() {
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Rajesh Narasimhan is a part Hindi feature film writer, part marketing guy and full time motorcyclist. Over the last 14 years he has worked across advertising agencies <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            An Engineer, Scientist, Visionary and a leader. who formerly served as the Director General of the Defence Research and Development Organisation of India<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -174,32 +174,8 @@ export default function Upcomingspeakers() {
                             <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
-                            <p>
-                            Vennela Krishna is a student of law at NALSAR University, Hyderabad. She found her love for teaching at a young age, and took up a job as a trainer for law aspirants when <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-                {speakers4.map((speaker) => (
-                  <div className="col-xl-6" key={speaker.name} >
-                    <div className={styles.speaker_item}>
-                      <div className="row">
-                        <div className="col-md-6 col-lg-5">
-                          <div className={styles.si_pic}>
-                            <img src={speaker.imageSrc} alt="" width={350} height={350} />
-                          </div>
-                        </div>
-                        <div className="col-md-6 col-lg-7">
-                          <div className={styles.si_text}>
-                            <div className={styles.si_title}>
-                            <h4>{speaker.name}</h4>
-                              <p>{speaker.topic}</p>
-                            </div>
                             {/* <p>
-                             <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                           <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p> */}
                           </div>
                         </div>
@@ -207,7 +183,7 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 ))}
-                {speakers5.map((speaker) => (
+                {speakers4.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
@@ -231,7 +207,7 @@ export default function Upcomingspeakers() {
                     </div>
                   </div>
                 ))}
-                {speakers6.map((speaker) => (
+                {/* {speakers5.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
@@ -243,19 +219,43 @@ export default function Upcomingspeakers() {
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                              <h4>{speaker.name}</h4>
+                            <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
-                            {/* <p>
-                              <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
-                            </p> */}
+                            <p>
+                            Srinivas is the Head of HR for Netcracker, a wholly-owned subsidiary of NEC. He leads all the HR functions for an employee base of over 3500 and growing. In<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))} */}
+                {/* {speakers6.map((speaker) => (
+                  <div className="col-xl-6" key={speaker.name} >
+                    <div className={styles.speaker_item}>
+                      <div className="row">
+                        <div className="col-md-6 col-lg-5">
+                          <div className={styles.si_pic}>
+                            <img src="speakers/2022/Copy of Yasaswini copy.jpg" alt="" width={350} height={350} />
+                          </div>
+                        </div>
+                        <div className="col-md-6 col-lg-7">
+                          <div className={styles.si_text}>
+                            <div className={styles.si_title}>
+                              <h4>Yasaswini Jonnalagadda</h4>
+                              <p>Topic - Global Issues</p>
+                            </div>
+                            <p>
+                              How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
-                {/* {speakers7.map((speaker) => (
+                {speakers7.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">

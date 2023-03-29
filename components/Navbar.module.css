@@ -51,6 +51,17 @@
   color: #F02D23 !important;
 }
 
+.subitem{
+  color: white;
+  font-weight: 700;
+  /* margin: 0% 10% 0 10%; */
+}
+
+
+.dropdown_item{
+  margin: 0% 10% 0 10%;
+}
+
 .hamburger {
   border: 0;
   height: 40px;

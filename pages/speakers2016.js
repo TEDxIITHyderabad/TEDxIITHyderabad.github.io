@@ -22,70 +22,70 @@ export default function Upcomingspeakers() {
 
   const speakers1 = [
     {
-      name: 'Amala Akkineni',
+      name: 'Jayesh Ranjan',
       topic: '',
-      imageSrc: 'speakers/2019/Amala Akkineni.jpg',
-      content: "Amala Akkineni is an actress, a dancer and an animal rights activist. She is the founder of the Blue Cross Society of Hyderabad and has been aiding in protecting and nurturing hundreds of stray animals for the past 25 years. She has thus helped in transforming the public perception towards stray animals. Amala’s work has been widely recognized and appreciated by the government as well as private organisations alike.",
+      imageSrc: 'speakers/2016/Jayesh Ranjan.jpg',
+      content: "Mr. Jayesh Ranjan is a member of the Indian Administrative Service (IAS) of the 1992 batch and working in the state of Telangana. He holds a Masters Degree in Psychology from Delhi University, a degree in Business Management from the Indian Institute of Management, Calcutta, and a Masters in Public Management from Lee Kuan Yew School of Public Policy, National University of Singapore. Jayesh Ranjan is the Secretary, Information Technology, Electronics & Communications Department , Government of Telangana, Commissioner of Industries and Managing Director of the Telangana State Industrial Infrastructure Corporation (TSIIC). His responsibilities include identifying industrial development opportunities in the state, attracting investments, and providing the required infrastructure support to the industrial units.",
     },
   ];
   const speakers2 = [
     {
-      name: 'Asif Qureshi',
+      name: 'Rajesh Narasimhan',
       topic: '',
-      imageSrc: 'speakers/2019/Asif Qureshi.jpg',
-      content: "Asif Qureshi is an associate professor in the Department of Civil Engineering at IIT Hyderabad, and the leader of the Emerging Contaminants Group (ECG) which focuses on industrial micro-pollutants that cause neurological, cardiovascular and endocrine disruption in humans. He has also led the expedition to Antarctica for four months in 2017, where they have discovered Antarctic fungi that can be used to fight Acute Lymphoblastic Leukaemia.",
+      imageSrc: 'speakers/2016/Rajesh Narasimhan.jpg',
+      content: "Rajesh Narasimhan is a part Hindi feature film writer, part marketing guy and full time motorcyclist. Over the last 14 years he has worked across advertising agencies like Ogilvy & Mather, a youth television channel like MTV and one of India's biggest movie studios, Yash Raj Films. Rajesh's love for riding has has always been reciprocated and helped him find stories. He believes that the road is the ultimate classroom in life.",
     },
   ];
   const speakers3 = [
     {
-      name: 'Hanif Kureshi',
+      name: 'Vennela Krishna',
       topic: '',
-      imageSrc: 'speakers/2019/Hanif Kureshi.jpg',
-      content: "Hanif Kureshi is the co-founder and artistic director of St+art India. St+art is a non-profit founded for the sole purpose of bringing artists from around the world to collaborate with Indian artists. Their art not just brightens the dull and erratically constructed neighbourhoods like in New Delhi, Mumbai and Hyderabad. It is also like a wave of fresh air that rekindles creativity and imagination in people who are so accustomed to the constant struggles of life in chaotic cities that they lose consciousness of their own power to imagine. In the words of Hanif Kureshi himself, “Street art has an entirely different perspective on art. The art world is unapproachable for the common man. In a gallery the intention is to go and see art. However, in public spaces, such as Shahpur Jat, the art comes to you. It takes you by surprise and the impact is greater when you are not prepared. The street is a democratic medium. The space always comes first and this differentiates street art from other art.",
+      imageSrc: 'speakers/2016/Vennela Krishna.jpg',
+      content: "Vennela Krishna is a student of law at NALSAR University, Hyderabad. She found her love for teaching at a young age, and took up a job as a trainer for law aspirants when she was in her first year of law school. A year later, she founded a start-up that brought together bright students who made it to the best colleges in the country to mentor and guide junior aspirants of law. Her vision behind the start-up was to eliminate teacher-student hierarchies and to guide the younger generation of students as friends who have been there, and done that. She leads the team that comprises of numerous students from various parts of the country, and the team is motivated to disrupt traditional structures of education.",
     },
   ];
   const speakers4 = [
     {
-      name: 'Ravi Narayan',
+      name: 'Anuj Gurwara',
       topic: '',
-      imageSrc: 'speakers/2019/Ravi Narayan.jpg',
-      content: "Ravi Narayan is a pioneer in the Venture Catalyst/Startup Accelerator space. He has worked for the past decade, in building institutions for supporting entrepreneurship globally. He has advised corporations and governments in implementing startup and innovation programs. He has also pioneered a Digital Transformation Program that leverages innovative and disruptive technologies from startups globally. Ravi is a founding chair of PAN-IIT in Washington DC, TiE Entrepreneurial Summit (TES) in Bangalore and the NASSCOM Product Conclave in Bangalore.",
+      imageSrc: 'speakers/2016/Anuj Gurwara.jpg',
+      content: "",
     },
   ];
-//   const speakers6 = [
-//     {
-//       name: '',
-//       topic: '',
-//       imageSrc: 'speakers/2019/.jpg',
-//       content: "",
-//     },
-//   ];
-const speakers5 = [
+   const speakers6 = [
+     {
+       name: 'Ramesh Loganathan',
+       topic: '',
+     imageSrc: 'speakers/2016/Ramesh Loganathan.jpg',
+       content: "",
+     },
+   ];
+ const speakers5 = [
     {
-      name: 'Ritwik Mishra',
-      topic: '',
-      imageSrc: 'speakers/2019/Ritwik Mishra.jpg',
-      content: "Ritwik Mishra is a Talent Management professional with specialization in Organizational Development and Learning & Development. He focuses on creating holistic and systemic solutions to enhance the efficiency and effectiveness of organizations and people. He believes that such solutions are scalable and sustainable and hence best suited to organizations operating in a dynamic and uncertain environment.",
-    },
-  ];
+       name: 'Dr. Vishal Rao',
+       topic: '',
+       imageSrc: 'speakers/2016/Dr. Vishal Rao.jpg',
+       content: "",
+     },
+   ];
 
 
 //   const speakers7 = [
 //     {
 //       name: '',
 //       topic: '',
-//       imageSrc: 'speakers/2019/.jpg',
+//       imageSrc: 'speakers/2016/.jpg',
 //       content: "",
 //     },
 //   ];
-const speakers8 = [
-    {
-      name: 'Sophia David',
-      topic: '',
-      imageSrc: 'speakers/2019/Sophia David.png',
-      content: "Sophia David is an Inclusion & Diversity advocate and prefers the pronouns “she, her and hers” while she self identifies. She is a Facilitator, a Consultant and a Leader Coach by profession, with about 16 years of work experience. Sophia works with various Diversity & Inclusion panels and councils in bringing awareness and sensitization around issues that people face in the workplace. She is instrumental in bringing policy changes and benefits awareness to people from different walks of life. In the past, she has worked with the learning organizations of several industries such as – Aerospace, Retail, Customer Care, Engineering, Pharmaceuticals, Banking, Publishing and Management consulting. She is certified from the University of Cambridge, UK, has a background in Neuro-linguistics and Psychology while holding a degree in Mathematics. She is British Council certified and certified by the International Coach Federation (ICF). She is a Human Rights Activist with a focus on Women & LGBTQ issues and believes everyone should lend their voice to issues that affect people. She does a lot of pro bono work, presenting and talking to leaders and professionals from different walks of life from universities to multinational companies.      ",
-    },
-  ];
+// const speakers8 = [
+//     {
+//       name: '',
+//       topic: '',
+//       imageSrc: 'speakers/2016/.jpg',
+//       content: "",
+//     },
+//   ];
   return (
     <>
       <Head>
@@ -98,13 +98,13 @@ const speakers8 = [
       <div> <Navbar /></div>
       <section className={style.body}>
         <div style={{ paddingTop: "25px" }}>
-          <SpeakersPage />
+           {/* <SpeakersPage /> */}
         </div>
         <section className={style.main_content}>
           <div className={style.heading}>
             Past Speakers
           </div>
-          <div className={style.year}>2019</div>
+          <div className={style.year}>2016</div>
 
           {/* Speaker Section Begin */}
           <section className={styles.speaker_section_spad}>
@@ -126,7 +126,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Amala Akkineni is an actress, a dancer and an animal rights activist. She is the founder of the Blue Cross Society of Hyderabad and has been aiding <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Mr. Jayesh Ranjan is a member of the Indian Administrative Service (IAS) of the 1992 batch and working in the state of Telangana. He holds a Masters Degree in  <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -150,7 +150,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Asif Qureshi is an associate professor in the Department of Civil Engineering at IIT Hyderabad, and the leader of the Emerging Contaminants Group<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Rajesh Narasimhan is a part Hindi feature film writer, part marketing guy and full time motorcyclist. Over the last 14 years he has worked across advertising agencies <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -175,7 +175,7 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Hanif Kureshi is the co-founder and artistic director of St+art India. St+art is a non-profit founded for the sole purpose of bringing artists from around the world <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Vennela Krishna is a student of law at NALSAR University, Hyderabad. She found her love for teaching at a young age, and took up a job as a trainer for law aspirants when <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -198,9 +198,9 @@ const speakers8 = [
                             <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
-                            <p>
-                            Ravi Narayan is a pioneer in the Venture Catalyst/Startup Accelerator space. He has worked for the past decade, in building institutions for supporting <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
-                            </p>
+                            {/* <p>
+                             <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            </p> */}
                           </div>
                         </div>
                       </div>
@@ -222,40 +222,40 @@ const speakers8 = [
                             <h4>{speaker.name}</h4>
                               <p>{speaker.topic}</p>
                             </div>
-                            <p>
-                            Ritwik Mishra is a Talent Management professional with specialization in Organizational Development and Learning & Development. He focuses on creating <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
-                            </p>
+                            {/* <p>
+                           <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            </p> */}
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
-                {/* {speakers6.map((speaker) => (
+                {speakers6.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}>
-                            <img src="speakers/2022/Copy of Yasaswini copy.jpg" alt="" width={350} height={350} />
+                            <img src={speaker.imageSrc} alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                              <h4>Yasaswini Jonnalagadda</h4>
-                              <p>Topic - Global Issues</p>
+                              <h4>{speaker.name}</h4>
+                              <p>{speaker.topic}</p>
                             </div>
-                            <p>
-                              How much can we, as a society, be self-reliant? Yasaswini Jonnalagadda's story from being an electrical engineer and an MBA graduate to a committed social worker who roots for compassion to change the world is <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
-                            </p>
+                            {/* <p>
+                              <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            </p> */}
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 ))}
-                {speakers7.map((speaker) => (
+                {/* {speakers7.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
@@ -279,7 +279,7 @@ const speakers8 = [
                     </div>
                   </div>
                 ))} */}
-                {speakers8.map((speaker) => (
+                {/* {speakers8.map((speaker) => (
                   <div className="col-xl-6" key={speaker.name} >
                     <div className={styles.speaker_item}>
                       <div className="row">
@@ -295,14 +295,14 @@ const speakers8 = [
                               <p>{speaker.topic}</p>
                             </div>
                             <p>
-                            Sophia David is an Inclusion & Diversity advocate and prefers the pronouns “she, her and hers” while she self identifies. She is a Facilitator, a Consultant and a Leader<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            Yasaswini is a social worker and the director of DeepStack Software. She launched ‘Project Prisha,’ an initiative aimed at enabling women to set up small-scale<span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                ))}
+                ))} */}
               </div>
             </div>
           </section>
