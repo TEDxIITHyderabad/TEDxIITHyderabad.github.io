@@ -98,7 +98,7 @@ const speakers8 = [
       <div> <Navbar /></div>
       <section className={style.body}>
         <div style={{ paddingTop: "25px" }}>
-          <SpeakersPage />
+           {/* <SpeakersPage /> */}
         </div>
         <section className={style.main_content}>
           <div className={style.heading}>

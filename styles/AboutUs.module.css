@@ -291,6 +291,9 @@ color: #FFFFFF;
     .box_main_text{
         font-size: 20px;
     }
+    .about_ted_desc {
+        font-size: 20px;
+    }
     .intro_text{
         font-size: 15px;
         margin-top: 37px;
@@ -305,7 +308,7 @@ color: #FFFFFF;
 .ted_buttons {
     display: flex;
     flex-direction: row;
-    margin: 6% 0 0 10%;
+    margin: 6% 0 0 0%;
     cursor: pointer;
 }
 .ted_button_wrap {
@@ -357,7 +360,9 @@ color: #FFFFFF;
 }
 
 .about_ted_desc {
-    margin: 2% 10% 0 10%;
-    font-size: max(1.5vw, 2vh);
+    margin: 2% 0% 0 0%;
+    font-size: max(1.25vw, 2vh);
+    /* font-size: 20px; */
     color: white;
+    font-family: 'Inter';
 }

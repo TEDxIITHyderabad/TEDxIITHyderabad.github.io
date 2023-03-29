@@ -41,4 +41,11 @@ export const speakers = [
     width: 350,
     height: 350,
   },
+  {
+    name: 'Anuradha Thota',
+    des: 'MD & CEO Blackbuck Group',
+    image: '/speakers/2023/anuradha.png',
+    width: 350,
+    height: 350,
+  }
 ];

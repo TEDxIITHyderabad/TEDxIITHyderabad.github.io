@@ -34,13 +34,34 @@ export default function NavbarComp(){
                     <Nav.Link style={{color: (path=="/")?"#F02D23":""}} href="/">Home</Nav.Link>
                     <Nav.Link style={{color: (path=="/aboutus")?"#F02D23":""}} href="/aboutus">About Us</Nav.Link>
                     <Nav.Link style={{color: (path=="/events")?"#F02D23":""}} href="/events">Event Info</Nav.Link>
-                    <Nav.Link style={{color: (path=="/speakersupcoming")?"#F02D23":""}} href="/speakersupcoming">Speakers</Nav.Link>
+                    {/* <Nav.Link style={{color: (path=="/speakersupcoming")?"#F02D23":""}} href="/speakersupcoming">Speakers</Nav.Link> */}
 
-                    {/* <NavDropdown title="Campus Outreach" id="basic-nav-dropdown">
-                      <NavDropdown.Item style={{color: (path=="#")?"#F02D23":""}} className={`${styles.dropdown_item}`} href="/CampusOutreach/Leaderboard">
-                        Leaderboard
+                    <NavDropdown title="SPEAKERS" className={styles.dropdowncss} id="basic-nav-dropdown">
+                      <div className={styles.subitem}>Upcoming Speakers</div>
+                      <NavDropdown.Item style={{color: (path=="/speakersupcoming")?"black":""}} className={`${styles.dropdown_item}`} href="/speakersupcoming">
+                        2023
                       </NavDropdown.Item>
-                    </NavDropdown> */}
+                      <div className={styles.subitem}>Past Speakers</div>
+                      <NavDropdown.Item style={{color: (path=="/speakers2022")?"black":""}} className={`${styles.dropdown_item}`} href="/speakers2022">
+                        2022
+                      </NavDropdown.Item>
+                      <NavDropdown.Item style={{color: (path=="/speakers2021")?"black":""}} className={`${styles.dropdown_item}`} href="/speakers2021">
+                        2021
+                      </NavDropdown.Item>
+                      <NavDropdown.Item style={{color: (path=="/speakers2019")?"black":""}} className={`${styles.dropdown_item}`} href="/speakers2019">
+                        2019
+                      </NavDropdown.Item>
+                      <NavDropdown.Item style={{color: (path=="/speakers2017")?"black":""}} className={`${styles.dropdown_item}`} href="/speakers2017">
+                        2017
+                      </NavDropdown.Item>
+                      <NavDropdown.Item style={{color: (path=="/speakers2016")?"black":""}} className={`${styles.dropdown_item}`} href="/speakers2016">
+                        2016
+                      </NavDropdown.Item>
+                      <NavDropdown.Item style={{color: (path=="/speakers2015")?"black":""}} className={`${styles.dropdown_item}`} href="/speakers2015">
+                        2015
+                      </NavDropdown.Item>
+                      <div className={styles.subitem}></div>
+                    </NavDropdown>
                     <Nav.Link style={{color: (path=="/team")?"#F02D23":""}} href="/team">Team</Nav.Link>
                     <Nav.Link style={{color: (path=="/partners")?"#F02D23":""}} href="/partners">Partners</Nav.Link>
                     <Nav.Link style={{color: (path=="/contactus")?"#F02D23":""}} href="/contactus">Contact Us</Nav.Link>

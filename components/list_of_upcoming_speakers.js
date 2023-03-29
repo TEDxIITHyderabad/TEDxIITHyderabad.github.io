@@ -44,5 +44,11 @@ export const speakers = [
         image: '/speakers/2023/jhala.png',
         addLineBreak1: true 
     },
+    {
+        name: 'Anuradha Thota',
+        desc: 'MD & CEO Blackbuck Group',
+        about: "Anuradha Thota is the founder and CEO of Blackbucks Group. An ISB graduate, an engineer, entrepreneur and higher education specialist, her passion lies in bringing world-class education and eminent opportunities closer to students. She built largest chain of centers of excellence in AI. She founded Blackbucks in 2013 with a strong belief that the power of people can be harnessed to transform, connect and inspire students, wherever they are. In her previous experience, she worked at Wipro and Microsoft. In the past 10 years of journey, she has helped more than 110000 students dream and achieve greater career pursuits.She heads Board of Studies for 7 educational institutions.She holds honorary position as Member of Police Technology Mission under leadership of Home Ministry, Government of India as member of State Task Force of Andhra Pradesh.She also holds honorary position as Program Director for Prof Alan M Turing CoE in AI, Department of Information Technology, Gov of AP.",
+        image: 'speakers/2023/anuradha.png',
+      }
     
 ]

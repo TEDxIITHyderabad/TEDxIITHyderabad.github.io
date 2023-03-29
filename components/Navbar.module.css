@@ -51,6 +51,23 @@
   color: #F02D23 !important;
 }
 
+.subitem{
+  color: white;
+  font-weight: 700;
+  padding-top: 5%;
+  background-color: #EB0028;
+  width: 110%;
+  padding-left: 10%;
+  /* margin: 0% 10% 0 10%; */
+}
+
+
+.dropdown_item{
+  /* margin: 0% 10% 0 10%; */
+  width: 110%;
+  background-color: #EB0028 !important;
+}
+
 .hamburger {
   border: 0;
   height: 40px;
