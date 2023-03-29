@@ -67,7 +67,6 @@ export default function Home() {
           </div>
         </div>
 
-
         <div className={styles.speakers_2023}>THEME</div>
         <div className={styles.theme_desc}>Humans have been kicking around a pale blue dot in space for a while now. The rise and fall, the ups and downs, and the meandering turns humankind has taken have been painted and weaved onto the tapestry - our legacy and the proof of our existence in an otherwise unchanging and indifferent universe. People spanning cultures, eras, nationalities, and backgrounds have contributed to compiling the saga of all time. This saga has been visualized, part by part, and time-to-time in tapestries. Join us as we weave together the tapestry of the lives, the ideas, and the revolutions made by transient individuals to make an immortal and magnificent representation of humanity: Humanity's Tapestry.</div>
         <div className={styles.theme_cont}>
@@ -111,13 +110,13 @@ export default function Home() {
         </div>
 
         <div className={styles.speakers_2023}>SPEAKERS 2023</div>
-        <HorizontalScroll speakers={speakers}/>
-
+        <div className={styles.smallmargin}><HorizontalScroll speakers={speakers} />
+</div>
 
         <h1 className={styles.speakers_2023}>REASONS TO ATTEND</h1>
         <Grid />
         <h1 className={styles.speakers_2023}>GLIMPSE</h1>
-        <HorizontalScroll speakers={images} />
+        <div className={styles.smallmargin}><HorizontalScroll speakers={images} /></div>
         {/* <div class="dropdown">
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Dropdown button

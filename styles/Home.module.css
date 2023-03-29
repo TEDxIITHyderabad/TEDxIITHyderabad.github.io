@@ -279,7 +279,8 @@
 }
 
 .main-video {
-    margin: 8%;
+    margin-top: 6%;
+    margin-right: 8%;
     margin-left: 10%;
     width: 45vw;
     height: 22.5vw;
@@ -305,6 +306,9 @@
     display: inline;
     margin: 0;
     color: red;
+}
+.smallmargin{
+    margin-top: 2%;
 }
 
 @media (min-width: 1000px) and (max-width: 1615px) {
@@ -383,7 +387,7 @@
 
 }
 
-@media (max-height: 800px) and (orientation: landscape) {
+@media (max-height: 800px) {
     .hero-title {
         font-size: 150px;
     }
@@ -397,7 +401,7 @@
     }
 }
 
-@media (max-height: 600px) and (orientation: landscape) {
+@media (max-height: 720px){
     .hero-title {
         font-size: 110px;
     }
@@ -412,17 +416,17 @@
     }
 }
 
-@media (max-height: 480px) and (orientation: landscape) {
+@media (max-height: 614px) {
     .hero-main {
         top: 25%;
     }
 
     .hero-title {
-        font-size: 70px;
+        font-size: 80px;
     }
 
     .hero-subtitle {
-        font-size: 25px;
+        font-size: 26px;
     }
 
     .hero-theme {
