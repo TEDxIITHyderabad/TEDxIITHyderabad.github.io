@@ -260,6 +260,7 @@
 
     #heading {
       color: red;
+      font-family: 'Philosopher';
       font-size: 90px;
     }
     #success{
