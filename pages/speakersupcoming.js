@@ -305,7 +305,7 @@ export default function Upcomingspeakers() {
         </section>
       </section>
       {selectedSpeaker && (
-        <Modal isOpen={modalIsOpen} closeTimeoutMS={200} onRequestClose={() => setModalIsOpen(false)} className={styles.modal_class} overlayClassName={styles.speaker_overlay}>
+        <Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} className={styles.modal_class} overlayClassName={styles.speaker_overlay}>
           <div className={styles.modal_main}>
             <div className={styles.modal_header}>
               <button type="button" className={styles.close} onClick={() => setModalIsOpen(false)}>
