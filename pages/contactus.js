@@ -3,7 +3,7 @@ import NavbarComp from '../components/Navbar'
 import styles from '../styles/Contactus.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faHouse, faPaperPlane, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import Footer from '../components/Footer';
 import FormData from 'form-data';
 export default function Contactus() {

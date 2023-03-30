@@ -1,15 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
-// import { Inter } from '@next/font/google'
-import Logoscroll from '../components/Logoscroll'
 import styles from '../styles/Home.module.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarAlt, faClock, faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import Countdown from '../components/Countdown';
 import Footer from '../components/Footer'
 import NavbarComp from '../components/Navbar'
-import ImageScroll from '../components/HorizontalImageScroll'
 import { speakers } from '../components/speakers1'
 import React from "react";
 import Grid from '/components/GridSpeakers'
