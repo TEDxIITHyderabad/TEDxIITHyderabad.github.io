@@ -58,7 +58,7 @@ export default function Speakers() {
                 <div className={styles.sponsers}>
                     <div className={styles.title} style={{ textTransform: "uppercase" }}>BRONZE SPONSORS</div>
                     <div className={styles.sponserslist}>
-                        <div className={styles.sponseritem}>
+                        <div className={styles.sponseritem} onClick={() => window.open("https://remit2any.com/home", '_blank')}>
                             <img src={partners['BRONZE SPONSOR'][0].image} alt={partners['BRONZE SPONSOR'][0].name}/>
                             <p color="black"> {partners['BRONZE SPONSOR'][0].name}</p>
                         </div>
