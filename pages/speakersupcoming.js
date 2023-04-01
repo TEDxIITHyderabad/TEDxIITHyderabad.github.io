@@ -22,10 +22,10 @@ export default function Upcomingspeakers() {
 
   const speakers1 = [
     {
-      name: 'Neha Bhat',
-      topic: 'Psychotherapist, Artist, and Writer',
-      imageSrc: 'speakers/2023/neha bhatt.png',
-      content: "Neha Bhat specializes in feminist-oriented, trauma-informed art therapy and counseling between India and the U.S. She employs trauma-focused therapy for survivors of sexual violence, offers crisis counseling, and uses art as a radical tool of living and coping against oppressive systems. Her work as an interdisciplinary artist informs her professional counseling practice, enabling her to bring into the clinical setting elements of play through visual art, theatre, and movement into the clinical setting. She has worked at global institutions, including the University of Michigan, the Art Institute of Chicago, Rush Medical Centre, and the Tata Institute of Social Sciences.",
+      name: 'Dr V. Ramakantha',
+      topic: 'IFS(Retd)  Director Forests by Heartfulness. Former Principal Chief Conservator of Forests',
+      imageSrc: 'speakers/2023/ramakantha.jpg',
+      content: "Dr V Ramakantha was a member of the Indian Forest Service and has superannuated as the Principal Chief Conservator of Forests. He is an academician and was heading the Central Academy for Forests (CASFOS, Coimbatore) and was the Director of Institute of Wood Science and Technology, Government of India, Bengaluru. He is an author of repute having published several peer reviewed articles including editing a book for Springer-Nature. He is an Associate of the Royal Photographic Society, and a recipient of Brandis Prize and several other accolades from India and abroad for wildlife photography. He has had the experience of managing few of the ecologically important, species-rich ecosystems of India  in the States of Karnataka and Manipur. He has a Phd in Forestry and a PG Diploma in Environmental Law from the National Law School of India University, Bengaluru. Post his superannuation he moved to Kanha Shanti Vanam, Hyderabad and has been one of the key members of the greening initiative. Currently he is holding the post of Director, Forests by Heartfulness.  ",
     },
   ];
   const speakers2 = [
@@ -38,10 +38,10 @@ export default function Upcomingspeakers() {
   ];
   const speakers3 = [
     {
-      name: 'Dr. Yadvendradev Jhala ',
-      topic: 'Indian Scientist and Conservationist, Recently retired and ended his tenure as the Dean at the Wildlife Institute of India, Dehradun. ',
-      imageSrc: 'speakers/2023/jhala.png',
-      content: "Professor Yadvendradev Jhala served as faculty at the Wildlife Institute of India (WII), an Autonomous Institute of the Ministry of Environment, Forest and Climate Change, Government of India since 1993 and retired as its Dean in February 2023. He is a member of the IUCN Specialist groups for canids, cats, bustards, and hyenas, and is a fellow of the Indian National Science Academy. He joined WII in 1993 and has since pioneered quantitative, technology-based research on tigers, Asiatic lions, wolves, striped hyenas, snow leopards, dhole, and other wildlife. He initiated the Species Recovery Program for the Great Indian Bustard and their conservation breeding program as insurance against extinction. He worked in close collaboration with the National Tiger Conservation Authority, MoEFCC, and has designed and implemented the estimation of tigers, co-predators, prey, and their habitat in India since 2006. This effort for 2018 was awarded the Guinness World Record as the largest wildlife survey. As part of his role as the lead scientist on the ambitious Cheetah Reintroduction Project of India, Jhala conceptualized the project, negotiated with the governments of South Africa and Namibia, put together a team of international cheetah experts, selected the first batches of cheetahs and brought them to India.",
+      name: 'Dr Anannya S Rao ',
+      topic: 'Individual Specialist, UNESCO MGIEP, New Delhi. Senior Scientist , Forests by Heartfulness',
+      imageSrc: 'speakers/2023/ananya.jpg',
+      content: "Dr Ananya S Rao has a PhD from the Centre for Atmospheric and Oceanic Sciences, Indian Institute of Science, Bangalore, India. She has studied the terrestrial carbon cycle over the Indian region and has had the privilege of working with pioneers of climate change research in India. She has published research articles in peer reviewed journals and has had the honour of being invited for talks and discussion at various reputed institutes like the Potsdam Institute of Climate (PIK), Germany. She has extensively travelled to different forest ecosystems across the country and has always been passionate about environmental conservation. Having been a witness to shrinking forest ecosystems across the nation and the blatant effects of climate change on the life of people from all walks of life, she is doing her part to help alleviate the situation in any way possible. She is currently working as an Individual Specialist with UNESCO MGIEP at New Delhi and is also a Senior Scientist with Forests by Heartfulness, a global greening initiative of the Heartfulness Institute. She had the opportunity to present the work of UNESCO MGIEP and Forests by Heartfulness at the Conference of Parties (COP 27) held at Sharm-El-Sheik, Egypt last year.",
     }
   ];
   const speakers4 = [
@@ -118,17 +118,17 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}>
-                            <img src="speakers/2023/neha bhatt.png" alt="" width={350} height={350} />
+                            <img src="speakers/2023/ramakantha.jpg" alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                              <h4>Neha Bhat</h4>
-                              <p>Psychotherapist, Artist, and Writer </p>
+                              <h4>{speaker.name}</h4>
+                              <p>{speaker.topic} </p>
                             </div>
-                            <p>
-                              Neha Bhat specializes in feminist-oriented, trauma-informed art therapy and counseling between India and the U.S. She employs trauma-focused therapy for survivors of <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            <p>Dr V Ramakantha was a member of the Indian Forest Service and has superannuated as the Principal Chief Conservator of Forests.
+                               <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
@@ -167,17 +167,17 @@ export default function Upcomingspeakers() {
                       <div className="row">
                         <div className="col-md-6 col-lg-5">
                           <div className={styles.si_pic}>
-                            <img src="speakers/2023/jhala.png" alt="" width={350} height={350} />
+                            <img src="speakers/2023/ananya.jpg" alt="" width={350} height={350} />
                           </div>
                         </div>
                         <div className="col-md-6 col-lg-7">
                           <div className={styles.si_text}>
                             <div className={styles.si_title}>
-                              <h4>Dr. Yadvendradev Jhala</h4>
-                              <p>Indian Scientist and Conservationist, Recently retired and ended his tenure as the Dean at the Wildlife Institute of India, Dehradun.</p>
+                              <h4>{speaker.name}</h4>
+                              <p>{speaker.topic}</p>
                             </div>
-                            <p>
-                              Being a man with a vision that sees beyond our universe, Dr. CVS Kiran is a proud contributor to Skyroot Aerospace’s missions as <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
+                            <p>Dr Ananya S Rao has a PhD from the Centre for Atmospheric and Oceanic Sciences, Indian Institute of Science, Bangalor
+                              <span className={styles.read_more} onClick={() => handleReadMoreClick(speaker)}>.....Read more.</span>
                             </p>
                           </div>
                         </div>
