@@ -38,7 +38,7 @@ export const speakers = [
         addLineBreak2: true 
     },
     {
-        name: 'Dr Anannya S Rao ',
+        name: 'Dr Ananya S Rao ',
         desc: 'Individual Specialist, UNESCO MGIEP, New Delhi. Senior Scientist , Forests by Heartfulness',
         about: 'Dr Ananya S Rao has a PhD from the Centre for Atmospheric and Oceanic Sciences, Indian Institute of Science, Bangalore, India. She has studied the terrestrial carbon cycle over the Indian region and has had the privilege of working with pioneers of climate change research in India.\n\n She has published research articles in peer reviewed journals and has had the honour of being invited for talks and discussion at various reputed institutes like the Potsdam Institute of Climate (PIK), Germany. She has extensively travelled to different forest ecosystems across the country and has always been passionate about environmental conservation. \n\nHaving been a witness to shrinking forest ecosystems across the nation and the blatant effects of climate change on the life of people from all walks of life, she is doing her part to help alleviate the situation in any way possible.\n\n She is currently working as an Individual Specialist with UNESCO MGIEP at New Delhi and is also a Senior Scientist with Forests by Heartfulness, a global greening initiative of the Heartfulness Institute. She had the opportunity to present the work of UNESCO MGIEP and Forests by Heartfulness at the Conference of Parties (COP 27) held at Sharm-El-Sheik, Egypt last year.',
         image: '/speakers/2023/ananya.jpg',

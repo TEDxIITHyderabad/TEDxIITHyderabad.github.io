@@ -28,7 +28,7 @@ export const speakers = [
     height: 350,
   },
   {
-    name: 'Dr Anannya S Rao ',
+    name: 'Dr Ananya S Rao ',
     des: 'Individual Specialist, UNESCO MGIEP, New Delhi. Senior Scientist , Forests by Heartfulness',
     image: '/speakers/2023/ananya.jpg',
     width: 350,

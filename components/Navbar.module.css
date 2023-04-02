@@ -7,7 +7,7 @@
 
 .site_header {
   width: 100%;
-  position: absolute;
+  position: fixed;
   /* position: relative; */
   /* display: flex;
   flex-direction: row;

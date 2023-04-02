@@ -49,7 +49,7 @@ export default function HorizontalScroll({ speakers }) {
     };
     return (<>
         <Carousel responsive={responsive}
-            swipeable={false}
+            swipeable={true}
             customRightArrow={<CustomRightArrow />}
             customLeftArrow={<CustomLeftArrow />}
             infinite={true}
