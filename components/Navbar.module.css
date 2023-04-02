@@ -7,7 +7,7 @@
 
 .site_header {
   width: 100%;
-  position: fixed;
+  position: absolute;
   /* position: relative; */
   /* display: flex;
   flex-direction: row;
@@ -97,3 +97,9 @@
   /* .hamburger:hover {
   background-color: #F02D23;
   } */
+
+@media (max-width: 991px) {
+  .site_header {
+    position: fixed;
+    }
+  }
