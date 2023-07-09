@@ -157,7 +157,7 @@ export default function Contactus() {
                                     </li>
                                     {"     "}
 
-                                    <li><span style={{fontSize:"20px"}}>+91 99008 10774</span></li>
+                                    <li><span style={{fontSize:"20px"}}>+91 95884 00751</span></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-md-3 col-xs-12">
